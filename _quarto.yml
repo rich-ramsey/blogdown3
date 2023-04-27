@@ -11,8 +11,8 @@ website:
     background: dark
     foreground: light
     left:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       - about.qmd
       - publications.qmd
       - posts.qmd

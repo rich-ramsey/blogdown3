@@ -1,5 +1,5 @@
 ---
-title: "Richard Ramsey"
+title: "Richard Ramsey, PhD"
 subtitle: "Cognitive Neuroscience Researcher and Academic"
 image: ./img/nz.jpeg
 about: 
