@@ -1,3 +1,35 @@
 ---
 title: "Resources"
 ---
+
+Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on improving the quality of scie
+
+### Making a Quarto website
+
+various links here
+
+### Data analysis
+
+Various links here
+
+### Reproducible research
+
+-   Version control in R
+
+    -   Renv links and resources
+
+-   Version control using GitHub
+
+    -   Matti Vuorre and James P. Curley
+
+### Open Science Framework
+
+-   Link to the OSF
+
+### Pre-registration
+
+-   aspredicted
+
+-   OSF
+
+-   registered reports
