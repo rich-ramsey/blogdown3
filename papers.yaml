@@ -1,0 +1,45 @@
+wildman2022:
+    title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
+    authors:
+        - Andrew Wildman
+        - me
+    year: 2022
+    venue: 
+    preprint: https://psyarxiv.com/b4uzj
+    pdf:
+    published_url: 
+    osf: https://osf.io/4en9f/
+    github: https://github.com/rich-ramsey/git-example
+    neurovault:
+    
+apsvalka2018:
+    title: "Observing Action Sequences Elicits Sequence-Specific Neural Representations in Frontoparietal Brain Regions"
+    authors:
+        - Dace Apsvalka
+        - Emily S. Cross
+        - me
+    year: 2018
+    venue: Journal of Neuroscience
+    preprint: https://psyarxiv.com/j9kfp/
+    pdf: ./publications/pdfs/Apsvalka_18_JNeurosci.pdf
+    published_url: https://www.jneurosci.org/content/38/47/10114
+    osf: https://osf.io/jz4nk/
+    github: https://github.com/rich-ramsey/git-example
+    neurovault: https://neurovault.org/collections/1892/
+    
+apsvalka2019:
+    title: "Fluid Intelligence and Working Memory Support Dissociable Aspects of Learning by Physical but Not Observational Practice"
+    authors:
+        - Dace Apsvalka
+        - Emily S. Cross
+        - me
+    year: 2019
+    venue: Cognition
+    preprint: 
+    pdf: ./publications/pdfs/Apshvalka_19_Cognition.pdf
+    published_url: https://www.sciencedirect.com/science/article/pii/S0010027719301003
+    osf: https://osf.io/n8sqv/
+    github:
+    neurovault: 
+
+
