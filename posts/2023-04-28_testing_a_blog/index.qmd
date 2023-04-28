@@ -1,0 +1,8 @@
+---
+title: "Testing a blog"
+subtitle: | 
+  I am in the process of writing a reluctant blog
+date: "2023-04-28"
+categories: [Reproducibility, Metascience, Statistics]
+# image: "img/preview.jpg"
+---

@@ -1,0 +1,30 @@
+# Freeze computed outputs
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Enable CC licence appendix
+license: "CC BY"
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: Right
+
+# Default knitr options
+execute:
+  echo: true
+  message: true
+  warning: true
+
+# Default author
+author:
+  - name: Richard Ramsey
+    url: https://richramsey.netlify.app/
+    affiliation: ETH Zurich
+    affiliation-url: https://ethz.ch/en.html
+    orcid: 0000-0002-0329-2112
+
+# Default fields for citation
+citation: true
