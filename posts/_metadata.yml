@@ -10,7 +10,7 @@ license: "CC BY"
 # Default for table of contents
 toc: true
 toc-title: Contents
-toc-location: Right
+toc-location: right
 
 # Default knitr options
 execute:
