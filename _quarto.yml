@@ -6,8 +6,9 @@ website:
   description: "Personal website of Richard Ramsey"
   # site-url: 
   repo-url: https://github.com/rich-ramsey/blogdown3
-  favicon: /img/favicon.jpeg
+  favicon: ./img/favicon.png
   navbar:
+    logo: ./img/favicon.png
     background: dark
     foreground: light
     left:
@@ -18,12 +19,32 @@ website:
       - posts.qmd
       - resources.qmd
       - soba-lab.qmd
+    right: 
+      - icon: twitter
+        href: https://twitter.com/RichRamseyPhD
+        aria-label: twitter
+      - icon: mastodon
+        href: https://twitter.com/RichRamseyPhD
+        aria-label: mastodon
+      # - icon: {{< ai google-scholar >}}
+      #   href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
+      #   aria-label: google-scholar
+      - icon: github
+        href: https://github.com/rich-ramsey
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:richard.ramsey@hest.ethz.ch
+        aria-label: envelope
 
 format:
   html:
     theme: litera
     css: styles.css
     toc: true
+    toc-title: "Contents"
+    html-math-method: katex
+    highlight-style: tango
+    link-external-newwindow: true
 
 editor: visual
 
