@@ -275,7 +275,7 @@ cross2012:
     in_press: 
     venue: Human Brain Mapping
     preprint: 
-    pdf: ./publications/pdfs/Cross_etal_12_HBM_robots.pdf
+    pdf: ./pdfs/Cross_etal_12_HBM_robots.pdf
     supps: 
     published_url: https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.21361
     doi: https://doi.org/10.1002/hbm.21361
