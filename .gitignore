@@ -5,4 +5,4 @@
 
 /.quarto/
 /site_libs/
-/publications/pdfs/
+#/publications/pdfs/
