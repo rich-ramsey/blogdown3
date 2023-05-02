@@ -5,7 +5,7 @@ freeze: true
 title-block-banner: true
 
 # Enable CC licence appendix
-license: "CC BY"
+# license: "CC BY"
 
 # Default for table of contents
 toc: true
@@ -27,4 +27,4 @@ author:
     orcid: 0000-0002-0329-2112
 
 # Default fields for citation
-citation: true
+# citation: true
