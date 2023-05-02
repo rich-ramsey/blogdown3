@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2023-04-28_testing_a_blog/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/posts.html",
+    "items": [
+      "/posts/2023-04-28_testing_a_blog/index.html"
+    ]
+  }
+]

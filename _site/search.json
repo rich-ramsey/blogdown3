@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Richard Ramsey, PhD",
+    "section": "",
+    "text": "I am a Senior Scientist at ETH Zurich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I co-direct the Social Brain in Action Laboratory (SoBA Lab)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Over the last 5 years or so, I’ve become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues that hinder research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See the …. page for more details…"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on improving the quality of scie\n\nMaking a Quarto website\nvarious links here\n\n\nData analysis\nVarious links here\n\n\nReproducible research\n\nVersion control in R\n\nRenv links and resources\n\nVersion control using GitHub\n\nMatti Vuorre and James P. Curley\n\n\n\n\nOpen Science Framework\n\nLink to the OSF\n\n\n\nPre-registration\n\naspredicted\nOSF\nregistered reports"
+  },
+  {
+    "objectID": "soba-lab.html",
+    "href": "soba-lab.html",
+    "title": "SoBA Lab",
+    "section": "",
+    "text": "I co-direct the Social Brain in Action Laboratory (SoBA Lab) with Emily Cross.\nYou can find all the news and views from the SoBA lab here"
+  },
+  {
+    "objectID": "posts/2023-04-28_testing_a_blog/index.html",
+    "href": "posts/2023-04-28_testing_a_blog/index.html",
+    "title": "Testing a blog",
+    "section": "",
+    "text": "Why am I writing a blog?\nTwo reasons. 1) Lab manual (of sorts). Save time re-saying things to SoBA-lab people, so it is efficient. 2) Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.\n\n\nWhat will I blog about?\n\nReproducibility.\nMeta-science.\nMy love of David Bowie.\n\n\n\n\n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{ramsey2023,\n  author = {Richard Ramsey},\n  title = {Testing a Blog},\n  date = {2023-04-28},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRichard Ramsey. 2023. “Testing a Blog.” April 28, 2023."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTesting a blog\n\n\nI am in the process of writing a reluctant blog\n\n\n\n\nReproducibility\n\n\nMetascience\n\n\nStatistics\n\n\nDavid Bowie\n\n\n\n\n\n\n\n\n\n\n\nApr 28, 2023\n\n\nRichard Ramsey\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Preprints\n2022\nAndrew Wildman and Richard Ramsey. (2022) \"Investigating the Automaticity of Links Between Body Perception and Trait Concepts.\"\n        \n        Preprint\n     \n        \n        osf\n     \n        \n        Github\n    \n\nPublished\n2023\nRichard Ramsey. (in press) \"Testing the in press system.\" Journal of Something\n        \n        Preprint\n     \n        \n        osf\n     \n        \n        Github\n    \n2019\nDace Apsvalka, Emily S. Cross, and Richard Ramsey. (2019) \"Fluid Intelligence and Working Memory Support Dissociable Aspects of Learning by Physical but Not Observational Practice.\" Cognition\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n    \n2018\nDace Apsvalka, Emily S. Cross, and Richard Ramsey. (2018) \"Observing Action Sequences Elicits Sequence-Specific Neural Representations in Frontoparietal Brain Regions.\" Journal of Neuroscience\n        \n        Preprint\n     \n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n     \n        \n        Github\n     \n        \n        NeuroVault"
+  },
+  {
+    "objectID": "publications/publications.html",
+    "href": "publications/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Preprints\n2022\nAndrew Wildman and Richard Ramsey. (2022) \"Investigating the Automaticity of Links Between Body Perception and Trait Concepts.\"\n        \n        Preprint\n     \n        \n        osf\n     \n        \n        Github\n    \n\nPublished\n2022\nIonela Bara, Richard J. Binney, and Richard Ramsey. (2022) \"Investigating the Role of Working Memory Resources across Aesthetic and Non-Aesthetic Judgements.\" Quarterly Journal of Experimental Psychology\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n    \nIonela Bara, Richard J. Binney, Rob Ward, and Richard Ramsey. (2022) \"A generalised semantic cognition account of aesthetic experience.\" Neuropsychologia\n        \n        pdf\n     \n        \n        doi\n    \nChris Byrne, Christian Salas, Rudi Coetzer, and Richard Ramsey. (2022) \"Understanding Loneliness in Brain Injury: Linking the Reaffiliation Motive Model of Loneliness With a Model of Executive Impairment.\" Archives of Clinical Neuropsychology\n        \n        pdf\n     \n        \n        doi\n    \n2021\nIonela Bara, Kohinoor M. Darda, A. Solomon Kurz, and Richard Ramsey. (2021) \"Functional Specificity and Neural Integration in the Aesthetic Appreciation of Artworks with Implied Motion.\" European Journal of Neuroscience\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n    \nChris Byrne, Chris W. N. Saville, Rudi Coetzer, and Richard Ramsey. (2021) \"Stroke Survivors Experience Elevated Levels of Loneliness: A Multi-Year Analysis of the National Survey for Wales.\" Archives of Clinical Neuropsychology\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n    \n2020\nRichard J. Binney and Richard Ramsey. (2020) \"Social Semantics: The role of conceptual knowledge and cognitive control in a neurobiological model of the social brain.\" Neuroscience & Biobehavioral Reviews\n        \n        pdf\n     \n        \n        doi\n    \n2019\nDace Apsvalka, Emily S. Cross, and Richard Ramsey. (2019) \"Fluid Intelligence and Working Memory Support Dissociable Aspects of Learning by Physical but Not Observational Practice.\" Cognition\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n     \n        \n        Github\n    \n2018\nDace Apsvalka, Emily S. Cross, and Richard Ramsey. (2018) \"Observing Action Sequences Elicits Sequence-Specific Neural Representations in Frontoparietal Brain Regions.\" Journal of Neuroscience\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n     \n        \n        Github\n     \n        \n        NeuroVault\n    \nDace Apsvalka, Richard Ramsey, and Emily S. Cross. (2018) \"Anodal tDCS over Primary Motor Cortex Provides No Advantage to Learning Motor Sequences via Observation.\" Neural Plasticity\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n     \n        \n        Github\n    \nEmily E. Butler, Rob Ward, Paul E. Downing, and Richard Ramsey. (2018) \"fMRI repetition suppression reveals no sensitivity to trait judgments from faces in face perception or theory-of-mind networks.\" PLoS ONE\n        \n        pdf\n     \n        \n        doi\n     \n        \n        osf\n     \n        \n        NeuroVault\n    \n2017\nEmily E. Butler, Chris W. N. Saville, Rob Ward, and Richard Ramsey. (2017) \"Physical attraction to reliable, low variability nervous systems: Reaction time variability predicts attractiveness.\" Cognition\n        \n        pdf\n     \n        \n        doi\n    \n2016\nEmily E. Butler, Rob Ward, and Richard Ramsey. (2016) \"The Influence of Facial Signals on the Automatic Imitation of Hand Actions.\" Frontiers in Psychology\n        \n        pdf\n     \n        \n        doi\n    \n2015\n\nEmily E. Butler, Rob Ward, and Richard Ramsey. (2015) \"Investigating the Relationship between Stable Personality Characteristics and Automatic Imitation.\" PLoS ONE\n        \n        pdf\n     \n        \n        doi\n    \n2012\nEmily S. Cross, Roman Liepelt, Antonia Hamilton, Jim Parkinson, Richard Ramsey, Waltraud Stadler, and Wolfgang Prinz. (2012) \"Robotic Movement Preferentially Engages the Action Observation Networkt.\" Human Brain Mapping\n        \n        pdf\n     \n        \n        doi"
+  },
+  {
+    "objectID": "posts/posts.html",
+    "href": "posts/posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTesting a blog\n\n\nI am in the process of writing a reluctant blog\n\n\n\n\nReproducibility\n\n\nMetascience\n\n\nStatistics\n\n\nDavid Bowie\n\n\n\n\n\n\n\n\n\n\n\nApr 28, 2023\n\n\nRichard Ramsey\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on improving the quality of scie\n\nMaking a Quarto website\nvarious links here\n\n\nData analysis\nVarious links here\n\n\nReproducible research\n\nVersion control in R\n\nRenv links and resources\n\nVersion control using GitHub\n\nMatti Vuorre and James P. Curley\n\n\n\n\nOpen Science Framework\n\nLink to the OSF\n\n\n\nPre-registration\n\naspredicted\nOSF\nregistered reports"
+  },
+  {
+    "objectID": "soba_lab/soba-lab.html",
+    "href": "soba_lab/soba-lab.html",
+    "title": "SoBA Lab",
+    "section": "",
+    "text": "I co-direct the Social Brain in Action Laboratory (SoBA Lab) with Emily Cross.\nYou can find all the news and views from the SoBA lab here"
+  }
+]
