@@ -201,7 +201,7 @@ keep-md: true
 ### 2012{#published-2012}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Emily S. Cross, Roman Liepelt, Antonia Hamilton, Jim Parkinson, <strong>Richard Ramsey</strong>, Waltraud Stadler, and Wolfgang Prinz. (2012) "Robotic Movement Preferentially Engages the Action Observation Networkt." <em>Human Brain Mapping</em><br><a class="btn btn-outline-dark btn-sm", href="./publications/pdfs/Cross_etal_12_HBM_robots.pdf" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Emily S. Cross, Roman Liepelt, Antonia Hamilton, Jim Parkinson, <strong>Richard Ramsey</strong>, Waltraud Stadler, and Wolfgang Prinz. (2012) "Robotic Movement Preferentially Engages the Action Observation Networkt." <em>Human Brain Mapping</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Cross_etal_12_HBM_robots.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.21361" target="_blank" rel="noopener noreferrer">
