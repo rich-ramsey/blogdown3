@@ -1,34 +1,27 @@
-inpress_test:
-    title: "Testing the in press system"
-    authors:
-        - me
-    year: 2023
-    in_press: yes
-    venue: Journal of Something
-    preprint: https://psyarxiv.com/b4uzj
-    pdf:
-    published_url: 
-    doi: 
-    osf: https://osf.io/4en9f/
-    github: https://github.com/rich-ramsey/git-example
-    neurovault:
+# This .yaml file is simple text that lists relevant details of each separate publication
+# It serves as the raw data for the publications.qmd file. The publications.qmd file is based on this blog:https://ddimmery.com/posts/quarto-website/
+# I don't include some stuff, such as volume etc., because why bother.
+# Note 1: put "yes" for the variable "in_press" if you want to denote that it is currently in press
+# Note 2: This file is taken from a better bibtex file that is updated as part of my zotero folder "ramsey_pubs". I could used the .bib file to generate this list. However, even if that worked smoothly, it would still not have some stuff that I want e.g., pdf, neurovault and other stuff, so I'd ahve to ad thigns anyway. 
+# Note 3: Papers are listed by first author surname (but they can be in any order).
+# Note 4: just add a new chunk when you want to add a paper.
 
-wildman2022:
-    title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
-    authors:
-        - Andrew Wildman
-        - me
-    year: 2022
-    in_press: 
-    venue: 
-    preprint: https://psyarxiv.com/b4uzj
-    pdf:
-    published_url:
-    doi: 
-    osf: https://osf.io/4en9f/
-    github: https://github.com/rich-ramsey/git-example
-    neurovault:
-    
+# inpress_test:
+#     title: "Testing the in press system"
+#     authors:
+#         - me
+#     year: 2023
+#     in_press: yes
+#     venue: Journal of Something
+#     preprint: https://psyarxiv.com/b4uzj
+#     pdf:
+#     supps: 
+#     published_url: 
+#     doi: 
+#     osf: https://osf.io/4en9f/
+#     github: https://github.com/rich-ramsey/git-example
+#     neurovault:
+
 apsvalka2018:
     title: "Observing Action Sequences Elicits Sequence-Specific Neural Representations in Frontoparietal Brain Regions"
     authors:
@@ -38,13 +31,32 @@ apsvalka2018:
     year: 2018
     in_press: 
     venue: Journal of Neuroscience
-    preprint: https://psyarxiv.com/j9kfp/
+    preprint: 
     pdf: ./publications/pdfs/Apsvalka_18_JNeurosci.pdf
+    supps: 
     published_url: https://www.jneurosci.org/content/38/47/10114
     doi: https://doi.org/10.1523/JNEUROSCI.1597-18.2018 
     osf: https://osf.io/jz4nk/
-    github: https://github.com/rich-ramsey/git-example
+    github: https://github.com/dcdace/E2fMRI_MVPA_PPI
     neurovault: https://neurovault.org/collections/1892/
+    
+apsvalka2018a:
+    title: "Anodal tDCS over Primary Motor Cortex Provides No Advantage to Learning Motor Sequences via Observation"
+    authors:
+        - Dace Apsvalka
+        - me
+        - Emily S. Cross
+    year: 2018
+    in_press: 
+    venue: Neural Plasticity
+    preprint: 
+    pdf: ./publications/pdfs/Apsvalka_18_NeuralPlasticity.pdf
+    supps: ./publications/pdfs/Apshvalka_18_Supplementary.pdf
+    published_url: https://www.hindawi.com/journals/np/2018/1237962/
+    doi: https://doi.org/10.1155/2018/1237962
+    osf: https://osf.io/6eybw/
+    github: https://github.com/dcdace/2017_tDCS
+    neurovault:
     
 apsvalka2019:
     title: "Fluid Intelligence and Working Memory Support Dissociable Aspects of Learning by Physical but Not Observational Practice"
@@ -57,10 +69,237 @@ apsvalka2019:
     venue: Cognition
     preprint: 
     pdf: ./publications/pdfs/Apshvalka_19_Cognition.pdf
+    supps: ./publications/pdfs/Apshvalka_19_Cognition_supplementary.pdf
     published_url: https://www.sciencedirect.com/science/article/pii/S0010027719301003
-    doi:
+    doi: https://doi.org/10.1016/j.cognition.2019.04.015
     osf: https://osf.io/n8sqv/
-    github:
+    github: https://github.com/dcdace/E1_IndDiff
     neurovault: 
+
+bara2021:
+    title: "Functional Specificity and Neural Integration in the Aesthetic Appreciation of Artworks with Implied Motion"
+    authors:
+        - Ionela Bara
+        - Kohinoor M. Darda
+        - A. Solomon Kurz
+        - me
+    year: 2021
+    in_press: 
+    venue: European Journal of Neuroscience
+    preprint: 
+    pdf: ./publications/pdfs/Bara_21_EJN.pdf
+    supps: 
+    published_url: https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.15479
+    doi: https://doi.org/10.1111/ejn.15479
+    osf: https://osf.io/x5d2g/
+    github: 
+    neurovault: 
+    
+bara2022:
+    title: "Investigating the Role of Working Memory Resources across Aesthetic and Non-Aesthetic Judgements"
+    authors:
+        - Ionela Bara
+        - Richard J. Binney
+        - me
+    year: 2022
+    in_press: 
+    venue: Quarterly Journal of Experimental Psychology
+    preprint: 
+    pdf: ./publications/pdfs/Bara_22_QJEP_aesthetics.pdf
+    supps: 
+    published_url: https://journals.sagepub.com/doi/10.1177/17470218221101876
+    doi: https://doi.org/10.1177/17470218221101876
+    osf: https://osf.io/9q5jx/
+    github: 
+    neurovault: 
+
+bara2022a:
+    title: "A generalised semantic cognition account of aesthetic experience"
+    authors:
+        - Ionela Bara
+        - Richard J. Binney
+        - Rob Ward
+        - me
+    year: 2022
+    in_press: 
+    venue: Neuropsychologia
+    preprint: 
+    pdf: ./publications/pdfs/Bara_22_QJEP_aesthetics.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0028393222001476
+    doi: https://doi.org/10.1016/j.neuropsychologia.2022.108288
+    osf: 
+    github: 
+    neurovault: 
+
+binney2020:
+    title: "Social Semantics: The role of conceptual knowledge and cognitive control in a neurobiological model of the social brain"
+    authors:
+        - Richard J. Binney
+        - me
+    year: 2020
+    in_press: 
+    venue: Neuroscience & Biobehavioral Reviews
+    preprint: 
+    pdf: ./publications/pdfs/BinneyRamsey_20_NBR_social_semantics.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0149763419301915
+    doi: https://doi.org/10.1016/j.neubiorev.2020.01.030
+    osf: 
+    github: 
+    neurovault: 
+
+butler2015:
+    title: "Investigating the Relationship between Stable Personality Characteristics and Automatic Imitation"
+    authors:
+        - Emily E. Butler
+        - Rob Ward
+        - me
+    year: 2015
+    in_press: 
+    venue: PLoS ONE
+    preprint: 
+    pdf: ./publications/pdfs/Butler_etal_15_PLoS_One.pdf
+    supps: 
+    published_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129651
+    doi: https://doi.org/10.1371/journal.pone.0129651
+    osf: 
+    github: 
+    neurovault: 
+    
+butler2016:
+    title: "The Influence of Facial Signals on the Automatic Imitation of Hand Actions"
+    authors:
+        - Emily E. Butler
+        - Rob Ward
+        - me
+    year: 2016
+    in_press: 
+    venue: Frontiers in Psychology
+    preprint: 
+    pdf: ./publications/pdfs/Butler_etal_16_Frontiers.pdf
+    supps: ./publications/pdfs/Butler_etal_16_Supplementary.pdf
+    published_url: http://journal.frontiersin.org/article/10.3389/fpsyg.2016.01653
+    doi: https://doi.org/10.3389/fpsyg.2016.01653
+    osf: 
+    github: 
+    neurovault: 
+    
+butler2017:
+    title: "Physical attraction to reliable, low variability nervous systems: Reaction time variability predicts attractiveness"
+    authors:
+        - Emily E. Butler
+        - Chris W. N. Saville
+        - Rob Ward
+        - me
+    year: 2017
+    in_press: 
+    venue: Cognition
+    preprint: 
+    pdf: ./publications/pdfs/Butler_etal_17_Cognition.pdf
+    supps: ./publications/pdfs/Butler_etal_17_Supplementary.pdf
+    published_url: https://www.sciencedirect.com/science/article/pii/S0010027716302529
+    doi: https://doi.org/10.1016/j.cognition.2016.10.012
+    osf: 
+    github: 
+    neurovault:
+
+butler2018:
+    title: "fMRI repetition suppression reveals no sensitivity to trait judgments from faces in face perception or theory-of-mind networks"
+    authors:
+        - Emily E. Butler
+        - Rob Ward
+        - Paul E. Downing
+        - me
+    year: 2018
+    in_press: 
+    venue: PLoS ONE
+    preprint: 
+    pdf: ./publications/pdfs/Butler_18_PloSOne_Face_RS.pdf
+    supps: ./publications/pdfs/Butler_18_PloSOne_Supplementary.pdf
+    published_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201237
+    doi: https://doi.org/10.1371/journal.pone.0201237
+    osf: https://osf.io/7knrp/
+    github: 
+    neurovault: https://neurovault.org/collections/3168/
+    
+byrne2021:
+    title: "Stroke Survivors Experience Elevated Levels of Loneliness: A Multi-Year Analysis of the National Survey for Wales"
+    authors:
+        - Chris Byrne
+        - Chris W. N. Saville
+        - Rudi Coetzer
+        - me
+    year: 2021
+    in_press: 
+    venue: Archives of Clinical Neuropsychology
+    preprint: 
+    pdf: ./publications/pdfs/Byrne_21_ArchClinNeuro_NSW_stroke_loneliness.pdf
+    supps: 
+    published_url: https://academic.oup.com/acn/article/37/2/390/6310830
+    doi: https://doi.org/10.1093/arclin/acab046
+    osf: https://osf.io/69kcd/
+    github: 
+    neurovault: 
+
+byrne2022:
+    title: "Understanding Loneliness in Brain Injury: Linking the Reaffiliation Motive Model of Loneliness With a Model of Executive Impairment"
+    authors:
+        - Chris Byrne
+        - Christian Salas
+        - Rudi Coetzer
+        - me
+    year: 2022
+    in_press: 
+    venue: Archives of Clinical Neuropsychology
+    preprint: 
+    pdf: ./publications/pdfs/Byrne_22_Frontiers_loneliness.pdf
+    supps: 
+    published_url: https://www.frontiersin.org/articles/10.3389/fnint.2022.883746
+    doi: https://doi.org/10.3389/fnint.2022.883746
+    osf: 
+    github: 
+    neurovault: 
+    
+cross2012:
+    title: "Robotic Movement Preferentially Engages the Action Observation Networkt"
+    authors:
+        - Emily S. Cross
+        - Roman Liepelt
+        - Antonia Hamilton
+        - Jim Parkinson
+        - me
+        - Waltraud Stadler
+        - Wolfgang Prinz
+    year: 2012
+    in_press: 
+    venue: Human Brain Mapping
+    preprint: 
+    pdf: ./publications/pdfs/Cross_etal_12_HBM_robots.pdf
+    supps: 
+    published_url: https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.21361
+    doi: https://doi.org/10.1002/hbm.21361
+    osf: 
+    github: 
+    neurovault:   
+    
+    
+    
+wildman2022:
+    title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
+    authors:
+        - Andrew Wildman
+        - me
+    year: 2022
+    in_press: 
+    venue: 
+    preprint: https://psyarxiv.com/b4uzj
+    pdf:
+    supps: 
+    published_url:
+    doi: 
+    osf: https://osf.io/4en9f/
+    github: https://github.com/rich-ramsey/git-example
+    neurovault:
 
 
