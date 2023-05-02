@@ -1,13 +1,30 @@
+inpress_test:
+    title: "Testing the in press system"
+    authors:
+        - me
+    year: 2023
+    in_press: yes
+    venue: Journal of Something
+    preprint: https://psyarxiv.com/b4uzj
+    pdf:
+    published_url: 
+    doi: 
+    osf: https://osf.io/4en9f/
+    github: https://github.com/rich-ramsey/git-example
+    neurovault:
+
 wildman2022:
     title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
     authors:
         - Andrew Wildman
         - me
     year: 2022
+    in_press: 
     venue: 
     preprint: https://psyarxiv.com/b4uzj
     pdf:
-    published_url: 
+    published_url:
+    doi: 
     osf: https://osf.io/4en9f/
     github: https://github.com/rich-ramsey/git-example
     neurovault:
@@ -19,10 +36,12 @@ apsvalka2018:
         - Emily S. Cross
         - me
     year: 2018
+    in_press: 
     venue: Journal of Neuroscience
     preprint: https://psyarxiv.com/j9kfp/
     pdf: ./publications/pdfs/Apsvalka_18_JNeurosci.pdf
     published_url: https://www.jneurosci.org/content/38/47/10114
+    doi: https://doi.org/10.1523/JNEUROSCI.1597-18.2018 
     osf: https://osf.io/jz4nk/
     github: https://github.com/rich-ramsey/git-example
     neurovault: https://neurovault.org/collections/1892/
@@ -34,10 +53,12 @@ apsvalka2019:
         - Emily S. Cross
         - me
     year: 2019
+    in_press: 
     venue: Cognition
     preprint: 
     pdf: ./publications/pdfs/Apshvalka_19_Cognition.pdf
     published_url: https://www.sciencedirect.com/science/article/pii/S0010027719301003
+    doi:
     osf: https://osf.io/n8sqv/
     github:
     neurovault: 
