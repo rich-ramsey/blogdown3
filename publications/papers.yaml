@@ -282,7 +282,335 @@ cross2012:
     osf: 
     github: 
     neurovault:   
+
+cross2012a:
+    title: "Neurophysiological Correlates of Learning to Dance"
+    authors:
+        - Emily S. Cross
+        - me
+    year: 2012
+    in_press: 
+    venue: Encyclopedia of the Sciences of Learning
+    preprint: 
+    pdf: 
+    supps: 
+    published_url: https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1428-6_77
+    doi: 
+    osf: 
+    github: 
+    neurovault: 
     
+cross2012b:
+    title: "Physical Experience Leads to Enhanced Object Perception in Parietal Cortex: Insights from Knot Tying"
+    authors:
+        - Emily S. Cross
+        - Nicola R. Cohen
+        - Antonia Hamilton
+        - me
+        - George Wolford
+        - Scott T. Grafton
+    year: 2012
+    in_press: 
+    venue: Neuropsychologia
+    preprint: 
+    pdf: ./pdfs/Cross_12_Neuropsychologia.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0028393212004009
+    doi: 10.1016/j.neuropsychologia.2012.09.028
+    osf: 
+    github: 
+    neurovault:
+    
+cross2014:
+    title: "A review and critical analysis of how cognitive neuroscientific investigations using dance can contribute to sport psychology"
+    authors:
+        - Emily S. Cross
+        - Daniel Acquah
+        - me
+    year: 2014
+    in_press: 
+    venue: International Review of Sport and Exercise Psychology
+    preprint: 
+    pdf: ./pdfs/Cross_14_IRSEP.pdf
+    supps: 
+    published_url: https://doi.org/10.1080/1750984X.2013.862564
+    doi: https://doi.org/10.1080/1750984X.2013.862564
+    osf: 
+    github: 
+    neurovault: 
+    
+cross2016:
+    title: "The shaping of social perception by stimulus and knowledge cues to human animacy"
+    authors:
+        - Emily S. Cross
+        - me
+        - Roman Liepelt
+        - Wolfgang Prinz
+        - Antonia Hamilton
+    year: 2016
+    in_press: 
+    venue: Philosophical Transactions of the Royal Society B: Biological Sciences
+    preprint: 
+    pdf: ./pdfs/Cross_16_PhilTrans.pdf
+    supps: 
+    published_url: https://royalsocietypublishing.org/doi/full/10.1098/rstb.2015.0075
+    doi: 10.1098/rstb.2015.0075
+    osf: 
+    github: 
+    neurovault:
+    
+cross2021:
+    title: "Mind Meets Machine: Towards a Cognitive Science of Human–Machine Interactions"
+    authors:
+        - Emily S. Cross
+        - me
+    year: 2021
+    in_press: 
+    venue: Trends in Cognitive Sciences
+    preprint: 
+    pdf: ./pdfs/Cross_Ramsey_21_TiCS.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S1364661320302977
+    doi: 10.1016/j.tics.2020.11.009
+    osf: 
+    github: 
+    neurovault:
+    
+cumming2008:
+    title: "Imagery interventions in sport"
+    authors:
+        - Jennifer Cumming
+        - me
+    year: 2008
+    in_press: 
+    venue: Advances in Applied Sport Psychology
+    preprint: 
+    pdf: ./pdfs/CummingRamsey_08_Imagery_Chapter.pdf
+    supps: 
+    published_url: https://www.taylorfrancis.com/chapters/edit/10.4324/9780203887073-7/imagery-interventions-sport-jennifer-cumming-richard-ramsey
+    doi: 
+    osf: 
+    github: 
+    neurovault:
+    
+cumming2011:
+    title: "Investigating the Effect of Model Type and Practice Format on Performance Expectations and Actual Physical Performance"
+    authors:
+        - Jennifer Cumming
+        - me
+    year: 2011
+    in_press: 
+    venue: International Journal of Sport and Exercise Psychology
+    preprint: 
+    pdf: ./pdfs/CummingRamsey_11_IJSEP.pdf
+    supps: 
+    published_url: https://doi.org/10.1080/1612197X.2011.614852
+    doi: 10.1080/1612197X.2011.614852
+    osf: 
+    github: 
+    neurovault:
+    
+darda2018:
+    title: "Functional Specificity and Sex Differences in the Neural Circuits Supporting the Inhibition of Automatic Imitation"
+    authors:
+        - Kohinoor M. Darda
+        - Emily E. Butler
+        - me
+    year: 2018
+    in_press: 
+    venue: Journal of Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Darda_18_JoCN.pdf
+    supps: ./pdfs/Darda_18_JoCN_Supplementary.pdf
+    published_url: https://doi.org/10.1162/jocn_a_01261
+    doi: https://doi.org/10.1162/jocn_a_01261
+    osf: https://osf.io/42vdc/
+    github: 
+    neurovault: https://neurovault.org/collections/3218/
+    
+darda2019:
+    title: "The inhibition of automatic imitation: A meta-analysis and synthesis of fMRI studies"
+    authors:
+        - Kohinoor M. Darda
+        - me
+    year: 2019
+    in_press: 
+    venue: NeuroImage
+    preprint: 
+    pdf: ./pdfs/DardaRamsey_19_Nimage_meta_analysis.pdf
+    supps: 
+    published_url: http://www.sciencedirect.com/science/article/pii/S1053811919303453
+    doi: https://doi.org/10.1016/j.neuroimage.2019.04.059
+    osf: https://osf.io/dbuwr/
+    github: 
+    neurovault: https://neurovault.org/collections/5377/
+    
+darda2020:
+    title: "Individual differences in social and non-social cognitive control"
+    authors:
+        - Kohinoor M. Darda
+        - Emily E. Butler
+        - me
+    year: 2020
+    in_press: 
+    venue: Cognition
+    preprint: 
+    pdf: ./pdfs/Darda_20_Cognition_ind_diffs.pdf
+    supps: ./pdfs/Darda_20_Cognition_ind_diffs_supplementary.pdf
+    published_url: http://www.sciencedirect.com/science/article/pii/S0010027720301360
+    doi: 10.1016/j.cognition.2020.104317
+    osf: https://osf.io/fsh9b/
+    github: 
+    neurovault: 
+    
+greven02:
+    title: "Person perception involves functional integration between the extrastriate body area and temporal pole"
+    authors:
+        - Inez M. Greven
+        - me
+    year: 2017
+    in_press: 
+    venue: Neuropsychologia
+    preprint: 
+    pdf: ./pdfs/GrevenRamsey_17_Neuropsychologia.pdf
+    supps: ./pdfs/GrevenRamsey_17_Supplementary.pdf
+    published_url: http://www.sciencedirect.com/science/article/pii/S0028393217300040
+    doi: 10.1016/j.neuropsychologia.2017.01.003
+    osf:
+    github: 
+    neurovault: 
+    
+greven2016:
+    title: "Linking Person Perception and Person Knowledge in the Human Brain"
+    authors:
+        - Inez M. Greven
+        - Paul E. Downing
+        - me
+    year: 2016
+    in_press: 
+    venue: Social Cognitive and Affective Neuroscience
+    preprint: 
+    pdf: ./pdfs/Greven_16_SCAN.pdf
+    supps: 
+    published_url: http://scan.oxfordjournals.org/content/11/4/641.abstract
+    doi: 10.1093/scan/nsv148
+    osf:
+    github: 
+    neurovault: 
+  
+greven2017:
+    title: "Neural network integration during the perception of in-group and out-group members"
+    authors:
+        - Inez M. Greven
+        - me
+    year: 2017
+    in_press: 
+    venue: Neuropsychologia
+    preprint: 
+    pdf: ./pdfs/GrevenRamsey_17_Neuropsychologia_GroupBias.pdf
+    supps: ./pdfs/GrevenRamsey_17_GroupBias_Supplementary.pdf
+    published_url: https://www.sciencedirect.com/science/article/pii/S0028393217303688
+    doi: https://doi.org/10.1016/j.neuropsychologia.2017.09.036
+    osf:
+    github: 
+    neurovault: 
+    
+greven2019:
+    title: "Neural Networks Supporting Social Evaluation of Bodies Based on Body Shape"
+    authors:
+        - Inez M. Greven
+        - Paul E. Downing
+        - me
+    year: 2019
+    in_press: 
+    venue: Social Neuroscience
+    preprint: 
+    pdf: ./pdfs/Greven_19_SocialNeuroscience_Body_Inferences.pdf
+    supps: ./pdfs/Greven_19_Supplementary.pdf
+    published_url: https://doi.org/10.1080/17470919.2018.1448888
+    doi: 10.1080/17470919.2018.1448888
+    osf: https://osf.io/p4sbr/
+    github: 
+    neurovault: https://neurovault.org/collections/3191/
+    
+hall2009:
+    title: "Imagery and observational learning use and their relationship to sport confidence"
+    authors:
+        - Craig R. Hall
+        - Krista J. Munroe-Chandler
+        - Jennifer Cumming
+        - Barbi Law
+        - me
+        - Lisa Murphy
+    year: 2009
+    in_press: 
+    venue: Journal of Sports Sciences
+    preprint: 
+    pdf: ./pdfs/Hall_09.pdf
+    supps: 
+    published_url: https://doi.org/10.1080/02640410802549769
+    doi: 10.1080/02640410802549769
+    osf: 
+    github: 
+    neurovault: 
+    
+hamilton2013:
+    title: "How Are the Actions of Triangles and People Processed in the Human Brain?"
+    authors:
+        - Antonia Hamilton
+        - me
+    year: 2013
+    in_press: 
+    venue: Social Perception: Detection and Interpretation of Animacy, Agency, and Intention
+    preprint: 
+    pdf: ./pdfs/HamiltonRamsey_12_ChapterSocialPerception.pdf
+    supps: 
+    published_url: https://doi.org/10.7551/mitpress/9780262019279.003.0010
+    doi: https://doi.org/10.7551/mitpress/9780262019279.003.0010
+    osf: 
+    github: 
+    neurovault:
+    
+hortensius2021a:
+    title: "Exploring the Relationship between Anthropomorphism and Theory-of-Mind in Brain and Behaviour"
+    authors:
+        - Ruud Hortensius
+        - Michaela Kent
+        - Kohinoor M. Darda
+        - Laura Jastrzab
+        - Kami Koldewyn
+        - me
+        - Emily S. Cross
+    year: 2021
+    in_press: 
+    venue: Human Brain Mapping
+    preprint: 
+    pdf: ./pdfs/Hortensius_21_HBM.pdf
+    supps: ./pdfs/Hortensius_21_HBM_Supplementary.pdf
+    published_url: https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25542
+    doi: 10.1002/hbm.25542
+    osf: https://osf.io/rg5kn/
+    github: 
+    neurovault:
+    
+klapper2014:
+    title: "The Control of Automatic Imitation Based on Bottom–Up and Top–Down Cues to Animacy: Insights from Brain and Behavior"
+    authors:
+        - Andre Klapper
+        - me
+        - Daniel Wigboldus
+        - Emily S. Cross
+    year: 2014
+    in_press: 
+    venue: Journal of Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Klapper_14_JoCN_imitation.pdf
+    supps: ./pdfs/Klapper_14_Supplementary.pdf
+    published_url: http://dx.doi.org/10.1162/jocn_a_00651
+    doi: 10.1162/jocn_a_00651
+    osf: 
+    github: 
+    neurovault:
     
     
 wildman2022:
