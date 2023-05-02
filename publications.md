@@ -31,6 +31,21 @@ keep-md: true
 
 ## Published
 
+### 2023{#published-2023}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Richard Ramsey</strong>. (in press) "Testing the in press system." <em>Journal of Something</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/b4uzj" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/4en9f/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/git-example" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role='img' aria-label='Github'></i>
+        Github
+    </a></li></ul>
+```
+
 ### 2019{#published-2019}
 
 ```{=html}

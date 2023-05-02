@@ -28,6 +28,7 @@ for _, data in yaml_data.items():
     authors = [aut if aut != "me" else "<strong>Richard Ramsey</strong>" for aut in authors]
     author_str = readable_list(authors)
     year_str = data["year"]
+    in_press = data["in_press"]
     buttons = []
     preprint = data.get("preprint")
     if preprint is not None:
@@ -48,9 +49,12 @@ for _, data in yaml_data.items():
     NeuroVault = data.get("neurovault")
     if NeuroVault is not None:
         buttons.append(button(NeuroVault, "NeuroVault", "bi-safe"))
-    working_paper = pub_url is None
+    working_paper = pub_url is None and in_press is None
     
-    pub_str = f'{author_str}. ({year_str}) "{title_str}."'
+    if in_press is not None:
+      pub_str = f'{author_str}. ({"in press"}) "{title_str}."'
+    else:
+      pub_str = f'{author_str}. ({year_str}) "{title_str}."'
     if venue is not None:
         pub_str += f" <em>{venue}</em>"
     if working_paper:
