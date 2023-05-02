@@ -82,6 +82,23 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/69kcd/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-database" role='img' aria-label='osf'></i>
         osf
+    </a></li>
+<li class='list-group-item'>Emily S. Cross and <strong>Richard Ramsey</strong>. (2021) "Mind Meets Machine: Towards a Cognitive Science of Human–Machine Interactions." <em>Trends in Cognitive Sciences</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Cross_Ramsey_21_TiCS.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S1364661320302977" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Ruud Hortensius, Michaela Kent, Kohinoor M. Darda, Laura Jastrzab, Kami Koldewyn, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2021) "Exploring the Relationship between Anthropomorphism and Theory-of-Mind in Brain and Behaviour." <em>Human Brain Mapping</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Hortensius_21_HBM.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25542" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/rg5kn/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
     </a></li></ul>
 ```
 
@@ -94,6 +111,16 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S0149763419301915" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
+    </a></li>
+<li class='list-group-item'>Kohinoor M. Darda, Emily E. Butler, and <strong>Richard Ramsey</strong>. (2020) "Individual differences in social and non-social cognitive control." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Darda_20_Cognition_ind_diffs.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="http://www.sciencedirect.com/science/article/pii/S0010027720301360" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fsh9b/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
     </a></li></ul>
 ```
 
@@ -112,6 +139,32 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/dcdace/E1_IndDiff" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-github" role='img' aria-label='Github'></i>
         Github
+    </a></li>
+<li class='list-group-item'>Kohinoor M. Darda and <strong>Richard Ramsey</strong>. (2019) "The inhibition of automatic imitation: A meta-analysis and synthesis of fMRI studies." <em>NeuroImage</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/DardaRamsey_19_Nimage_meta_analysis.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="http://www.sciencedirect.com/science/article/pii/S1053811919303453" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/dbuwr/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://neurovault.org/collections/5377/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-safe" role='img' aria-label='NeuroVault'></i>
+        NeuroVault
+    </a></li>
+<li class='list-group-item'>Inez M. Greven, Paul E. Downing, and <strong>Richard Ramsey</strong>. (2019) "Neural Networks Supporting Social Evaluation of Bodies Based on Body Shape." <em>Social Neuroscience</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Greven_19_SocialNeuroscience_Body_Inferences.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1080/17470919.2018.1448888" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/p4sbr/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://neurovault.org/collections/3191/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-safe" role='img' aria-label='NeuroVault'></i>
+        NeuroVault
     </a></li></ul>
 ```
 
@@ -159,6 +212,19 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://neurovault.org/collections/3168/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-safe" role='img' aria-label='NeuroVault'></i>
         NeuroVault
+    </a></li>
+<li class='list-group-item'>Kohinoor M. Darda, Emily E. Butler, and <strong>Richard Ramsey</strong>. (2018) "Functional Specificity and Sex Differences in the Neural Circuits Supporting the Inhibition of Automatic Imitation." <em>Journal of Cognitive Neuroscience</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Darda_18_JoCN.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1162/jocn_a_01261" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/42vdc/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-database" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://neurovault.org/collections/3218/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-safe" role='img' aria-label='NeuroVault'></i>
+        NeuroVault
     </a></li></ul>
 ```
 
@@ -171,6 +237,20 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S0010027716302529" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
+    </a></li>
+<li class='list-group-item'>Inez M. Greven and <strong>Richard Ramsey</strong>. (2017) "Person perception involves functional integration between the extrastriate body area and temporal pole." <em>Neuropsychologia</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/GrevenRamsey_17_Neuropsychologia.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="http://www.sciencedirect.com/science/article/pii/S0028393217300040" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Inez M. Greven and <strong>Richard Ramsey</strong>. (2017) "Neural network integration during the perception of in-group and out-group members." <em>Neuropsychologia</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/GrevenRamsey_17_Neuropsychologia_GroupBias.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S0028393217303688" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
     </a></li></ul>
 ```
 
@@ -181,6 +261,20 @@ keep-md: true
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="http://journal.frontiersin.org/article/10.3389/fpsyg.2016.01653" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Emily S. Cross, <strong>Richard Ramsey</strong>, Roman Liepelt, Wolfgang Prinz, and Antonia Hamilton. (2016) "The shaping of social perception by stimulus and knowledge cues to human animacy." <em>Philosophical Transactions of the Royal Society B Biological Sciences</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Cross_16_PhilTrans.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2015.0075" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Inez M. Greven, Paul E. Downing, and <strong>Richard Ramsey</strong>. (2016) "Linking Person Perception and Person Knowledge in the Human Brain." <em>Social Cognitive and Affective Neuroscience</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Greven_16_SCAN.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="http://scan.oxfordjournals.org/content/11/4/641.abstract" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a></li></ul>
@@ -198,6 +292,37 @@ keep-md: true
     </a></li></ul>
 ```
 
+### 2014{#published-2014}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Emily S. Cross, Daniel Acquah, and <strong>Richard Ramsey</strong>. (2014) "A review and critical analysis of how cognitive neuroscientific investigations using dance can contribute to sport psychology." <em>International Review of Sport and Exercise Psychology</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Cross_14_IRSEP.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1080/1750984X.2013.862564" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Andre Klapper, <strong>Richard Ramsey</strong>, Daniel Wigboldus, and Emily S. Cross. (2014) "The Control of Automatic Imitation Based on Bottom–Up and Top–Down Cues to Animacy: Insights from Brain and Behavior." <em>Journal of Cognitive Neuroscience</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Klapper_14_JoCN_imitation.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="http://dx.doi.org/10.1162/jocn_a_00651" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li></ul>
+```
+
+### 2013{#published-2013}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Antonia Hamilton and <strong>Richard Ramsey</strong>. (2013) "How Are the Actions of Triangles and People Processed in the Human Brain?." <em>Social Perception Detection and Interpretation of Animacy, Agency, and Intention</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/HamiltonRamsey_12_ChapterSocialPerception.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.7551/mitpress/9780262019279.003.0010" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li></ul>
+```
+
 ### 2012{#published-2012}
 
 ```{=html}
@@ -205,6 +330,53 @@ keep-md: true
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.21361" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Emily S. Cross and <strong>Richard Ramsey</strong>. (2012) "Neurophysiological Correlates of Learning to Dance." <em>Encyclopedia of the Sciences of Learning</em><br><a class="btn btn-outline-dark btn-sm", href="https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1428-6_77" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'>Emily S. Cross, Nicola R. Cohen, Antonia Hamilton, <strong>Richard Ramsey</strong>, George Wolford, and Scott T. Grafton. (2012) "Physical Experience Leads to Enhanced Object Perception in Parietal Cortex: Insights from Knot Tying." <em>Neuropsychologia</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Cross_12_Neuropsychologia.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S0028393212004009" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li></ul>
+```
+
+### 2011{#published-2011}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Jennifer Cumming and <strong>Richard Ramsey</strong>. (2011) "Investigating the Effect of Model Type and Practice Format on Performance Expectations and Actual Physical Performance." <em>International Journal of Sport and Exercise Psychology</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/CummingRamsey_11_IJSEP.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1080/1612197X.2011.614852" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li></ul>
+```
+
+### 2009{#published-2009}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Craig R. Hall, Krista J. Munroe-Chandler, Jennifer Cumming, Barbi Law, <strong>Richard Ramsey</strong>, and Lisa Murphy. (2009) "Imagery and observational learning use and their relationship to sport confidence." <em>Journal of Sports Sciences</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Hall_09.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1080/02640410802549769" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li></ul>
+```
+
+### 2008{#published-2008}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Jennifer Cumming and <strong>Richard Ramsey</strong>. (2008) "Imagery interventions in sport." <em>Advances in Applied Sport Psychology</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/CummingRamsey_08_Imagery_Chapter.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780203887073-7/imagery-interventions-sport-jennifer-cumming-richard-ramsey" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a></li></ul>

@@ -349,7 +349,7 @@ cross2016:
         - Antonia Hamilton
     year: 2016
     in_press: 
-    venue: Philosophical Transactions of the Royal Society B: Biological Sciences
+    venue: Philosophical Transactions of the Royal Society B Biological Sciences
     preprint: 
     pdf: ./pdfs/Cross_16_PhilTrans.pdf
     supps: 
@@ -561,7 +561,7 @@ hamilton2013:
         - me
     year: 2013
     in_press: 
-    venue: Social Perception: Detection and Interpretation of Animacy, Agency, and Intention
+    venue: Social Perception Detection and Interpretation of Animacy, Agency, and Intention
     preprint: 
     pdf: ./pdfs/HamiltonRamsey_12_ChapterSocialPerception.pdf
     supps: 
@@ -611,7 +611,6 @@ klapper2014:
     osf: 
     github: 
     neurovault:
-    
     
 wildman2022:
     title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
