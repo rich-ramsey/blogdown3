@@ -2,7 +2,7 @@
 title: "Posts"
 subtitle: "Chasing Rainbows blog"
 listing:
-  # contents: posts
+  contents: posts
   sort: "date desc"
   type: default
   categories: true
