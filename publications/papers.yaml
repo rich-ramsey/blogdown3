@@ -32,7 +32,7 @@ apsvalka2018:
     in_press: 
     venue: Journal of Neuroscience
     preprint: 
-    pdf: ./publications/pdfs/Apsvalka_18_JNeurosci.pdf
+    pdf: ./pdfs/Apsvalka_18_JNeurosci.pdf
     supps: 
     published_url: https://www.jneurosci.org/content/38/47/10114
     doi: https://doi.org/10.1523/JNEUROSCI.1597-18.2018 
@@ -50,8 +50,8 @@ apsvalka2018a:
     in_press: 
     venue: Neural Plasticity
     preprint: 
-    pdf: ./publications/pdfs/Apsvalka_18_NeuralPlasticity.pdf
-    supps: ./publications/pdfs/Apshvalka_18_Supplementary.pdf
+    pdf: ./pdfs/Apsvalka_18_NeuralPlasticity.pdf
+    supps: ./pdfs/Apshvalka_18_Supplementary.pdf
     published_url: https://www.hindawi.com/journals/np/2018/1237962/
     doi: https://doi.org/10.1155/2018/1237962
     osf: https://osf.io/6eybw/
@@ -68,8 +68,8 @@ apsvalka2019:
     in_press: 
     venue: Cognition
     preprint: 
-    pdf: ./publications/pdfs/Apshvalka_19_Cognition.pdf
-    supps: ./publications/pdfs/Apshvalka_19_Cognition_supplementary.pdf
+    pdf: ./pdfs/Apshvalka_19_Cognition.pdf
+    supps: ./pdfs/Apshvalka_19_Cognition_supplementary.pdf
     published_url: https://www.sciencedirect.com/science/article/pii/S0010027719301003
     doi: https://doi.org/10.1016/j.cognition.2019.04.015
     osf: https://osf.io/n8sqv/
@@ -87,7 +87,7 @@ bara2021:
     in_press: 
     venue: European Journal of Neuroscience
     preprint: 
-    pdf: ./publications/pdfs/Bara_21_EJN.pdf
+    pdf: ./pdfs/Bara_21_EJN.pdf
     supps: 
     published_url: https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.15479
     doi: https://doi.org/10.1111/ejn.15479
@@ -105,7 +105,7 @@ bara2022:
     in_press: 
     venue: Quarterly Journal of Experimental Psychology
     preprint: 
-    pdf: ./publications/pdfs/Bara_22_QJEP_aesthetics.pdf
+    pdf: ./pdfs/Bara_22_QJEP_aesthetics.pdf
     supps: 
     published_url: https://journals.sagepub.com/doi/10.1177/17470218221101876
     doi: https://doi.org/10.1177/17470218221101876
@@ -124,7 +124,7 @@ bara2022a:
     in_press: 
     venue: Neuropsychologia
     preprint: 
-    pdf: ./publications/pdfs/Bara_22_QJEP_aesthetics.pdf
+    pdf: ./pdfs/Bara_22_QJEP_aesthetics.pdf
     supps: 
     published_url: https://www.sciencedirect.com/science/article/pii/S0028393222001476
     doi: https://doi.org/10.1016/j.neuropsychologia.2022.108288
@@ -141,7 +141,7 @@ binney2020:
     in_press: 
     venue: Neuroscience & Biobehavioral Reviews
     preprint: 
-    pdf: ./publications/pdfs/BinneyRamsey_20_NBR_social_semantics.pdf
+    pdf: ./pdfs/BinneyRamsey_20_NBR_social_semantics.pdf
     supps: 
     published_url: https://www.sciencedirect.com/science/article/pii/S0149763419301915
     doi: https://doi.org/10.1016/j.neubiorev.2020.01.030
@@ -159,7 +159,7 @@ butler2015:
     in_press: 
     venue: PLoS ONE
     preprint: 
-    pdf: ./publications/pdfs/Butler_etal_15_PLoS_One.pdf
+    pdf: ./pdfs/Butler_etal_15_PLoS_One.pdf
     supps: 
     published_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129651
     doi: https://doi.org/10.1371/journal.pone.0129651
@@ -177,8 +177,8 @@ butler2016:
     in_press: 
     venue: Frontiers in Psychology
     preprint: 
-    pdf: ./publications/pdfs/Butler_etal_16_Frontiers.pdf
-    supps: ./publications/pdfs/Butler_etal_16_Supplementary.pdf
+    pdf: ./pdfs/Butler_etal_16_Frontiers.pdf
+    supps: ./pdfs/Butler_etal_16_Supplementary.pdf
     published_url: http://journal.frontiersin.org/article/10.3389/fpsyg.2016.01653
     doi: https://doi.org/10.3389/fpsyg.2016.01653
     osf: 
@@ -196,8 +196,8 @@ butler2017:
     in_press: 
     venue: Cognition
     preprint: 
-    pdf: ./publications/pdfs/Butler_etal_17_Cognition.pdf
-    supps: ./publications/pdfs/Butler_etal_17_Supplementary.pdf
+    pdf: ./pdfs/Butler_etal_17_Cognition.pdf
+    supps: ./pdfs/Butler_etal_17_Supplementary.pdf
     published_url: https://www.sciencedirect.com/science/article/pii/S0010027716302529
     doi: https://doi.org/10.1016/j.cognition.2016.10.012
     osf: 
@@ -215,8 +215,8 @@ butler2018:
     in_press: 
     venue: PLoS ONE
     preprint: 
-    pdf: ./publications/pdfs/Butler_18_PloSOne_Face_RS.pdf
-    supps: ./publications/pdfs/Butler_18_PloSOne_Supplementary.pdf
+    pdf: ./pdfs/Butler_18_PloSOne_Face_RS.pdf
+    supps: ./pdfs/Butler_18_PloSOne_Supplementary.pdf
     published_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201237
     doi: https://doi.org/10.1371/journal.pone.0201237
     osf: https://osf.io/7knrp/
@@ -234,7 +234,7 @@ byrne2021:
     in_press: 
     venue: Archives of Clinical Neuropsychology
     preprint: 
-    pdf: ./publications/pdfs/Byrne_21_ArchClinNeuro_NSW_stroke_loneliness.pdf
+    pdf: ./pdfs/Byrne_21_ArchClinNeuro_NSW_stroke_loneliness.pdf
     supps: 
     published_url: https://academic.oup.com/acn/article/37/2/390/6310830
     doi: https://doi.org/10.1093/arclin/acab046
@@ -253,7 +253,7 @@ byrne2022:
     in_press: 
     venue: Archives of Clinical Neuropsychology
     preprint: 
-    pdf: ./publications/pdfs/Byrne_22_Frontiers_loneliness.pdf
+    pdf: ./pdfs/Byrne_22_Frontiers_loneliness.pdf
     supps: 
     published_url: https://www.frontiersin.org/articles/10.3389/fnint.2022.883746
     doi: https://doi.org/10.3389/fnint.2022.883746
