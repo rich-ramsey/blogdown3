@@ -38,15 +38,6 @@ keep-md: true
     </a></li></ul>
 ```
 
-### 2010{#not-published-2010}
-
-```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Richard Ramsey</strong>, Jennifer Cumming, Martin G. Edwards, Sarah Williams, and Chris Brunning. (2010) "Examining the Emotion Aspect of PETTLEP-based Imagery and Penalty Taking Performance in Soccer." <em>Journal of Sport behavior</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Ramsey_10_JSB.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
-        pdf
-    </a></li></ul>
-```
-
 
 
 ------------------------------------------------------------------------
@@ -578,6 +569,13 @@ keep-md: true
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S1053811910000078" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a></li>
+<li class='list-group-item'><strong>Richard Ramsey</strong>, Jennifer Cumming, Martin G. Edwards, Sarah Williams, and Chris Brunning. (2010) "Examining the Emotion Aspect of PETTLEP-based Imagery and Penalty Taking Performance in Soccer." <em>Journal of Sport behavior</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Ramsey_10_JSB.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.proquest.com/docview/744221190?parentSessionId=Xd2irjj6Bx9LIssG5cw6cKqtyhUcybQp2964PCO82G0%3D" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a></li></ul>
