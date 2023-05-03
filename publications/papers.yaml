@@ -994,7 +994,7 @@ ramsey2019:
         - Paul E. Downing
     year: 2019
     in_press: 
-    venue: Journal of Experimental Psychology\: Human Perception and Performance
+    venue: "Journal of Experimental Psychology: Human Perception and Performance"
     preprint: 
     pdf: ./pdfs/Ramsey_19_JEPHPP_imitation_load.pdf
     supps: ./pdfs/Ramsey_19_JEPHPP_Supplementary.pdf
@@ -1060,7 +1060,7 @@ ramsey2021:
         - me
     year: 2021
     in_press: 
-    venue: Collabra\: Psychology
+    venue: "Collabra: Psychology"
     preprint: 
     pdf: ./pdfs/Ramsey_21_collabra_modesty.pdf
     supps: 
