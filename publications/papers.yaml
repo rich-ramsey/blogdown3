@@ -22,6 +22,24 @@
 #     github: https://github.com/rich-ramsey/git-example
 #     neurovault:
 
+## a blank version
+# <id>:
+#     title: ""
+#     authors:
+#         - me
+# 
+#     year: 
+#     in_press: 
+#     venue: 
+#     preprint: 
+#     pdf: ./pdfs/
+#     supps: ./pdfs/
+#     published_url: 
+#     doi: 
+#     osf: 
+#     github: 
+#     neurovault:
+
 apsvalka2018:
     title: "Observing Action Sequences Elicits Sequence-Specific Neural Representations in Frontoparietal Brain Regions"
     authors:
@@ -611,8 +629,520 @@ klapper2014:
     osf: 
     github: 
     neurovault:
+
+manoli2022:
+    title: "Estimating the Prevalence of Social and Emotional Loneliness across the Adult Lifespan"
+    authors:
+        - Aikatertina Manoli
+        - Johanna McCarthy
+        - me
+    year: 2022
+    in_press: 
+    venue: Scientific Reports
+    preprint: 
+    pdf: ./pdfs/Manoli_22_SciReports_loneliness.pdf
+    supps: 
+    published_url: https://www.nature.com/articles/s41598-022-24084-x
+    doi: 10.1038/s41598-022-24084-x
+    osf: https://osf.io/yuw6h/
+    github: 
+    neurovault:
     
+mazzarella2013:
+    title: "Brain Systems for Visual Perspective Taking and Action Perception"
+    authors:
+        - Elisabetta Mazzarella
+        - me
+        - Massimiliano Conson
+        - Antonia Hamilton
+    year: 2013
+    in_press: 
+    venue: Social Neuroscience
+    preprint: 
+    pdf: ./pdfs/Mazzarella_13_SocialNeuroscience.pdf
+    supps: ./pdfs/Mazzarella_13_SocNeuro_Supp.pdf
+    published_url: http://dx.doi.org/10.1080/17470919.2012.761160
+    doi: 10.1080/17470919.2012.761160
+    osf: 
+    github: 
+    neurovault:
+
+newey2019:
+    title: "The Influence of Prosocial Priming on Visual Perspective Taking and Automatic Imitation"
+    authors:
+        - Rachel Newey
+        - Kami Koldewyn
+        - me
+    year: 2019
+    in_press: 
+    venue: PLoS ONE
+    preprint: 
+    pdf: ./pdfs/Newey_19_PloSOne.pdf
+    supps: 
+    published_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0198867
+    doi: 10.1371/journal.pone.0198867
+    osf: https://osf.io/bseky/
+    github: 
+    neurovault:
+  
+newey2021:
+    title: "Incidental Impressions Formed from Visual Social Cues; Updating and Group Context"
+    authors:
+        - Rachel Newey
+        - Kami Koldewyn
+        - me
+    year: 2021
+    in_press: 
+    venue: 
+    preprint: https://psyarxiv.com/aevn6/
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: https://osf.io/bx3gj/
+    github: 
+    neurovault:
+
+parker2022:
+    title: "What Can Evidence Accumulation Modelling Tell Us about Human Social Cognition?"
+    authors:
+        - Sam Parker
+        - me
+    year: 2022
+    in_press: 
+    venue: 
+    preprint: https://psyarxiv.com/njfv5/
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: 
+    github: 
+    neurovault:
+    
+parker2023:
+    title: "Exploring the Relationship between Oculomotor Preparation and Gaze-Cued Covert Shifts in Attention"
+    authors:
+        - Sam Parker
+        - me
+    year: 2023
+    in_press: 
+    venue: Journal of Vision
+    preprint: 
+    pdf: ./pdfs/ParkerRamsey_23_JoV.pdf
+    supps: ./pdfs/ParkerRamsey_23_JoV_Supplementary.pdf
+    published_url: https://doi.org/10.1167/jov.23.3.18
+    doi: 10.1167/jov.23.3.18
+    osf: https://osf.io/fe9ds/
+    github: 
+    neurovault:
+    
+ramsey2008:
+    title: "Exploring a Modified Conceptualization of Imagery Direction and Golf Putting Performance"
+    authors:
+        - me
+        - Jennifer Cumming
+        - Martin G. Edwards
+    year: 2008
+    in_press: 
+    venue: International Journal of Sport and Exercise Psychology
+    preprint: 
+    pdf: ./pdfs/Ramsey_08_IJSEP.pdf
+    supps: 
+    published_url: https://doi.org/10.1080/1612197X.2008.9671862
+    doi: 10.1080/1612197X.2008.9671862
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2009:
+    title: "Mental Imagery Inflates Performance Expectations but Not Actual Performance of a Novel and Challenging Motor Task"
+    authors:
+        - me
+        - Jennifer Cumming
+        - Martin G. Edwards
+    year: 2009
+    in_press: 
+    venue: Imagination, Cognition and Personality
+    preprint: 
+    pdf: ./pdfs/Ramsey_09_ICP.pdf
+    supps: 
+    published_url: http://journals.sagepub.com/doi/10.2190/IC.28.4.d
+    doi: 10.1080/1612197X.2008.9671862
+    osf: 10.2190/IC.28.4.d
+    github: 
+    neurovault:
+    
+ramsey2010:
+    title: "Incongruent Imagery Interferes with Action Initiation"
+    authors:
+        - me
+        - Jennifer Cumming
+        - Daniel Eastough
+        - Martin G. Edwards
+    year: 2010
+    in_press: 
+    venue: Brain and Cognition
+    preprint: 
+    pdf: ./pdfs/Ramsey_10_BrainCognition.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0278262610001132
+    doi: https://doi.org/10.1016/j.bandc.2010.08.005
+    osf: 
+    github: 
+    neurovault:
+
+ramsey2010a:
+    title: "Triangles Have Goals Too: Understanding Action Representation in Left aIPS"
+    authors:
+        - me
+        - Antonia Hamilton
+    year: 2010
+    in_press: 
+    venue: Neuropsychologia
+    preprint: 
+    pdf: ./pdfs/Ramsey_10_Nogia.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0028393210001740
+    doi: https://doi.org/10.1016/j.neuropsychologia.2010.04.028
+    osf: 
+    github: 
+    neurovault:    
+
+ramsey2010b:
+    title: "Understanding Actors and Object-Goals in the Human Brain"
+    authors:
+        - me
+        - Antonia Hamilton
+    year: 2010
+    in_press: 
+    venue: NeuroImage
+    preprint: 
+    pdf: ./pdfs/Ramsey_10_NeuroImage.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S1053811910000078
+    doi: 10.1016/j.neuroimage.2009.12.124
+    osf: 
+    github: 
+    neurovault:
+
+ramsey2010c:
+    title: "Examining the Emotion Aspect of PETTLEP-based Imagery and Penalty Taking Performance in Soccer"
+    authors:
+        - me
+        - Jennifer Cumming
+        - Martin G. Edwards
+        - Sarah Williams
+        - Chris Brunning
+    year: 2010
+    in_press: 
+    venue: Journal of Sport behavior
+    preprint: 
+    pdf: ./pdfs/Ramsey_10_JSB.pdf
+    supps: 
+    published_url: 
+    doi: 
+    osf: 
+    github: 
+    neurovault:
+
+ramsey2011:
+    title: "Understanding Actors and Object-Goals in the Human Brain"
+    authors:
+        - me
+        - Emily S. Cross
+        - Antonia Hamilton
+    year: 2011
+    in_press: 
+    venue: Journal of Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Ramsey_11_JoCN.pdf
+    supps: ./pdfs/Ramsey_11_JoCN_Supplementary.pdf
+    published_url: http://dx.doi.org/10.1162/jocn_a_00074
+    doi: https://doi.org/10.1162/jocn_a_00074
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2011a:
+    title: "No two are the same: Body shape *is* part of identifying others"
+    authors:
+        - me
+        - Hein T. van Schie
+        - Emily S. Cross
+    year: 2011
+    in_press: 
+    venue: Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Ramsey_11_DowningPeelen_reply.pdf
+    supps: 
+    published_url: http://www.tandfonline.com/doi/abs/10.1080/17588928.2011.604721
+    doi: https://doi.org/10.1080/17588928.2011.604721
+    osf: 
+    github: 
+    neurovault:
+
+ramsey2012:
+    title: "How Does Your Own Knowledge Influence the Perception of Another Person's Action in the Human Brain?"
+    authors:
+        - me
+        - Antonia Hamilton
+    year: 2012
+    in_press: 
+    venue: Social Cognitive and Affective Neuroscience
+    preprint: 
+    pdf: ./pdfs/Ramsey_12_SCAN.pdf
+    supps: 
+    published_url: https://academic.oup.com/scan/article/7/2/242/1624997
+    doi: https://doi.org/10.1093/scan/nsq102
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2012a:
+    title: "Predicting Others' Actions via Grasp and Gaze: Evidence for Distinct Brain Networks"
+    authors:
+        - me
+        - Emily S. Cross
+        - Antonia Hamilton
+    year: 2012
+    in_press: 
+    venue: Psychological Research
+    preprint: 
+    pdf: ./pdfs/Ramsey_12_PsychResearch.pdf
+    supps: ./pdfs/Ramsey_12_PstchResearch_Supps.pdf
+    published_url: http://dx.doi.org/10.1007/s00426-011-0393-9
+    doi: 10.1007/s00426-011-0393-9
+    osf: 
+    github: 
+    neurovault:
+
+ramsey2013:
+    title: "Supramodal and Modality-Sensitive Representations of Perceived Action Categories in the Human Brain"
+    authors:
+        - me
+        - Emily S. Cross
+        - Antonia Hamilton
+    year: 2013
+    in_press: 
+    venue: Experimental Brain Research
+    preprint: 
+    pdf: ./pdfs/Ramsey_13_EBR.pdf
+    supps: 
+    published_url: http://dx.doi.org/10.1007/s00221-013-3659-1
+    doi: 10.1007/s00221-013-3659-1
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2013a:
+    title: "Supramodal and Modality-Sensitive Representations of Perceived Action Categories in the Human Brain"
+    authors:
+        - me
+        - Peter Hansen
+        - Ian Apperly
+        - Dana Samson
+    year: 2013
+    in_press: 
+    venue: Journal of Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Ramsey_13_JoCN.pdf
+    supps: ./pdfs/Ramsey_13_JoCN_Supplementary.pdf
+    published_url: http://dx.doi.org/10.1162/jocn_a_00345
+    doi: 10.1162/jocn_a_00345
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2018:
+    title: "Neural Integration in Body Perception"
+    authors:
+        - me
+    year: 2018
+    in_press: 
+    venue: Journal of Cognitive Neuroscience
+    preprint: 
+    pdf: ./pdfs/Ramsey_18_JoCN_Body_Review.pdf
+    supps: 
+    published_url: https://www.mitpressjournals.org/doi/abs/10.1162/jocn_a_01299
+    doi: 10.1162/jocn_a_01299
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2018a:
+    title: "What are reaction time indices of automatic imitation measuring?"
+    authors:
+        - me
+    year: 2018
+    in_press: 
+    venue: Consciousness and Cognition
+    preprint: 
+    pdf: ./pdfs/Ramsey_18_CC_Imitation_Review.pdf
+    supps: 
+    published_url: http://www.sciencedirect.com/science/article/pii/S1053810018302241
+    doi: 10.1016/j.concog.2018.08.006
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2019:
+    title: "Automatic Imitation Remains Unaffected under Cognitive Load"
+    authors:
+        - me
+        - Kohinoor M. Darda
+        - Paul E. Downing
+    year: 2019
+    in_press: 
+    venue: Journal of Experimental Psychology\: Human Perception and Performance
+    preprint: 
+    pdf: ./pdfs/Ramsey_19_JEPHPP_imitation_load.pdf
+    supps: ./pdfs/Ramsey_19_JEPHPP_Supplementary.pdf
+    published_url: https://doi.org/10.1037/xhp0000632
+    doi: 10.1037/xhp0000632
+    osf: https://osf.io/suzrp/
+    github: 
+    neurovault:
+
+ramsey2020:
+    title: "Advocating for the Credibility Revolution"
+    authors:
+        - me
+    year: 2020
+    in_press: 
+    venue: Cognitive Psychology Bulletin
+    preprint: https://psyarxiv.com/3kwnu
+    pdf: ./pdfs/Ramsey_20_CPB_open_science.pdf
+    supps: 
+    published_url: https://doi.org/10.53841/bpscog.2020.1.5.70
+    doi: https://doi.org/10.53841/bpscog.2020.1.5.70
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2020a:
+    title: "Challenges and Opportunities for Top-down Modulation Research in Cognitive Psychology"
+    authors:
+        - me
+        - Rob Ward
+    year: 2020
+    in_press: 
+    venue: Acta Psychologica
+    preprint: 
+    pdf: ./pdfs/Ramsey_20_acta_topdown.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0001691820300676
+    doi: 10.1016/j.actpsy.2020.103118
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2020b:
+    title: "Putting the Nonsocial into Social Neuroscience: A Role for Domain-General Priority Maps during Social Interactions"
+    authors:
+        - me
+        - Rob Ward
+    year: 2020
+    in_press: 
+    venue: Perspectives on Psychological Science
+    preprint: 
+    pdf: ./pdfs/Ramsey_20_pps_nonsocial.pdf
+    supps: 
+    published_url: https://journals.sagepub.com/doi/10.1177/1745691620904972
+    doi: https://doi.org/10.1177/1745691620904972
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2021:
+    title: "A Call for Greater Modesty in Psychology and Cognitive Neuroscience"
+    authors:
+        - me
+    year: 2021
+    in_press: 
+    venue: Collabra\: Psychology
+    preprint: 
+    pdf: ./pdfs/Ramsey_21_collabra_modesty.pdf
+    supps: 
+    published_url: https://online.ucpress.edu/collabra/article/7/1/24091/117222/A-Call-for-Greater-Modesty-in-Psychology-and
+    doi: https://doi.org/10.1525/collabra.24091
+    osf: 
+    github: 
+    neurovault:
+    
+ramsey2021a:
+    title: "Watch and Learn: The Cognitive Neuroscience of Learning from Others’ Actions"
+    authors:
+        - me
+        - David M. Kaplan
+        - Emily S. Cross
+    year: 2021
+    in_press: 
+    venue: 
+    preprint: 
+    pdf: ./pdfs/Ramsey_21_TINS.pdf
+    supps: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0166223621000205
+    doi: https://doi.org/10.1016/j.tins.2021.01.007
+    osf: 
+    github: 
+    neurovault:
+    
+wang2011:
+    title: "The Control of Mimicry by Eye Contact Is Mediated by Medial Prefrontal Cortex"
+    authors:
+        - Yin Wang
+        - me
+        - Antonia Hamilton
+    year: 2011
+    in_press: 
+    venue: The Journal of Neuroscience
+    preprint: 
+    pdf: ./pdfs/WangRamseyHamilton_11_JoN.pdf
+    supps: 
+    published_url: http://www.jneurosci.org/content/31/33/12001
+    doi: https://doi.org/10.1523/JNEUROSCI.0845-11.2011
+    osf: 
+    github: 
+    neurovault:
+    
+wang2014:
+    title: "Adults See Vision to Be More Informative than It Is"
+    authors:
+        - J. Jessica Wang
+        - Dongo Diana Miletich
+        - me
+        - Antonia Hamilton
+    year: 2014
+    in_press: 
+    venue: Quarterly Journal of Experimental Psychology
+    preprint: 
+    pdf: ./pdfs/Wang_14_QJEP.pdf
+    supps: 
+    published_url: https://journals.sagepub.com/doi/10.1080/17470218.2014.915331
+    doi: https://doi.org/10.1080/17470218.2014.915331
+    osf: 
+    github: 
+    neurovault:
+
 wildman2022:
+    title: "Estimating the effects of trait knowledge on social perception"
+    authors:
+        - Andrew Wildman
+        - me
+    year: 2022
+    in_press: 
+    venue: Quarterly Journal of Experimental Psychology
+    preprint: 
+    pdf: ./pdfs/WildmanRamsey_21_QJEP_body_traits.pdf
+    supps: 
+    published_url: https://doi.org/10.1177/17470218211047447
+    doi: https://doi.org/10.1177/17470218211047447
+    osf: https://osf.io/z9ds8/
+    github: 
+    neurovault:
+    
+wildman2022a:
     title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
     authors:
         - Andrew Wildman
@@ -626,7 +1156,26 @@ wildman2022:
     published_url:
     doi: 
     osf: https://osf.io/4en9f/
-    github: https://github.com/rich-ramsey/git-example
+    github: 
     neurovault:
 
-
+williams2012:
+    title: "Further Validation and Development of the Movement Imagery Questionnaire"
+    authors:
+        - Sarah E. Williams
+        - Jennifer Cumming
+        - Nikos Ntoumanis
+        - Sanna M. Nordin-Bates
+        - me
+        - Craig Hall
+    year: 2012
+    in_press: 
+    venue: Journal of Sport and Exercise Psychology
+    preprint: 
+    pdf: ./pdfs/Williams_12_JSEP_MIQR.pdf
+    supps: 
+    published_url: https://journals.humankinetics.com/view/journals/jsep/34/5/article-p621.xml
+    doi: https://doi.org/10.1123/jsep.34.5.621
+    osf: 
+    github: 
+    neurovault:
