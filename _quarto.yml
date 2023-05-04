@@ -27,15 +27,19 @@ website:
       - icon: mastodon
         href: https://twitter.com/RichRamseyPhD
         aria-label: mastodon
+        target: _blank
       - text: "{{< ai google-scholar color=white >}}"
         href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
         aria-label: google-scholar
+        target: _blank
       - text: "{{< ai osf color=white >}}"
         href: https://osf.io/s67e2/
         aria-label: google-scholar
+        target: _blank
       - icon: github
         href: https://github.com/rich-ramsey
         aria-label: GitHub
+        target: _blank
       - icon: envelope
         href: mailto:richard.ramsey@hest.ethz.ch
         aria-label: envelope
