@@ -11,7 +11,6 @@ website:
     logo: ./img/favicon.png
     background: dark
     foreground: light
-    target: _blank
     left:
       # - href: index.qmd
       #   text: Home
@@ -24,6 +23,7 @@ website:
       - icon: twitter
         href: https://twitter.com/RichRamseyPhD
         aria-label: twitter
+        target: _blank
       - icon: mastodon
         href: https://twitter.com/RichRamseyPhD
         aria-label: mastodon
