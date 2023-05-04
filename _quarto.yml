@@ -11,6 +11,7 @@ website:
     logo: ./img/favicon.png
     background: dark
     foreground: light
+    target: "_blank"
     left:
       # - href: index.qmd
       #   text: Home
@@ -26,15 +27,19 @@ website:
       - icon: mastodon
         href: https://twitter.com/RichRamseyPhD
         aria-label: mastodon
-      # - icon: {{< ai google-scholar >}}
-      #   href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
-      #   aria-label: google-scholar
+      - text: "{{< ai google-scholar color=white >}}"
+        href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
+        aria-label: google-scholar
+      - text: "{{< ai osf color=white >}}"
+        href: https://osf.io/s67e2/
+        aria-label: google-scholar
       - icon: github
         href: https://github.com/rich-ramsey
         aria-label: GitHub
       - icon: envelope
         href: mailto:richard.ramsey@hest.ethz.ch
         aria-label: envelope
+        
 
 format:
   html:

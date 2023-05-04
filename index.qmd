@@ -7,22 +7,20 @@ about:
   template: solana
   image-shape: rectangle
   image-width: 25em
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/RichRamseyPhD
-    - icon: "{{< fa brands linkedin-in >}}"
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
-    - icon: osf
-      text: OSF
-      href: https://osf.io/s67e2/
-    - icon: github
-      text: GitHub
-      href: https://github.com/rich-ramsey
-    - icon: envelope
-      text: email
-      href: mailto:richard.ramsey@hest.ethz.ch
+  #links:
+    # - icon: twitter
+    #   # text: Twitter
+    #   href: https://twitter.com/RichRamseyPhD
+    # - text: "{{< ai google-scholar >}}"
+    #   href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
+    # - text: "{{< ai osf >}}"
+    #   href: https://osf.io/s67e2/
+    # - icon: github
+    #   #text: GitHub
+    #   href: https://github.com/rich-ramsey
+    # - icon: envelope
+    #   #text: email
+    #   href: mailto:richard.ramsey@hest.ethz.ch
 page-layout: full
 ---
 
