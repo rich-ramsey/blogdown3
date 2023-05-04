@@ -11,7 +11,7 @@ website:
     logo: ./img/favicon.png
     background: dark
     foreground: light
-    target: "_blank"
+    target: _blank
     left:
       # - href: index.qmd
       #   text: Home
@@ -39,6 +39,7 @@ website:
       - icon: envelope
         href: mailto:richard.ramsey@hest.ethz.ch
         aria-label: envelope
+      
         
 
 format:
