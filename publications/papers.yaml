@@ -708,9 +708,9 @@ parker2022:
     authors:
         - Sam Parker
         - me
-    year: 2022
-    in_press: 
-    venue: 
+    year: 2023
+    in_press: yes
+    venue: Quarterly Journal of Experimental Psychology
     preprint: https://psyarxiv.com/njfv5/
     pdf: 
     supps: 

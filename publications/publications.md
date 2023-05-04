@@ -13,11 +13,7 @@ keep-md: true
 ### 2022{#not-published-2022}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Sam Parker and <strong>Richard Ramsey</strong>. (2022) "What Can Evidence Accumulation Modelling Tell Us about Human Social Cognition?."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/njfv5/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a></li>
-<li class='list-group-item'>Andrew Wildman and <strong>Richard Ramsey</strong>. (2022) "Investigating the Automaticity of Links Between Body Perception and Trait Concepts."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/b4uzj" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Andrew Wildman and <strong>Richard Ramsey</strong>. (2022) "Investigating the Automaticity of Links Between Body Perception and Trait Concepts."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/b4uzj" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/4en9f/" target="_blank" rel="noopener noreferrer">
@@ -47,7 +43,11 @@ keep-md: true
 ### 2023{#published-2023}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Sam Parker and <strong>Richard Ramsey</strong>. (2023) "Exploring the Relationship between Oculomotor Preparation and Gaze-Cued Covert Shifts in Attention." <em>Journal of Vision</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/ParkerRamsey_23_JoV.pdf" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Sam Parker and <strong>Richard Ramsey</strong>. (in press) "What Can Evidence Accumulation Modelling Tell Us about Human Social Cognition?." <em>Quarterly Journal of Experimental Psychology</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/njfv5/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a></li>
+<li class='list-group-item'>Sam Parker and <strong>Richard Ramsey</strong>. (2023) "Exploring the Relationship between Oculomotor Preparation and Gaze-Cued Covert Shifts in Attention." <em>Journal of Vision</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/ParkerRamsey_23_JoV.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1167/jov.23.3.18" target="_blank" rel="noopener noreferrer">
