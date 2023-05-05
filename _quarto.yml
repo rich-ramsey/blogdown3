@@ -18,7 +18,7 @@ website:
       - ./publications/publications.qmd
       # - posts.qmd
       - ./resources/resources.qmd
-      - ./soba_lab/soba-lab.qmd
+      # - ./soba_lab/soba-lab.qmd
     right: 
       - icon: twitter
         href: https://twitter.com/RichRamseyPhD
