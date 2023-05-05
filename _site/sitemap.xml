@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://richramsey.netlify.app/index.html</loc>
-    <lastmod>2023-05-05T08:55:43.923Z</lastmod>
+    <lastmod>2023-05-05T09:01:23.512Z</lastmod>
   </url>
   <url>
     <loc>https://richramsey.netlify.app/publications/publications.html</loc>
-    <lastmod>2023-05-05T08:24:04.935Z</lastmod>
+    <lastmod>2023-05-05T09:01:31.581Z</lastmod>
   </url>
   <url>
     <loc>https://richramsey.netlify.app/about.html</loc>
-    <lastmod>2023-05-05T08:56:57.186Z</lastmod>
+    <lastmod>2023-05-05T09:01:29.967Z</lastmod>
   </url>
   <url>
     <loc>https://richramsey.netlify.app/soba_lab/soba-lab.html</loc>
-    <lastmod>2023-05-05T08:56:02.070Z</lastmod>
+    <lastmod>2023-05-05T09:01:35.153Z</lastmod>
   </url>
   <url>
     <loc>https://richramsey.netlify.app/posts.html</loc>
@@ -23,5 +23,9 @@
   <url>
     <loc>https://richramsey.netlify.app/posts/2023-04-28_testing_a_blog/index.html</loc>
     <lastmod>2023-05-05T08:59:27.701Z</lastmod>
+  </url>
+  <url>
+    <loc>https://richramsey.netlify.app/resources/resources.html</loc>
+    <lastmod>2023-05-05T09:01:33.224Z</lastmod>
   </url>
 </urlset>
