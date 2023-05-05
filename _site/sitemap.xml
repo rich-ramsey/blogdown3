@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://richramsey.netlify.app/index.html</loc>
-    <lastmod>2023-05-05T08:15:30.934Z</lastmod>
+    <lastmod>2023-05-05T08:16:13.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://richramsey.netlify.app/publications/publications.html</loc>
+    <lastmod>2023-05-05T08:16:17.987Z</lastmod>
+  </url>
+  <url>
+    <loc>https://richramsey.netlify.app/about.html</loc>
+    <lastmod>2023-05-05T08:16:42.698Z</lastmod>
   </url>
 </urlset>
