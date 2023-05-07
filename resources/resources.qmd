@@ -6,7 +6,7 @@ Here is a list of useful resources that my lab has used in the last 5 years. The
 
 ### Data analysis
 
-My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis over the last few years. The general workflow follows Richard McElreath's outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:
+My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis. The general workflow follows Richard McElreath's outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:
 
 -   [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) by Richard McElreath
 
@@ -18,7 +18,7 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   [Kruschke & Liddell](https://link.springer.com/article/10.3758/s13423-016-1221-4). A good primer on the differences between frequentist and Bayesian analyses, as well as hypothesis testing and estimation approaches.
 
--   [Bodo Winter's book](https://bodowinter.com/books.html) is a great introduction to estimation approaches
+-   [Bodo Winter's book](https://bodowinter.com/books.html) is a great introduction to estimation approaches. It provides great R code for beginners and uses frequentist language, which should be more familiar to most. It is a great place to start and provides a natural platform to thinking about the same estimation approaches in a Bayesian context.
 
 -   [brms](https://paul-buerkner.github.io/brms/) is a fabulous tool in R for running Bayesian analyses in STAN
 
@@ -30,13 +30,9 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 ### Reproducible research
 
--   Version control in R
+-   Version control in R. Renv: [link](https://rstudio.github.io/renv/articles/renv.html) and intro [video](https://www.youtube.com/watch?v=yjlEbIDevOs)
 
-    -   Renv: [link](https://rstudio.github.io/renv/articles/renv.html) and intro [video](https://www.youtube.com/watch?v=yjlEbIDevOs)
-
--   Version control using GitHub
-
-    -   Matti Vuorre and James P. Curley's excellent [tutorial](https://journals.sagepub.com/doi/full/10.1177/2515245918754826)
+-   Version control using GitHub. Matti Vuorre and James P. Curley's excellent [tutorial](https://journals.sagepub.com/doi/full/10.1177/2515245918754826)
 
 ### Open Science Framework
 
@@ -49,6 +45,14 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 -   [OSF registrations](https://help.osf.io/article/330-welcome-to-registrations)
 
 -   [registered reports](https://www.cos.io/initiatives/registered-reports)
+
+### Validity
+
+-   A nice overview on four types of validity by [Simine Vazire and co.](https://journals.sagepub.com/doi/abs/10.1177/09637214211067779?journalCode=cdpa)
+
+-   Why validity matters in experimental work in psychology and the importance of manipulation checks. [One](https://doi.org/10.1177/1745691620950684) and [Two](https://doi.org/10.1177/1745691620970602 )
+
+-   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
 
 ### Making a Quarto website
 
