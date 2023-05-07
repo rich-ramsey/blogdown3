@@ -41,7 +41,7 @@ for _, data in yaml_data.items():
         buttons.append(button(pub_url, "doi", "bi-share"))
     osf = data.get("osf")
     if osf is not None:
-        buttons.append(button(osf, "osf", "bi-archive"))
+        buttons.append(button(osf, "osf", "ai-osf"))
     github = data.get("github")
     if github is not None:
         buttons.append(button(github, "Github", "bi-github"))
