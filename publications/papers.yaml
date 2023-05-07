@@ -269,7 +269,7 @@ byrne2022:
         - me
     year: 2022
     in_press: 
-    venue: Archives of Clinical Neuropsychology
+    venue: Frontiers in Integrative Neuroscience
     preprint: 
     pdf: ./pdfs/Byrne_22_Frontiers_loneliness.pdf
     supps: 
@@ -280,7 +280,7 @@ byrne2022:
     neurovault: 
     
 cross2012:
-    title: "Robotic Movement Preferentially Engages the Action Observation Networkt"
+    title: "Robotic Movement Preferentially Engages the Action Observation Network"
     authors:
         - Emily S. Cross
         - Roman Liepelt
@@ -579,7 +579,7 @@ hamilton2013:
         - me
     year: 2013
     in_press: 
-    venue: Social Perception Detection and Interpretation of Animacy, Agency, and Intention
+    venue: "Social Perception: Detection and Interpretation of Animacy, Agency, and Intention"
     preprint: 
     pdf: ./pdfs/HamiltonRamsey_12_ChapterSocialPerception.pdf
     supps: 
@@ -847,7 +847,7 @@ ramsey2010c:
     neurovault:
 
 ramsey2011:
-    title: "Understanding Actors and Object-Goals in the Human Brain"
+    title: "Eye Can See What You Want: Posterior Intraparietal Sulcus Encodes the Object of an Actor's Gaze"
     authors:
         - me
         - Emily S. Cross
@@ -936,7 +936,7 @@ ramsey2013:
     neurovault:
     
 ramsey2013a:
-    title: "Supramodal and Modality-Sensitive Representations of Perceived Action Categories in the Human Brain"
+    title: "Seeing It My Way or Your Way: Frontoparietal Brain Areas Sustain Viewpoint-independent Perspective Selection Processesf"
     authors:
         - me
         - Peter Hansen
@@ -1078,7 +1078,7 @@ ramsey2021a:
         - Emily S. Cross
     year: 2021
     in_press: 
-    venue: 
+    venue: Trends in Neurosciences
     preprint: 
     pdf: ./pdfs/Ramsey_21_TINS.pdf
     supps: 
