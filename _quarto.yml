@@ -25,7 +25,7 @@ website:
         aria-label: twitter
         target: _blank
       - icon: mastodon
-        href: https://mastodon.social/@richramsey
+        href: https://mastodon.social/@richramsey 
         aria-label: mastodon
         target: _blank
       - text: "{{< ai google-scholar color=white >}}"
