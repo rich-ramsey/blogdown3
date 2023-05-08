@@ -15,8 +15,8 @@ def readable_list(_s):
   *a, b = _s
   return f"{', '.join(map(str, a))}, and {b}"
 def button(url, str, icon):
-    icon_base = icon[:2]
-    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
+  icon_base = icon[:2]
+  return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
         <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
         {str}
     </a>"""
