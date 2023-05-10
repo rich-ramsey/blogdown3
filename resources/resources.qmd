@@ -50,7 +50,7 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   A nice overview on four types of validity by [Simine Vazire and co.](https://journals.sagepub.com/doi/abs/10.1177/09637214211067779?journalCode=cdpa)
 
--   Why validity matters in experimental work in psychology and the importance of manipulation checks. [One](https://doi.org/10.1177/1745691620950684) and [Two](https://doi.org/10.1177/1745691620970602 )
+-   Why validity matters in experimental work in psychology and the importance of manipulation checks. [One](https://doi.org/10.1177/1745691620950684) and [Two](https://doi.org/10.1177/1745691620970602)
 
 -   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
 
