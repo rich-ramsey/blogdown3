@@ -57,15 +57,13 @@ website:
       {{< fa regular copyright >}} Richard Ramsey, 2023<br>
       All content licensed under {{< fa brands creative-commons >}}
       {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-      
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
       Code taken from [these fine folks.](resources/resources.html#making-a-quarto-website)<br>
       [Source at {{< fa brands github >}} GitHub](https://github.com/rich-ramsey/blogdown3)<br>
       Photo credit: 
       
-        
-
+      
 format:
   html:
     theme: litera
