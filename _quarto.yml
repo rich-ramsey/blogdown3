@@ -32,6 +32,10 @@ website:
         href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
         aria-label: google-scholar
         target: _blank
+      - text: "{{< ai orcid color=white >}}"
+        href: https://orcid.org/0000-0002-0329-2112
+        aria-label: orchid
+        target: _blank
       - text: "{{< ai osf color=white >}}"
         href: https://osf.io/s67e2/
         aria-label: google-scholar
