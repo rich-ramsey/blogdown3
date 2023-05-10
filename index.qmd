@@ -27,4 +27,4 @@ page-layout: full
 
 I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I co-direct the Social Brain in Action Laboratory ([SoBA Lab](https://www.soba-lab.com/)) and I am a member of the Neural Control of Movement Laboratory ([NCM Lab](https://ncm.hest.ethz.ch/)).
 
-~[Photo credit: A. Name]{style="color=red"}~
+~[Photo credit: Danilo Hegg](https://www.southernalpsphotography.com/){style="color: gray"}~
