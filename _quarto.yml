@@ -4,7 +4,7 @@ project:
 website:
   title: "Rich Ramsey"
   description: "Personal website of Richard Ramsey"
-  site-url: https://richramsey.netlify.app/
+  site-url: https://rich-ramsey.com
   repo-url: https://github.com/rich-ramsey/blogdown3
   favicon: ./img/favicon.png
   navbar:
