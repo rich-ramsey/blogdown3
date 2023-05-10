@@ -1,1 +1,1 @@
-Sitemap: https://richramsey.netlify.app/sitemap.xml
+Sitemap: https://rich-ramsey.com/sitemap.xml
