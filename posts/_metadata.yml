@@ -5,7 +5,7 @@ freeze: true
 title-block-banner: true
 
 # Enable CC licence appendix
-license: "CC BY"
+# license: "CC BY"
 
 # Default for table of contents
 toc: true
@@ -21,7 +21,7 @@ execute:
 # Default author
 author:
   - name: Richard Ramsey
-    url: https://richramsey.netlify.app/
+    url: https://rich-ramsey.com/
     affiliation: ETH Zurich
     affiliation-url: https://ethz.ch/en.html
     orcid: 0000-0002-0329-2112

@@ -1,0 +1,97 @@
+---
+title: "General data analysis workflow"
+subtitle: | 
+  A brief outline of our approach to data analysis in recent years 
+date: "2023-05-10"
+categories: [Data analysis, Statistics]
+image: "img/statistical-rethinking.jpeg"
+---
+
+### tl:dr
+
+-   Pre-register predictions and specific analyses in advance
+
+-   Put p values and Bayes factors in the bin
+
+-   Estimate parameters within (multi-level) regression models
+
+-   Describe the posterior distribution of these parameters and evaluate them in relation to your hypotheses
+
+### Disclaimer
+
+I am not a statistician and I am not saying anything new here. I'm just summarising a bunch of other people's suggestions.
+
+If I have confused things, then that's a shame. Such is life. Please send me a note with constructive feedback.
+
+### Objective
+
+I want to outline my lab's recent approach to data analysis because others may find it helpful. It is a relatively high-level overview, rather than a step-by-step tutorial.
+
+### Main inspiration
+
+Read Richard McElreath's textbook and Solomon Kurz's ebook.
+
+### Taking an estimation approach
+
+Use the Kruscke reference to compare the two approaches
+
+It is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor value.
+
+### Build models incrementally towards the full model
+
+Reference Barr - keep it maximal.
+
+### Inference
+
+Two ways to make inferences.
+
+1.  Evaluate parameters of interest in the full model.
+
+give an example of different posterior distributions and the extent to which they may or may not support your pre-registered analyses. e.g., two or three plots 1) overlapping zero, tightly and not so tightly. 2) Positive and tight and not so tight.
+
+Then describe the proportion of values that span a particular range and what that would mean for your hypothesis. e.g., values as low as blah and as high as blah are compatible with your model estimates.
+
+2. Model comparison.
+
+give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
+
+In our experience in exp psych / cog neuro, model comparison has not been as helpful, but that's just our experience. They are both valuable and serve different purposes, so they may work for other labs more than others.
+
+**Then replicate:** At this point, I would then run a replication (or a replication and extension). By doing so, you avoid joining the "Cult of the Isolated Study", which is the trap of drawing conclusions from single experiments - see [here](https://doi.org/10.2307/2981525) and [here](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264).
+
+### Pros and cons
+
+Pros
+
+1.  One general and yet flexible approach to data analysis
+2.  Sophisticated and complex models via STAN
+
+Cons
+
+1.  Some models can take quite some time to build (days, weeks, months?) and need greater computer power.
+
+### And finally (but most importantly)...
+
+One of the best things about McElreath's book is that you get to the end of all this complex code and stats stuff, which made my brain hurt, and then he says... but statistical models are just one thing, there's a whole lot of other stuff you need to think about too. It is a very refreshing and humbling perspective to remember how broad, deep and diverse scientific workflows should be.
+
+In short, data analysis and modelling are just one aspect of doing science and making good inferences/judgments. There are many more that need considering. Some are as follows...
+
+-   pre-registration
+
+-   theory
+
+-   replication
+
+-   meta-analyses
+
+### Where should I start?
+
+If you're interested in jumping on the Bayesian estimation bandwagon, then I would do the following.
+
+1.  Read this book first by Bodo Winter. it provides the perfect intro to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian per se about estimation approaches.
+
+2.  Read McElreath's book and watch his lectures. Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath's textbook with Solomon Kurz's ebook and associated code. That's what I did.
+
+3.  Take a look at code examples online. There are a bunch. You can find some on my publications page. But better yet, find someone else who has more experience.
+
+4.  If you get stuck, write a reproducible example on the brms forum. Folks are really helpful on this forum and the forum seems to be fairly active.

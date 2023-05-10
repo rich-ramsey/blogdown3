@@ -1,0 +1,65 @@
+---
+title: "Open science for psychology and cognitive neuroscience"
+subtitle: | 
+  A short summary of our lab's efforts and ambitions to embrace recent deveopments in methods and meta-science  
+date: "2023-05-10"
+categories: [Reproducibility, Metascience, Statistics, Preregistration]
+image: "img/badges_stacked.original.png"
+author:
+  - name: Richard Ramsey
+  - name: Emily S. Cross
+---
+
+### A little bit of historical context
+
+A cornerstone of scientific study is the ability to accumulate knowledge over time in a progressive manner. However, threats exist that limit the steady accumulation of knowledge.
+
+As poignantly remarked in 1974, Richard Feynman warned against the perils of pseudoscience and the relative ease with which scientists can be fooled into believing things that do not stand up to scientific study or reflect reality (.pdf). His now famous quote is as relevant as ever:
+
+*​"The first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists. You just have to be honest in a conventional way after that."*
+
+The open science movement is concerned with providing a scientific platform to prevent scientists from fooling themselves, as well as each other.​
+
+### Recent developments in open science and meta-science
+
+Turning to recent developments in psychology and neuroscience, threats that limit the ability to build cumulative knowledge have been brought into sharp focus, which ignited the open science movement and led to suggestions for reform (Simmons et al., 2011; Munafo et al., 2017). Indeed, a cycle of studies with low power and a publication bias skewed towards positive results has produced a poor level of evidence for many claims made (Button et al., 2013; Open Science Collaboration, 2015).
+
+Low reproducibility is a problem for the accumulation of knowledge, as well as an inefficient use of public funds. As such, improving the efficiency and robustness of science has important societal impact. Unfortunately, however, there is no easy fix for low reproducibility in science because it is the result of a complex and system-wide problem, which requires a diverse set of solutions (Nelson et al., 2018; Munafo et al., 2017).
+
+We focus here on the level of the research group, rather than the role of the wider scientific community (e.g., editors, journal policy, peer review, incentives and hiring committees). Below are six methodological approaches that the SoBA Lab has embraced in recent years to improve research efficiency and the robustness of our findings:
+
+### 1. Pre-registration
+
+All confirmatory studies in our lab are pre-registered to reduce the opportunity for p-hacking[^1] and to provide pre-specified limits on researcher degrees of freedom (Simmons et al., 2011; 2018). Free, online resources are available to enable pre-registration (Open Science Framework: [www.osf.io](http://www.osf.io); [www.AsPredicted.org](http://www.AsPredicted.org)) and a growing number of journals offer a registered report format (<https://cos.io/rr/)>.
+
+[^1]: p-hacking or data dredging refers to the process of analysing data until a statistically significant pattern emerges, without first devising a specific hypothesis or a pre-determined analysis pipeline.
+
+### 2. Statistical power and sample size
+
+Power analyses and other ways to determine sample sizes are becoming routine for all experiments. The consequence for research in psychology, whereby small and medium effects are common, will be that much larger sample sizes and/or much more data per particiapnt will be required. Of course, larger sample sizes are not always practical for some types of research, such as training studies, multi-session fMRI studies and when studying atypical populations. As such, we try to clearly justify statistical choices (Lakens et al., 2018), as well as consider alternative ways to increase power and determine target effect sizes (Albers & Lakens, 2018; Open Science Collaboration, 2017; Lakens, Scheel, Isager, 2018).
+
+### 3. Replication
+
+Multi-experiment replications are used to minimise the likelihood that
+we publish and pursue false positives (Zwaan et al., 2018). [^2]
+
+[^2]: A complementary approach would be to employ approaches developed from machine learning that aim to predict out-of-sample effects using cross-validation methods (Yarkoni & Westfall, 2017). Such machine learning approaches can be data-efficient by avoiding the requirement to collect an additional dataset and permit left-out runs to be used as independent data.
+
+### 4. Meta-analysis.
+
+Meta-analyses and meta-analytical thinking are being incorporated wherever possible (Cumming, 2012).
+
+### 5. Open data, materials and code.
+
+Data should be made freely available to facilitate meta-analysis,
+synthesis, and further analyses. User friendly data repositories are
+available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis
+pipeline open and available to others via the use of R and R Markdown (<https://rmarkdown.rstudio.com/>) and GitHub.
+
+### 6. Pre-prints.
+
+Wherever possible we try to post pre-print versions of articles online
+to widen the \"pre-review\" process and to speed up the communication of research findings. Preprint servers are readily available and easy to
+use (e.g., bioRxiv, PsyArXiv).
+
+We welcome feedback on our attempts to embrace open science initiatives. Please get in touch if you have any relevant suggestions.

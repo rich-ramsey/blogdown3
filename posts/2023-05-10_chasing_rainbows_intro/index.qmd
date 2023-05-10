@@ -1,0 +1,40 @@
+---
+title: "A blog about chasing rainbows"
+subtitle: | 
+  I have started writing a reluctant blog about chasing rainbows
+date: "2023-05-10"
+categories: [Reproducibility, Metascience, Statistics, David Bowie]
+image: "img/david-bowie-rainbow.jpg"
+---
+
+### Why am I writing a blog?
+
+Two reasons. 1) Lab manual (of sorts). Save time re-saying things to SoBA-lab people, so it is efficient. 2) Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.
+
+### What will I blog about?
+
+Boring stuff, like:
+
+-   Reproducibility.
+
+-   Meta-science.
+
+-   Cognitive neuroscience.
+
+-   Data analysis.
+
+And inspirational stuff, like:
+
+-   My love of David Bowie.
+
+### Why should you read this blog?
+
+-   You shouldn't.
+
+-   Please go and do other things, as they will be more interesting.
+
+### Why is the blog called Chasing Rainbows?
+
+Ever since the Open Science Collaboration paper, which showed reproducibility levels in leading psychology journals at ~30%, I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.
+
+I particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](/img/Feynman_74_CargoCult.pdf). 
