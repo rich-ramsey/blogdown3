@@ -7,6 +7,14 @@ website:
   site-url: https://rich-ramsey.com
   repo-url: https://github.com/rich-ramsey/blogdown3
   favicon: ./img/favicon.png
+  page-footer:
+    left: 
+      - text: © Richard Ramsey (2023) 
+    center:
+      - text: Made with Quarto
+        href: https://quarto.org/docs/websites/
+    right:
+      - text: Cover photo credit
   navbar:
     logo: ./img/favicon.png
     background: dark

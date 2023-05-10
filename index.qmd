@@ -2,6 +2,7 @@
 title: "Rich Ramsey, PhD"
 subtitle: "Cognitive Neuroscience Researcher and Academic"
 image: ./img/nz.jpeg
+image-title: Somewhere in New Zealand, 2012
 logo: ./img/favicon.jpeg
 about: 
   template: solana

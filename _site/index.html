@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </main></div>
     </div>
     <img src="./img/nz.jpeg" class="about-image
-  rectangle " style="width: 25em;">
+  rectangle " style="width: 25em;" title="Somewhere in New Zealand, 2012">
   </div>
 </div>
  <!-- /main -->
@@ -387,7 +387,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/richramsey\.netlify\.app\/");
+      var filterRegex = new RegExp("https:\/\/rich-ramsey\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -403,6 +403,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © Richard Ramsey (2023)
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org/docs/websites/">Made with Quarto</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Cover photo credit
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
