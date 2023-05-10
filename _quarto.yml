@@ -59,8 +59,8 @@ website:
       {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
-      Code taken from [these fine folks.](https://rich-ramsey.com/resources/resources.html#making-a-quarto-website)<br>
-      [Source at {{< fa brands github >}} GitHub](https://github.com/rich-ramsey/blogdown3)
+      Design ideas & code from [these fine folks](https://rich-ramsey.com/resources/resources.html#making-a-quarto-website)<br>
+      [Source code at {{< fa brands github >}} GitHub](https://github.com/rich-ramsey/blogdown3)
       
       
 format:
