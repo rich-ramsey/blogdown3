@@ -35,6 +35,6 @@ And inspirational stuff, like:
 
 ### Why is the blog called Chasing Rainbows?
 
-Ever since the Open Science Collaboration paper, which showed reproducibility levels in leading psychology journals at ~30%, I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.
+Ever since the Open Science Collaboration paper, which showed reproducibility levels in leading psychology journals at \~30%, I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.
 
-I particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](/img/Feynman_74_CargoCult.pdf). 
+I particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](./img/Feynman_74_CargoCult.pdf).
