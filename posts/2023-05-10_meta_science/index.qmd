@@ -7,7 +7,13 @@ categories: [Reproducibility, Metascience, Statistics, Preregistration]
 image: "img/badges_stacked.original.png"
 author:
   - name: Richard Ramsey
+    url: https://rich-ramsey.com/
+    orcid: 0000-0002-0329-2112
+    affiliation: ETH Zurich
+    affiliation-url: https://ethz.ch/en.html
   - name: Emily S. Cross
+    url: https://www.soba-lab.com/people
+    orcid: 0000-0002-1671-5698
 ---
 
 ### A little bit of historical context
@@ -16,7 +22,7 @@ A cornerstone of scientific study is the ability to accumulate knowledge over ti
 
 As poignantly remarked in 1974, Richard Feynman warned against the perils of pseudoscience and the relative ease with which scientists can be fooled into believing things that do not stand up to scientific study or reflect reality (.pdf). His now famous quote is as relevant as ever:
 
-*​"The first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists. You just have to be honest in a conventional way after that."*
+> *​The first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists. You just have to be honest in a conventional way after that.*
 
 The open science movement is concerned with providing a scientific platform to prevent scientists from fooling themselves, as well as each other.​
 
@@ -40,8 +46,7 @@ Power analyses and other ways to determine sample sizes are becoming routine for
 
 ### 3. Replication
 
-Multi-experiment replications are used to minimise the likelihood that
-we publish and pursue false positives (Zwaan et al., 2018). [^2]
+Multi-experiment replications are used to minimise the likelihood that we publish and pursue false positives (Zwaan et al., 2018). [^2]
 
 [^2]: A complementary approach would be to employ approaches developed from machine learning that aim to predict out-of-sample effects using cross-validation methods (Yarkoni & Westfall, 2017). Such machine learning approaches can be data-efficient by avoiding the requirement to collect an additional dataset and permit left-out runs to be used as independent data.
 
@@ -51,15 +56,10 @@ Meta-analyses and meta-analytical thinking are being incorporated wherever possi
 
 ### 5. Open data, materials and code.
 
-Data should be made freely available to facilitate meta-analysis,
-synthesis, and further analyses. User friendly data repositories are
-available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis
-pipeline open and available to others via the use of R and R Markdown (<https://rmarkdown.rstudio.com/>) and GitHub.
+Data should be made freely available to facilitate meta-analysis, synthesis, and further analyses. User friendly data repositories are available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis pipeline open and available to others via the use of R and R Markdown (<https://rmarkdown.rstudio.com/>) and GitHub.
 
 ### 6. Pre-prints.
 
-Wherever possible we try to post pre-print versions of articles online
-to widen the \"pre-review\" process and to speed up the communication of research findings. Preprint servers are readily available and easy to
-use (e.g., bioRxiv, PsyArXiv).
+Wherever possible we try to post pre-print versions of articles online to widen the "pre-review" process and to speed up the communication of research findings. Preprint servers are readily available and easy to use (e.g., bioRxiv, PsyArXiv).
 
 We welcome feedback on our attempts to embrace open science initiatives. Please get in touch if you have any relevant suggestions.

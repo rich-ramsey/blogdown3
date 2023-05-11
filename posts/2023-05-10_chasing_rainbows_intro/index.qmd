@@ -9,7 +9,11 @@ image: "img/david-bowie-rainbow.jpg"
 
 ### Why am I writing a blog?
 
-Two reasons. 1) Lab manual (of sorts). Save time re-saying things to SoBA-lab people, so it is efficient. 2) Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.
+Two reasons.
+
+-   It represents part of a lab manual (of sorts). It therefore saves time re-saying things to SoBA-lab people, so it is efficient.
+
+-   Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.
 
 ### What will I blog about?
 
@@ -25,13 +29,11 @@ Boring stuff, like:
 
 And inspirational stuff, like:
 
--   My love of David Bowie.
+<img align="left"/> ![My love of David Bowie](img/david-bowie-labyrinth.webp){height="50%," width="50%"}
 
 ### Why should you read this blog?
 
--   You shouldn't.
-
--   Please go and do other things, as they will be more interesting.
+You shouldn't. Please go and do other things.
 
 ### Why is the blog called Chasing Rainbows?
 
