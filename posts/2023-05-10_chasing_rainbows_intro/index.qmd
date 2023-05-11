@@ -1,5 +1,5 @@
 ---
-title: "A blog about chasing rainbows"
+title: "A blog about (not) chasing rainbows"
 subtitle: | 
   I have started writing a reluctant blog about chasing rainbows
 date: "2023-05-10"
@@ -11,7 +11,7 @@ image: "img/david-bowie-rainbow.jpg"
 
 Two reasons.
 
--   It represents part of a lab manual (of sorts). It therefore saves time re-saying things to SoBA-lab people, so it is efficient.
+-   It represents part of a lab manual (of sorts). It saves time re-saying things to SoBA-lab people or anyone else that cares to listen.
 
 -   Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.
 
@@ -29,14 +29,19 @@ Boring stuff, like:
 
 And inspirational stuff, like:
 
-<img align="left"/> ![My love of David Bowie](img/david-bowie-labyrinth.webp){height="50%," width="50%"}
+```{r, echo=FALSE, fig.cap="My love of David Bowie", fig.align='left', out.width="50%", out.height="50%"}
+knitr::include_graphics("img/david-bowie-labyrinth.webp")
+```
 
 ### Why should you read this blog?
 
-You shouldn't. Please go and do other things.
+You shouldn't - it will be a boring blog. Please go and do other things.
 
 ### Why is the blog called Chasing Rainbows?
 
-Ever since the Open Science Collaboration paper, which showed reproducibility levels in leading psychology journals at \~30%, I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.
+For a long time, I just didn't trust a lot of what I was hearing at conferences or reading in journal articles. I'm naturally skeptical and maybe even a little cynical. But I had no proof and I am a scientist after all, so I remained quietly cynical at the back of the room. 
+Then came the emprirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. 
+
+And so for a long time I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind and engaging in Cargo Cult Science. 
 
 I particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](./img/Feynman_74_CargoCult.pdf){target="_blank"}.

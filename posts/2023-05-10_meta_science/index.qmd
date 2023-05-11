@@ -20,9 +20,9 @@ author:
 
 A cornerstone of scientific study is the ability to accumulate knowledge over time in a progressive manner. However, threats exist that limit the steady accumulation of knowledge.
 
-As poignantly remarked in 1974, Richard Feynman warned against the perils of pseudoscience and the relative ease with which scientists can be fooled into believing things that do not stand up to scientific study or reflect reality (.pdf). His now famous quote is as relevant as ever:
+As poignantly remarked in 1974, Richard Feynman warned against the perils of pseudoscience and the relative ease with which scientists can be fooled into believing things that do not stand up to scientific study or reflect reality [(.pdf)](img/Feynman_74_CargoCult.pdf){target="_blank"}. His now famous quote is as relevant as ever:
 
-> *​The first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists. You just have to be honest in a conventional way after that.*
+> The first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists. You just have to be honest in a conventional way after that.
 
 The open science movement is concerned with providing a scientific platform to prevent scientists from fooling themselves, as well as each other.​
 
@@ -32,11 +32,13 @@ Turning to recent developments in psychology and neuroscience, threats that limi
 
 Low reproducibility is a problem for the accumulation of knowledge, as well as an inefficient use of public funds. As such, improving the efficiency and robustness of science has important societal impact. Unfortunately, however, there is no easy fix for low reproducibility in science because it is the result of a complex and system-wide problem, which requires a diverse set of solutions (Nelson et al., 2018; Munafo et al., 2017).
 
-We focus here on the level of the research group, rather than the role of the wider scientific community (e.g., editors, journal policy, peer review, incentives and hiring committees). Below are six methodological approaches that the SoBA Lab has embraced in recent years to improve research efficiency and the robustness of our findings:
+### Our focus in this article
+
+We focus here on the level of the research group, rather than the role of the wider scientific community (e.g., editors, journal policy, peer review, incentives and hiring committees). Below are seven methodological approaches that the SoBA Lab has embraced in recent years to improve research efficiency and the robustness of our findings:
 
 ### 1. Pre-registration
 
-All confirmatory studies in our lab are pre-registered to reduce the opportunity for p-hacking[^1] and to provide pre-specified limits on researcher degrees of freedom (Simmons et al., 2011; 2018). Free, online resources are available to enable pre-registration (Open Science Framework: [www.osf.io](http://www.osf.io); [www.AsPredicted.org](http://www.AsPredicted.org)) and a growing number of journals offer a registered report format (<https://cos.io/rr/)>.
+All confirmatory studies in our lab are pre-registered to reduce the opportunity for p-hacking[^1] and to provide pre-specified limits on researcher degrees of freedom (Simmons et al., 2011; 2018). Free, online resources are available to enable pre-registration ([Open Science Framework](http://www.osf.io); [AsPredicted.org](http://www.AsPredicted.org)) and a growing number of journals offer a [registered report format](https://cos.io/rr/).
 
 [^1]: p-hacking or data dredging refers to the process of analysing data until a statistically significant pattern emerges, without first devising a specific hypothesis or a pre-determined analysis pipeline.
 
@@ -46,20 +48,30 @@ Power analyses and other ways to determine sample sizes are becoming routine for
 
 ### 3. Replication
 
-Multi-experiment replications are used to minimise the likelihood that we publish and pursue false positives (Zwaan et al., 2018). [^2]
+Multi-experiment replications are used to minimise the likelihood that we publish and pursue false positives [(Zwaan et al., 2018)](https://doi.org/10.1017/S0140525X17001972). [^2]
 
 [^2]: A complementary approach would be to employ approaches developed from machine learning that aim to predict out-of-sample effects using cross-validation methods (Yarkoni & Westfall, 2017). Such machine learning approaches can be data-efficient by avoiding the requirement to collect an additional dataset and permit left-out runs to be used as independent data.
 
 ### 4. Meta-analysis.
 
-Meta-analyses and meta-analytical thinking are being incorporated wherever possible (Cumming, 2012).
+Meta-analyses and meta-analytical thinking are being incorporated wherever possible [Cumming, 2014](https://doi.org/10.1177/0956797613504966).
 
 ### 5. Open data, materials and code.
 
-Data should be made freely available to facilitate meta-analysis, synthesis, and further analyses. User friendly data repositories are available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis pipeline open and available to others via the use of R and R Markdown (<https://rmarkdown.rstudio.com/>) and GitHub.
+Data should be made freely available to facilitate meta-analysis, synthesis, and further analyses. User-friendly data repositories are available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis pipeline open and available to others via the use of [R and R Markdown](https://rmarkdown.rstudio.com/) and [GitHub](https://github.com/).
 
 ### 6. Pre-prints.
 
 Wherever possible we try to post pre-print versions of articles online to widen the "pre-review" process and to speed up the communication of research findings. Preprint servers are readily available and easy to use (e.g., bioRxiv, PsyArXiv).
+
+### 7. Make more modest claims
+
+> The replication crisis has taught us that we need to become more modest in our assertions and to steer clear of confident proclamations based on isolated positive results. [Lilienfeld, 2017](https://doi.org/10.1177/1745691616687745)
+
+Exaggerated claims should be dialed down and the limits of work highlighted more ([Hoekstra & Vazire, 2021](https://www.nature.com/articles/s41562-021-01203-8);  [Ramsey, 2021](https://doi.org/10.1525/collabra.24091)). In other words, more modest claims should be made as a general rule. This would provide a stronger foundation for replication and the building of a more trustworthy and cumulative science. 
+
+<br>
+
+### Finally, we welcome feedback
 
 We welcome feedback on our attempts to embrace open science initiatives. Please get in touch if you have any relevant suggestions.

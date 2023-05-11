@@ -1,0 +1,14 @@
+{
+  "hash": "eea0090fa87457f4cacc4a8034f7516e",
+  "result": {
+    "markdown": "---\ntitle: \"A blog about (not) chasing rainbows\"\nsubtitle: | \n  I have started writing a reluctant blog about chasing rainbows\ndate: \"2023-05-10\"\ncategories: [Reproducibility, Metascience, Statistics, David Bowie]\nimage: \"img/david-bowie-rainbow.jpg\"\n---\n\n\n### Why am I writing a blog?\n\nTwo reasons.\n\n-   It represents part of a lab manual (of sorts). It saves time re-saying things to SoBA-lab people or anyone else that cares to listen.\n\n-   Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.\n\n### What will I blog about?\n\nBoring stuff, like:\n\n-   Reproducibility.\n\n-   Meta-science.\n\n-   Cognitive neuroscience.\n\n-   Data analysis.\n\nAnd inspirational stuff, like:\n\n\n::: {.cell layout-align=\"left\"}\n::: {.cell-output-display}\n![My love of David Bowie](img/david-bowie-labyrinth.webp){fig-align='left' width=50% height=50%}\n:::\n:::\n\n\n### Why should you read this blog?\n\nYou shouldn't - it will be a boring blog. Please go and do other things.\n\n### Why is the blog called Chasing Rainbows?\n\nFor a long time, I just didn't trust a lot of what I was hearing at conferences or reading in journal articles. I'm naturally skeptical and maybe even a little cynical. But I had no proof and I am a scientist after all, so I remained quietly cynical at the back of the room. \nThen came the emprirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. \n\nAnd so for a long time I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind and engaging in Cargo Cult Science. \n\nI particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](./img/Feynman_74_CargoCult.pdf){target=\"_blank\"}.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
