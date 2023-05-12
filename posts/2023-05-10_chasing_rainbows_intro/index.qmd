@@ -11,7 +11,7 @@ image: "img/david-bowie-rainbow.jpg"
 
 Two reasons.
 
--   It represents part of a lab manual (of sorts). It saves time re-saying things to SoBA-lab people or anyone else that cares to listen.
+-   It forms part of a lab manual (of sorts). It saves time re-saying things to SoBA-lab people or anyone else that cares to listen.
 
 -   Open science. Why not make stuff open? Then other folks can benefit and I can benefit from feedback.
 
@@ -39,9 +39,23 @@ You shouldn't - it will be a boring blog. Please go and do other things.
 
 ### Why is the blog called Chasing Rainbows?
 
-For a long time, I just didn't trust a lot of what I was hearing at conferences or reading in journal articles. I'm naturally skeptical and maybe even a little cynical. But I had no proof and I am a scientist after all, so I remained quietly cynical at the back of the room. 
-Then came the emprirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. 
+For a long time, I just didn't trust a lot of what I was hearing at conferences or reading in journal articles. I'm naturally skeptical (and maybe even a little cynical, at times). But I had no proof and I am a scientist after all, so I remained quietly concerned at the back of the conference room. 
 
-And so for a long time I've felt like a lot of science has been inherently chasing rainbows, pissing in the wind and engaging in Cargo Cult Science. 
+Then came the emprirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. Similar issues have emerged in a range of other fields, including human neuroscience (e.g., [Button et al., 2013](https://www.nature.com/articles/nrn3475); [Marek et al., 2022](https://www.nature.com/articles/s41586-022-04492-9)).
 
-I particularly like the idea of Cargo Cult Science from Richard Feynman [(.pdf)](./img/Feynman_74_CargoCult.pdf){target="_blank"}.
+This evidence supported my instinct that a large proportion of psychological science and human neuroscience research had been unwittingly chasing rainbows, pissing in the wind or engaging in Cargo Cult Science. 
+
+I particularly like the idea of Cargo Cult Science from Richard Feynman in [1974](./img/Feynman_74_CargoCult.pdf){target="_blank"}. Michael Hanlon [(2013)](https://www.cambridge.org/core/journals/european-review/article/cargo-cult-science/38CA581FFAB42704E5F667AA4A2D6D79) summarises Feynman's observation nicely:
+
+>Feynman called things that looked like science but are not, ‘Cargo Cult Science’,
+after the cults that emerged on some South Pacific islands after the Second World War.
+The islanders had watched planes coming into land, and noticed that this was often
+accompanied by the appearance of valuable commodities from the outside world. So they
+built runways, control towers even, out of sticks and stones.
+But of course no planes came into land. 
+
+On first glance, this example may seem like a far-fetched comparison to make towards modern science, with all the notions of serious scientists in white lab coats making groundbreaking innovations in a range of fields. But dig a little deeper and I'm not so sure. I think the observation is probably more relevant today than it was in 1974. 
+
+It is not that researchers, including myself, intentionally used questionable research practices to produce unreliable research. It is that the entire research ecosystem was setup in such a way that that's what was being rewarded. We had the appearance of being scientists by wearing the right clothes, but we were working in the wrong environment and with the wrong tools.
+
+This blog will be about small ways that we can try to avoid chasing rainbows, pissing in the wind or engaging in Cargo Cult Science. 

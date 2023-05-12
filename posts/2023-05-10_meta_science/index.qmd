@@ -16,7 +16,7 @@ author:
     orcid: 0000-0002-1671-5698
 ---
 
-### A little bit of historical context
+### A bit of historical context
 
 A cornerstone of scientific study is the ability to accumulate knowledge over time in a progressive manner. However, threats exist that limit the steady accumulation of knowledge.
 
@@ -28,9 +28,9 @@ The open science movement is concerned with providing a scientific platform to p
 
 ### Recent developments in open science and meta-science
 
-Turning to recent developments in psychology and neuroscience, threats that limit the ability to build cumulative knowledge have been brought into sharp focus, which ignited the open science movement and led to suggestions for reform (Simmons et al., 2011; Munafo et al., 2017). Indeed, a cycle of studies with low power and a publication bias skewed towards positive results has produced a poor level of evidence for many claims made (Button et al., 2013; Open Science Collaboration, 2015).
+Turning to recent developments in psychology and neuroscience, threats that limit the ability to build cumulative knowledge have been brought into sharp focus, which ignited the open science movement and led to suggestions for reform ([Simmons et al., 2011](https://doi.org/10.1177/0956797611417632); [Munafo et al., 2017](http://dx.doi.org/10.1038/s41562-016-0021)). Indeed, a cycle of studies with low power and a publication bias skewed towards positive results has produced a poor level of evidence for many claims made ([Button et al., 2013](http://dx.doi.org/10.1038/nrn3475); [Open Science Collaboration, 2015](http://www.sciencemag.org/content/349/6251/aac4716.abstract)).
 
-Low reproducibility is a problem for the accumulation of knowledge, as well as an inefficient use of public funds. As such, improving the efficiency and robustness of science has important societal impact. Unfortunately, however, there is no easy fix for low reproducibility in science because it is the result of a complex and system-wide problem, which requires a diverse set of solutions (Nelson et al., 2018; Munafo et al., 2017).
+Low reproducibility is a problem for the accumulation of knowledge, as well as an inefficient use of public funds. As such, improving the efficiency and robustness of science has important societal impact. Unfortunately, however, there is no easy fix for low reproducibility in science because it is the result of a complex and system-wide problem, which requires a diverse set of solutions ([Nelson et al., 2018](https://www.annualreviews.org/doi/10.1146/annurev-psych-122216-011836); [Munafo et al., 2017](http://dx.doi.org/10.1038/s41562-016-0021); [Nosek et al., 2022](https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-020821-114157)).
 
 ### Our focus in this article
 
@@ -38,13 +38,13 @@ We focus here on the level of the research group, rather than the role of the wi
 
 ### 1. Pre-registration
 
-All confirmatory studies in our lab are pre-registered to reduce the opportunity for p-hacking[^1] and to provide pre-specified limits on researcher degrees of freedom (Simmons et al., 2011; 2018). Free, online resources are available to enable pre-registration ([Open Science Framework](http://www.osf.io); [AsPredicted.org](http://www.AsPredicted.org)) and a growing number of journals offer a [registered report format](https://cos.io/rr/).
+All confirmatory studies in our lab are pre-registered to reduce the opportunity for p-hacking[^1] and to provide pre-specified limits on researcher degrees of freedom (Simmons et al., [2011](https://doi.org/10.1177/0956797611417632); [2018](http://journals.sagepub.com/doi/abs/10.1177/1745691617698146)). Free, online resources are available to enable pre-registration ([Open Science Framework](http://www.osf.io); [AsPredicted.org](http://www.AsPredicted.org)) and a growing number of journals offer a [registered report format](https://cos.io/rr/).
 
 [^1]: p-hacking or data dredging refers to the process of analysing data until a statistically significant pattern emerges, without first devising a specific hypothesis or a pre-determined analysis pipeline.
 
 ### 2. Statistical power and sample size
 
-Power analyses and other ways to determine sample sizes are becoming routine for all experiments. The consequence for research in psychology, whereby small and medium effects are common, will be that much larger sample sizes and/or much more data per particiapnt will be required. Of course, larger sample sizes are not always practical for some types of research, such as training studies, multi-session fMRI studies and when studying atypical populations. As such, we try to clearly justify statistical choices (Lakens et al., 2018), as well as consider alternative ways to increase power and determine target effect sizes (Albers & Lakens, 2018; Open Science Collaboration, 2017; Lakens, Scheel, Isager, 2018).
+Power analyses and other ways to determine sample sizes are becoming routine for all experiments. The consequence for research in psychology, whereby small and medium effects are common, will be that much larger sample sizes and/or much more data per particiapnt will be required. Of course, larger sample sizes are not always practical for some types of research, such as training studies, multi-session fMRI studies and when studying atypical populations. As such, we try to clearly justify statistical choices ([Lakens et al., 2018](https://doi.org/10.1038/s41562-018-0311-x)), as well as consider alternative ways to increase power and determine target effect sizes ([Albers & Lakens, 2018](https://doi.org/10.1016/j.jesp.2017.09.004); [Open Science Collaboration, 2017]( https://doi.org/10.1002/9781119095910.ch1); [Lakens, Scheel, Isager, 2018](https://doi.org/10.1177/2515245918770963)).
 
 ### 3. Replication
 
