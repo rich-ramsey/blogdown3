@@ -59,3 +59,7 @@ On first glance, this example may seem like a far-fetched comparison to make tow
 It is not that researchers, including myself, intentionally used questionable research practices to produce unreliable research. It is that the entire research ecosystem was setup in such a way that that's what was being rewarded. We had the appearance of being scientists by wearing the right clothes, but we were working in the wrong environment and with the wrong tools.
 
 This blog will be about small ways that we can try to avoid chasing rainbows, pissing in the wind or engaging in Cargo Cult Science. 
+
+### Hungry for more?
+
+Then read my blog post with Emily about our lab's efforts to embrace [open science](https://rich-ramsey.com/posts/2023-05-10_meta_science/){target="_blank"}.
