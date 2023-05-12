@@ -27,6 +27,12 @@ If I have confused things, then that's a shame. Such is life. Please send me a n
 
 I want to outline my lab's recent approach to data analysis because others may find it helpful. It is a relatively high-level overview, rather than a step-by-step tutorial.
 
+### Intended audience
+
+Newbies who are looking to move towards using multi-level regression models in a Bayesian workflow.
+
+It is not going to be newsworthy for those who already have experience with estimation approaches in multi-level regression.
+
 ### Main inspiration
 
 Read Richard McElreath's textbook and Solomon Kurz's ebook.
@@ -51,7 +57,7 @@ give an example of different posterior distributions and the extent to which the
 
 Then describe the proportion of values that span a particular range and what that would mean for your hypothesis. e.g., values as low as blah and as high as blah are compatible with your model estimates.
 
-2. Model comparison.
+2.  Model comparison.
 
 give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
 
