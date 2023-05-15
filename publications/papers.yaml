@@ -1147,9 +1147,9 @@ wildman2022a:
     authors:
         - Andrew Wildman
         - me
-    year: 2022
-    in_press: 
-    venue: 
+    year: 2023
+    in_press: yes
+    venue: Visual Cognition
     preprint: https://psyarxiv.com/b4uzj
     pdf:
     supps: 

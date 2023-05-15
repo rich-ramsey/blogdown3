@@ -10,18 +10,6 @@ keep-md: true
 
 ## Preprints
 
-### 2022{#not-published-2022}
-
-```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Andrew Wildman and <strong>Richard Ramsey</strong>. (2022) "Investigating the Automaticity of Links Between Body Perception and Trait Concepts."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/b4uzj" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/4en9f/" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-osf" role='img' aria-label='osf'></i>
-        osf
-    </a></li></ul>
-```
-
 ### 2021{#not-published-2021}
 
 ```{=html}
@@ -54,6 +42,13 @@ keep-md: true
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fe9ds/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li>
+<li class='list-group-item'>Andrew Wildman and <strong>Richard Ramsey</strong>. (in press) "Investigating the Automaticity of Links Between Body Perception and Trait Concepts." <em>Visual Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/b4uzj" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/4en9f/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li></ul>
