@@ -2,7 +2,7 @@
 title: "Open science for psychology and cognitive neuroscience"
 subtitle: | 
   A short summary of our lab's efforts and ambitions to embrace recent deveopments in methods and meta-science  
-date: "2023-05-10"
+date: "2023-05-16"
 categories: [Reproducibility, Metascience, Statistics, Preregistration]
 image: "img/badges_stacked.original.png"
 author:
