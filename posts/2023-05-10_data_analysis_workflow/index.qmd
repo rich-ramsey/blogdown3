@@ -36,7 +36,7 @@ It is not going to be newsworthy for those who already have experience with esti
 
 ### Main inspiration
 
-Read Richard McElreath's textbook and Solomon Kurz's ebook.
+Richard McElreath's textbook and Solomon Kurz's ebook.
 
 ### Taking an estimation approach
 
