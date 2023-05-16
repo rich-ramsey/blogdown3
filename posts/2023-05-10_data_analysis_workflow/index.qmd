@@ -6,6 +6,12 @@ date: "2023-05-10"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
 draft: true
+author:
+  - name: Richard Ramsey
+    url: https://rich-ramsey.com/
+    affiliation: ETH Zurich
+    affiliation-url: https://ethz.ch/en.html
+    orcid: 0000-0002-0329-2112
 ---
 
 ### tl:dr

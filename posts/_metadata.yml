@@ -18,13 +18,13 @@ execute:
   message: true
   warning: true
 
-# Default author
-author:
-  - name: Richard Ramsey
-    url: https://rich-ramsey.com/
-    affiliation: ETH Zurich
-    affiliation-url: https://ethz.ch/en.html
-    orcid: 0000-0002-0329-2112
+# Default author (this is fine normally but causes problems and repeat names when I co-author with other folks. So instead just th elist the author/s in each post)
+# author:
+#   - name: Richard Ramsey
+#     url: https://rich-ramsey.com/
+#     affiliation: ETH Zurich
+#     affiliation-url: https://ethz.ch/en.html
+#     orcid: 0000-0002-0329-2112
 
 # Default fields for citation
 citation: true

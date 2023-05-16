@@ -5,6 +5,12 @@ subtitle: |
 date: "2023-05-10"
 categories: [Reproducibility, Metascience, Statistics, David Bowie]
 image: "img/david-bowie-rainbow.jpg"
+author:
+  - name: Richard Ramsey
+    url: https://rich-ramsey.com/
+    affiliation: ETH Zurich
+    affiliation-url: https://ethz.ch/en.html
+    orcid: 0000-0002-0329-2112
 ---
 
 ### Why am I writing a blog?
