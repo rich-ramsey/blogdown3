@@ -44,7 +44,7 @@ All confirmatory studies in our lab are pre-registered to reduce the opportunity
 
 ### 2. Statistical power and sample size
 
-Power analyses and other ways to determine sample sizes are becoming routine for all experiments. The consequence for research in psychology, whereby small and medium effects are common, will be that much larger sample sizes and/or much more data per particiapnt will be required. Of course, larger sample sizes are not always practical for some types of research, such as training studies, multi-session fMRI studies and when studying atypical populations. As such, we try to clearly justify statistical choices ([Lakens et al., 2018](https://doi.org/10.1038/s41562-018-0311-x)), as well as consider alternative ways to increase power and determine target effect sizes ([Albers & Lakens, 2018](https://doi.org/10.1016/j.jesp.2017.09.004); [Open Science Collaboration, 2017]( https://doi.org/10.1002/9781119095910.ch1); [Lakens, Scheel, Isager, 2018](https://doi.org/10.1177/2515245918770963)).
+Power analyses and other ways to determine sample sizes are becoming routine for all experiments. The consequence for research in psychology, whereby small and medium effects are common, will be that much larger sample sizes and/or much more data per particiapnt will be required. Of course, larger sample sizes are not always practical for some types of research, such as training studies, multi-session fMRI studies and when studying atypical populations. As such, we try to clearly justify statistical choices ([Lakens et al., 2018](https://doi.org/10.1038/s41562-018-0311-x)), as well as consider alternative ways to increase power and determine target effect sizes ([Albers & Lakens, 2018](https://doi.org/10.1016/j.jesp.2017.09.004); [Open Science Collaboration, 2017](https://doi.org/10.1002/9781119095910.ch1); [Lakens, Scheel, Isager, 2018](https://doi.org/10.1177/2515245918770963)).
 
 ### 3. Replication
 
@@ -58,17 +58,19 @@ Meta-analyses and meta-analytical thinking are being incorporated wherever possi
 
 ### 5. Open data, materials and code.
 
-Data should be made freely available to facilitate meta-analysis, synthesis, and further analyses. User-friendly data repositories are available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis pipeline open and available to others via the use of [R and R Markdown](https://rmarkdown.rstudio.com/) and [GitHub](https://github.com/).
+Whenever possible, data should be made freely available to facilitate meta-analysis, synthesis, and further analyses. And if it is not possible, there should be an explicit justification provided in the publication[^3]. User-friendly data repositories are available for data in general (e.g., Open Science Framework), as well as for specialised data formats such as neuroimaging data (e.g., neurovault.org, OpenfMRI.org). We are also trying to make the analysis pipeline open and available to others via the use of [R and R Markdown](https://rmarkdown.rstudio.com/) and [GitHub](https://github.com/). As reviewers, you can also incentivise the sharing of data by signing and following the [Peer Reviewers' Openness Initiative](https://www.opennessinitiative.org/the-initiative/).
+
+[^3]: There are several reasons why data cannot be shared publicly, such as if individuals could be identified or if another organisation controls access to the data. But in our experience, the vast majority of data produced in psychology and human neuroscience research can be shared publicly.
 
 ### 6. Pre-prints.
 
-Wherever possible we try to post pre-print versions of articles online to widen the "pre-review" process and to speed up the communication of research findings. Preprint servers are readily available and easy to use (e.g., bioRxiv, PsyArXiv).
+We try to post pre-print versions of articles online to widen the "pre-review" process and to speed up the communication of research findings. Preprint servers are readily available and easy to use (e.g., bioRxiv, PsyArXiv).
 
-### 7. Make more modest claims
+### 7. More modest claims
 
 > The replication crisis has taught us that we need to become more modest in our assertions and to steer clear of confident proclamations based on isolated positive results. [Lilienfeld, 2017](https://doi.org/10.1177/1745691616687745)
 
-Exaggerated claims should be dialed down and the limits of work highlighted more ([Hoekstra & Vazire, 2021](https://www.nature.com/articles/s41562-021-01203-8);  [Ramsey, 2021](https://doi.org/10.1525/collabra.24091)). In other words, more modest claims should be made as a general rule. This would provide a stronger foundation for replication and the building of a more trustworthy and cumulative science. 
+Exaggerated claims should be dialed down and the limits of work highlighted more ([Hoekstra & Vazire, 2021](https://www.nature.com/articles/s41562-021-01203-8); [Ramsey, 2021](https://doi.org/10.1525/collabra.24091)). In other words, more modest claims should be made as a general rule. This would provide a stronger foundation for replication and the building of a more trustworthy and cumulative science.
 
 <br>
 

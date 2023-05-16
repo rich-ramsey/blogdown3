@@ -5,6 +5,7 @@ subtitle: |
 date: "2023-05-10"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
+draft: true
 ---
 
 ### tl:dr
