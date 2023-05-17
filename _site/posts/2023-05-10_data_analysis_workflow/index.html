@@ -202,9 +202,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#main-inspiration" id="toc-main-inspiration" class="nav-link" data-scroll-target="#main-inspiration">Main inspiration</a></li>
   <li><a href="#taking-an-estimation-approach" id="toc-taking-an-estimation-approach" class="nav-link" data-scroll-target="#taking-an-estimation-approach">Taking an estimation approach</a></li>
   <li><a href="#build-models-incrementally-towards-the-full-model" id="toc-build-models-incrementally-towards-the-full-model" class="nav-link" data-scroll-target="#build-models-incrementally-towards-the-full-model">Build models incrementally towards the full model</a></li>
+  <li><a href="#implementation-lme4-vs-brms-and-stan" id="toc-implementation-lme4-vs-brms-and-stan" class="nav-link" data-scroll-target="#implementation-lme4-vs-brms-and-stan">Implementation: lme4 vs brms (and stan)</a></li>
   <li><a href="#inference" id="toc-inference" class="nav-link" data-scroll-target="#inference">Inference</a></li>
   <li><a href="#pros-and-cons" id="toc-pros-and-cons" class="nav-link" data-scroll-target="#pros-and-cons">Pros and cons</a></li>
-  <li><a href="#and-finally-but-most-importantly" id="toc-and-finally-but-most-importantly" class="nav-link" data-scroll-target="#and-finally-but-most-importantly">And finally (but most importantly)…</a></li>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a></li>
+  <li><a href="#and-finally-but-most-importantly-back-to-mcelreath" id="toc-and-finally-but-most-importantly-back-to-mcelreath" class="nav-link" data-scroll-target="#and-finally-but-most-importantly-back-to-mcelreath">And finally (but most importantly) back to McElreath…</a></li>
   <li><a href="#where-should-i-start" id="toc-where-should-i-start" class="nav-link" data-scroll-target="#where-should-i-start">Where should I start?</a></li>
   </ul>
 </nav>
@@ -228,6 +230,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="disclaimer">Disclaimer</h3>
 <p>I am not a statistician and I am not saying anything new here. I’m just summarising a bunch of other people’s suggestions.</p>
 <p>If I have confused things, then that’s a shame. Such is life. Please send me a note with constructive feedback.</p>
+<p>Finally, I outline one general approach to data analysis here. I have found it really refreshing compared to my past experiences and therefore I want to blog about it. But I am aware that there are many valid ways to analyse the same data, rather than there being one <em>correct</em> way. So take any suggestions below in that spirit.</p>
 </section>
 <section id="objective" class="level3">
 <h3 class="anchored" data-anchor-id="objective">Objective</h3>
@@ -235,13 +238,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="intended-audience" class="level3">
 <h3 class="anchored" data-anchor-id="intended-audience">Intended audience</h3>
-<p>Newbies who are looking to move towards using multi-level regression models in a Bayesian workflow.</p>
-<p>It is not going to be newsworthy for those who already have experience with estimation approaches in multi-level regression.</p>
+<p>Newbies who are looking to move towards using multi-level regression models in a Bayesian workflow. It is not going to be newsworthy for those who already have experience with estimation approaches in multi-level regression.</p>
 </section>
 <section id="my-background" class="level3">
 <h3 class="anchored" data-anchor-id="my-background">My background</h3>
-<p>My background is in experimental psychology and cognitive neuroscience and my main research methods and stats training will be very familiar to those from a psychology background. Each week was a different “test”. And each week involved some data, which was suitable to a different test. Week 1 starts with a t-test and you head towards more complex ANOVAs.</p>
-<p>All you needed to do was pick the right test for the particular dataset and pray to the datagods that p would be &lt; 0.05. If p was &gt; 0.05, but still close (e.g., &lt; 0.1), then … say something vague like “trending towards significance”. If p was &gt; 0.1 then just pretend that that means there is no real effect.</p>
+<p>My background and training is in experimental psychology and cognitive neuroscience and my main research methods and statistics training will be very familiar to those from a psychology background. Each week we learned about a different “test”. And each week involved some data, which was suitable to a different test. Week 1 starts with a t-test and you head towards more complex ANOVAs as the weeks move on. A version of this seems to be the cornerstone of most undergraduate and graduate statistics training worldover.</p>
+<p>All you needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be &lt; 0.05. If p was &gt; 0.05, but still close (e.g., &lt; 0.1), then … say something vague like “trending towards significance”. If p value was &gt; 0.1 then just pretend that that means there is no real effect.</p>
 <p>I became tired of this and I was looking for something different.</p>
 <p>Enter Richard McElreath’s book…</p>
 </section>
@@ -265,15 +267,66 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p>They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row), both from a frequentist (left column) and Bayesian perspective (right column).</p>
+<p>Two things are immediately striking about this. First, McElreath’s entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<section id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing" class="level4">
+<h4 class="anchored" data-anchor-id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing">What does this mean in practice and why do I find it appealing?</h4>
+<p>Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used correctly), but you just don’t need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p &lt; 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., <a href="https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale">these scales</a>). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and too artifical for my liking.</p>
+<p>Instead, the estimation approach is built around estimating the magnitude and uncertainty of parameters. I instinctively found this more satisfying. It seemed a simpler starting point to summarise the distribution of a parameter (e.g., give lower and upper bounds, as well as the peak density or some other summary value) without inherently giving special status or bright lines to certain values.</p>
+</section>
+<section id="what-does-estimation-with-uncertanty-look-like" class="level4">
+<h4 class="anchored" data-anchor-id="what-does-estimation-with-uncertanty-look-like">What does estimation with uncertanty look like?</h4>
+<p>Some examples may help here. Below you can see what estimation with uncertainty might look like in a frequentist and Bayesian workflows.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For illustration purposes, this is just simulated normal distribution data. And we pretend that there is just one parameter in the model (parameter1). Let’s say paramter1 reflects the difference in points on a scale between two conditions (A and B).</p>
+<p>As you can see, the point estimate is very close to zero and the interval estimates (which are 95% confidence / quantile intervals) extend from -2 to 2. As such, the best estimate for the difference between A and B is zero, with reasonable values ranging from -2 to 2.</p>
+</section>
+<section id="the-benefit-of-bayesian-workflows---working-in-distributions" class="level4">
+<h4 class="anchored" data-anchor-id="the-benefit-of-bayesian-workflows---working-in-distributions">The benefit of Bayesian workflows - working in distributions</h4>
+<p>Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. One has a density plot and one does not. This is important because it is crucial for thinking about the inferences that you can draw.</p>
+<p>Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And counterintuitively, it is more starightforward to understand the Bayesian estimation parameter above than the frequenist version (Krushke &amp; Liddel, <a href="https://link.springer.com/article/10.3758/s13423-016-1221-4">2018</a>). Try this on for size:</p>
+<p>The frequentist interpretation:</p>
+<blockquote class="blockquote">
+<p>If I repeat this study precisely an infinite number of times, and I calculate a 95% interval each time, then 95% of those intervals will contain the true parameter.</p>
+</blockquote>
+<p>The Bayesian interpretation:</p>
+<blockquote class="blockquote">
+<p>There is a 95% probability the parameter falls in this interval.</p>
+</blockquote>
+<p>It seems the latter interpetation is the one that folks tend to think they are making and definitely want to be making. And that all stems from the fact that the Bayesian workflow is building a density distribution of plausible parameter values. After you have built the distribution, you can just summarise it in a straightforward manner using the tools of descriptive statistics.</p>
+</section>
+<section id="it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor" class="level4">
+<h4 class="anchored" data-anchor-id="it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor">It is the structure of the model that matters, not the p value or Bayes factor</h4>
 <p>It is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor value.</p>
+</section>
 </section>
 <section id="build-models-incrementally-towards-the-full-model" class="level3">
 <h3 class="anchored" data-anchor-id="build-models-incrementally-towards-the-full-model">Build models incrementally towards the full model</h3>
-<p>Reference Barr - keep it maximal.</p>
+<p>My lab takes the “keep it maximal” approach to model building (Barr et al., <a href="https://www.sciencedirect.com/science/article/pii/S0749596X12001180">2013</a>). The logic here is to include all the fixed and varying (random) effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr’s paper for more details.</p>
+<p>Therefore, we start with an intercepts only model (i.e., one without any predictors) and build incrementally towards the full model. The full model being the one with the maximum number of fixed and varying effects that can be specified by the design.</p>
+</section>
+<section id="implementation-lme4-vs-brms-and-stan" class="level3">
+<h3 class="anchored" data-anchor-id="implementation-lme4-vs-brms-and-stan">Implementation: lme4 vs brms (and stan)</h3>
+<p><a href="https://paul-buerkner.github.io/brms/">Brms</a> is a high-level front end package for <a href="https://mc-stan.org/">stan</a>. Brms uses the same syntax as <a href="https://github.com/lme4/lme4">lme4</a> (which is very popular in psychology). And stan</p>
+<ul>
+<li>Advantages:
+<ul>
+<li>Stan has far fewer failures to converge, even with complex models.</li>
+<li>Much greater flexibility in model specification.</li>
+</ul></li>
+<li>Disadvantages:
+<ul>
+<li>Computational power and time. Some Bayesian models can take a long time to run (hours, days, weeks). Only the advent of powerful desktop machines in the last 25 years or so make it even possible to run such models in a widespread manner.</li>
+</ul></li>
+</ul>
 </section>
 <section id="inference" class="level3">
 <h3 class="anchored" data-anchor-id="inference">Inference</h3>
-<p>Two ways to make inferences.</p>
+<p>We use two ways to make inferences.</p>
 <ol type="1">
 <li>Evaluate parameters of interest in the full model.</li>
 </ol>
@@ -298,31 +351,60 @@ ul.task-list li input[type="checkbox"] {
 <li>Some models can take quite some time to build (days, weeks, months?) and need greater computer power.</li>
 </ol>
 </section>
-<section id="and-finally-but-most-importantly" class="level3">
-<h3 class="anchored" data-anchor-id="and-finally-but-most-importantly">And finally (but most importantly)…</h3>
-<p>One of the best things about McElreath’s book is that you get to the end of all this complex code and stats stuff, which made my brain hurt, and then he says… but statistical models are just one thing, there’s a whole lot of other stuff you need to think about too. It is a very refreshing and humbling perspective to remember how broad, deep and diverse scientific workflows should be.</p>
-<p>In short, data analysis and modelling are just one aspect of doing science and making good inferences/judgments. There are many more that need considering. Some are as follows…</p>
+<section id="implications" class="level3">
+<h3 class="anchored" data-anchor-id="implications">Implications</h3>
 <ul>
-<li><p>pre-registration</p></li>
-<li><p>theory</p></li>
-<li><p>replication</p></li>
-<li><p>meta-analyses</p></li>
+<li>Compared to more conventional stats training
+<ul>
+<li>Much more information is used and presented</li>
+<li>Assumptions reflect what we know about human cognition and behaviour i.e., complex, variable (across people and situations) and multi-levelled.</li>
+<li>Bespoke models need building and choices need justifying – so you gotta think a bit…</li>
+</ul></li>
+<li>Implications for the replication crisis?
+<ul>
+<li>There are fewer places to hide, due to a more complete presentation of information</li>
+<li>It changes what a replication attempt would even look like e.g., p &lt; 0.05 is not enough</li>
+<li>More nuanced interpretations are required.</li>
+<li>It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.</li>
+</ul></li>
 </ul>
+</section>
+<section id="and-finally-but-most-importantly-back-to-mcelreath" class="level3">
+<h3 class="anchored" data-anchor-id="and-finally-but-most-importantly-back-to-mcelreath">And finally (but most importantly) back to McElreath…</h3>
+<p>One of the best things about McElreath’s book is that you get to the end of all this complex code and stats stuff, which made my brain hurt at times, and then he says statistical models, however advanced and complex, are fundamentally limited and need to always be framed within the wider scientific context, such as …</p>
+<ul>
+<li>The importance of theory</li>
+<li>Open data and materials</li>
+<li>Pre-registration</li>
+<li>Meta-analyses</li>
+<li>Computational modelling</li>
+<li>Data science and visualisation</li>
+<li>Experimental design</li>
+<li>And many, many more besides</li>
+</ul>
+<p>It is a very refreshing and humbling perspective to remember how broad, deep and diverse scientific workflows should be.</p>
+<p>And it made me realise how traditional stats training had inadvertently led us to expect far too much certainty from statistical models. We were asking statistical models to provide a level of certainty that was just not possible. And so it was time for a re-set.</p>
 </section>
 <section id="where-should-i-start" class="level3">
 <h3 class="anchored" data-anchor-id="where-should-i-start">Where should I start?</h3>
 <p>If you’re interested in jumping on the Bayesian estimation bandwagon, then I would do the following.</p>
 <ol type="1">
-<li><p>Read this book first by Bodo Winter. it provides the perfect intro to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian per se about estimation approaches.</p></li>
+<li><p>Read this book first by Bodo Winter. It provides the perfect intro to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian per se about estimation approaches.</p></li>
 <li><p>Read McElreath’s book and watch his lectures. Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath’s textbook with Solomon Kurz’s ebook and associated code. That’s what I did.</p></li>
-<li><p>Take a look at code examples online. There are a bunch. You can find some on my publications page. But better yet, find someone else who has more experience.</p></li>
+<li><p>Take a look at code examples online from other people’s work. There are a bunch. You can find some on my <a href="https://rich-ramsey.com/publications/publications.html">publications page</a> and <a href="https://osf.io/s67e2/">OSF page</a>. But better yet, find someone else who has more experience like Solomon Kurz and many, many more people out there.</p></li>
 <li><p>If you get stuck, write a reproducible example on the brms forum. Folks are really helpful on this forum and the forum seems to be fairly active.</p></li>
 </ol>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ramsey2023,
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I think there are theoretical and practical reasons why a Bayesian approach has advantages, but that’s not important here.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ramsey2023,
   author = {Ramsey, Richard},
   title = {General Data Analysis Workflow},
   date = {2023-05-10},
