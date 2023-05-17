@@ -4,6 +4,23 @@ title: "Resources"
 
 Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.
 
+### Things to read
+
+This selection of journal papers and books provides a brief overview to Open Science and meta-science in general. Together, they motivate why the resources below have become an essential component to my lab's research.
+
+* Journal articles 
+  + False positive psychology: [2011](https://doi.org/10.1177/0956797611417632) 
+  + Scientific Utopia: [2012](http://pps.sagepub.com/cgi/content/abstract/7/6/615) 
+  + Estimating reproducibility in psychology: [2015](http://www.sciencemag.org/content/349/6251/aac4716.abstract) 
+  + A manifesto for reproducible science: [2017](http://dx.doi.org/10.1038/s41562-016-0021) 
+  + Psychology's Renaissance: [2018](https://doi.org/10.1146/annurev-psych-122216-011836) 
+  + Implications for scientific practice: [2018](http://journals.sagepub.com/doi/abs/10.1177/1745691617751884) 
+  + Replicability, Robustness, and Reproducibility in Psychological Science: [2022](https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-020821-114157)
+
+* Books 
+  + The Seven Deadly Sins of Psychology: [2017](https://www.jstor.org/stable/j.ctvc779w5) 
+  + Science Fictions: [2021](https://www.sciencefictions.org/)
+
 ### Data analysis
 
 My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis. The general workflow follows Richard McElreath's outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:
