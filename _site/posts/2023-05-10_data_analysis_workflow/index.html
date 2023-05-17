@@ -243,14 +243,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="my-background" class="level3">
 <h3 class="anchored" data-anchor-id="my-background">My background</h3>
 <p>My background and training is in experimental psychology and cognitive neuroscience and my main research methods and statistics training will be very familiar to those from a psychology background. Each week we learned about a different “test”. And each week involved some data, which was suitable to a different test. Week 1 starts with a t-test and you head towards more complex ANOVAs as the weeks move on. A version of this seems to be the cornerstone of most undergraduate and graduate statistics training worldover.</p>
-<p>All you needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be &lt; 0.05. If p was &gt; 0.05, but still close (e.g., &lt; 0.1), then … say something vague like “trending towards significance”. If p value was &gt; 0.1 then just pretend that that means there is no real effect.</p>
-<p>I became tired of this and I was looking for something different.</p>
+<p>All you needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be &lt; 0.05. If p was &gt; 0.05, but still close (e.g., &lt; 0.1), then say something vague like “trending towards significance”. If p value was &gt; 0.1 then just pretend that that means there is no real effect.</p>
+<p>I became tired of this and I was looking for something different. And I had a sabbatical.</p>
 <p>Enter Richard McElreath’s book…</p>
 </section>
 <section id="main-inspiration" class="level3">
 <h3 class="anchored" data-anchor-id="main-inspiration">Main inspiration</h3>
 <p>Richard McElreath’s <a href="https://xcelab.net/rm/statistical-rethinking/">textbook</a> and Solomon Kurz’s <a href="https://bookdown.org/content/4857/">ebook</a>.</p>
-<p>What comes below takes its primary inspiration from these resources. I should say here that I am only presenting a small slice of what these books have to offer. And it may not be the most clear or coherent slice. So please read these books yourself for maximal benefit.</p>
+<p>What comes below takes its primary inspiration from these resources. I should say that I am only presenting a small slice of what these books have to offer. And it may not be the most clear or coherent slice. So please read these books yourself for maximal benefit.</p>
 <p>Two other noteworthy texts are as follows:</p>
 <p>John Krushke’s Doing Bayesian Data Analysis <a href="https://sites.google.com/site/doingbayesiandataanalysis/">textbook</a></p>
 <p>Bodo Winter’s Statistics for Linguists <a href="https://bodowinter.com/books.html">textbook</a></p>
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row), both from a frequentist (left column) and Bayesian perspective (right column).</p>
+<p>They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row). They also distinguish between a frequentist approach (left column) and Bayesian approaches (right column).</p>
 <p>Two things are immediately striking about this. First, McElreath’s entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <section id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing" class="level4">
 <h4 class="anchored" data-anchor-id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing">What does this mean in practice and why do I find it appealing?</h4>
@@ -276,19 +276,19 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-does-estimation-with-uncertanty-look-like" class="level4">
 <h4 class="anchored" data-anchor-id="what-does-estimation-with-uncertanty-look-like">What does estimation with uncertanty look like?</h4>
-<p>Some examples may help here. Below you can see what estimation with uncertainty might look like in a frequentist and Bayesian workflows.</p>
+<p>Some examples may help here. Below you can see what estimation with uncertainty might look like in frequentist and Bayesian workflows.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>For illustration purposes, this is just simulated normal distribution data. And we pretend that there is just one parameter in the model (parameter1). Let’s say paramter1 reflects the difference in points on a scale between two conditions (A and B).</p>
+<p>For illustration purposes, this is just simulated normal distribution data. And we pretend that there is just one parameter in the model (parameter1). Let’s say parameter1 reflects the difference in points on a scale between two conditions (A and B).</p>
 <p>As you can see, the point estimate is very close to zero and the interval estimates (which are 95% confidence / quantile intervals) extend from -2 to 2. As such, the best estimate for the difference between A and B is zero, with reasonable values ranging from -2 to 2.</p>
 </section>
-<section id="the-benefit-of-bayesian-workflows---working-in-distributions" class="level4">
-<h4 class="anchored" data-anchor-id="the-benefit-of-bayesian-workflows---working-in-distributions">The benefit of Bayesian workflows - working in distributions</h4>
-<p>Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. One has a density plot and one does not. This is important because it is crucial for thinking about the inferences that you can draw.</p>
-<p>Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And counterintuitively, it is more starightforward to understand the Bayesian estimation parameter above than the frequenist version (Krushke &amp; Liddel, <a href="https://link.springer.com/article/10.3758/s13423-016-1221-4">2018</a>). Try this on for size:</p>
+<section id="sidenote-the-benefit-of-bayesian-workflows---working-in-distributions" class="level4">
+<h4 class="anchored" data-anchor-id="sidenote-the-benefit-of-bayesian-workflows---working-in-distributions">Sidenote: The benefit of Bayesian workflows - working in distributions</h4>
+<p>Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw.</p>
+<p>Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And somewhat counterintuitively, it is more straightforward to understand the Bayesian estimation parameter that I presented above than the frequentist version (Krushke &amp; Liddel, <a href="https://link.springer.com/article/10.3758/s13423-016-1221-4">2018</a>). Try this on for size:</p>
 <p>The frequentist interpretation:</p>
 <blockquote class="blockquote">
 <p>If I repeat this study precisely an infinite number of times, and I calculate a 95% interval each time, then 95% of those intervals will contain the true parameter.</p>
@@ -297,26 +297,31 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>There is a 95% probability the parameter falls in this interval.</p>
 </blockquote>
-<p>It seems the latter interpetation is the one that folks tend to think they are making and definitely want to be making. And that all stems from the fact that the Bayesian workflow is building a density distribution of plausible parameter values. After you have built the distribution, you can just summarise it in a straightforward manner using the tools of descriptive statistics.</p>
+<p>It seems the latter interpretation is the one that most folks tend to think they are making and definitely want to be making when in fact they are not. And that all stems from the fact that the Bayesian workflow is building a density distribution for each parameter in the model. Once you have the posterior distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.</p>
+<p>In contrast, the frequentist interval is a flat line, such that all you can say is that 95% of an infinite number of 95% intervals will contain the true parameter. But that parameter could be anywhere along the flat line. It is no more likely to be in the middle as at the edge of the line. A density distribution is different, by definition, because it has a particular shape which, for example, may have the highest density in the middle of the distribution. This means values in the middle are more likely than at the edge, as a fucntion of the shape of the distribution. It is just a density distribution after all.</p>
 </section>
 <section id="it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor" class="level4">
 <h4 class="anchored" data-anchor-id="it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor">It is the structure of the model that matters, not the p value or Bayes factor</h4>
-<p>It is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor value.</p>
+<p>Ok, sidenote over. Back to the main thread.</p>
+<p>The main emphasis in an estimation approach is different to traditional statistical thinking or commonly used approaches. At least as outlined by Richard McElreath and others, it is motivated by building multi-level regression models that try to estimate parameters that reflect reality as much as possible. As such, it is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor.</p>
+<p>This has many benefits. Instead of learning an almost infinite list of “tests” like your standard undergraduate or postgraduate statistics class, it is a more general and flexible approach that is applicable in many different contexts. You can almost always build a (multi-level) regression model to suit your purposes. This means you can have one general but powerful workflow that can be deployed in a diverse set of contexts, due to the tools freely available.</p>
 </section>
 </section>
 <section id="build-models-incrementally-towards-the-full-model" class="level3">
 <h3 class="anchored" data-anchor-id="build-models-incrementally-towards-the-full-model">Build models incrementally towards the full model</h3>
+<p>There are many ways to go about building models, and much debate. We will sidestep that debate and just outline our approach.</p>
 <p>My lab takes the “keep it maximal” approach to model building (Barr et al., <a href="https://www.sciencedirect.com/science/article/pii/S0749596X12001180">2013</a>). The logic here is to include all the fixed and varying (random) effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr’s paper for more details.</p>
 <p>Therefore, we start with an intercepts only model (i.e., one without any predictors) and build incrementally towards the full model. The full model being the one with the maximum number of fixed and varying effects that can be specified by the design.</p>
 </section>
 <section id="implementation-lme4-vs-brms-and-stan" class="level3">
 <h3 class="anchored" data-anchor-id="implementation-lme4-vs-brms-and-stan">Implementation: lme4 vs brms (and stan)</h3>
-<p><a href="https://paul-buerkner.github.io/brms/">Brms</a> is a high-level front end package for <a href="https://mc-stan.org/">stan</a>. Brms uses the same syntax as <a href="https://github.com/lme4/lme4">lme4</a> (which is very popular in psychology). And stan</p>
+<p>We use brms to build the models. We are fans of the tidyverse generally and we love Solomon’s ebook, which translated McElreath’s R and stan code into tidyverse format and brms code. So that’s what we use.</p>
+<p><a href="https://paul-buerkner.github.io/brms/">Brms</a> is a high-level front end package for <a href="https://mc-stan.org/">stan</a>. Brms uses the same syntax as <a href="https://github.com/lme4/lme4">lme4</a> (which is very popular in psychology). And stan is a sophisticated statistical modelling platform.</p>
 <ul>
 <li>Advantages:
 <ul>
 <li>Stan has far fewer failures to converge, even with complex models.</li>
-<li>Much greater flexibility in model specification.</li>
+<li>Stan also has much greater flexibility in model specification.</li>
 </ul></li>
 <li>Disadvantages:
 <ul>
@@ -326,18 +331,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="inference" class="level3">
 <h3 class="anchored" data-anchor-id="inference">Inference</h3>
-<p>We use two ways to make inferences.</p>
-<ol type="1">
-<li>Evaluate parameters of interest in the full model.</li>
-</ol>
-<p>give an example of different posterior distributions and the extent to which they may or may not support your pre-registered analyses. e.g., two or three plots 1) overlapping zero, tightly and not so tightly. 2) Positive and tight and not so tight.</p>
-<p>Then describe the proportion of values that span a particular range and what that would mean for your hypothesis. e.g., values as low as blah and as high as blah are compatible with your model estimates.</p>
-<ol start="2" type="1">
-<li>Model comparison.</li>
-</ol>
+<p>We use two approaches to make inferences.</p>
+<section id="evaluate-parameters-of-interest-in-the-full-model." class="level4">
+<h4 class="anchored" data-anchor-id="evaluate-parameters-of-interest-in-the-full-model.">1. Evaluate parameters of interest in the full model.</h4>
+<p>We take the full model and we evaluate parameters from the full model against our pre-registered hypotheses. Our pre-registrations include the exact formula from the full model, as well as explicit hypotheses about the ways in which parameters would support hypotheses or not.</p>
+<p>Now some examples. Take a look at some made up distributions from what could be a full model of interest.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two are relatively broad and two are relatively narrow.</p>
+<p>In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., values as low as -2 and as high as 2 are compatible with your model estimates.</p>
+<p>Then consider what this might mean in relation to your pre-registered hypotheses. Let’s say for simplicity, that for all four parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameter 1 and 2 would not support the hypothesis, but parameter 3 and 4 would support the hypothesis. Parameters 2 and 4 would be narrower estimates and more precise than parameters 1 and 3. Therefore, we may intially be more confident about drawing inferences from 1 and 3 versus 2 and 4.</p>
+<p>Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model, then what would that mean for theory or practice etc.</p>
+<p>Ok, that’s fine and fairly clear-cut, as far as data from one experiment can get you. But what about grey areas or distribtions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>In these examples, let’s again take zero as an important reference point and assume that we pre-registered a positive effect for all four parameters.</p>
+<p>All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypotheses. Some have a healthy number of negative values and some have a lower bound very close to zero. Therefore, none of them provide overwhelming support for our hypotheses, at least not on their own as it stands. That being said, parameter 7 and 8 are more compatible with our hypotheses than parameter 5 and 6. That much us clear.</p>
+<p>But, overall, more experiments and data would be needed. This is true in all cases in my view, but in this in particular because of the indeterminate nature of the distributions. Maybe it would be time to increase the precision by collecting more data and see if a replciation can make the estimates more precise.</p>
+</section>
+<section id="model-comparison." class="level4">
+<h4 class="anchored" data-anchor-id="model-comparison.">2. Model comparison.</h4>
 <p>give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.</p>
-<p>In our experience in exp psych / cog neuro, model comparison has not been as helpful, but that’s just our experience. They are both valuable and serve different purposes, so they may work for other labs more than others.</p>
+<p>Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in exp psych / cog neuro, model comparison has not been as helpful, but that’s just our experience. They are both valuable and serve different purposes, so they may work for other labs, questions, datasets more than others.</p>
 <p><strong>Then replicate:</strong> At this point, I would then run a replication (or a replication and extension). By doing so, you avoid joining the “Cult of the Isolated Study”, which is the trap of drawing conclusions from single experiments - see <a href="https://doi.org/10.2307/2981525">here</a> and <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264">here</a>.</p>
+</section>
 </section>
 <section id="pros-and-cons" class="level3">
 <h3 class="anchored" data-anchor-id="pros-and-cons">Pros and cons</h3>

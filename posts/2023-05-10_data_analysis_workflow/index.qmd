@@ -144,9 +144,9 @@ For illustration purposes, this is just simulated normal distribution data. And 
 
 As you can see, the point estimate is very close to zero and the interval estimates (which are 95% confidence / quantile intervals) extend from -2 to 2. As such, the best estimate for the difference between A and B is zero, with reasonable values ranging from -2 to 2.
 
-#### The benefit of Bayesian workflows - working in distributions
+#### Sidenote: The benefit of Bayesian workflows - working in distributions
 
-Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. One has a density plot and one does not. This is important because it is crucial for thinking about the inferences that you can draw. 
+Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw. 
 
 Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And somewhat counterintuitively, it is more straightforward to understand the Bayesian estimation parameter that I presented above than the frequentist version (Krushke & Liddel, [2018](https://link.springer.com/article/10.3758/s13423-016-1221-4)). Try this on for size:
 
@@ -158,17 +158,21 @@ The Bayesian interpretation:
 
 > There is a 95% probability the parameter falls in this interval. 
 
-It seems the latter interpretation is the one that most folks tend to think they are making and definitely want to be making. And that all stems from the fact that the Bayesian workflow is building a density distribution of parameter values. After you have built the distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.
+It seems the latter interpretation is the one that most folks tend to think they are making and definitely want to be making when in fact they are not. And that all stems from the fact that the Bayesian workflow is building a density distribution for each parameter in the model. Once you have the posterior distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.
 
-In contrast, the frequentist interval is a flat line, such that all you can say is that 95% of an infinite number of 95% intervals will contain the true parameter. But that parameter could be anywhere along the flat line. It is no more likely to be in the middle as at the edge of the line. A density distribution is different, by definition, because it has a particular shape which, for example, may have the highest density in the middle of the distribution. 
+In contrast, the frequentist interval is a flat line, such that all you can say is that 95% of an infinite number of 95% intervals will contain the true parameter. But that parameter could be anywhere along the flat line. It is no more likely to be in the middle as at the edge of the line. A density distribution is different, by definition, because it has a particular shape which, for example, may have the highest density in the middle of the distribution. This means values in the middle are more likely than at the edge, as a fucntion of the shape of the distribution. It is just a density distribution after all.
 
 #### It is the structure of the model that matters, not the p value or Bayes factor
 
-The main approach is motivated by building multi-level regression models that try to estimate parameters that reflect reality as much as possible. As such, it is the integrity and structure of the model and the assumptions that the model embodies that takes centre stage, rather than the bright lights of a p-value or Bayes factor value.
+Ok, sidenote over. Back to the main thread.
 
-One major benefit of this approach is the differnece to traditional stats training. Rather than learning an almost infinite list of “tests” like your standard undergraduate or postgraduate stats class, it is a more general and flexible approach that is applicable in many different contexts. 
+The main emphasis in an estimation approach is different to traditional statistical thinking or commonly used approaches. At least as outlined by Richard McElreath and others, it is motivated by building multi-level regression models that try to estimate parameters that reflect reality as much as possible. As such, it is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor.
+
+This has many benefits. Instead of learning an almost infinite list of “tests” like your standard undergraduate or postgraduate statistics class, it is a more general and flexible approach that is applicable in many different contexts. You can almost always build a (multi-level) regression model to suit your purposes. This means you can have one general but powerful workflow that can be deployed in a diverse set of contexts, due to the tools freely available.
 
 ### Build models incrementally towards the full model
+
+There are many ways to go about building models, and much debate. We will sidestep that debate and just outline our approach.
 
 My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying (random) effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
 
@@ -176,26 +180,98 @@ Therefore, we start with an intercepts only model (i.e., one without any predict
 
 ### Implementation: lme4 vs brms (and stan)
 
-[Brms](https://paul-buerkner.github.io/brms/) is a high-level front end package for [stan](https://mc-stan.org/). Brms uses the same syntax as [lme4](https://github.com/lme4/lme4) (which is very popular in psychology). And stan 
+We use brms to build the models. We are fans of the tidyverse generally and we love Solomon's ebook, which translated McElreath's R and stan code into tidyverse format and brms code. So that's what we use.
+
+[Brms](https://paul-buerkner.github.io/brms/) is a high-level front end package for [stan](https://mc-stan.org/). Brms uses the same syntax as [lme4](https://github.com/lme4/lme4) (which is very popular in psychology). And stan is a sophisticated statistical modelling platform.
 
 * Advantages: 
   + Stan has far fewer failures to converge, even with complex models.
-  + Much greater flexibility in model specification.
+  + Stan also has much greater flexibility in model specification.
   
 * Disadvantages: 
   + Computational power and time. Some Bayesian models can take a long time to run (hours, days, weeks). Only the advent of powerful desktop machines in the last 25 years or so make it even possible to run such models in a widespread manner. 
 
 ### Inference
 
-We use two ways to make inferences.
+We use two approaches to make inferences.
 
-1.  Evaluate parameters of interest in the full model.
+#### 1.  Evaluate parameters of interest in the full model.
 
-give an example of different posterior distributions and the extent to which they may or may not support your pre-registered analyses. e.g., two or three plots 1) overlapping zero, tightly and not so tightly. 2) Positive and tight and not so tight.
+We take the full model and we evaluate parameters from the full model against our pre-registered hypotheses. Our pre-registrations include the exact formula from the full model, as well as explicit hypotheses about the ways in which parameters would support hypotheses or not. 
 
-Then describe the proportion of values that span a particular range and what that would mean for your hypothesis. e.g., values as low as blah and as high as blah are compatible with your model estimates.
+Now some examples. Take a look at some made up distributions from what could be a full model of interest.
 
-2.  Model comparison.
+```{r, include=FALSE}
+# simulate data
+set.seed(123)
+d2 <-  tibble(pid = 1:100,
+              parameter1 = rnorm(100, mean = 0, sd = 1),
+              parameter2 = rnorm(100, mean = 0, sd = 0.1),
+              parameter3 = rnorm(100, mean = 2, sd = 1),
+              parameter4 = rnorm(100, mean = 2, sd = 0.1)) %>% 
+  pivot_longer(-pid,
+               names_to = "term",
+               values_to = "value") %>% 
+  mutate(pid = factor(pid),
+         term = factor(term))
+head(d2)
+```
+
+```{r, echo=FALSE}
+# bayesian density plot
+p4 <- 
+  ggplot(data = d2, aes(x = value, y = term)) +
+  stat_halfeye() +
+  labs(title = "Bayesian distribution estimation") +
+  coord_cartesian(xlim =c(-4, 4)) +
+  scale_x_continuous(breaks=seq(-4,4,1))
+p4
+```
+
+As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two are relatively broad and two are relatively narrow. 
+
+In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., values as low as -2 and as high as 2 are compatible with your model estimates.
+
+Then consider what this might mean in relation to your pre-registered hypotheses. Let's say for simplicity, that for all four parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameter 1 and 2 would not support the hypothesis, but parameter 3 and 4 would support the hypothesis. Parameters 2 and 4 would be narrower estimates and more precise than parameters 1 and 3. Therefore, we may intially be more confident about drawing inferences from 1 and 3 versus 2 and 4.
+
+Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model, then what would that mean for theory or practice etc.
+
+Ok, that's fine and fairly clear-cut, as far as data from one experiment can get you. But what about grey areas or distribtions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.
+
+```{r, include=FALSE}
+# simulate data
+set.seed(123)
+d3 <-  tibble(pid = 1:100,
+              parameter5 = rnorm(100, mean = 0.5, sd = 1),
+              parameter6 = rnorm(100, mean = 1, sd = 1),
+              parameter7 = rnorm(100, mean = 1.5, sd = 1),
+              parameter8 = rnorm(100, mean = 2, sd = 1)) %>% 
+  pivot_longer(-pid,
+               names_to = "term",
+               values_to = "value") %>% 
+  mutate(pid = factor(pid),
+         term = factor(term))
+head(d3)
+```
+
+```{r, echo=FALSE}
+# bayesian density plot
+p5 <- 
+  ggplot(data = d3, aes(x = value, y = term)) +
+  stat_halfeye() +
+  labs(title = "Bayesian distribution estimation") +
+  coord_cartesian(xlim =c(-4, 4)) +
+  scale_x_continuous(breaks=seq(-4,4,1))
+p5
+```
+
+In these examples, let's again take zero as an important reference point and assume that we pre-registered a positive effect for all four parameters.
+
+All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypotheses. Some have a healthy number of negative values and some have a lower bound very close to zero. Therefore, none of them provide overwhelming support for our hypotheses, at least not on their own as it stands. That being said, parameter 7 and 8 are more compatible with our hypotheses than parameter 5 and 6. That much us clear. 
+
+But, overall, more experiments and data would be needed. This is true in all cases in my view, but in this in particular because of the indeterminate nature of the distributions. Maybe it would be time to increase the precision by collecting more data and see if a replciation can make the estimates more precise.
+
+#### 2.  Model comparison.
 
 give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
 
