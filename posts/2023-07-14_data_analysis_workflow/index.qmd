@@ -30,9 +30,9 @@ editor_options:
 
 I am not a statistician and I am not saying anything new here. I'm just summarising a bunch of other people's suggestions.
 
-If I have confused things, then that's a shame. Such is life. Please send me a note with constructive feedback.
+If I have confused things, then that's a shame. Such is life. Please send me a postcard with constructive feedback.
 
-Finally, I outline one general approach to data analysis here. I have found it really refreshing compared to my past experiences and therefore I want to blog about it. But I am aware that there are many valid ways to analyse the same data, rather than there being one *correct* way. So take any suggestions below in that spirit.
+Finally, I outline one general approach to data analysis here. I have found it really refreshing compared to my past experiences and therefore I want to blog about it. But I am aware that there are many valid ways to analyse the same dataset, rather than there being one *correct* way. So take any suggestions below in that spirit.
 
 ### Objective
 
@@ -44,9 +44,9 @@ Newbies who are looking to move towards using multi-level regression models in a
 
 ### My background
 
-My background and training is in experimental psychology and cognitive neuroscience and my main research methods and statistics training will be very familiar to those from a psychology background. Each week we learned about a different "test". And each week involved some data, which was suitable to a different test. Week 1 starts with a t-test and you head towards more complex ANOVAs as the weeks move on. A version of this seems to be the cornerstone of most undergraduate and graduate statistics training worldover.
+My background and training is in experimental psychology and cognitive neuroscience and my main research methods and statistics training will be very familiar to those from a psychology background. Each week we learned about a different statistical "test". And each week we were given some data, which was suitable for a particular test. Week 1 starts with a t-test and you head towards more complex ANOVAs as the weeks move on. A version of this type of training seems to be the cornerstone of most undergraduate and graduate statistics courses in psychology across the globe.
 
-All you needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be \< 0.05. If p was \> 0.05, but still close (e.g., \< 0.1), then say something vague like "trending towards significance". If p value was \> 0.1 then just pretend that that means there is no real effect.
+All you ever needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be \< 0.05. If p was \> 0.05, but still close (e.g., \< 0.1), then say something vague like "trending towards significance". If p value was \> 0.1 then just pretend that that means there is no real effect.
 
 I became tired of this and I was looking for something different. And I had a sabbatical.
 
@@ -68,19 +68,19 @@ Bodo Winter's Statistics for Linguists [textbook](https://bodowinter.com/books.h
 
 Krushke and Liddel [(2018)](https://link.springer.com/article/10.3758/s13423-016-1221-4) draw two distinctions with the following figure:
 
-```{r, echo=FALSE, fig.align='left', out.width="50%", out.height="50%"}
+```{r, echo=FALSE, fig.align='left', out.width="75%", out.height="75%"}
 knitr::include_graphics("img/fig1.png")
 ```
 
 They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row). They also distinguish between a frequentist approach (left column) and Bayesian approaches (right column).
 
-Two things are immediately striking about this. First, McElreath's entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework[^1].
+Two things are immediately striking about this. First, Bayes factors are not required to run Bayesian analyses. Indeed, Richard McElreath's entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework[^1].
 
 [^1]: I think there are theoretical and practical reasons why a Bayesian approach has advantages, but that's not important here.
 
 #### What does this mean in practice and why do I find it appealing?
 
-Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used correctly), but you just don't need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p \< 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., [these scales](https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale)). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and too artifical for my liking.
+Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used correctly), but you just don't need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p \< 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., [these scales](https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale)). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and/or too artificial for my liking.
 
 Instead, the estimation approach is built around estimating the magnitude and uncertainty of parameters. I instinctively found this more satisfying. It seemed a simpler starting point to summarise the distribution of a parameter (e.g., give lower and upper bounds, as well as the peak density or some other summary value) without inherently giving special status or bright lines to certain values.
 
@@ -148,9 +148,9 @@ As you can see, the point estimate is very close to zero and the interval estima
 
 #### Sidenote: The benefit of Bayesian workflows - working in distributions
 
-Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw.
+Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and the frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw.
 
-Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And somewhat counterintuitively, it is more straightforward to understand the Bayesian estimation parameter that I presented above than the frequentist version (Krushke & Liddel, [2018](https://link.springer.com/article/10.3758/s13423-016-1221-4)). Try this on for size:
+Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (Wasserstein & Lazar, [2016](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108)). And somewhat counterintuitively, it is more straightforward to understand the Bayesian estimation parameter that I presented above than the frequentist version (Krushke & Liddel, [2018](https://link.springer.com/article/10.3758/s13423-016-1221-4)). Try this on for size:
 
 The frequentist interpretation:
 
@@ -160,9 +160,9 @@ The Bayesian interpretation:
 
 > There is a 95% probability the parameter falls in this interval.
 
-It seems the latter interpretation is the one that most folks tend to think they are making and definitely want to be making when in fact they are not. And that all stems from the fact that the Bayesian workflow is building a density distribution for each parameter in the model. Once you have the posterior distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.
+It seems the latter interpretation is the one that most folks using a frequentist framework tend to think they are making and definitely want to be making when in fact they are not. And that all stems from the fact that the Bayesian workflow is building a density distribution for each parameter in the model. Once you have the posterior distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.
 
-In contrast, the frequentist interval is a flat line, such that all you can say is that 95% of an infinite number of 95% intervals will contain the true parameter. But that parameter could be anywhere along the flat line. It is no more likely to be in the middle as at the edge of the line. A density distribution is different, by definition, because it has a particular shape which, for example, may have the highest density in the middle of the distribution. This means values in the middle are more likely than at the edge, as a fucntion of the shape of the distribution. It is just a density distribution after all.
+In contrast, the frequentist interval is a flat line, such that all you can say is that 95% of an infinite number of 95% intervals will contain the true parameter. But that parameter could be anywhere along the flat line. It is no more likely to be in the middle as at the edge of the line. A density distribution is different, by definition, because it has a particular shape which, for example, may have the highest density in the middle of the distribution. This means values in the middle are more likely than at the edge, as a function of the shape of the distribution. It is just a density distribution after all.
 
 #### It is the structure of the model that matters, not the p value or Bayes factor
 
@@ -174,9 +174,9 @@ This has many benefits. Instead of learning an almost infinite list of "tests" l
 
 ### Build models incrementally towards the full model
 
-There are many ways to go about building models, and much debate. We will sidestep that debate and just outline our approach.
+There are many ways to go about building models, and much debate. We will sidestep that debate and just outline one approach.
 
-My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying (random) effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
+My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying^[varying effects are also known as random effects] effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
 
 Therefore, we start with an intercepts only model (i.e., one without any predictors) and build incrementally towards the full model. The full model being the one with the maximum number of fixed and varying effects that can be specified by the design.
 
@@ -229,15 +229,15 @@ p4 <-
 p4
 ```
 
-As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two are relatively broad and two are relatively narrow.
+As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two have relatively broad distributions whereas two have relatively narrow distributions.
 
-In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., values as low as -2 and as high as 2 are compatible with your model estimates.
+In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., for parameter 1, values as low as -2 and as high as 2 are compatible with your model estimates.
 
-Then consider what this might mean in relation to your pre-registered hypotheses. Let's say for simplicity, that for all four parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameter 1 and 2 would not support the hypothesis, but parameter 3 and 4 would support the hypothesis. Parameters 2 and 4 would be narrower estimates and more precise than parameters 1 and 3. Therefore, we may intially be more confident about drawing inferences from 1 and 3 versus 2 and 4.
+Then consider what this might mean in relation to your pre-registered hypotheses. Let's say for simplicity, that for all four parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameters 1 and 2 would not show clear support the hypothesis, but parameter 3 and 4 would. Parameters 2 and 4 would be narrower estimates and more precise than parameters 1 and 3. Therefore, we may initially be more confident about drawing inferences from parameters 1 and 3 than 2 and 4.
 
-Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model, then what would that mean for theory or practice etc.
+Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model being used, then what would such results mean for theory or practice etc.?
 
-Ok, that's fine and fairly clear-cut, as far as data from one experiment can get you. But what about grey areas or distribtions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.
+Ok, that's fine and fairly clear-cut, as far as data from one experiment can get you. But what about grey areas or distributions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.
 
 ```{r, include=FALSE}
 # simulate data
@@ -268,9 +268,70 @@ p5
 
 In these examples, let's again take zero as an important reference point and assume that we pre-registered a positive effect for all four parameters.
 
-All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypotheses. Some have a healthy number of negative values and some have a lower bound very close to zero. Therefore, none of them provide overwhelming support for our hypotheses, at least not on their own as it stands. That being said, parameter 7 and 8 are more compatible with our hypotheses than parameter 5 and 6. That much us clear.
+All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypothesis. Some have a healthy number of negative values in the 95% quantile interval (parameters 5 and 6) and some have a lower bound close to zero (parameters 7 and 8). Therefore, none of these provide overwhelming support for our hypothesis, at least not on their own as it stands from one single study. With that being said, parameter 7 and 8 are more compatible with our hypothesis than parameter 5 and 6. That much is clear and obvious.
 
-But, overall, more experiments and data would be needed. This is true in all cases in my view, but in this in particular because of the indeterminate nature of the distributions. Maybe it would be time to increase the precision by collecting more data and see if a replciation can make the estimates more precise.
+But, overall, more experiments and data would be needed. This is true in all cases in my view, but especially in this particular case because of the indeterminate nature of the distributions. An obvious next step would be to try to increase the precision of the estimate by collecting more data and see if a replication can make the estimates more precise and support the original findings.
+
+So let's look at how some replications may help with our inferences.
+
+```{r, include=FALSE}
+# simulate exp2 data
+set.seed(123)
+d4 <-  tibble(pid = 1:300,
+              parameter5 = rnorm(300, mean = 0.5, sd = 0.5),
+              parameter6 = rnorm(300, mean = 1, sd = 0.5),
+              parameter7 = rnorm(300, mean = 1.5, sd = 0.5),
+              parameter8 = rnorm(300, mean = 2, sd = 0.5)) %>% 
+  pivot_longer(-pid,
+               names_to = "term",
+               values_to = "value") %>% 
+  mutate(pid = factor(pid),
+         term = factor(term))
+head(d4)
+
+# simulate exp3 data
+set.seed(123)
+d5 <-  tibble(pid = 1:500,
+              parameter5 = rnorm(500, mean = 0.5, sd = 0.25),
+              parameter6 = rnorm(500, mean = 1, sd = 0.25),
+              parameter7 = rnorm(500, mean = 1.5, sd = 0.25),
+              parameter8 = rnorm(500, mean = 2, sd = 0.25)) %>% 
+  pivot_longer(-pid,
+               names_to = "term",
+               values_to = "value") %>% 
+  mutate(pid = factor(pid),
+         term = factor(term))
+head(d5)
+```
+
+```{r, include=FALSE}
+# join all exps together
+d3 <- d3 %>% 
+  mutate(exp = "exp1")
+d4 <- d4 %>% 
+  mutate(exp = "exp2")
+d5 <- d5 %>% 
+  mutate(exp = "exp3")
+
+d6 <- rbind(d3, d4, d5) %>% 
+  mutate(exp = factor(exp, levels = c("exp1", "exp2", "exp3"))) %>% 
+  select(pid, exp, term, value)
+head(d6)
+```
+
+```{r, echo=FALSE}
+# bayesian density plot
+p6 <- 
+  ggplot(data = d6, aes(x = value, y = exp, fill = exp)) +
+  stat_halfeye() +
+  labs(title = "Bayesian distribution estimation") +
+  coord_cartesian(xlim =c(-4, 4)) +
+  scale_x_continuous(breaks=seq(-4,4,1)) +
+  theme_bw() +
+  facet_wrap(~fct_rev(term), ncol = 1)
+p6
+```
+
 
 #### 2. Model comparison.
 
