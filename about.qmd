@@ -4,7 +4,7 @@ title: "About"
 
 ### Recently
 
-I've become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post \[here\]() for more details and these \[papers\]() for more background context.
+I've become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post \[here\](https://rich-ramsey.com/posts/2023-05-10_meta_science/) for more details and these \[papers\](https://rich-ramsey.com/resources/resources.html#things-to-read) for more background context.
 
 ### Brief Bio
 
