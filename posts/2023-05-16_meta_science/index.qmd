@@ -9,7 +9,7 @@ author:
   - name: Richard Ramsey
     url: https://rich-ramsey.com/
     orcid: 0000-0002-0329-2112
-    affiliation: ETH Zurich
+    affiliation: ETH Zürich
     affiliation-url: https://ethz.ch/en.html
   - name: Emily S. Cross
     url: https://www.soba-lab.com/people

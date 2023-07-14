@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-subtitle: "Chasing Rainbows blog"
+subtitle: "a blog about chasing rainbows"
 listing:
   contents: posts
   sort: "date desc"

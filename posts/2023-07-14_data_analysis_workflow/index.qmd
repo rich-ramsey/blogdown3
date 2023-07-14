@@ -9,7 +9,7 @@ draft: true
 author:
   - name: Richard Ramsey
     url: https://rich-ramsey.com/
-    affiliation: ETH Zurich
+    affiliation: ETH Zürich
     affiliation-url: https://ethz.ch/en.html
     orcid: 0000-0002-0329-2112
 editor_options: 
