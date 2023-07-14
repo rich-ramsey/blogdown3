@@ -4,12 +4,11 @@ title: "About"
 
 ### Recently
 
-I've become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues that hinder research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post here for more details and these papers here and here...
+I've become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post \[here\]() for more details and these papers here for more background context.
 
 ### Brief Bio
 
 #### Academic positions
-
 
 -   Senior Scientist, ETH Zürich, Switzerland (current)
 
@@ -22,6 +21,5 @@ I've become increasingly concerned about the state of research in psychology and
 -   Postdoc, University of Nottingham, UK
 
 #### Education
-
 
 -   BSc and PhD, University of Birmingham, UK

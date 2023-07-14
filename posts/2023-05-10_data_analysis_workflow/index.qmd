@@ -12,6 +12,8 @@ author:
     affiliation: ETH Zurich
     affiliation-url: https://ethz.ch/en.html
     orcid: 0000-0002-0329-2112
+editor_options: 
+  chunk_output_type: console
 ---
 
 ### tl:dr
@@ -46,7 +48,7 @@ My background and training is in experimental psychology and cognitive neuroscie
 
 All you needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be \< 0.05. If p was \> 0.05, but still close (e.g., \< 0.1), then say something vague like "trending towards significance". If p value was \> 0.1 then just pretend that that means there is no real effect.
 
-I became tired of this and I was looking for something different. And I had a sabbatical. 
+I became tired of this and I was looking for something different. And I had a sabbatical.
 
 Enter Richard McElreath's book...
 
@@ -74,7 +76,7 @@ They distinguish between hypothesis tests (top row) and Estimation with uncertai
 
 Two things are immediately striking about this. First, McElreath's entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework[^1].
 
-[^1]: I think there are theoretical and practical reasons why a Bayesian approach has advantages, but that's not important here. 
+[^1]: I think there are theoretical and practical reasons why a Bayesian approach has advantages, but that's not important here.
 
 #### What does this mean in practice and why do I find it appealing?
 
@@ -84,7 +86,7 @@ Instead, the estimation approach is built around estimating the magnitude and un
 
 #### What does estimation with uncertanty look like?
 
-Some examples may help here. Below you can see what estimation with uncertainty might look like in frequentist and Bayesian workflows. 
+Some examples may help here. Below you can see what estimation with uncertainty might look like in frequentist and Bayesian workflows.
 
 ```{r, include=FALSE}
 # renv::install("tidyverse", "patchwork", "ggforce", "ggdist")
@@ -140,13 +142,13 @@ p3 <- p1 / p2
 p3
 ```
 
-For illustration purposes, this is just simulated normal distribution data. And we pretend that there is just one parameter in the model (parameter1). Let's say parameter1 reflects the difference in points on a scale between two conditions (A and B). 
+For illustration purposes, this is just simulated normal distribution data. And we pretend that there is just one parameter in the model (parameter1). Let's say parameter1 reflects the difference in points on a scale between two conditions (A and B).
 
 As you can see, the point estimate is very close to zero and the interval estimates (which are 95% confidence / quantile intervals) extend from -2 to 2. As such, the best estimate for the difference between A and B is zero, with reasonable values ranging from -2 to 2.
 
 #### Sidenote: The benefit of Bayesian workflows - working in distributions
 
-Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw. 
+Although estimation with uncertainty can be done in frequentist or Bayesian workflows, there is an important difference between the two parameter estimates above. The Bayesian one has a density plot and frequentist one does not. This is important because it is crucial for thinking about the inferences that you can draw.
 
 Even though most researchers (especially in psychology and human neuroscience) will be more familiar with frequentist thinking than Bayesian thinking, it turns out that understanding p values is not that straightforward (ref). And somewhat counterintuitively, it is more straightforward to understand the Bayesian estimation parameter that I presented above than the frequentist version (Krushke & Liddel, [2018](https://link.springer.com/article/10.3758/s13423-016-1221-4)). Try this on for size:
 
@@ -156,7 +158,7 @@ The frequentist interpretation:
 
 The Bayesian interpretation:
 
-> There is a 95% probability the parameter falls in this interval. 
+> There is a 95% probability the parameter falls in this interval.
 
 It seems the latter interpretation is the one that most folks tend to think they are making and definitely want to be making when in fact they are not. And that all stems from the fact that the Bayesian workflow is building a density distribution for each parameter in the model. Once you have the posterior distribution, you can just summarise it in a more straightforward manner using tools from descriptive statistics to summarise the shape and extent of the distribution.
 
@@ -168,7 +170,7 @@ Ok, sidenote over. Back to the main thread.
 
 The main emphasis in an estimation approach is different to traditional statistical thinking or commonly used approaches. At least as outlined by Richard McElreath and others, it is motivated by building multi-level regression models that try to estimate parameters that reflect reality as much as possible. As such, it is the integrity and structure of the model and the assumptions that the model embodies that take centre stage, rather than the bright lights of a p-value or Bayes factor.
 
-This has many benefits. Instead of learning an almost infinite list of “tests” like your standard undergraduate or postgraduate statistics class, it is a more general and flexible approach that is applicable in many different contexts. You can almost always build a (multi-level) regression model to suit your purposes. This means you can have one general but powerful workflow that can be deployed in a diverse set of contexts, due to the tools freely available.
+This has many benefits. Instead of learning an almost infinite list of "tests" like your standard undergraduate or postgraduate statistics class, it is a more general and flexible approach that is applicable in many different contexts. You can almost always build a (multi-level) regression model to suit your purposes. This means you can have one general but powerful workflow that can be deployed in a diverse set of contexts, due to the tools freely available.
 
 ### Build models incrementally towards the full model
 
@@ -184,20 +186,19 @@ We use brms to build the models. We are fans of the tidyverse generally and we l
 
 [Brms](https://paul-buerkner.github.io/brms/) is a high-level front end package for [stan](https://mc-stan.org/). Brms uses the same syntax as [lme4](https://github.com/lme4/lme4) (which is very popular in psychology). And stan is a sophisticated statistical modelling platform.
 
-* Advantages: 
-  + Stan has far fewer failures to converge, even with complex models.
-  + Stan also has much greater flexibility in model specification.
-  
-* Disadvantages: 
-  + Computational power and time. Some Bayesian models can take a long time to run (hours, days, weeks). Only the advent of powerful desktop machines in the last 25 years or so make it even possible to run such models in a widespread manner. 
+-   Advantages:
+    -   Stan has far fewer failures to converge, even with complex models.
+    -   Stan also has much greater flexibility in model specification.
+-   Disadvantages:
+    -   Computational power and time. Some Bayesian models can take a long time to run (hours, days, weeks). Only the advent of powerful desktop machines in the last 25 years or so make it even possible to run such models in a widespread manner.
 
 ### Inference
 
 We use two approaches to make inferences.
 
-#### 1.  Evaluate parameters of interest in the full model.
+#### 1. Evaluate parameters of interest in the full model.
 
-We take the full model and we evaluate parameters from the full model against our pre-registered hypotheses. Our pre-registrations include the exact formula from the full model, as well as explicit hypotheses about the ways in which parameters would support hypotheses or not. 
+We take the full model and we evaluate parameters from the full model against our pre-registered hypotheses. Our pre-registrations include the exact formula from the full model, as well as explicit hypotheses about the ways in which parameters would support hypotheses or not.
 
 Now some examples. Take a look at some made up distributions from what could be a full model of interest.
 
@@ -228,7 +229,7 @@ p4 <-
 p4
 ```
 
-As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two are relatively broad and two are relatively narrow. 
+As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two are relatively broad and two are relatively narrow.
 
 In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., values as low as -2 and as high as 2 are compatible with your model estimates.
 
@@ -267,11 +268,11 @@ p5
 
 In these examples, let's again take zero as an important reference point and assume that we pre-registered a positive effect for all four parameters.
 
-All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypotheses. Some have a healthy number of negative values and some have a lower bound very close to zero. Therefore, none of them provide overwhelming support for our hypotheses, at least not on their own as it stands. That being said, parameter 7 and 8 are more compatible with our hypotheses than parameter 5 and 6. That much us clear. 
+All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypotheses. Some have a healthy number of negative values and some have a lower bound very close to zero. Therefore, none of them provide overwhelming support for our hypotheses, at least not on their own as it stands. That being said, parameter 7 and 8 are more compatible with our hypotheses than parameter 5 and 6. That much us clear.
 
 But, overall, more experiments and data would be needed. This is true in all cases in my view, but in this in particular because of the indeterminate nature of the distributions. Maybe it would be time to increase the precision by collecting more data and see if a replciation can make the estimates more precise.
 
-#### 2.  Model comparison.
+#### 2. Model comparison.
 
 give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
 
@@ -292,17 +293,15 @@ Cons
 
 ### Implications
 
-* Compared to more conventional stats training 
-  + Much more information is used and presented
-  + Assumptions reflect what we know about human cognition and behaviour i.e., complex, variable (across people and situations) and multi-levelled.
-  + Bespoke models need building and choices need justifying – so you gotta think a bit…
-
-* Implications for the replication crisis?
-  + There are fewer places to hide, due to a more complete presentation of information
-  + It changes what a replication attempt would even look like e.g., p < 0.05 is not enough
-  + More nuanced interpretations are required.
-  + It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.
-
+-   Compared to more conventional stats training
+    -   Much more information is used and presented
+    -   Assumptions reflect what we know about human cognition and behaviour i.e., complex, variable (across people and situations) and multi-levelled.
+    -   Bespoke models need building and choices need justifying -- so you gotta think a bit...
+-   Implications for the replication crisis?
+    -   There are fewer places to hide, due to a more complete presentation of information
+    -   It changes what a replication attempt would even look like e.g., p \< 0.05 is not enough
+    -   More nuanced interpretations are required.
+    -   It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.
 
 ### And finally (but most importantly) back to McElreath...
 
