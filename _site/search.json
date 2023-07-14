@@ -103,5 +103,19 @@
     "title": "Open science for psychology and cognitive neuroscience",
     "section": "Footnotes",
     "text": "Footnotes\n\n\np-hacking or data dredging refers to the process of analysing data until a statistically significant pattern emerges, without first devising a specific hypothesis or a pre-determined analysis pipeline.↩︎\nA complementary approach would be to employ approaches developed from machine learning that aim to predict out-of-sample effects using cross-validation methods (Yarkoni & Westfall, 2017). Such machine learning approaches can be data-efficient by avoiding the requirement to collect an additional dataset and permit left-out runs to be used as independent data.↩︎\nThere are several reasons why data cannot be shared publicly, such as if individuals could be identified or if another organisation controls access to the data. But in our experience, the vast majority of data produced in psychology and human neuroscience research can be shared publicly.↩︎"
+  },
+  {
+    "objectID": "posts/2023-05-16_meta_science/index.html",
+    "href": "posts/2023-05-16_meta_science/index.html",
+    "title": "Open science for psychology and cognitive neuroscience",
+    "section": "",
+    "text": "A cornerstone of scientific study is the ability to accumulate knowledge over time in a progressive manner. However, threats exist that limit the steady accumulation of knowledge.\nAs poignantly remarked in 1974, Richard Feynman warned against the perils of pseudoscience and the relative ease with which scientists can be fooled into believing things that do not stand up to scientific study or reflect reality (.pdf). His now famous quote is as relevant as ever:\n\nThe first principle is that you must not fool yourself - and you are the easiest person to fool. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists. You just have to be honest in a conventional way after that.\n\nThe open science movement is concerned with providing a scientific platform to prevent scientists from fooling themselves, as well as each other.​"
+  },
+  {
+    "objectID": "posts/2023-05-16_meta_science/index.html#footnotes",
+    "href": "posts/2023-05-16_meta_science/index.html#footnotes",
+    "title": "Open science for psychology and cognitive neuroscience",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\np-hacking or data dredging refers to the process of analysing data until a statistically significant pattern emerges, without first devising a specific hypothesis or a pre-determined analysis pipeline.↩︎\nA complementary approach would be to employ approaches developed from machine learning that aim to predict out-of-sample effects using cross-validation methods (Yarkoni & Westfall, 2017). Such machine learning approaches can be data-efficient by avoiding the requirement to collect an additional dataset and permit left-out runs to be used as independent data.↩︎\nThere are several reasons why data cannot be shared publicly, such as if individuals could be identified or if another organisation controls access to the data. But in our experience, the vast majority of data produced in psychology and human neuroscience research can be shared publicly.↩︎"
   }
 ]
