@@ -24,7 +24,9 @@ editor_options:
 
 -   Estimate parameters within (multi-level) regression models
 
--   Describe the posterior distribution of these parameters and evaluate them in relation to your hypotheses
+-   Describe the posterior distribution of these parameters 
+
+-   Evaluate these posterior distributions in relation to your hypotheses
 
 ### Disclaimer
 
@@ -66,10 +68,10 @@ Bodo Winter's Statistics for Linguists [textbook](https://bodowinter.com/books.h
 
 ### Taking an estimation approach
 
-Krushke and Liddel [(2018)](https://link.springer.com/article/10.3758/s13423-016-1221-4) draw two distinctions with the following figure:
+Krushke and Liddel [(2018)](https://link.springer.com/article/10.3758/s13423-016-1221-4) draw two key distinctions, which are depicted in the following figure:
 
-```{r, echo=FALSE, fig.align='left', out.width="75%", out.height="75%"}
-knitr::include_graphics("img/fig1.png")
+```{r, echo=FALSE, fig.cap="adapted from Krushke & Liddel (2018)", fig.align='left', out.width="100%", out.height="100%"}
+knitr::include_graphics("img/fig1b_hires.png")
 ```
 
 They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row). They also distinguish between a frequentist approach (left column) and Bayesian approaches (right column).
@@ -89,9 +91,10 @@ Instead, the estimation approach is built around estimating the magnitude and un
 Some examples may help here. Below you can see what estimation with uncertainty might look like in frequentist and Bayesian workflows.
 
 ```{r, include=FALSE}
-# renv::install("tidyverse", "patchwork", "ggforce", "ggdist")
+# renv::install("tidyverse", "patchwork", "RColorBrewer", "ggforce", "ggdist")
 library(tidyverse)
 library(patchwork)
+library(RColorBrewer)
 library(ggforce)
 library(ggdist)
 
@@ -206,10 +209,12 @@ Now some examples. Take a look at some made up distributions from what could be 
 # simulate data
 set.seed(123)
 d2 <-  tibble(pid = 1:100,
-              parameter1 = rnorm(100, mean = 0, sd = 1),
-              parameter2 = rnorm(100, mean = 0, sd = 0.1),
-              parameter3 = rnorm(100, mean = 2, sd = 1),
-              parameter4 = rnorm(100, mean = 2, sd = 0.1)) %>% 
+              parameter1 = rnorm(100, mean = -2, sd = 1),
+              parameter2 = rnorm(100, mean = -2, sd = 0.1),
+              parameter3 = rnorm(100, mean = 0, sd = 1),
+              parameter4 = rnorm(100, mean = 0, sd = 0.1),
+              parameter5 = rnorm(100, mean = 2, sd = 1),
+              parameter6 = rnorm(100, mean = 2, sd = 0.1)) %>% 
   pivot_longer(-pid,
                names_to = "term",
                values_to = "value") %>% 
@@ -229,24 +234,23 @@ p4 <-
 p4
 ```
 
-As you can see, these four parameters vary in their highest density (what you might take for a point estimate) and in their spread or interval. Two are centred on zero, two are centred at 2. Two have relatively broad distributions whereas two have relatively narrow distributions.
+As you can see, these six parameters vary in their highest density (what you might take for a point estimate) and in their spread (or width of interval estimate). Two are centred on -2, two on zero, and two on +2. Three have relatively broad distributions whereas three have relatively narrow distributions.
 
-In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., for parameter 1, values as low as -2 and as high as 2 are compatible with your model estimates.
+In each case, you could then describe the proportion of values that span a particular range or quantile interval. e.g., for parameter 3, values as low as -2 and as high as 2 are compatible with your model estimates.
 
-Then consider what this might mean in relation to your pre-registered hypotheses. Let's say for simplicity, that for all four parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameters 1 and 2 would not show clear support the hypothesis, but parameter 3 and 4 would. Parameters 2 and 4 would be narrower estimates and more precise than parameters 1 and 3. Therefore, we may initially be more confident about drawing inferences from parameters 1 and 3 than 2 and 4.
+Then consider what this might mean in relation to your pre-registered hypotheses. Let's say for simplicity, that for all six parameters, we pre-registered that each would need to be positive to support our hypotheses. Parameters 1 and 2 would be in the opposite direction to our predictions and therefore not support our hypotheses and also reflect a sign error (i.e., the direction of effect was the wrong sign in relation to our hypotheses). Parameters 3 and 4 would also not show clear support the hypothesis as they centre on zero, but parameter 5 and 6 would. Parameters 2, 4 and 6 would be narrower estimates and more precise than parameters 1, 3 and 5. Therefore, just based on the width (or precision) of the distribution alone, we may initially be more confident about drawing inferences from parameters 1, 3 and 5 than 2, 4 and 6.
 
-Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model being used, then what would such results mean for theory or practice etc.?
+Of course, at this point also, it would be important to evaluate what such values would mean when situated in the particular research context. If we treat these as effect sizes in original units, which they may be depending on the type of model being used, then what would such results mean for theory or practice etc.? If it's basic research, how does it update or add to understanding of say cognitive or brain networks? If it's more applied, how does inform treatment interventions or public policy?
 
-Ok, that's fine and fairly clear-cut, as far as data from one experiment can get you. But what about grey areas or distributions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.
+Ok, that's all fine and fairly clear-cut, as far as data from one experiment can take you. But what about grey areas or distributions that are a little more indeterminate in relation to our hypotheses? Take a look at the following.
 
 ```{r, include=FALSE}
 # simulate data
 set.seed(123)
 d3 <-  tibble(pid = 1:100,
-              parameter5 = rnorm(100, mean = 0.5, sd = 1),
-              parameter6 = rnorm(100, mean = 1, sd = 1),
-              parameter7 = rnorm(100, mean = 1.5, sd = 1),
-              parameter8 = rnorm(100, mean = 2, sd = 1)) %>% 
+              parameter7 = rnorm(100, mean = 0.5, sd = 1),
+              parameter8 = rnorm(100, mean = 1, sd = 1),
+              parameter9 = rnorm(100, mean = 1.5, sd = 1)) %>% 
   pivot_longer(-pid,
                names_to = "term",
                values_to = "value") %>% 
@@ -266,11 +270,14 @@ p5 <-
 p5
 ```
 
-In these examples, let's again take zero as an important reference point and assume that we pre-registered a positive effect for all four parameters.
+In these examples, let's again take zero as an important reference point and assume that we pre-registered a positive effect for all three parameters.
 
-All four have the same spread. And all four have a majority of positive values. However, they vary in the strength with which they would support our hypothesis. Some have a healthy number of negative values in the 95% quantile interval (parameters 5 and 6) and some have a lower bound close to zero (parameters 7 and 8). Therefore, none of these provide overwhelming support for our hypothesis, at least not on their own as it stands from one single study. With that being said, parameter 7 and 8 are more compatible with our hypothesis than parameter 5 and 6. That much is clear and obvious.
+All three have the same spread. And all three have a majority of positive values. However, they vary in the strength with which they would support our hypothesis. Some have a healthy number of negative values in the 95% quantile interval (parameters 7 and 8) and some have a lower bound close to zero (parameters 9). Therefore, none of these provide overwhelming support for our hypothesis, at least not on their own as it stands based on a single study. With that being said, parameter 9 is more compatible with our hypothesis than parameters 7 and 8. That much is clear and obvious.
 
-But, overall, more experiments and data would be needed. This is true in all cases in my view, but especially in this particular case because of the indeterminate nature of the distributions. An obvious next step would be to try to increase the precision of the estimate by collecting more data and see if a replication can make the estimates more precise and support the original findings.
+But, overall, follow-up experiments and more data would be needed. This is true in all cases in my view, but especially in this particular case because of the indeterminate nature of the distributions. 
+
+**Ok, so let's go replicate:** At this point, I would then run a replication (or more likely, a replication and extension). By doing so, you avoid joining the "Cult of the Isolated Study", which is the trap of drawing conclusions from single experiments - see [here](https://doi.org/10.2307/2981525) and [here](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264).
+
 
 So let's look at how some replications may help with our inferences.
 
@@ -278,10 +285,9 @@ So let's look at how some replications may help with our inferences.
 # simulate exp2 data
 set.seed(123)
 d4 <-  tibble(pid = 1:300,
-              parameter5 = rnorm(300, mean = 0.5, sd = 0.5),
-              parameter6 = rnorm(300, mean = 1, sd = 0.5),
-              parameter7 = rnorm(300, mean = 1.5, sd = 0.5),
-              parameter8 = rnorm(300, mean = 2, sd = 0.5)) %>% 
+              parameter7 = rnorm(300, mean = 0.5, sd = 0.5),
+              parameter8 = rnorm(300, mean = 1, sd = 0.5),
+              parameter9 = rnorm(300, mean = 1.5, sd = 0.5)) %>% 
   pivot_longer(-pid,
                names_to = "term",
                values_to = "value") %>% 
@@ -292,10 +298,9 @@ head(d4)
 # simulate exp3 data
 set.seed(123)
 d5 <-  tibble(pid = 1:500,
-              parameter5 = rnorm(500, mean = 0.5, sd = 0.25),
-              parameter6 = rnorm(500, mean = 1, sd = 0.25),
-              parameter7 = rnorm(500, mean = 1.5, sd = 0.25),
-              parameter8 = rnorm(500, mean = 2, sd = 0.25)) %>% 
+              parameter7 = rnorm(500, mean = 0.5, sd = 0.25),
+              parameter8 = rnorm(500, mean = 1, sd = 0.25),
+              parameter9 = rnorm(500, mean = 1.5, sd = 0.25)) %>% 
   pivot_longer(-pid,
                names_to = "term",
                values_to = "value") %>% 
@@ -327,26 +332,31 @@ p6 <-
   labs(title = "Bayesian distribution estimation") +
   coord_cartesian(xlim =c(-4, 4)) +
   scale_x_continuous(breaks=seq(-4,4,1)) +
-  theme_bw() +
+  scale_fill_brewer(palette = "Dark2") +
   facet_wrap(~fct_rev(term), ncol = 1)
 p6
 ```
 
+Ok, so I've made things cartoonishly simple here, just to make the point obvious. But we can see that, in this example, as we add replications, our estimates become more precise. Each replication increases the sample size from N=100 to 300 and then 500. Let's also say that with each replication, we refine our measure tools to make them more sensitive and add better control conditions. For each parameter, we would now have a much stronger foundation to make an inference. Not only are the parameter estimates more precise (the lower and upper bounds are closer together), but with 3 separate samples collected and at least two pre-registered large-scale replications, we keep finding the same general pattern of results. That feels satisfying and re-assuring, even if they don't support your hypotheses 100%.
 
 #### 2. Model comparison.
 
 give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
 
-Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in exp psych / cog neuro, model comparison has not been as helpful, but that's just our experience. They are both valuable and serve different purposes, so they may work for other labs, questions, datasets more than others.
+```{r, echo=FALSE, fig.cap="model comparision via Leave One Out (LOO) cross-validation", fig.align='left', out.width="100%", out.height="100%"}
+knitr::include_graphics("img/loo.png")
+```
 
-**Then replicate:** At this point, I would then run a replication (or a replication and extension). By doing so, you avoid joining the "Cult of the Isolated Study", which is the trap of drawing conclusions from single experiments - see [here](https://doi.org/10.2307/2981525) and [here](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264).
+Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in my experience in exp psych / cog neuro, model comparison has not been as helpful, but that's just our experience. I am not in anyway suggesting that model comparison is not in general helpful or appropriate. It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle they are both valuable and serve different purposes, so they may work for other labs, questions, datasets more than others.
+
 
 ### Pros and cons
 
 Pros
 
 1.  One general and yet flexible approach to data analysis
-2.  Sophisticated and complex models via STAN
+2.  Sophisticated and complex model building enabled via STAN
+3.  brms uses lme4 syntax, which will be familiar to many psych people
 
 Cons
 
@@ -379,7 +389,7 @@ One of the best things about McElreath's book is that you get to the end of all 
 
 It is a very refreshing and humbling perspective to remember how broad, deep and diverse scientific workflows should be.
 
-And it made me realise how traditional stats training had inadvertently led us to expect far too much certainty from statistical models. We were asking statistical models to provide a level of certainty that was just not possible. And so it was time for a re-set.
+And it made me realise how traditional stats training had inadvertently led us all to expect far too much certainty from statistical models. We were asking statistical models to provide a level of certainty that was just not possible. And so it was time for a re-set.
 
 ### Where should I start?
 
