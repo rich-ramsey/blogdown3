@@ -70,7 +70,7 @@ Bodo Winter's Statistics for Linguists [textbook](https://bodowinter.com/books.h
 
 Krushke and Liddel [(2018)](https://link.springer.com/article/10.3758/s13423-016-1221-4) draw two key distinctions, which are depicted in the following figure:
 
-```{r, echo=FALSE, fig.cap="adapted from Krushke & Liddel (2018)", fig.align='left', out.width="100%", out.height="100%"}
+```{r, echo=FALSE, fig.cap="Adapted from Krushke & Liddel (2018). BF = Bayes factor; MLE = Maximum likelihood estimate; CI = confidence interval; HDI = highest density interval.", fig.align='left', out.width="100%", out.height="100%"}
 knitr::include_graphics("img/fig1b_hires.png")
 ```
 
@@ -82,7 +82,7 @@ Two things are immediately striking about this. First, Bayes factors are not req
 
 #### What does this mean in practice and why do I find it appealing?
 
-Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used correctly), but you just don't need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p \< 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., [these scales](https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale)). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and/or too artificial for my liking.
+Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used appropriately, c.f. Wasserstein & Lazar, [2016](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108); Lakens, [2021](https://journals.sagepub.com/doi/full/10.1177/1745691620958012)), but you just don't need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p \< 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., [these scales](https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale)). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and/or too artificial for my liking.
 
 Instead, the estimation approach is built around estimating the magnitude and uncertainty of parameters. I instinctively found this more satisfying. It seemed a simpler starting point to summarise the distribution of a parameter (e.g., give lower and upper bounds, as well as the peak density or some other summary value) without inherently giving special status or bright lines to certain values.
 
@@ -341,35 +341,93 @@ Ok, so I've made things cartoonishly simple here, just to make the point obvious
 
 #### 2. Model comparison.
 
-give an example. one way is to predict out-of-sample accuracy. Then compare between models. Penalty for added complexity.
+*Before we begin this section, an important disclaimer: If I consider myself fairly inexperienced with multi-level regression in general, then I am an absolutely stone-cold beginner when it comes to model comparison. So please take this section with big bucket loads of salt. And head to the original sources for confirmation*. 
+
+Ok, disclaimer over. Back to the main thread.
+
+The second way that we tend to make inferences in our general analytical workflow is through model comparison. Recall earlier, that we built models incrementally from the simplest to the most complex models (with the maximum amount of varying effects permitted by the design). That process would naturally result in a number of models being specified. We would then compare all of the models to see how well they can predict the unseen data. To do so, you remove some portion of the data, which you label as "test" data, then you use the rest of the data to try to predict the unseen data. As such, the model has never "seen" the test data before - it is completely blinded to it and cannot be biased by it. You would then compare and contrast how accurately the "test" data is predicted by each separate model. 
+
+**How does it work on a practical level in relation to your hypotheses?**
+
+Let's say there was a crucial parameter (or several parameters) of interest, your inference would be informed by the extent to which out-of-sample prediction is improved by the addition of your parameter/s of interest. When you compare to a model without the key parameter, how much does out-of-sample prediction improve? Not at all? A smigde? There is clear water between models? Depending on the size of the difference between these estimates of accuracy, it would inform how much of a difference the parameter of interest makes to out-of-sample predictive accuracy.
+
+**What kind of model comparison do we use?**
+
+Model comparison is a big old hairy beast with lots of different variants. We use one particular flavour of model comparison called Leave One Out (LOO) cross-validation (Vehtari et al., [2017](https://link.springer.com/article/10.1007/s11222-016-9696-4)). As the name states, it leaves one data point out and uses the rest to predict it. McElreath's suggestion was to simply plot the point estimates along with the associated standard error of the mean (SEM) and take a look at them. If the SEM intervals overlap, take it as not much evidence for a difference between models. Then if they don't overlap, take it as suggestive evidence that predictive accuracy improves when you add the particular parameter to the model.
+
+**There is no need to "pick a winner"**
+
+A further insight from McElreath, which I found particularly refreshing, is that the aim is not to pick a winning model. Instead, the aim would be to comment on accuracy across all of the models. If found this refreshing because I have been at countless scientific talks, lab meetings and other gatherings where it appears the speaker is hell-bent on finding any possible way to justify picking the one single, majestic-looking model that resolves Middle Eastern conflict, whilst simultaneously turning water into wine. I therefore very much appreciated the more descriptive approach that McElreath encouraged.
+
+**Let's put some flesh on the bone with an example...**
+
+Let's say you built 7 models. Model 1 is an intercepts-only model (i.e., a model without any predictors). Subsequent models (i.e., models 2-7) would each add a further parameter. Depending on how you've set things up, these additional parameters could be, for example:
+
+- An average effect of factor A compared to B;
+- The varying effect across participants of factor A compared to B;
+- The interaction term between factor A compared to B at timepoint 1 vs. 2;
+- The varying effect across participants of the interaction term;
+- etc. etc.
+
+The results may look like this...
 
 ```{r, echo=FALSE, fig.cap="model comparision via Leave One Out (LOO) cross-validation", fig.align='left', out.width="100%", out.height="100%"}
 knitr::include_graphics("img/loo.png")
 ```
 
-Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in my experience in exp psych / cog neuro, model comparison has not been as helpful, but that's just our experience. I am not in anyway suggesting that model comparison is not in general helpful or appropriate. It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle they are both valuable and serve different purposes, so they may work for other labs, questions, datasets more than others.
+And so what kind of inference would you make in this example?
+
+First, describe the results across all of the models. You might say something like:
+
+> All of the models improve upon the intercepts-only model. Models 2 and 3 perform similarly, which is better than model 1 but not by much. Model 4 shows condsiderable improvement compared to models 2 and 3. Finally, models 5, 6 and 7 improve upon model 4 and all show the same out-of-sample predcitive accuracy. Therefore, once you get to model 5, there is no additional benefit, in terms of out-of-sample predcitive accuracy, of adding parameters 6 and 7 to the model.
+
+Second, make some inferences, which depend on the key parameters of interest that you pre-registered in advance. Let's say it was really parameters 4, 6 and 7 that matter to you and that were specified in your pre-registration. You might say something like:
+
+> Adding parameter 4 <insert variable name here e.g., gender | age | factor A vs. B> made a clear improvement to predictive accuracy. This supports our hypothesis that blah blah... In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that blah blah...
+
+Now let's also assume that when looking at parameters in the full model (part 1 of making inferences above), the size and direction of parameters 6 and 7 did support your pre-registered hypotheses, you might also add this to your inference...
+
+> Even though the parameter estimates for 6 and 7 in the full model did support our hypotheses, these model comparison results show that these parameters make little difference to out-of-sample predicitve accurracy.
+
+By doing using these two inferential tools (both parameter evaluation in the most complex model and model comparison), you can hopefully see how they serve different purposes. But also you can see how they can be combined to provide an overall assessment of your pre-registered hypotheses.
 
 
-### Pros and cons
+*Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in experimental psychology and cognitive neuroscience, model comparison has not been as helpful as parameter estimation. But that's just our experience. I am not suggesting that model comparison is inferior in general or not as helpful or appropriate in every context It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle, they can both be valuable and serve different purposes, so they may work for some labs, questions, datasets more than others. I just really don't know enough about it*.
+
+### What's my problem with the p values and Bayes factors? ###
+
+In principle, I have no problem with either the p value or the Bayes factor, *if used appropriately*. They are both just redundant in the workflow that I outlined above. In my lab's work and the statistical textbooks that I've read, I have not seen a situation yet where they add any value to the calculation and evaluation of parameters in a multi-level regression model. 
+
+To make matters even less appealing, since its inception, the p value has been butchered so badly that it seems to have lost all recognition of itself and its rather restricted use-cases. The situation is so pervasive that folks teaching how to use the p value seem to mis-using it (REF). Very sensible people have come to the p values rescue by outlining how you should use it. That's fine and good. Another approach, however, is to let the p value quietly die on the slag heap of scientific mis-adventures and start again with a fresh perspective. And I prefer the latter approach.
+
+Therefore, if I added p values or Bayes factors into my workflow, it would not make a substantive change to the inferences that I make, but it would come with myriad caveats, widespread misunderstanding, as well as misplaced hope and expectation and no doubt other historical baggage. And, to me, based on this cost-benefit analysis, it seems like something to avoid, if possible. So I try to leave them alone.
+
+Now, I am sure that there are many, **many** more qualified people who can tell me all the reasons why such metrics can add value and in which specific situations they do so. And that's great. Science is best-served by a diverse and broad base. But, given the designs and datasets that my lab uses, which span approaches from experimental psychology to social and cognitive neuroscience, they just don't add any value, but they come with associated costs. So I put them in a big bin (e.g., a skip or a dumpster, depending on your British-American leanings).
+
+There is one major consequence of doing so. There are no bright lines for inference. There are no categorical decision points or inferential cliffs to fall off at p < 0.05. And there are no pre-set benchmarks for determining how "evidential" a Bayes factor is, in terms of . And they are all good things to avoid. Instead, dare I even say it as a professional scientist, you eventually need to use evaluative language to consider what your results mean. Lordy lordy. Whatever next? 
+
+
+### Pros and cons of this analytical workflow
 
 Pros
 
-1.  One general and yet flexible approach to data analysis
-2.  Sophisticated and complex model building enabled via STAN
-3.  brms uses lme4 syntax, which will be familiar to many psych people
+1.  One general and yet flexible approach to data analysis is provided, rather than an endless assortment of statistical "tests".
+2.  Sophisticated model building is enabled via the STAN modelling software.
+3.  brms uses lme4 syntax, which will be familiar to many people with a psychology background.
 
 Cons
 
-1.  Some models can take quite some time to build (days, weeks, months?) and need greater computer power.
+1.  Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible^[it is worth noting that Bayesian analyses were only made possible for regular folks in the mid-1990s with the advent of more powerful desktop computers].
+2.  Compared to point and click tools, there is more effort required to get things up and running, both theoretically and practically.
 
 ### Implications
 
--   Compared to more conventional stats training
+-   Compared to more conventional statistical training
     -   Much more information is used and presented
     -   Assumptions reflect what we know about human cognition and behaviour i.e., complex, variable (across people and situations) and multi-levelled.
     -   Bespoke models need building and choices need justifying -- so you gotta think a bit...
 -   Implications for the replication crisis?
-    -   There are fewer places to hide, due to a more complete presentation of information
+    -   There are fewer places for your data and model choices to hide, due to a more complete presentation of information
     -   It changes what a replication attempt would even look like e.g., p \< 0.05 is not enough
     -   More nuanced interpretations are required.
     -   It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.
