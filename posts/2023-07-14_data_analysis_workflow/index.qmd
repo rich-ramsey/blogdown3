@@ -1,5 +1,5 @@
 ---
-title: "General data analysis workflow"
+title: "A general data analysis workflow using Bayesian multi-level regression"
 subtitle: | 
   A brief outline of our approach to data analysis in recent years 
 date: "2023-05-10"
