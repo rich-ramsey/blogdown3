@@ -204,10 +204,21 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#intended-audience" id="toc-intended-audience" class="nav-link" data-scroll-target="#intended-audience">Intended audience</a></li>
   <li><a href="#my-background" id="toc-my-background" class="nav-link" data-scroll-target="#my-background">My background</a></li>
   <li><a href="#main-inspiration" id="toc-main-inspiration" class="nav-link" data-scroll-target="#main-inspiration">Main inspiration</a></li>
-  <li><a href="#taking-an-estimation-approach" id="toc-taking-an-estimation-approach" class="nav-link" data-scroll-target="#taking-an-estimation-approach">Taking an estimation approach</a></li>
+  <li><a href="#taking-an-estimation-approach" id="toc-taking-an-estimation-approach" class="nav-link" data-scroll-target="#taking-an-estimation-approach">Taking an estimation approach</a>
+  <ul>
+  <li><a href="#why-do-i-find-it-appealing" id="toc-why-do-i-find-it-appealing" class="nav-link" data-scroll-target="#why-do-i-find-it-appealing">Why do I find it appealing?</a></li>
+  <li><a href="#what-does-estimation-with-uncertanty-look-like" id="toc-what-does-estimation-with-uncertanty-look-like" class="nav-link" data-scroll-target="#what-does-estimation-with-uncertanty-look-like">What does estimation with uncertanty look like?</a></li>
+  <li><a href="#sidenote-the-benefit-of-bayesian-workflows---working-in-distributions" id="toc-sidenote-the-benefit-of-bayesian-workflows---working-in-distributions" class="nav-link" data-scroll-target="#sidenote-the-benefit-of-bayesian-workflows---working-in-distributions">Sidenote: The benefit of Bayesian workflows - working in distributions</a></li>
+  <li><a href="#it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor" id="toc-it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor" class="nav-link" data-scroll-target="#it-is-the-structure-of-the-model-that-matters-not-the-p-value-or-bayes-factor">It is the structure of the model that matters, not the p value or Bayes factor</a></li>
+  </ul></li>
   <li><a href="#build-models-incrementally-towards-the-full-model" id="toc-build-models-incrementally-towards-the-full-model" class="nav-link" data-scroll-target="#build-models-incrementally-towards-the-full-model">Build models incrementally towards the full model</a></li>
   <li><a href="#implementation-lme4-vs-brms-and-stan" id="toc-implementation-lme4-vs-brms-and-stan" class="nav-link" data-scroll-target="#implementation-lme4-vs-brms-and-stan">Implementation: lme4 vs brms (and stan)</a></li>
-  <li><a href="#inference" id="toc-inference" class="nav-link" data-scroll-target="#inference">Inference</a></li>
+  <li><a href="#inference" id="toc-inference" class="nav-link" data-scroll-target="#inference">Inference</a>
+  <ul>
+  <li><a href="#evaluate-parameters-of-interest-in-the-full-model." id="toc-evaluate-parameters-of-interest-in-the-full-model." class="nav-link" data-scroll-target="#evaluate-parameters-of-interest-in-the-full-model.">1. Evaluate parameters of interest in the full model.</a></li>
+  <li><a href="#model-comparison." id="toc-model-comparison." class="nav-link" data-scroll-target="#model-comparison.">2. Model comparison.</a></li>
+  </ul></li>
+  <li><a href="#whats-my-problem-with-p-values-and-bayes-factors" id="toc-whats-my-problem-with-p-values-and-bayes-factors" class="nav-link" data-scroll-target="#whats-my-problem-with-p-values-and-bayes-factors">What’s my problem with p values and Bayes factors?</a></li>
   <li><a href="#pros-and-cons-of-this-analytical-workflow" id="toc-pros-and-cons-of-this-analytical-workflow" class="nav-link" data-scroll-target="#pros-and-cons-of-this-analytical-workflow">Pros and cons of this analytical workflow</a></li>
   <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a></li>
   <li><a href="#and-finally-but-most-importantly-back-to-mcelreath" id="toc-and-finally-but-most-importantly-back-to-mcelreath" class="nav-link" data-scroll-target="#and-finally-but-most-importantly-back-to-mcelreath">And finally (but most importantly) back to McElreath…</a></li>
@@ -275,9 +286,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>They distinguish between hypothesis tests (top row) and Estimation with uncertainty (bottom row). They also distinguish between a frequentist approach (left column) and Bayesian approaches (right column).</p>
 <p>Two things are immediately striking about this. First, Bayes factors are not required to run Bayesian analyses. Indeed, Richard McElreath’s entire textbook on Bayesian statistics does not involve Bayes factors (or p values, but that might have been expected). Second, taking an estimation approach is not tied to being a Bayesian. It can also be done in a frequentist framework<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<section id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing" class="level4">
-<h4 class="anchored" data-anchor-id="what-does-this-mean-in-practice-and-why-do-i-find-it-appealing">What does this mean in practice and why do I find it appealing?</h4>
-<p>Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used correctly, c.f. <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108">Wasserstein &amp; Lazar, 2016</a>; <a href="https://journals.sagepub.com/doi/full/10.1177/1745691620958012">Lakens, 2021</a>), but you just don’t need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p &lt; 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., <a href="https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale">these scales</a>). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and/or too artificial for my liking.</p>
+<section id="why-do-i-find-it-appealing" class="level4">
+<h4 class="anchored" data-anchor-id="why-do-i-find-it-appealing">Why do I find it appealing?</h4>
+<p>Well, first of all, you can forget about the difficulties of interpreting the pesky p value or trying to benchmark Bayes factors. Both approaches may be perfectly fine to use (if used appropriately, c.f. Wasserstein &amp; Lazar, <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108">2016</a>; Lakens, <a href="https://journals.sagepub.com/doi/full/10.1177/1745691620958012">2021</a>), but you just don’t need them under the estimation approach. Based on my stats background, that was a huge benefit because there was always something deeply unsatisfying about interpreting artificial bright marks (e.g., p &lt; 0.05) or using pre-set benchmarks for how to interpret Bayes factors (e.g., <a href="https://www.statlect.com/fundamentals-of-statistics/Jeffreys-scale">these scales</a>). Both of these approaches seemed to rely too heavily on categorical thinking (significant or not) or some framework for interpreting Bayes factors. All of which felt too certain and/or too artificial for my liking.</p>
 <p>Instead, the estimation approach is built around estimating the magnitude and uncertainty of parameters. I instinctively found this more satisfying. It seemed a simpler starting point to summarise the distribution of a parameter (e.g., give lower and upper bounds, as well as the peak density or some other summary value) without inherently giving special status or bright lines to certain values.</p>
 </section>
 <section id="what-does-estimation-with-uncertanty-look-like" class="level4">
@@ -417,24 +428,32 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in experimental psychology and cognitive neuroscience, model comparison has not been as helpful as parameter estimation. But that’s just our experience. I am not suggesting that model comparison is inferior in general or not as helpful or appropriate in every context It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle, they can both be valuable and serve different purposes, so they may work for some labs, questions, datasets more than others. I just really don’t know enough about it</em>.</p>
 </section>
 </section>
+<section id="whats-my-problem-with-p-values-and-bayes-factors" class="level3">
+<h3 class="anchored" data-anchor-id="whats-my-problem-with-p-values-and-bayes-factors">What’s my problem with p values and Bayes factors?</h3>
+<p>In principle, I have no problem with either the p value or the Bayes factor, <em>if used in restricted and appropriate ways</em>. They are both just redundant in the workflow that I outlined above. In my lab’s work and the statistical textbooks that I’ve read, I have not seen a situation yet where they add any value to the calculation and evaluation of parameters in a multi-level regression model. The situation also runs deeper too, as their use appears to hamper scientific thining more generally, as outlined by Richard McElreath as he explains why he avoids using p values, Bayes factors and confidence intervals in this <a href="https://elevanth.org/blog/2023/07/17/none-of-the-above/">blog post</a>.</p>
+<p>To make matters even less appealing, since its inception, the p value has been butchered so badly that it seems to have lost all recognition of itself and its rather restricted use-cases. The situation is so pervasive that there is rampant mis-use of the p value (Greenland et al., <a href="https://link.springer.com/article/10.1007/s10654-016-0149-3">2016</a>) and mainstream introductory textbooks in psychology very often define or describe them incorrectly (Cassidy et al., <a href="https://journals.sagepub.com/doi/full/10.1177/2515245919858072">2019</a>). Very sensible people have come to the rescue of p values by outlining how you should use them (e.g., Wasserstein et al., <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913">2019</a>. That’s fine and good. Another approach, however, is to let the p value quietly die on the slag heap of scientific mis-adventures and start again with a fresh perspective. And I prefer the latter approach.</p>
+<p>Therefore, if I added p values or Bayes factors into my workflow, it would not make a substantive change to the inferences that I make, but it would come with myriad caveats, widespread misunderstanding, as well as misplaced hope and expectation and no doubt other historical baggage. And, to me, based on this cost-benefit analysis, it seems like something to avoid, if possible. So I try to leave them alone.</p>
+<p>Now, I am sure that there are many, <strong>many</strong> more qualified people who can tell me all the reasons why such metrics can add value and in which specific situations they do so. And that’s great. Science is best-served by a diverse and broad base. But, given the designs and datasets that my lab uses, which span approaches from experimental psychology to social and cognitive neuroscience, they just don’t add any value, but they come with associated costs. So I put them in a big bin (or dumpster, if you prefer).</p>
+<p>There is one major consequence of letting go of p values and other categorical ways of thinking about inferences. There are no bright lines for inference. There are no clear-cut and categorical decision points or inferential cliffs to fall off of as the <em>p</em> value approaches magical values, such as 0.05. And there are no pre-set benchmarks for determining how “evidential” a Bayes factor is, in terms of saying some thing like “anecodotal, moderate, strong, very strong, or extreme”. And these are all good things to avoid (Funder &amp; Ozer, <a href="https://journals.sagepub.com/doi/abs/10.1177/2515245919847202">2019</a>; McElthreath, <a href="https://elevanth.org/blog/2023/07/17/none-of-the-above/">2023</a>), as they have led to ritualistic and frequently thoughtless statistical inferences (Gigerenzer, <a href="https://journals.sagepub.com/doi/full/10.1177/2515245918771329">2018</a>). Instead, dare I even say it as a professional scientist who wants keep at least a modicum of self-respect, you ultimately need to use <em>evaluative</em> language to consider what your results mean when situated within the relevant context. Lordy, lordy. Whatever next?</p>
+</section>
 <section id="pros-and-cons-of-this-analytical-workflow" class="level3">
 <h3 class="anchored" data-anchor-id="pros-and-cons-of-this-analytical-workflow">Pros and cons of this analytical workflow</h3>
 <p>Pros</p>
 <ol type="1">
 <li>One general and yet flexible approach to data analysis is provided, rather than an endless assortment of statistical “tests”.</li>
-<li>Rather sophisticated and complex model building is enabled via the STAN modelling software.</li>
+<li>Sophisticated model building is enabled via the STAN modelling software.</li>
 <li>brms uses lme4 syntax, which will be familiar to many people with a psychology background.</li>
 </ol>
 <p>Cons</p>
 <ol type="1">
-<li>Some models can take quite some time to build (days, weeks, months?) and need much greater computer power to make it feasible<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
+<li>Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
 <li>Compared to point and click tools, there is more effort required to get things up and running, both theoretically and practically.</li>
 </ol>
 </section>
 <section id="implications" class="level3">
 <h3 class="anchored" data-anchor-id="implications">Implications</h3>
 <ul>
-<li>Compared to more conventional stats training
+<li>Compared to more conventional statistical training
 <ul>
 <li>Much more information is used and presented</li>
 <li>Assumptions reflect what we know about human cognition and behaviour i.e., complex, variable (across people and situations) and multi-levelled.</li>
@@ -442,7 +461,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Implications for the replication crisis?
 <ul>
-<li>There are fewer places to hide, due to a more complete presentation of information</li>
+<li>There are fewer places for your data and model choices to hide, due to a more complete presentation of information</li>
 <li>It changes what a replication attempt would even look like e.g., p &lt; 0.05 is not enough</li>
 <li>More nuanced interpretations are required.</li>
 <li>It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.</li>
@@ -469,10 +488,10 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="where-should-i-start">Where should I start?</h3>
 <p>If you’re interested in jumping on the Bayesian estimation bandwagon, then I would do the following.</p>
 <ol type="1">
-<li><p>Read this book first by Bodo Winter. It provides the perfect intro to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian per se about estimation approaches.</p></li>
-<li><p>Read McElreath’s book and watch his lectures. Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath’s textbook with Solomon Kurz’s ebook and associated code. That’s what I did.</p></li>
-<li><p>Take a look at code examples online from other people’s work. There are a bunch. You can find some on my <a href="https://rich-ramsey.com/publications/publications.html">publications page</a> and <a href="https://osf.io/s67e2/">OSF page</a>. But better yet, find someone else who has more experience like Solomon Kurz and many, many more people out there.</p></li>
-<li><p>If you get stuck, write a reproducible example on the brms forum. Folks are really helpful on this forum and the forum seems to be fairly active.</p></li>
+<li><p>Before you do anything else, read this textbook by Bodo Winter <a href="https://bodowinter.com/books.html">Winter, 2019</a>. It provides the perfect introduction to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian <em>per se</em> about estimation approaches.</p></li>
+<li><p>Read McElreath’s <a href="https://xcelab.net/rm/statistical-rethinking/">textbook</a> and watch his <a href="https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus">lectures</a>. Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath’s textbook with Solomon Kurz’s <a href="https://bookdown.org/content/4857/">ebook</a> and associated code. That’s what I did.</p></li>
+<li><p>Take a look at code examples online from other people’s work. There are a bunch. You can find some from my lab on my <a href="https://rich-ramsey.com/publications/publications.html">publications page</a> and my <a href="https://osf.io/s67e2/">OSF pages</a>. But better yet, find someone else who has more experience with coding and brms - like the living legend that is <a href="https://solomonkurz.netlify.app/blog/">Solomon Kurz</a> or the creator of brms, <a href="https://paul-buerkner.github.io/">Paul Bürner</a> - as well as the many, many more people out there.</p></li>
+<li><p>If you get stuck, write a <a href="https://community.rstudio.com/t/faq-whats-a-reproducible-example-reprex-and-how-do-i-create-one/5219">reproducible example</a> and post it on the <a href="https://discourse.mc-stan.org/c/interfaces/brms/36">brms forum</a>. Folks are really helpful, knowledgeable and active on this forum, so it is a good place to get help.</p></li>
 </ol>
 
 
