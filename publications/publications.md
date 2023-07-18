@@ -10,6 +10,18 @@ keep-md: true
 
 ## Preprints
 
+### 2023{#not-published-2023}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2023) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/pvxzy" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li></ul>
+```
+
 ### 2021{#not-published-2021}
 
 ```{=html}

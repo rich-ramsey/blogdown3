@@ -149,6 +149,24 @@ bara2022a:
     osf: 
     github: 
     neurovault: 
+    
+bara2023:
+    title: "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions"
+    authors:
+        - Ionela Bara
+        - Emily S. Cross
+        - me
+    year: 2023
+    in_press: 
+    venue: 
+    preprint: https://psyarxiv.com/pvxzy
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: https://osf.io/fpmxq/
+    github: 
+    neurovault: 
 
 binney2020:
     title: "Social Semantics: The role of conceptual knowledge and cognitive control in a neurobiological model of the social brain"
