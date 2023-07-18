@@ -5,7 +5,7 @@ subtitle: |
 date: "2023-07-18"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
-draft: true
+draft: false
 author:
   - name: Richard Ramsey
     url: https://rich-ramsey.com/
