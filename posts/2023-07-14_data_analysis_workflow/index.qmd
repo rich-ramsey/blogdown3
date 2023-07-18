@@ -2,7 +2,7 @@
 title: "A general data analysis workflow using Bayesian multi-level regression"
 subtitle: | 
   A brief outline of our approach to data analysis in recent years 
-date: "2023-05-10"
+date: "2023-07-18"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
 draft: true
