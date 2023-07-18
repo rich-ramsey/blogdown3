@@ -5,7 +5,7 @@ subtitle: |
 date: "2023-07-18"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
-draft: false
+draft: true
 author:
   - name: Richard Ramsey
     url: https://rich-ramsey.com/
@@ -24,7 +24,7 @@ editor_options:
 
 -   Estimate parameters within (multi-level) regression models
 
--   Describe the posterior distribution of these parameters 
+-   Describe the posterior distribution of these parameters
 
 -   Evaluate these posterior distributions in relation to your hypotheses
 
@@ -48,7 +48,7 @@ Newbies who are looking to move towards using multi-level regression models in a
 
 My background and training is in experimental psychology and cognitive neuroscience and my main research methods and statistics training will be very familiar to those from a psychology background. Each week we learned about a different statistical "test". And each week we were given some data, which was suitable for a particular test. Week 1 starts with a t-test and you head towards more complex ANOVAs as the weeks move on. Although there are promising exceptions, a version of this type of training still seems to be the cornerstone of most undergraduate and graduate statistics courses in psychology world-over.
 
-All you ever needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be \< 0.05. If p was \< 0.05, then pop the Champagne and praise Jesus. If p was \> 0.05, but still close (e.g., \< 0.1), then say something vague like "trending towards significance". If p value was \> 0.1 then just pretend that that means there is no real effect. 
+All you ever needed to do was pick the right test for the particular type of data and pray to the datagods that the p value would be \< 0.05. If p was \< 0.05, then pop the Champagne and praise Jesus. If p was \> 0.05, but still close (e.g., \< 0.1), then say something vague like "trending towards significance". If p value was \> 0.1 then just pretend that that means there is no real effect.
 
 I became tired of this and I was looking for something different. And I had a sabbatical.
 
@@ -179,7 +179,9 @@ This has many benefits. Instead of learning an almost infinite list of "tests" l
 
 There are many ways to go about building models, and much debate. We will sidestep that debate and just outline one approach.
 
-My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying^[varying effects are also known as random effects] effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
+My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying[^2] effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
+
+[^2]: varying effects are also known as random effects
 
 Therefore, we start with an intercepts only model (i.e., one without any predictors) and build incrementally towards the full model. The full model being the one with the maximum number of fixed and varying effects that can be specified by the design.
 
@@ -274,10 +276,9 @@ In these examples, let's again take zero as an important reference point and ass
 
 All three have the same spread. And all three have a majority of positive values. However, they vary in the strength with which they would support our hypothesis. Some have a healthy number of negative values in the 95% quantile interval (parameters 7 and 8) and some have a lower bound close to zero (parameters 9). Therefore, none of these provide overwhelming support for our hypothesis, at least not on their own as it stands based on a single study. With that being said, parameter 9 is more compatible with our hypothesis than parameters 7 and 8. That much is clear and obvious.
 
-But, overall, follow-up experiments and more data would be needed. This is true in all cases in my view, but especially in this particular case because of the indeterminate nature of the distributions. 
+But, overall, follow-up experiments and more data would be needed. This is true in all cases in my view, but especially in this particular case because of the indeterminate nature of the distributions.
 
 **Ok, so let's go replicate:** At this point, I would then run a replication (or more likely, a replication and extension). By doing so, you avoid joining the "Cult of the Isolated Study", which is the trap of drawing conclusions from single experiments - see [here](https://doi.org/10.2307/2981525) and [here](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264).
-
 
 So let's look at how some replications may help with our inferences.
 
@@ -341,11 +342,11 @@ Ok, so I've made things cartoonishly simple here, just to make the point obvious
 
 #### 2. Model comparison.
 
-*Before we begin this section, an important disclaimer: If I consider myself fairly inexperienced with multi-level regression in general, then I am an absolutely stone-cold beginner when it comes to model comparison. So please take this section with big bucket loads of salt. And head to the original sources for confirmation*. 
+*Before we begin this section, an important disclaimer: If I consider myself fairly inexperienced with multi-level regression in general, then I am an absolutely stone-cold beginner when it comes to model comparison. So please take this section with big bucket loads of salt. And head to the original sources for confirmation*.
 
 Ok, disclaimer over. Back to the main thread.
 
-The second way that we tend to make inferences in our general analytical workflow is through model comparison. Recall earlier, that we built models incrementally from the simplest to the most complex models (with the maximum amount of varying effects permitted by the design). That process would naturally result in a number of models being specified. We would then compare all of the models to see how well they can predict the unseen data. To do so, you remove some portion of the data, which you label as "test" data, then you use the rest of the data to try to predict the unseen data. As such, the model has never "seen" the test data before - it is completely blinded to it and cannot be biased by it. You would then compare and contrast how accurately the "test" data is predicted by each separate model. 
+The second way that we tend to make inferences in our general analytical workflow is through model comparison. Recall earlier, that we built models incrementally from the simplest to the most complex models (with the maximum amount of varying effects permitted by the design). That process would naturally result in a number of models being specified. We would then compare all of the models to see how well they can predict the unseen data. To do so, you remove some portion of the data, which you label as "test" data, then you use the rest of the data to try to predict the unseen data. As such, the model has never "seen" the test data before - it is completely blinded to it and cannot be biased by it. You would then compare and contrast how accurately the "test" data is predicted by each separate model.
 
 **How does it work on a practical level in relation to your hypotheses?**
 
@@ -363,11 +364,11 @@ A further insight from McElreath, which I found particularly refreshing, is that
 
 Let's say you built 7 models. Model 1 is an intercepts-only model (i.e., a model without any predictors). Subsequent models (i.e., models 2-7) would each add a further parameter. Depending on how you've set things up, these additional parameters could be, for example:
 
-- An average effect of factor A compared to B;
-- The varying effect across participants of factor A compared to B;
-- The interaction term between factor A compared to B at timepoint 1 vs. 2;
-- The varying effect across participants of the interaction term;
-- etc. etc.
+-   An average effect of factor A compared to B;
+-   The varying effect across participants of factor A compared to B;
+-   The interaction term between factor A compared to B at timepoint 1 vs. 2;
+-   The varying effect across participants of the interaction term;
+-   etc. etc.
 
 The results may look like this...
 
@@ -383,7 +384,7 @@ First, describe the results across all of the models. You might say something li
 
 Second, make some inferences, which depend on the key parameters of interest that you pre-registered in advance. Let's say it was really parameters 4, 6 and 7 that matter to you and that were specified in your pre-registration. You might say something like:
 
-> Adding parameter 4 <insert variable name here e.g., gender | age | factor A vs. B> made a clear improvement to predictive accuracy. This supports our hypothesis that blah blah... In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that blah blah...
+> Adding parameter 4 \<insert variable name here e.g., gender \| age \| factor A vs. B\> made a clear improvement to predictive accuracy. This supports our hypothesis that blah blah... In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that blah blah...
 
 Now let's also assume that when looking at parameters in the full model (part 1 of making inferences above), the size and direction of parameters 6 and 7 did support your pre-registered hypotheses, you might also add this to your inference...
 
@@ -391,25 +392,23 @@ Now let's also assume that when looking at parameters in the full model (part 1 
 
 By doing using these two inferential tools (both parameter evaluation in the most complex model and model comparison), you can hopefully see how they serve different purposes. But also you can see how they can be combined to provide an overall assessment of your pre-registered hypotheses.
 
-
 *Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in experimental psychology and cognitive neuroscience, model comparison has not been as helpful as parameter estimation. But that's just our experience. I am not suggesting that model comparison is inferior in general or not as helpful or appropriate in every context It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle, they can both be valuable and serve different purposes, so they may work for some labs, questions, datasets more than others. I just really don't know enough about it*.
 
-### What's my problem with p values and Bayes factors? ###
+### What's my problem with p values and Bayes factors?
 
 In principle, I have no problem with either the p value or the Bayes factor, *if used in restricted and appropriate ways*. They are both just redundant in the workflow that I outlined above. In my lab's work and the statistical textbooks that I've read, I have not seen a situation yet where they add any value to the calculation and evaluation of parameters in a multi-level regression model. The situation also runs deeper too, as their use appears to hamper scientific thinking more generally, as outlined by Richard McElreath as he explains why he avoids using p values, Bayes factors and confidence intervals in this [blog post](https://elevanth.org/blog/2023/07/17/none-of-the-above/).
 
-To make matters even less appealing, since its inception, the p value has been butchered so badly that it seems to have lost all recognition of itself and its rather restricted use-cases. The situation is so pervasive that there is rampant mis-use of the p value (Greenland et al., [2016](https://link.springer.com/article/10.1007/s10654-016-0149-3)) and mainstream introductory textbooks in psychology very often define or describe them incorrectly (Cassidy et al., [2019](https://journals.sagepub.com/doi/full/10.1177/2515245919858072)). Sensible people have come to the rescue of p values by outlining how you should use them (e.g., Wasserstein et al., [2019](https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913)). That's fine and good. Another approach, however, is to let the p value quietly die on the slag heap of scientific mis-adventures and start again with a fresh perspective. And I prefer the latter approach. 
+To make matters even less appealing, since its inception, the p value has been butchered so badly that it seems to have lost all recognition of itself and its rather restricted use-cases. The situation is so pervasive that there is rampant mis-use of the p value (Greenland et al., [2016](https://link.springer.com/article/10.1007/s10654-016-0149-3)) and mainstream introductory textbooks in psychology very often define or describe them incorrectly (Cassidy et al., [2019](https://journals.sagepub.com/doi/full/10.1177/2515245919858072)). Sensible people have come to the rescue of p values by outlining how you should use them (e.g., Wasserstein et al., [2019](https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913)). That's fine and good. Another approach, however, is to let the p value quietly die on the slag heap of scientific mis-adventures and start again with a fresh perspective. And I prefer the latter approach.
 
 Therefore, if I added p values or Bayes factors into the above workflow, it would not make a substantive change to the inferences that I make, but it would come with myriad caveats, widespread misunderstanding, as well as misplaced hope and expectation and no doubt other historical baggage. And, to me, based on this cost-benefit analysis, it seems like something to avoid, if possible. So I try to leave them alone.
 
 Now, I am sure that there are many, **many** more qualified people who can tell me all the reasons why such metrics can add value and in which specific situations they do so. And that's great. Science is best-served by a diverse and broad base. But, given the designs and datasets that my lab uses, which span approaches from experimental psychology to social and cognitive neuroscience, they just don't add any value, but they come with associated costs. So I put them in a big bin (or dumpster, if you prefer).
 
-There is one major consequence of letting go of p values and other categorical ways of thinking about inferences. There are no bright lines for inference. There are no clear-cut decision points or inferential cliffs to fall off of as the *p* value approaches magical values, such as 0.05. And there are no pre-set benchmarks for determining how "evidential" a Bayes factor is, in terms of saying some thing like "anecodotal, moderate, strong, very strong, or extreme". And these are all good things to avoid because they led to ritualistic and frequently thoughtless statistical inferences (Gigerenzer, [2018](https://journals.sagepub.com/doi/full/10.1177/2515245918771329); Funder & Ozer, [2019](https://journals.sagepub.com/doi/abs/10.1177/2515245919847202); McElreath, [2023](https://elevanth.org/blog/2023/07/17/none-of-the-above/)). Instead, dare I even say it as a professional scientist who wants keep at least a modicum of self-respect, you ultimately need to think for yourself and use *evaluative* language to consider what your results mean when situated within the relevant context. Lordy, lordy. Whatever next? 
+There is one major consequence of letting go of p values and other categorical ways of thinking about inferences. There are no bright lines for inference. There are no clear-cut decision points or inferential cliffs to fall off of as the *p* value approaches magical values, such as 0.05. And there are no pre-set benchmarks for determining how "evidential" a Bayes factor is, in terms of saying some thing like "anecodotal, moderate, strong, very strong, or extreme". And these are all good things to avoid because they led to ritualistic and frequently thoughtless statistical inferences (Gigerenzer, [2018](https://journals.sagepub.com/doi/full/10.1177/2515245918771329); Funder & Ozer, [2019](https://journals.sagepub.com/doi/abs/10.1177/2515245919847202); McElreath, [2023](https://elevanth.org/blog/2023/07/17/none-of-the-above/)). Instead, dare I even say it as a professional scientist who wants keep at least a modicum of self-respect, you ultimately need to think for yourself and use *evaluative* language to consider what your results mean when situated within the relevant context. Lordy, lordy. Whatever next?
 
-You may *even* have to conclude, after much blood, sweat and tears, plus numerous pilot studies, pre-registrations, and several
-well-designed, powerful and sensitive experiments, that your work does not currently license an obvious, straightforward or "sexy" conclusion and that ... heaven forbid... "more work is needed". Oh Dear. Shucks. What a total shocker? 
+You may *even* have to conclude, after much blood, sweat and tears, plus numerous pilot studies, pre-registrations, and several well-designed, powerful and sensitive experiments, that your work does not currently license an obvious, straightforward or "sexy" conclusion and that ... heaven forbid... "more work is needed". Oh Dear. Shucks. What a total shocker?
 
-Instead, we may just accept that frequently good science goes hand-in-hand with rather modest claims (Lilienfeld et al., [2021](https://journals.sagepub.com/doi/10.1177/1745691616687745); Ramsey, [2021](https://online.ucpress.edu/collabra/article/7/1/24091/117222/A-Call-for-Greater-Modesty-in-Psychology-and)). 
+Instead, we may just accept that frequently good science goes hand-in-hand with rather modest claims (Lilienfeld et al., [2021](https://journals.sagepub.com/doi/10.1177/1745691616687745); Ramsey, [2021](https://online.ucpress.edu/collabra/article/7/1/24091/117222/A-Call-for-Greater-Modesty-in-Psychology-and)).
 
 ### Pros and cons of this analytical workflow
 
@@ -421,8 +420,10 @@ Pros
 
 Cons
 
-1.  Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible^[it is worth noting that Bayesian analyses were only made possible for regular folks in the mid-1990s with the advent of more powerful desktop computers].
+1.  Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible[^3].
 2.  Compared to point and click tools, there is more effort required to get things up and running, both theoretically and practically.
+
+[^3]: it is worth noting that Bayesian analyses were only made possible for regular folks in the mid-1990s with the advent of more powerful desktop computers
 
 ### Implications
 
