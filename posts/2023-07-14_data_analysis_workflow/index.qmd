@@ -184,7 +184,7 @@ There are many ways to go about building models, and much debate. We will sidest
 
 My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying[^2] effects that the design permits because **it tends to be a better reflection of the reality we are trying to model**. Read Dale Barr's paper for more details.
 
-[^2]: varying effects are also known as random effects
+[^2]: Varying effects are also known as random effects
 
 Therefore, we start with an intercepts only model (i.e., one without any predictors) and build incrementally towards the full model. The full model being the one with the maximum number of fixed and varying effects that can be specified by the design.
 
@@ -363,7 +363,7 @@ Model comparison is a big old hairy beast with lots of different variants. We us
 
 **There is no need to "pick a winner"**
 
-A further insight from McElreath, which I found particularly refreshing, is that the aim is not to pick a winning model. Instead, the aim would be to comment on accuracy across all of the models. If found this refreshing because I have been at countless scientific talks, lab meetings and other gatherings where it appears the speaker is hell-bent on finding any possible way to justify picking the one single, majestic-looking model that resolves Middle Eastern conflict, whilst simultaneously turning water into wine. I therefore very much appreciated the more descriptive approach that McElreath encouraged.
+A further insight from McElreath, which I found particularly refreshing, is that the aim is not to pick a winning model. Instead, the aim would be to comment on accuracy across all of the models. I found this refreshing because I have been at countless scientific talks, lab meetings and other gatherings where it appears the speaker is hell-bent on finding any possible way to justify picking the one single, majestic-looking model that resolves Middle Eastern conflict, whilst simultaneously turning water into wine. I therefore very much appreciated the more descriptive approach that McElreath encouraged.
 
 **Let's put some flesh on the bone with an example...**
 
@@ -385,11 +385,11 @@ And so what kind of inference would you make in this example?
 
 First, describe the results across all of the models. You might say something like:
 
-> All of the models improve upon the intercepts-only model. Models 2 and 3 perform similarly, which is better than model 1 but not by much. Model 4 shows considerable improvement compared to models 2 and 3. Finally, models 5, 6 and 7 improve upon model 4 and all show the same out-of-sample predcitive accuracy. Therefore, once you get to model 5, there is no additional benefit, in terms of out-of-sample predcitive accuracy, of adding parameters 6 and 7 to the model.
+> All of the models improve upon the intercepts-only model. Models 2 and 3 perform similarly, which is better than model 1. Model 4 shows further improvement compared to models 2 and 3. Finally, models 5, 6 and 7 improve upon model 4 and all show the same out-of-sample predcitive accuracy. Therefore, once you get to model 5, there is no additional benefit, in terms of out-of-sample predcitive accuracy, of adding parameters 6 and 7 to the model.
 
 Second, make some inferences, which depend on the key parameters of interest that you pre-registered in advance. Let's say it was really parameters 4, 6 and 7 that matter to you and that were specified in your pre-registration. You might say something like:
 
-> Adding parameter 4 \<insert variable name here e.g., gender \| age \| factor A vs. B\> made a clear improvement to predictive accuracy. This means that when this term was included, the model made more accurate predictions of the unseen data. This supports our hypothesis that <refer to the stated hypothesis>. In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that <refer to the stated hypothesis>.
+> Adding parameter 4 \<insert variable name here e.g., gender \| age \| factor A vs. B\> made a clear improvement to predictive accuracy. This means that when this term was included, the model made more accurate predictions about the unseen data. This supports our hypothesis that \<refer to the stated hypothesis\>. In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that \<refer to the stated hypothesis\>.
 
 Now let's also assume that when looking at parameters in the full model (part 1 of making inferences above), the size and direction of parameters 6 and 7 did support your pre-registered hypotheses, you might also add this to your inference...
 
@@ -397,11 +397,11 @@ Now let's also assume that when looking at parameters in the full model (part 1 
 
 By doing using these two inferential tools (both parameter evaluation in the most complex model and model comparison), you can hopefully see how they serve different purposes. But also you can see how they can be combined to provide an overall assessment of your pre-registered hypotheses.
 
-*Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in experimental psychology and cognitive neuroscience, model comparison has not been as helpful as parameter estimation. But that's just our experience. I am not suggesting that model comparison is inferior in general or not as helpful or appropriate in every context It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle, they can both be valuable and serve different purposes, so they may work for some labs, questions, datasets more than others. I just really don't know enough about it*.
+*Note: depending on your research question and type of data, the relative merits and value of parameter estimation versus model comparison may differ. For example, in our experience in experimental psychology and cognitive neuroscience, model comparison has not been as helpful as parameter estimation. But that's just our experience. I am not suggesting that model comparison is inferior in general or not as helpful or appropriate in every context. It is just that we tend to use factorial designs and we are more familiar with interpreting parameters. However, in principle, they can both be valuable and serve different purposes, so they may work for some labs, questions, datasets more than others. I just really don't know enough about it*.
 
 ### What's my problem with p values and Bayes factors?
 
-In principle, I have no problem with either the p value or the Bayes factor, *if used in restricted and appropriate ways*. They are both just redundant in the workflow that I outlined above. In my lab's work and the statistical textbooks that I've read, I have not seen a situation yet where they add any value to the calculation and evaluation of parameters in a multi-level regression model. The situation also runs deeper too, as their use appears to hamper scientific thinking more generally, as outlined by Richard McElreath as he explains why he avoids using p values, Bayes factors and confidence intervals in this [blog post](https://elevanth.org/blog/2023/07/17/none-of-the-above/).
+In principle, I have no problem with either p values or Bayes factors, *if used in restricted and appropriate ways*. They are both just redundant in the workflow that I outlined above. In my lab's work and the statistical textbooks that I've read, I have not seen a situation yet where they add any value to the calculation and evaluation of parameters in a multi-level regression model. The situation also runs deeper too, as their use appears to hamper scientific thinking more generally, as outlined by Richard McElreath as he explains why he avoids using p values, Bayes factors and confidence intervals in this [blog post](https://elevanth.org/blog/2023/07/17/none-of-the-above/).
 
 To make matters even less appealing, since its inception, the p value has been butchered so badly that it seems to have lost all recognition of itself and its rather restricted use-cases. The situation is so pervasive that there is rampant mis-use of the p value (Greenland et al., [2016](https://link.springer.com/article/10.1007/s10654-016-0149-3)) and mainstream introductory textbooks in psychology very often define or describe them incorrectly (Cassidy et al., [2019](https://journals.sagepub.com/doi/full/10.1177/2515245919858072)). Sensible people have come to the rescue of p values by outlining how you should use them (e.g., Wasserstein et al., [2019](https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913)). That's fine and good. Another approach, however, is to let the p value quietly die on the slag heap of scientific mis-adventures and start again with a fresh perspective. And I prefer the latter approach.
 
@@ -421,14 +421,12 @@ Pros
 
 1.  One general and yet flexible approach to data analysis is provided, rather than an endless assortment of statistical "tests".
 2.  Sophisticated model building is enabled via advanced modelling software (i.e., STAN).
-3.  The front-end software package for building models (brms) will be familiar to many people with a psychology background because uses the same syntax as the very popular linear mixed-effects package (lme4).
+3.  The front-end software package for building models (brms) will be familiar to many people with a psychology background because it uses the same syntax as the very popular linear mixed-effects package (lme4).
 
 Cons
 
-1.  Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible[^3].
-2.  Compared to point and click tools, there is more effort required to get things up and running, both theoretically and practically.
-
-[^3]: it is worth noting that Bayesian analyses were only made possible for regular folks in the mid-1990s with the advent of more powerful desktop computers
+1.  Model building takes more time (hours, days, weeks, months?) and needs greater computer power to make it feasible.
+2.  Compared to point-and-click tools, there is more effort required to get things up and running, both theoretically and practically.
 
 ### Implications
 
@@ -440,7 +438,7 @@ Cons
     -   There are fewer places for your data and model choices to hide, due to a more complete presentation of information
     -   It changes what a replication attempt would even look like e.g., p \< 0.05 is not enough
     -   More nuanced interpretations are required.
-    -   It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal varying structure approach.
+    -   It naturally encourages considerations regarding generalisability (across people, stimuli, places etc.) by virtue of taking a maximal approach to the inclusion of varying effects.
 
 ### And finally (but most importantly) back to McElreath...
 
@@ -457,13 +455,13 @@ One of the best things about McElreath's book is that you get to the end of all 
 
 It is a very refreshing and humbling perspective to remember how broad, deep and diverse scientific workflows should be.
 
-And it made me realise how traditional stats training had inadvertently led us all to expect far too much certainty from statistical models. We were asking statistical models to provide a level of certainty that was just not possible. And so it was time for a re-set.
+And it made me realise how traditional stats training had inadvertently led us to expect far too much certainty from statistical models. We were asking statistical models to provide a level of certainty that was just not possible. And so it was time for a re-set.
 
 ### Where should I start?
 
 If you're interested in jumping on the Bayesian estimation bandwagon, then I would do the following.
 
-1.  Before you do anything else, read this textbook by Bodo Winter [Winter, (2019)](https://bodowinter.com/books.html). It provides the perfect introduction to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian *per se* about estimation approaches.
+1.  Before you do anything else, read this textbook by Bodo Winter [(Winter, 2019)](https://bodowinter.com/books.html). It provides the perfect introduction to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian *per se* about estimation approaches.
 
 2.  Read McElreath's [textbook](https://xcelab.net/rm/statistical-rethinking/) and watch his [lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus). Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath's textbook with Solomon Kurz's [ebook](https://bookdown.org/content/4857/) and associated code. That's what I did.
 
