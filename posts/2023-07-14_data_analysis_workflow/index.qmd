@@ -2,7 +2,7 @@
 title: "A general data analysis workflow using Bayesian multi-level regression"
 subtitle: | 
   A brief outline of our approach to data analysis in recent years 
-date: "2023-07-18"
+date: "2023-07-19"
 categories: [Data analysis, Statistics]
 image: "img/statistical-rethinking.jpeg"
 draft: true
@@ -14,6 +14,9 @@ author:
     orcid: 0000-0002-0329-2112
 editor_options: 
   chunk_output_type: console
+# format:
+#   html:
+#     embed-resources: true
 ---
 
 ### tl:dr
@@ -179,7 +182,7 @@ This has many benefits. Instead of learning an almost infinite list of "tests" l
 
 There are many ways to go about building models, and much debate. We will sidestep that debate and just outline one approach.
 
-My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying[^2] effects that the design permits because it tends to be a better reflection of the reality we are trying to model. Read Dale Barr's paper for more details.
+My lab takes the "keep it maximal" approach to model building (Barr et al., [2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)). The logic here is to include all the fixed and varying[^2] effects that the design permits because **it tends to be a better reflection of the reality we are trying to model**. Read Dale Barr's paper for more details.
 
 [^2]: varying effects are also known as random effects
 
@@ -205,7 +208,7 @@ We use two approaches to make inferences.
 
 We take the full model and we evaluate parameters from the full model against our pre-registered hypotheses. Our pre-registrations include the exact formula from the full model, as well as explicit hypotheses about the ways in which parameters would support hypotheses or not.
 
-Now some examples. Take a look at some made up distributions from what could be a full model of interest.
+Now some examples. Take a look at some made-up distributions from what could be a full model of interest.
 
 ```{r, include=FALSE}
 # simulate data
@@ -342,11 +345,13 @@ Ok, so I've made things cartoonishly simple here, just to make the point obvious
 
 #### 2. Model comparison.
 
-*Before we begin this section, an important disclaimer: If I consider myself fairly inexperienced with multi-level regression in general, then I am an absolutely stone-cold beginner when it comes to model comparison. So please take this section with big bucket loads of salt. And head to the original sources for confirmation*.
+*Before we begin this section, an important disclaimer: If I consider myself fairly inexperienced with multi-level regression in general, then I am an absolute stone-cold beginner when it comes to model comparison. So please take this section with big bucket loads of salt. And head to the original sources for confirmation*.
 
 Ok, disclaimer over. Back to the main thread.
 
-The second way that we tend to make inferences in our general analytical workflow is through model comparison. Recall earlier, that we built models incrementally from the simplest to the most complex models (with the maximum amount of varying effects permitted by the design). That process would naturally result in a number of models being specified. We would then compare all of the models to see how well they can predict the unseen data. To do so, you remove some portion of the data, which you label as "test" data, then you use the rest of the data to try to predict the unseen data. As such, the model has never "seen" the test data before - it is completely blinded to it and cannot be biased by it. You would then compare and contrast how accurately the "test" data is predicted by each separate model.
+The second way that we tend to make inferences in our general analytical workflow is through model comparison. Recall earlier that we built models incrementally from the simplest to the most complex model (with the maximum amount of varying effects permitted by the design). That process would naturally result in a number of models being specified. We would then compare all of the models to see how well they can predict new or unseen data. 
+
+To make this possible, you remove some portion of the data, which you label as the new, unseen or "out-of-sample" data. You then use the data that remains to try to predict the out-of-sample data that the model has never seen before. In that way, the out-of-sample data can be considered as "new" because the model has never seen it before. You would then compare and contrast how accurately each model can predict the out-of-sample data.
 
 **How does it work on a practical level in relation to your hypotheses?**
 
@@ -380,11 +385,11 @@ And so what kind of inference would you make in this example?
 
 First, describe the results across all of the models. You might say something like:
 
-> All of the models improve upon the intercepts-only model. Models 2 and 3 perform similarly, which is better than model 1 but not by much. Model 4 shows condsiderable improvement compared to models 2 and 3. Finally, models 5, 6 and 7 improve upon model 4 and all show the same out-of-sample predcitive accuracy. Therefore, once you get to model 5, there is no additional benefit, in terms of out-of-sample predcitive accuracy, of adding parameters 6 and 7 to the model.
+> All of the models improve upon the intercepts-only model. Models 2 and 3 perform similarly, which is better than model 1 but not by much. Model 4 shows considerable improvement compared to models 2 and 3. Finally, models 5, 6 and 7 improve upon model 4 and all show the same out-of-sample predcitive accuracy. Therefore, once you get to model 5, there is no additional benefit, in terms of out-of-sample predcitive accuracy, of adding parameters 6 and 7 to the model.
 
 Second, make some inferences, which depend on the key parameters of interest that you pre-registered in advance. Let's say it was really parameters 4, 6 and 7 that matter to you and that were specified in your pre-registration. You might say something like:
 
-> Adding parameter 4 \<insert variable name here e.g., gender \| age \| factor A vs. B\> made a clear improvement to predictive accuracy. This supports our hypothesis that blah blah... In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that blah blah...
+> Adding parameter 4 \<insert variable name here e.g., gender \| age \| factor A vs. B\> made a clear improvement to predictive accuracy. This means that when this term was included, the model made more accurate predictions of the unseen data. This supports our hypothesis that <refer to the stated hypothesis>. In contrast, when adding parameters 6 and 7 to the model, there was no added benfit to out-of-sample predictive accuracy. Such results, on their own, do not support our hypothesis that <refer to the stated hypothesis>.
 
 Now let's also assume that when looking at parameters in the full model (part 1 of making inferences above), the size and direction of parameters 6 and 7 did support your pre-registered hypotheses, you might also add this to your inference...
 
@@ -404,7 +409,7 @@ Therefore, if I added p values or Bayes factors into the above workflow, it woul
 
 Now, I am sure that there are many, **many** more qualified people who can tell me all the reasons why such metrics can add value and in which specific situations they do so. And that's great. Science is best-served by a diverse and broad base. But, given the designs and datasets that my lab uses, which span approaches from experimental psychology to social and cognitive neuroscience, they just don't add any value, but they come with associated costs. So I put them in a big bin (or dumpster, if you prefer).
 
-There is one major consequence of letting go of p values and other categorical ways of thinking about inferences. There are no bright lines for inference. There are no clear-cut decision points or inferential cliffs to fall off of as the *p* value approaches magical values, such as 0.05. And there are no pre-set benchmarks for determining how "evidential" a Bayes factor is, in terms of saying some thing like "anecodotal, moderate, strong, very strong, or extreme". And these are all good things to avoid because they led to ritualistic and frequently thoughtless statistical inferences (Gigerenzer, [2018](https://journals.sagepub.com/doi/full/10.1177/2515245918771329); Funder & Ozer, [2019](https://journals.sagepub.com/doi/abs/10.1177/2515245919847202); McElreath, [2023](https://elevanth.org/blog/2023/07/17/none-of-the-above/)). Instead, dare I even say it as a professional scientist who wants keep at least a modicum of self-respect, you ultimately need to think for yourself and use *evaluative* language to consider what your results mean when situated within the relevant context. Lordy, lordy. Whatever next?
+There is one major consequence of letting go of p values and other categorical ways of thinking about inferences. There are no bright lines for inference. There are no clear-cut decision points or inferential cliffs to fall off of as the p value approaches magical values, such as 0.05. And there are no pre-set benchmarks for determining how "evidential" a Bayes factor is, in terms of saying some thing like "anecodotal, moderate, strong, very strong, or extreme". And these are all good things to avoid because they led to ritualistic and frequently thoughtless statistical inferences (Gigerenzer, [2018](https://journals.sagepub.com/doi/full/10.1177/2515245918771329); Funder & Ozer, [2019](https://journals.sagepub.com/doi/abs/10.1177/2515245919847202); McElreath, [2023](https://elevanth.org/blog/2023/07/17/none-of-the-above/)). Instead, dare I even say it as a professional scientist who wants keep at least a modicum of self-respect, you ultimately need to think for yourself and use *evaluative* language to consider what your results mean when situated within the relevant context. Lordy, lordy. Whatever next?
 
 You may *even* have to conclude, after much blood, sweat and tears, plus numerous pilot studies, pre-registrations, and several well-designed, powerful and sensitive experiments, that your work does not currently license an obvious, straightforward or "sexy" conclusion and that ... heaven forbid... "more work is needed". Oh Dear. Shucks. What a total shocker?
 
@@ -415,8 +420,8 @@ Instead, we may just accept that frequently good science goes hand-in-hand with 
 Pros
 
 1.  One general and yet flexible approach to data analysis is provided, rather than an endless assortment of statistical "tests".
-2.  Sophisticated model building is enabled via the STAN modelling software.
-3.  brms uses lme4 syntax, which will be familiar to many people with a psychology background.
+2.  Sophisticated model building is enabled via advanced modelling software (i.e., STAN).
+3.  The front-end software package for building models (brms) will be familiar to many people with a psychology background because uses the same syntax as the very popular linear mixed-effects package (lme4).
 
 Cons
 
@@ -458,10 +463,14 @@ And it made me realise how traditional stats training had inadvertently led us a
 
 If you're interested in jumping on the Bayesian estimation bandwagon, then I would do the following.
 
-1.  Before you do anything else, read this textbook by Bodo Winter [Winter, 2019](https://bodowinter.com/books.html). It provides the perfect introduction to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian *per se* about estimation approaches.
+1.  Before you do anything else, read this textbook by Bodo Winter [Winter, (2019)](https://bodowinter.com/books.html). It provides the perfect introduction to estimation approaches using R. It also uses a frequentist approach, which is valuable because folks are typically more familiar with frequentist approaches than Bayesian ones and it reinforces why there is nothing Bayesian *per se* about estimation approaches.
 
 2.  Read McElreath's [textbook](https://xcelab.net/rm/statistical-rethinking/) and watch his [lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus). Take one chapter at a time and complete the code exercises. If you are more of a tidyverse person (like me) and want to use the lme4 syntax that brms provides, then follow alongside McElreath's textbook with Solomon Kurz's [ebook](https://bookdown.org/content/4857/) and associated code. That's what I did.
 
-3.  Take a look at code examples online from other people's work. There are a bunch. You can find some from my lab on my [publications page](https://rich-ramsey.com/publications/publications.html) and my [OSF pages](https://osf.io/s67e2/). But better yet, find someone else who has more experience with coding and brms - like the living legend that is [Solomon Kurz](https://solomonkurz.netlify.app/blog/) or the creator of brms, [Paul Bürner](https://paul-buerkner.github.io/) - as well as the many, many more people out there.
+3.  Take a look at code examples online from other people's work. There are a bunch. You can find some from my lab on my [publications page](https://rich-ramsey.com/publications/publications.html) and my [OSF pages](https://osf.io/s67e2/). But better yet, find someone else who has more experience with coding and brms - like the living legend that is [Solomon Kurz](https://solomonkurz.netlify.app/blog/) or the creator of brms, [Paul Bürkner](https://paul-buerkner.github.io/) - as well as the many, many more people out there.
 
-4.  If you get stuck, write a [reproducible example](https://community.rstudio.com/t/faq-whats-a-reproducible-example-reprex-and-how-do-i-create-one/5219) and post it on the [brms forum](https://discourse.mc-stan.org/c/interfaces/brms/36). Folks are really helpful, knowledgeable and active on this forum, so it is a good place to get help.
+4.  If you get stuck, write a [reproducible example](https://community.rstudio.com/t/faq-whats-a-reproducible-example-reprex-and-how-do-i-create-one/5219) and post it on the [brms forum](https://discourse.mc-stan.org/c/interfaces/brms/36). Folks are really helpful, knowledgeable and active on this forum, so it is a good place to get help.^[Also, making a reprex often forces you to simplify the problem to such a degree that you see what’s going wrong anyway. Thanks go to Ryssa Moffat for reminding me to make this point.]
+
+### Acknowledgements
+
+I would like to thank Ryssa Moffat for feedback on an earlier version of this blog and for asking me so many questions about this stuff that I finally decided to write it down...
