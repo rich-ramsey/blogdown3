@@ -729,7 +729,7 @@ parker2023:
     year: 2023
     in_press: 
     venue: Quarterly Journal of Experimental Psychology
-    preprint: https://psyarxiv.com/njfv5/
+    preprint: 
     pdf: ./pdfs/Parker_Ramsey_2023_QJEP.pdf
     supps: 
     published_url: https://doi.org/10.1177/17470218231176950
@@ -738,7 +738,7 @@ parker2023:
     github: 
     neurovault:
     
-parker2023:
+parker2023b:
     title: "Exploring the Relationship between Oculomotor Preparation and Gaze-Cued Covert Shifts in Attention"
     authors:
         - Sam Parker
