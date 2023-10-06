@@ -1,8 +1,12 @@
 # This .yaml file is simple text that lists relevant details of each separate publication
-# It serves as the raw data for the publications.qmd file. The publications.qmd file is based on this blog:https://ddimmery.com/posts/quarto-website/
+# It serves as the raw data for the publications.qmd file. The publications.qmd 
+# file is based on this blog:https://ddimmery.com/posts/quarto-website/
 # I don't include some stuff, such as volume etc., because why bother.
 # Note 1: put "yes" for the variable "in_press" if you want to denote that it is currently in press
-# Note 2: This file is taken from a better bibtex file that is updated as part of my zotero folder "ramsey_pubs". I could used the .bib file to generate this list. However, even if that worked smoothly, it would still not have some stuff that I want e.g., pdf, neurovault and other stuff, so I'd have to add things anyway. 
+# Note 2: This file is taken from a better bibtex file that is updated as part of 
+# my zotero folder "ramsey_pubs". I could used the .bib file to generate this list. 
+# However, even if that worked smoothly, it would still not have some stuff that I 
+# want e.g., pdf, neurovault and other stuff, so I'd have to add things anyway. 
 # Note 3: Papers are listed by first author surname (but they can be in any order).
 # Note 4: just add a new chunk when you want to add a paper.
 
@@ -1141,6 +1145,23 @@ wang2014:
     doi: https://doi.org/10.1080/17470218.2014.915331
     osf: 
     github: 
+    neurovault:
+    
+ward2023:
+    title: "Integrating Social Cognition into Domain-General Control: Interactive activation and competition for the CONtrol of action (ICON)"
+    authors:
+        - Rob Ward
+        - me
+    year: 2023
+    in_press: 
+    venue:
+    preprint: https://psyarxiv.com/jzucy/
+    pdf: 
+    supps: 
+    published_url:
+    doi:
+    osf: https://osf.io/m2enf/
+    github: https://github.com/rich-ramsey/icon-model
     neurovault:
 
 wildman2022:

@@ -19,6 +19,16 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
+    </a></li>
+<li class='list-group-item'>Rob Ward and <strong>Richard Ramsey</strong>. (2023) "Integrating Social Cognition into Domain-General Control: Interactive activation and competition for the CONtrol of action (ICON)."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/jzucy/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/m2enf/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/icon-model" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role='img' aria-label='Github'></i>
+        Github
     </a></li></ul>
 ```
 
