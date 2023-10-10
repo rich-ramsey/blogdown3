@@ -20,6 +20,13 @@ keep-md: true
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
+<li class='list-group-item'>Chris Byrne, Rudi Coetzer, and <strong>Richard Ramsey</strong>. (2023) "Cognitive Processing Speed and Loneliness in Stroke Survivors: Insights from a Large-Scale Cohort Study."<br><a class="btn btn-outline-dark btn-sm", href="https://medrxiv.org/cgi/content/short/2023.10.09.23296730v1" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/rxgdy/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li>
 <li class='list-group-item'>Rob Ward and <strong>Richard Ramsey</strong>. (2023) "Integrating Social Cognition into Domain-General Control: Interactive activation and competition for the CONtrol of action (ICON)."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/jzucy/" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
