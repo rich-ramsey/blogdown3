@@ -1199,19 +1199,19 @@ wildman2022:
     github: 
     neurovault:
     
-wildman2022a:
+wildman2023:
     title: "Investigating the Automaticity of Links Between Body Perception and Trait Concepts"
     authors:
         - Andrew Wildman
         - me
     year: 2023
-    in_press: yes
+    in_press: 
     venue: Visual Cognition
-    preprint: https://psyarxiv.com/b4uzj
-    pdf:
+    preprint: 
+    pdf: ./pdfs/WildmanRamsey_23_VisualCogniton_body_traits.pdf
     supps: 
-    published_url:
-    doi: 
+    published_url: https://www.tandfonline.com/doi/full/10.1080/13506285.2023.2250505
+    doi: https://doi.org/10.1080/13506285.2023.2250505
     osf: https://osf.io/4en9f/
     github: 
     neurovault:
