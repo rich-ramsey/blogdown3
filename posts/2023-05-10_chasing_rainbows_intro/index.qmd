@@ -47,7 +47,7 @@ You shouldn't - it will be a boring blog. Please go and do other things.
 
 For a long time, I just didn't trust a lot of what I was hearing at conferences or reading in journal articles. I'm naturally skeptical (and maybe even a little cynical, at times). But I had no proof to substantiate my distrust. And I'm an evidence-based scientist after all, so I remained quietly concerned at the back of the conference room.
 
-Then came the emprirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. Similar issues have emerged in a range of other fields, including human neuroscience (e.g., [Button et al., 2013](https://www.nature.com/articles/nrn3475); [Marek et al., 2022](https://www.nature.com/articles/s41586-022-04492-9)).
+Then came the empirical evidence in [2015](https://www.science.org/doi/10.1126/science.aac4716). Reproducibility in leading psychology journals was between 25% and 50%. Not so good. Similar issues have emerged in a range of other fields, including human neuroscience (e.g., [Button et al., 2013](https://www.nature.com/articles/nrn3475); [Marek et al., 2022](https://www.nature.com/articles/s41586-022-04492-9)).
 
 This evidence supported my instinct that a large proportion of psychological science and human neuroscience research had been unwittingly chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.
 
