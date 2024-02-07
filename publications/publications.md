@@ -10,6 +10,18 @@ keep-md: true
 
 ## Preprints
 
+### 2024{#not-published-2024}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Eliane Deschrijver and <strong>Richard Ramsey</strong>. (2024) "Discrimination occurs in the absence of group division and identity."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/xv38p" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/zd5ey/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li></ul>
+```
+
 ### 2023{#not-published-2023}
 
 ```{=html}
