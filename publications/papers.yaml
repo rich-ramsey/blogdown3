@@ -1205,13 +1205,13 @@ ward2023:
         - Rob Ward
         - me
     year: 2024
-    in_press: yes
+    in_press: 
     venue: Cognitive Science
-    preprint: https://psyarxiv.com/jzucy/
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/WardRamsey_24_CogSci_icon_model.pdf
     supps: 
-    published_url:
-    doi:
+    published_url: https://doi.org/10.1111/cogs.13415
+    doi: https://doi.org/10.1111/cogs.13415
     osf: https://osf.io/m2enf/
     github: https://github.com/rich-ramsey/icon-model
     neurovault:

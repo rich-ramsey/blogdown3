@@ -66,9 +66,12 @@ keep-md: true
 ### 2024{#published-2024}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Rob Ward and <strong>Richard Ramsey</strong>. (in press) "Integrating Social Cognition into Domain-General Control: Interactive activation and competition for the CONtrol of action (ICON)." <em>Cognitive Science</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/jzucy/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
+<ul class='list-group list-group-flush'><li class='list-group-item'>Rob Ward and <strong>Richard Ramsey</strong>. (2024) "Integrating Social Cognition into Domain-General Control: Interactive activation and competition for the CONtrol of action (ICON)." <em>Cognitive Science</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/WardRamsey_24_CogSci_icon_model.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1111/cogs.13415" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/m2enf/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
