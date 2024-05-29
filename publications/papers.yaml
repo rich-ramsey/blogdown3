@@ -301,20 +301,20 @@ byrne2022:
     github: 
     neurovault: 
     
-byrne2023:
+byrne2024:
     title: "Cognitive Processing Speed and Loneliness in Stroke Survivors: Insights from a Large-Scale Cohort Study"
     authors:
         - Chris Byrne
         - Rudi Coetzer
         - me
     year: 2024
-    in_press: yes
+    in_press: 
     venue: Archives of Clinical Neuropsychology
-    preprint: https://medrxiv.org/cgi/content/short/2023.10.09.23296730v1
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Byrne_24_ArchClinNeuro_BCS_stroke_loneliness.pdf
     supps: 
-    published_url: 
-    doi: 
+    published_url: https://academic.oup.com/acn/advance-article/doi/10.1093/arclin/acae032/7676085?login=true
+    doi: https://doi.org/10.1093/arclin/acae032
     osf: https://osf.io/rxgdy/
     github: 
     neurovault: 

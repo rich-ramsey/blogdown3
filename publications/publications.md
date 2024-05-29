@@ -59,9 +59,12 @@ keep-md: true
 ### 2024{#published-2024}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Chris Byrne, Rudi Coetzer, and <strong>Richard Ramsey</strong>. (in press) "Cognitive Processing Speed and Loneliness in Stroke Survivors: Insights from a Large-Scale Cohort Study." <em>Archives of Clinical Neuropsychology</em><br><a class="btn btn-outline-dark btn-sm", href="https://medrxiv.org/cgi/content/short/2023.10.09.23296730v1" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
+<ul class='list-group list-group-flush'><li class='list-group-item'>Chris Byrne, Rudi Coetzer, and <strong>Richard Ramsey</strong>. (2024) "Cognitive Processing Speed and Loneliness in Stroke Survivors: Insights from a Large-Scale Cohort Study." <em>Archives of Clinical Neuropsychology</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Byrne_24_ArchClinNeuro_BCS_stroke_loneliness.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://academic.oup.com/acn/advance-article/doi/10.1093/arclin/acae032/7676085?login=true" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/rxgdy/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
