@@ -13,7 +13,14 @@ keep-md: true
 ### 2024{#not-published-2024}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Kohinoor M. Darda and <strong>Richard Ramsey</strong>. (2024) "The promise and pitfalls of studying the neurophysiological correlates of automatic imitation."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/yfxdn" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li>
+<li class='list-group-item'>Kohinoor M. Darda and <strong>Richard Ramsey</strong>. (2024) "The promise and pitfalls of studying the neurophysiological correlates of automatic imitation."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/yfxdn" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a></li>
@@ -33,18 +40,6 @@ keep-md: true
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-osf" role='img' aria-label='osf'></i>
-        osf
-    </a></li></ul>
-```
-
-### 2021{#not-published-2021}
-
-```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Rachel Newey, Kami Koldewyn, and <strong>Richard Ramsey</strong>. (2021) "Incidental Impressions Formed from Visual Social Cues; Updating and Group Context."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/aevn6/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/bx3gj/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li></ul>
@@ -202,6 +197,13 @@ keep-md: true
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/rg5kn/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li>
+<li class='list-group-item'>Rachel Newey, Kami Koldewyn, and <strong>Richard Ramsey</strong>. (2021) "Incidental Impressions Formed from Visual Social Cues; Updating and Group Context."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/aevn6/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/bx3gj/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
