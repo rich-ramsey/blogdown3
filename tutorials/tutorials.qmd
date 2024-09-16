@@ -1,0 +1,41 @@
+---
+title: "Tutorials"
+---
+
+Some of the below are tutorials that include step-by-step instructions, whereas others just represent some of my coding projects with comments.
+
+The topics covered are all connected to open science, meta-science and reproducibility and available via my [GitHub](https://github.com/rich-ramsey) account.
+
+## A reproducible scientific workflow in R and R Studio ##
+
+This project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript. 
+
+[https://github.com/rich-ramsey/reproducible_workflow](https://github.com/rich-ramsey/reproducible_workflow)
+
+## A Bayesian workflow ##
+
+This project takes aspects of the Bayesian workflow paper by Gelman and colleagues and applies them to an example scenario in experimental psychology. 
+
+[https://github.com/rich-ramsey/Bayesian_workflow](https://github.com/rich-ramsey/Bayesian_workflow)
+
+## A PsychoPy Tutorial ##
+
+This tutorial is intended as a one-stop guide to understanding and using PsychoPy/Pavlovia. Andrew Wildman was the primary author.
+
+[https://github.com/rich-ramsey/psychopy_tutorial](https://github.com/rich-ramsey/psychopy_tutorial)
+
+## Data simulation to determine sample sizes ##
+
+This project simulates multi-level data for a range of factorial designs. 
+
+[https://github.com/rich-ramsey/sim_demo](https://github.com/rich-ramsey/sim_demo)
+
+And this one does the same for "small-N" designs, where trial counts per participant are particularly important.
+
+[https://github.com/rich-ramsey/small_n_sims](https://github.com/rich-ramsey/small_n_sims)
+
+## Analysing pupilomoetry data using hgams ##
+
+This project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams). 
+
+[https://github.com/rich-ramsey/pupil_example](https://github.com/rich-ramsey/pupil_example)

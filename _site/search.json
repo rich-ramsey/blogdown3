@@ -131,5 +131,75 @@
     "title": "A general data analysis workflow using Bayesian multi-level regression",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nI think there are theoretical and practical reasons why a Bayesian approach has advantages, but that’s not important here.↩︎\nVarying effects are also known as random effects↩︎\nAlso, making a reprex often forces you to simplify the problem to such a degree that you see what’s going wrong anyway. Thanks go to Ryssa Moffat for reminding me to make this point.↩︎"
+  },
+  {
+    "objectID": "people/people.html",
+    "href": "people/people.html",
+    "title": "People",
+    "section": "",
+    "text": "Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.\n\n\n\nRaph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception."
+  },
+  {
+    "objectID": "people/people.html#sven-panis",
+    "href": "people/people.html#sven-panis",
+    "title": "People",
+    "section": "",
+    "text": "Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis."
+  },
+  {
+    "objectID": "people/people.html#raphael-fournier",
+    "href": "people/people.html#raphael-fournier",
+    "title": "People",
+    "section": "",
+    "text": "Raph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception."
+  },
+  {
+    "objectID": "tutorials/tutorials.html",
+    "href": "tutorials/tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Some of the below are tutorials that include step-by-step instructions, whereas others just represent some of my coding projects with comments.\nThe topics covered are all connected to open science, meta-science and reproducibility and available via my GitHub account."
+  },
+  {
+    "objectID": "tutorials/tutorials.html#towards-a-more-reproducible-scientific-workflow-in-r-and-r-studio-a-tutorial",
+    "href": "tutorials/tutorials.html#towards-a-more-reproducible-scientific-workflow-in-r-and-r-studio-a-tutorial",
+    "title": "Tutorials",
+    "section": "Towards a more reproducible scientific workflow in R and R Studio: A tutorial",
+    "text": "Towards a more reproducible scientific workflow in R and R Studio: A tutorial"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#a-bayesian-workflow",
+    "href": "tutorials/tutorials.html#a-bayesian-workflow",
+    "title": "Tutorials",
+    "section": "A Bayesian workflow",
+    "text": "A Bayesian workflow\nThis project takes aspects of the Bayesian workflow paper by Gelman and colleagues and applies them to an example scenario in experimental psychology.\nhttps://github.com/rich-ramsey/Bayesian_workflow"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#a-psychopy-tutorial",
+    "href": "tutorials/tutorials.html#a-psychopy-tutorial",
+    "title": "Tutorials",
+    "section": "A PsychoPy Tutorial",
+    "text": "A PsychoPy Tutorial\nThis tutorial is intended as a one-stop guide to understanding and using PsychoPy/Pavlovia. Andrew Wildman was the primary author.\nhttps://github.com/rich-ramsey/psychopy_tutorial"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#a-reproducible-scientific-workflow-in-r-and-r-studio",
+    "href": "tutorials/tutorials.html#a-reproducible-scientific-workflow-in-r-and-r-studio",
+    "title": "Tutorials",
+    "section": "A reproducible scientific workflow in R and R Studio",
+    "text": "A reproducible scientific workflow in R and R Studio\nThis project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript.\nhttps://github.com/rich-ramsey/reproducible_workflow"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#data-simulation-to-determine-sample-sizes",
+    "href": "tutorials/tutorials.html#data-simulation-to-determine-sample-sizes",
+    "title": "Tutorials",
+    "section": "Data simulation to determine sample sizes",
+    "text": "Data simulation to determine sample sizes\nThis project simulates multi-level data for a range of factorial designs.\nhttps://github.com/rich-ramsey/sim_demo\nAnd this one does the same for “small-N” designs, where trial counts per participant are particularly important.\nhttps://github.com/rich-ramsey/small_n_sims"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#analysing-pupilomoetry-data-using-hgams",
+    "href": "tutorials/tutorials.html#analysing-pupilomoetry-data-using-hgams",
+    "title": "Tutorials",
+    "section": "Analysing pupilomoetry data using hgams",
+    "text": "Analysing pupilomoetry data using hgams\nThis project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).\nhttps://github.com/rich-ramsey/pupil_example"
   }
 ]

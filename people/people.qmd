@@ -1,0 +1,39 @@
+---
+title: "People"
+---
+
+# @ ETH, Zürich
+
+## Sven Panis
+
+Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. 
+He loves event history analysis.
+
+## Raphael Fournier
+
+Raph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception.
+
+# Alumni
+
+Lots of wonderful people have done PhDs or Postdocs in my lab, and they have now moved on to bigger and better things...
+
+Sam Parker
+
+Katerina Manoli
+
+Chris Byrne
+
+Ionela Bara
+
+Andrew Wildman
+
+Rachel Newey
+
+Kohinoor Darda
+
+Dace Apšvalka
+
+Inez Greven
+
+Emily Butler
+
