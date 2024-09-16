@@ -16,7 +16,9 @@ website:
       #   text: Home
       - about.qmd
       - ./publications/publications.qmd
+      - ./people/people.qmd
       - posts.qmd
+      - ./tutorials/tutorials.qmd
       - ./resources/resources.qmd
       # - ./soba_lab/soba-lab.qmd
     right: 
