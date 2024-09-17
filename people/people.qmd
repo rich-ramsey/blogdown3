@@ -16,7 +16,7 @@ knitr::opts_chunk$set(fig.pos='H', out.extra = '',
 Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.
 
 ```{r sven-pic, echo = FALSE}
-knitr::include_graphics("img/sven.jpg")
+# knitr::include_graphics("img/sven.jpg")
 ```
 
 ## Raphael Fournier
