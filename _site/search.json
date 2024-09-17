@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Recently\nI’ve become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post here for more details and these papers for background context.\n\n\nBrief Bio\n\nAcademic positions\n\nSenior Scientist, ETH Zürich, Switzerland (current)\nAssociate Professor, Macquarie University, Australia\nLecturer → Senior Lecturer → Reader, Bangor University, UK\nPostdoc, Catholic University of Louvain, Belgium\nPostdoc, University of Nottingham, UK\n\n\n\nEducation\n\nBSc and PhD, University of Birmingham, UK"
+    "text": "Recently, I’ve become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post here for more details and these papers for background context."
   },
   {
     "objectID": "resources.html",
@@ -215,5 +215,19 @@
     "title": "People",
     "section": "",
     "text": "Raph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception."
+  },
+  {
+    "objectID": "about.html#academic-positions",
+    "href": "about.html#academic-positions",
+    "title": "About",
+    "section": "Academic positions",
+    "text": "Academic positions\n\nSenior Scientist, ETH Zürich, Switzerland (current)\nAssociate Professor, Macquarie University, Australia\nLecturer → Senior Lecturer → Reader, Bangor University, UK\nPostdoc, Catholic University of Louvain, Belgium\nPostdoc, University of Nottingham, UK"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nBSc and PhD, University of Birmingham, UK"
   }
 ]
