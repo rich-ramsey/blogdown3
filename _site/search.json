@@ -137,7 +137,7 @@
     "href": "people/people.html",
     "title": "People",
     "section": "",
-    "text": "Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.\n\n\n\nRaph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception."
+    "text": "Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.\n\n\n\n\n\n\n\n\n\n\n\n\nRaph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception."
   },
   {
     "objectID": "people/people.html#sven-panis",
@@ -201,5 +201,12 @@
     "title": "Tutorials",
     "section": "Analysing pupilomoetry data using hgams",
     "text": "Analysing pupilomoetry data using hgams\nThis project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).\nhttps://github.com/rich-ramsey/pupil_example"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#psychopy",
+    "href": "tutorials/tutorials.html#psychopy",
+    "title": "Tutorials",
+    "section": "PsychoPy",
+    "text": "PsychoPy\nThis tutorial is intended as a one-stop guide to understanding and using PsychoPy/Pavlovia. Andrew Wildman was the primary author.\nhttps://github.com/rich-ramsey/psychopy_tutorial"
   }
 ]

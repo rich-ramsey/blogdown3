@@ -2,12 +2,22 @@
 title: "People"
 ---
 
-# @ ETH, Zürich
+```{r chunk-settings, echo = FALSE}
+## set the figure options
+knitr::opts_chunk$set(fig.pos='H', out.extra = '', 
+                      out.height = "33%",
+                      fig.align = "centre") # initial version
+```
+
+# \@ ETH, Zürich
 
 ## Sven Panis
 
-Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. 
-He loves event history analysis.
+Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.
+
+```{r sven-pic, echo = FALSE}
+knitr::include_graphics("img/sven.jpg")
+```
 
 ## Raphael Fournier
 
@@ -36,4 +46,3 @@ Dace Apšvalka
 Inez Greven
 
 Emily Butler
-
