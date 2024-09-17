@@ -19,7 +19,7 @@ Sven is a postdoc in my lab working on understanding the temporal profile of cog
 # knitr::include_graphics("img/sven.jpg")
 ```
 
-## Raphael Fournier
+## Raphaël Fournier
 
 Raph is a PhD student in the lab who is using evidence accumulation modelling to understand cognitive mechanisms that may underpin person perception.
 
