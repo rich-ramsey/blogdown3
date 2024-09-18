@@ -6,8 +6,7 @@ title: "People"
 
 ## Sven Panis
 
-Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. 
-He loves event history analysis.
+Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.
 
 ## Raphaël Fournier
 
