@@ -4,9 +4,9 @@ title: "People"
 
 ```{r chunk-settings, echo = FALSE}
 ## set the figure options
-knitr::opts_chunk$set(fig.pos='H', out.extra = '', 
-                      out.height = "33%",
-                      fig.align = "centre") # initial version
+# knitr::opts_chunk$set(fig.pos='H', out.extra = '', 
+#                       out.height = "33%",
+#                       fig.align = "centre") # initial version
 ```
 
 # \@ ETH, Zürich
@@ -15,8 +15,7 @@ knitr::opts_chunk$set(fig.pos='H', out.extra = '',
 
 ::: columns
 ::: {.column width="67%"}
-Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. 
-He loves event history analysis.
+Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.
 :::
 
 ::: {.column width="25%"}
