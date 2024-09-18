@@ -158,7 +158,7 @@
     "href": "tutorials/tutorials.html",
     "title": "Tutorials",
     "section": "",
-    "text": "Some of the below are tutorials that include step-by-step instructions, whereas others just represent some of my coding projects with comments.\nThe topics covered are all connected to open science, meta-science and reproducibility and available via my GitHub account."
+    "text": "Some of the below projects are tutorials in the sense that they include step-by-step instructions, whereas others just represent coding projects with comments.\nThe topics covered are all connected to open science, meta-science and reproducibility and available via my GitHub account.\nThey are free to download and use in the hope that they can be somewhat useful to others."
   },
   {
     "objectID": "tutorials/tutorials.html#towards-a-more-reproducible-scientific-workflow-in-r-and-r-studio-a-tutorial",
