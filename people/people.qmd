@@ -13,7 +13,16 @@ knitr::opts_chunk$set(fig.pos='H', out.extra = '',
 
 ## Sven Panis
 
-Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. He loves event history analysis.
+::: columns
+::: {.column width="67%"}
+Sven is a postdoc in my lab working on understanding the temporal profile of cognitive states. 
+He loves event history analysis.
+:::
+
+::: {.column width="25%"}
+![](img/sven.jpg)
+:::
+:::
 
 ```{r sven-pic, echo = FALSE}
 # knitr::include_graphics("img/sven.jpg")
