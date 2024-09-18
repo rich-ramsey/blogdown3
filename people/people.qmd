@@ -19,7 +19,7 @@ Sven is a postdoc in my lab working on understanding the temporal profile of cog
 :::
 
 ::: {.column width="25%"}
-![](img/sven.jpg)
+![](img/sven.png)
 :::
 :::
 
