@@ -545,8 +545,8 @@ darda2024:
         - Kohinoor M. Darda
         - me
     year: 2024
-    in_press: 
-    venue: 
+    in_press: Yes
+    venue: A chapter in the book "Automatic Imitation" edited by O. Genschow & E. Cracco
     preprint: https://osf.io/preprints/psyarxiv/yfxdn
     pdf: 
     supps: 
@@ -557,7 +557,7 @@ darda2024:
     neurovault: 
     
 deschrijver2024:
-    title: "Discrimination occurs in the absence of group division and identity"
+    title: "Unequal resource division occurs in the absence of group division and identity"
     authors:
         - Eliane Deschrijver
         - me
