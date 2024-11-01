@@ -20,6 +20,10 @@ keep-md: true
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
+<li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a></li>
 <li class='list-group-item'>Eliane Deschrijver and <strong>Richard Ramsey</strong>. (2024) "Unequal resource division occurs in the absence of group division and identity."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/xv38p" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint

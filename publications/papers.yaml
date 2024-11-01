@@ -189,6 +189,24 @@ bara2024:
     osf: https://osf.io/d4zme/
     github: 
     neurovault: 
+    
+bara2024a:
+    title: "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art"
+    authors:
+        - Ionela Bara
+        - Kohinoor M. Darda
+        - me
+        - Emily S. Cross
+    year: 2024
+    in_press: 
+    venue: 
+    preprint: https://osf.io/preprints/psyarxiv/w7a9s
+    pdf: 
+    supps: 
+    published_url: 
+    doi:
+    github: 
+    neurovault: 
 
 binney2020:
     title: "Social Semantics: The role of conceptual knowledge and cognitive control in a neurobiological model of the social brain"
