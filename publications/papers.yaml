@@ -563,12 +563,12 @@ darda2024:
         - Kohinoor M. Darda
         - me
     year: 2024
-    in_press: Yes
-    venue: A chapter in the book "Automatic Imitation" edited by O. Genschow & E. Cracco
+    in_press: 
+    venue: In O. Genschow & E. Cracco (Eds.), Automatic Imitation. Springer, Cham.
     preprint: https://osf.io/preprints/psyarxiv/yfxdn
-    pdf: 
+    pdf: ./pdfs/DardaRamsey_24_imitation_chapter.pdf
     supps: 
-    published_url: 
+    published_url: https://link.springer.com/chapter/10.1007/978-3-031-62634-0_6
     doi: 
     osf: 
     github: 
@@ -1196,6 +1196,25 @@ ramsey2021a:
     doi: https://doi.org/10.1016/j.tins.2021.01.007
     osf: 
     github: 
+    neurovault:
+    
+tidoni2024:
+    title: "Are humanoid robots perceived as mindless mannequins?"
+    authors:
+        - Emmanuele Tidoni
+        - Emily S. Cross
+        - me
+        - Michele Scandola
+    year: 2024
+    in_press:
+    venue: Computers in Human Behavior -- Artificial Humans
+    preprint: 
+    pdf: 
+    supps: 
+    published_url: https://osf.io/preprints/psyarxiv/atjmy
+    doi:
+    osf: https://osf.io/586mh/
+    github:
     neurovault:
     
 wang2011:
