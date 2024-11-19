@@ -21,6 +21,10 @@ website:
       - ./tutorials/tutorials.qmd
       - ./resources/resources.qmd
     right: 
+      - text: "{{< ai bluesky color=white >}}"
+        href: https://bsky.app/profile/richramseyphd.bsky.social
+        aria-label: bluesky
+        target: _blank
       - icon: twitter
         href: https://twitter.com/RichRamseyPhD
         aria-label: twitter
