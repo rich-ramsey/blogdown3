@@ -27,7 +27,7 @@ website:
         target: _blank
       - text: "{{< ai bluesky color=white >}}"
         href: https://bsky.app/profile/richramseyphd.bsky.social
-        aria-label: bluesky
+        aria-label: share-bluesky
         target: _blank
       - icon: mastodon
         href: https://mastodon.social/@richramsey
