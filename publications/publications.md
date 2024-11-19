@@ -64,17 +64,17 @@ keep-md: true
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
-<li class='list-group-item'>Kohinoor M. Darda and <strong>Richard Ramsey</strong>. (2024) "The promise and pitfalls of studying the neurophysiological correlates of automatic imitation." <em>In O. Genschow & E. Cracco (Eds.), Automatic Imitation. Springer, Cham.</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/yfxdn" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="./pdfs/DardaRamsey_24_imitation_chapter.pdf" target="_blank" rel="noopener noreferrer">
+<li class='list-group-item'>Kohinoor M. Darda and <strong>Richard Ramsey</strong>. (2024) "The promise and pitfalls of studying the neurophysiological correlates of automatic imitation." <em>In O. Genschow & E. Cracco (Eds.), Automatic Imitation. Springer, Cham.</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/DardaRamsey_24_imitation_chapter.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
     </a> <a class="btn btn-outline-dark btn-sm", href="https://link.springer.com/chapter/10.1007/978-3-031-62634-0_6" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a></li>
-<li class='list-group-item'>Emmanuele Tidoni, Emily S. Cross, <strong>Richard Ramsey</strong>, and Michele Scandola. (2024) "Are humanoid robots perceived as mindless mannequins?." <em>Computers in Human Behavior -- Artificial Humans</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/atjmy" target="_blank" rel="noopener noreferrer">
+<li class='list-group-item'>Emmanuele Tidoni, Emily S. Cross, <strong>Richard Ramsey</strong>, and Michele Scandola. (2024) "Are humanoid robots perceived as mindless mannequins?." <em>Computers in Human Behavior -- Artificial Humans</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Tidoni_24_CHBAH_robot_bodies.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1016/j.chbah.2024.100105" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/586mh/" target="_blank" rel="noopener noreferrer">

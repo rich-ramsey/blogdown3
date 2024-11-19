@@ -565,7 +565,7 @@ darda2024:
     year: 2024
     in_press: 
     venue: In O. Genschow & E. Cracco (Eds.), Automatic Imitation. Springer, Cham.
-    preprint: https://osf.io/preprints/psyarxiv/yfxdn
+    preprint: 
     pdf: ./pdfs/DardaRamsey_24_imitation_chapter.pdf
     supps: 
     published_url: https://link.springer.com/chapter/10.1007/978-3-031-62634-0_6
@@ -1209,10 +1209,10 @@ tidoni2024:
     in_press:
     venue: Computers in Human Behavior -- Artificial Humans
     preprint: 
-    pdf: 
+    pdf: ./pdfs/Tidoni_24_CHBAH_robot_bodies.pdf
     supps: 
-    published_url: https://osf.io/preprints/psyarxiv/atjmy
-    doi:
+    published_url: https://doi.org/10.1016/j.chbah.2024.100105
+    doi: https://doi.org/10.1016/j.chbah.2024.100105
     osf: https://osf.io/586mh/
     github:
     neurovault:
