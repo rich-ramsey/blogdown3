@@ -25,9 +25,9 @@ website:
       #   href: https://twitter.com/RichRamseyPhD
       #   aria-label: twitter
       #   target: _blank
-      - text: "{{< ai bluesky color=white >}}"
+      - icon: twitter
         href: https://bsky.app/profile/richramseyphd.bsky.social
-        aria-label: share-bluesky
+        aria-label: twitter
         target: _blank
       - icon: mastodon
         href: https://mastodon.social/@richramsey
