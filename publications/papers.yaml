@@ -847,6 +847,24 @@ parker2023b:
     github: 
     neurovault:
     
+# parker2024:
+#     title: "Evidence accumulation modelling offers new insights into the cognitive mechanisms that underlie linguistic and action-based training"
+#     authors:
+#         - Sam Parker
+#         - Emily S. Cross
+#         - me
+#     year: 2024
+#     in_press: 
+#     venue: 
+#     preprint: 
+#     pdf: 
+#     supps: 
+#     published_url:
+#     doi: 
+#     osf: 
+#     github: 
+#     neurovault:
+    
 ramsey2008:
     title: "Exploring a Modified Conceptualization of Imagery Direction and Golf Putting Performance"
     authors:
@@ -1324,4 +1342,23 @@ williams2012:
     doi: https://doi.org/10.1123/jsep.34.5.621
     osf: 
     github: 
+    neurovault:
+    
+zhuang2024:
+    title: "Comparing Discriminatory Behavior Against AI and Humans"
+    authors:
+        - Mike Zhuang
+        - Eliane Deschrijver
+        - me
+        - Ofir Turel
+    year: 2024
+    in_press: 
+    venue: 
+    preprint: https://osf.io/preprints/osf/tbwg2
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: https://osf.io/46pme/
+    github: https://github.com/rich-ramsey/ai_minimal_group
     neurovault:
