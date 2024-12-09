@@ -31,6 +31,13 @@ keep-md: true
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
+<li class='list-group-item'>Sam Parker, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2024) "Evidence accumulation modelling offers new insights into the cognitive mechanisms that underlie linguistic and action-based training."<br><a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.31234/osf.io/tqn6g" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/knot_dmc" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role='img' aria-label='Github'></i>
+        Github
+    </a></li>
 <li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (2024) "Comparing Discriminatory Behavior Against AI and Humans."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/osf/tbwg2" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
