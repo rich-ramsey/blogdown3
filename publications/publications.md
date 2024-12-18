@@ -13,7 +13,7 @@ keep-md: true
 ### 2024{#not-published-2024}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "Morality in the Age of AI-Generated Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
