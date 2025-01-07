@@ -13,14 +13,7 @@ keep-md: true
 ### 2024{#not-published-2024}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-osf" role='img' aria-label='osf'></i>
-        osf
-    </a></li>
-<li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a></li>
@@ -74,6 +67,18 @@ keep-md: true
 ------------------------------------------------------------------------
 
 ## Published
+
+### 2025{#published-2025}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li></ul>
+```
 
 ### 2024{#published-2024}
 
