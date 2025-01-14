@@ -43,18 +43,6 @@ keep-md: true
     </a></li></ul>
 ```
 
-### 2023{#not-published-2023}
-
-```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2023) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions."<br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/pvxzy" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-osf" role='img' aria-label='osf'></i>
-        osf
-    </a></li></ul>
-```
-
 
 
 ------------------------------------------------------------------------
@@ -64,7 +52,14 @@ keep-md: true
 ### 2025{#published-2025}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Emily S. Cross, and <strong>Richard Ramsey</strong>. (in press) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions." <em>Royal Society Open Science</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/pvxzy" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li>
+<li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
         Preprint
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
