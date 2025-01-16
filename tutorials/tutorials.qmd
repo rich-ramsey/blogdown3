@@ -41,3 +41,11 @@ And this one does the same for "small-N" designs, where trial counts per partici
 This project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).
 
 <https://github.com/rich-ramsey/pupil_example>
+
+## Analysing time-to-event psychological data (e.g., RTs) using event history analysis
+
+This project provides a tutorial on how to perform Bayesian and Frequentist Event History Analyses for time-to-event psychological data, such as the speed and accuracy of responses.
+
+<https://github.com/sven-panis/Tutorial_Event_History_Analysis>
+
+pre-print: <https://osf.io/preprints/psyarxiv/57bh6>

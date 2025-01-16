@@ -229,5 +229,12 @@
     "title": "About",
     "section": "Education",
     "text": "Education\n\nBSc and PhD, University of Birmingham, UK"
+  },
+  {
+    "objectID": "tutorials/tutorials.html#analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis",
+    "href": "tutorials/tutorials.html#analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis",
+    "title": "Tutorials",
+    "section": "Analysing time-to-event psychological data (e.g., RTs) using event history analysis",
+    "text": "Analysing time-to-event psychological data (e.g., RTs) using event history analysis\nThis project provides a tutorial on how to perform Bayesian and Frequentist Event History Analyses for time-to-event psychological data, such as the speed and accuracy of responses.\nhttps://github.com/sven-panis/Tutorial_Event_History_Analysis\npre-print: https://osf.io/preprints/psyarxiv/57bh6"
   }
 ]
