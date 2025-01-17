@@ -59,9 +59,12 @@ keep-md: true
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
     </a></li>
-<li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/7tgvw" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
+<li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2025) "AI Contextual Information Shapes Moral and Aesthetic Judgements of AI-Generated Visual Art." <em>Cognition</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Bara_25_Cognition_aesthetics.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.sciencedirect.com/science/article/pii/S0010027725000034" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf

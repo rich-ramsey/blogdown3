@@ -179,13 +179,13 @@ bara2024:
         - me
         - Emily S. Cross
     year: 2025
-    in_press: yes
+    in_press:
     venue: Cognition
-    preprint: https://osf.io/preprints/psyarxiv/7tgvw
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Bara_25_Cognition_aesthetics.pdf
     supps: 
-    published_url: 
-    doi: 
+    published_url: https://www.sciencedirect.com/science/article/pii/S0010027725000034
+    doi: https://doi.org/10.1016/j.cognition.2025.106063
     osf: https://osf.io/d4zme/
     github: 
     neurovault: 
