@@ -72,7 +72,7 @@ keep-md: true
 <li class='list-group-item'>Eliane Deschrijver and <strong>Richard Ramsey</strong>. (2025) "Unequal resource division occurs in the absence of group division and identity." <em>PNAS</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/DeschrijverRamsey_25_pnas.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
         pdf
-    </a> <a class="btn btn-outline-dark btn-sm", href="www.pnas.org/doi/10.1073/pnas.2413797122" target="_blank" rel="noopener noreferrer">
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://www.pnas.org/doi/10.1073/pnas.2413797122" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-share" role='img' aria-label='doi'></i>
         doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/zd5ey/" target="_blank" rel="noopener noreferrer">
