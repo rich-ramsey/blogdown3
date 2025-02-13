@@ -580,16 +580,17 @@ deschrijver2024:
         - Eliane Deschrijver
         - me
     year: 2025
-    in_press: yes
+    in_press:
     venue: PNAS
-    preprint: https://osf.io/preprints/psyarxiv/xv38p
-    pdf: 
-    supps: 
-    published_url:
+    preprint: 
+    pdf: ./pdfs/DeschrijverRamsey_25_pnas.pdf
+    supps: ./pdfs/DeschrijverRamsey_25_pnas_supplementary.pdf
+    published_url: www.pnas.org/doi/10.1073/pnas.2413797122
     doi:
     osf: https://osf.io/zd5ey/
     github:
     neurovault:
+    conversation: https://theconversation.com/heads-vs-tails-a-simple-coin-flip-can-be-enough-to-change-how-we-treat-others-249611
     
 greven02:
     title: "Person perception involves functional integration between the extrastriate body area and temporal pole"

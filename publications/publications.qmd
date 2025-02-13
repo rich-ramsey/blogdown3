@@ -49,6 +49,9 @@ for _, data in yaml_data.items():
     NeuroVault = data.get("neurovault")
     if NeuroVault is not None:
         buttons.append(button(NeuroVault, "NeuroVault", "bi-safe"))
+    Conversation = data.get("conversation")
+    if Conversation is not None:
+        buttons.append(button(Conversation, "Conversation", "ai-conversation"))
     working_paper = pub_url is None and in_press is None
     
     if in_press is not None:
