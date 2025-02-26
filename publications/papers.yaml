@@ -161,12 +161,12 @@ bara2023:
         - Emily S. Cross
         - me
     year: 2025
-    in_press: yes
+    in_press: 
     venue: Royal Society Open Science
-    preprint: https://psyarxiv.com/pvxzy
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Bara_25_RSOS_aesthetics.pdf
     supps: 
-    published_url: 
+    published_url: https://royalsocietypublishing.org/doi/10.1098/rsos.240175
     doi: 
     osf: https://osf.io/fpmxq/
     github: 
