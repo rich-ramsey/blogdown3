@@ -52,9 +52,12 @@ keep-md: true
 ### 2025{#published-2025}
 
 ```{=html}
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Emily S. Cross, and <strong>Richard Ramsey</strong>. (in press) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions." <em>Royal Society Open Science</em><br><a class="btn btn-outline-dark btn-sm", href="https://psyarxiv.com/pvxzy" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2025) "The Role of Art Knowledge Training on Aesthetic Judgements and Executive Functions." <em>Royal Society Open Science</em><br><a class="btn btn-outline-dark btn-sm", href="./pdfs/Bara_25_RSOS_aesthetics.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='pdf'></i>
+        pdf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://royalsocietypublishing.org/doi/10.1098/rsos.240175" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-share" role='img' aria-label='doi'></i>
+        doi
     </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/fpmxq/" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-osf" role='img' aria-label='osf'></i>
         osf
