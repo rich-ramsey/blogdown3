@@ -10,6 +10,18 @@ keep-md: true
 
 ## Preprints
 
+### 2025{#not-published-2025}
+
+```{=html}
+<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2025) "Art Knowledge Training Shapes Understanding, Inspires Creativity, and Stimulates Thinking."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/psyarxiv/sxqgc_v2" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/7vez9/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a></li></ul>
+```
+
 ### 2024{#not-published-2024}
 
 ```{=html}

@@ -207,6 +207,24 @@ bara2024a:
     doi:
     github: 
     neurovault: 
+    
+bara2025:
+    title: "Art Knowledge Training Shapes Understanding, Inspires Creativity, and Stimulates Thinking"
+    authors:
+        - Ionela Bara
+        - me
+        - Emily S. Cross
+    year: 2025
+    in_press: 
+    venue: 
+    preprint: https://osf.io/preprints/psyarxiv/sxqgc_v2
+    pdf: 
+    supps: 
+    published_url: 
+    doi:
+    osf: https://osf.io/7vez9/
+    github: 
+    neurovault: 
 
 binney2020:
     title: "Social Semantics: The role of conceptual knowledge and cognitive control in a neurobiological model of the social brain"
