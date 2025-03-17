@@ -42,16 +42,6 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/knot_dmc" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-github" role='img' aria-label='Github'></i>
         Github
-    </a></li>
-<li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (2024) "Comparing Discriminatory Behavior Against AI and Humans."<br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/osf/tbwg2" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
-        Preprint
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/46pme/" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-osf" role='img' aria-label='osf'></i>
-        osf
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/ai_minimal_group" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role='img' aria-label='Github'></i>
-        Github
     </a></li></ul>
 ```
 
@@ -96,6 +86,16 @@ keep-md: true
     </a> <a class="btn btn-outline-dark btn-sm", href="https://theconversation.com/heads-vs-tails-a-simple-coin-flip-can-be-enough-to-change-how-we-treat-others-249611" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-conversation" role='img' aria-label='Conversation'></i>
         Conversation
+    </a></li>
+<li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (in press) "Comparing Discriminatory Behavior Against AI and Humans." <em>Scientific Reports</em><br><a class="btn btn-outline-dark btn-sm", href="https://osf.io/preprints/osf/tbwg2" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='Preprint'></i>
+        Preprint
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://osf.io/46pme/" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-osf" role='img' aria-label='osf'></i>
+        osf
+    </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/rich-ramsey/ai_minimal_group" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role='img' aria-label='Github'></i>
+        Github
     </a></li></ul>
 ```
 
