@@ -36,7 +36,15 @@ And this one does the same for "small-N" designs, where trial counts per partici
 
 <https://github.com/rich-ramsey/small_n_sims>
 
-## Analysing pupilomoetry data using hgams
+## Analysing pupilometry data 
+
+### preprocessing pupil data 
+
+This project aims to setup and test a preprocessing pipeline in R for pupil size timeseries data, which uses the pupillometry package.
+
+<https://github.com/rich-ramsey/pupil_preprocessing>
+
+### modelling pupil data with hgams
 
 This project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).
 
