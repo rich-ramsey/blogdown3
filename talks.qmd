@@ -2,7 +2,7 @@
 title: "Talks"
 ---
 
-Here are slides from some recent talks.
+Here are slides and code from some recent talks.
 
 ## Slides
 
