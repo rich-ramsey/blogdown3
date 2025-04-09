@@ -243,5 +243,26 @@
     "title": "Tutorials",
     "section": "Analysing pupilometry data",
     "text": "Analysing pupilometry data\n\npreprocessing pupil data\nThis project aims to setup and test a preprocessing pipeline in R for pupil size timeseries data, which uses the pupillometry package.\nhttps://github.com/rich-ramsey/pupil_preprocessing\n\n\nmodelling pupil data with hgams\nThis project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).\nhttps://github.com/rich-ramsey/pupil_example"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Here are slides from some recent talks."
+  },
+  {
+    "objectID": "talks.html#slides",
+    "href": "talks.html#slides",
+    "title": "Talks",
+    "section": "Slides",
+    "text": "Slides\n\nTalk 1 Title - Conference Name, Date\nTalk 2 Title - Conference Name, Date"
+  },
+  {
+    "objectID": "talks.html#code",
+    "href": "talks.html#code",
+    "title": "Talks",
+    "section": "Code",
+    "text": "Code\nFor the source code, go here: code"
   }
 ]
