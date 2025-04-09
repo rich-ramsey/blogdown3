@@ -4,6 +4,8 @@ title: "Talks"
 
 Slides and code from some recent talks.
 
+[[these are not real talks, just placeholders to setup the page]]
+
 ## Slides
 
 - [Talk 1 Title](https://rich-ramsey.github.io/talks_example/talk1/) - Conference Name, Date  
