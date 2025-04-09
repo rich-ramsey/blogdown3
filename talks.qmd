@@ -1,0 +1,15 @@
+---
+title: "Talks"
+---
+
+Here are slides from some recent talks.
+
+## Slides
+
+- [Talk 1 Title](https://rich-ramsey.github.io/talks_example/talk1/) - Conference Name, Date  
+
+- [Talk 2 Title](https://rich-ramsey.github.io/talks_example/talk2/) - Conference Name, Date  
+
+## Code 
+
+For the source code, go here: [code](https://github.com/rich-ramsey/talks_example)
