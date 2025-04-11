@@ -1,5 +1,8 @@
 ---
 title: "Teaching"
+format:
+  html:
+    collapse: true
 ---
 
 Slides and code from some recent/current teaching.
@@ -12,7 +15,21 @@ Slides and code from some recent/current teaching.
 
 ## Syllabus
 
-Blah blah
+**Code/Title:** 376-1309-00 / The Social Brain: Scientific approaches to social cognition.
+
+### Course content ###
+
+This course will consider how the human brain understands and organises social behaviour. 
+
+### Learning outcomes ###
+
+### Lectures ###
+
+### Assessment ###
+
+### Feedback ###
+
+### Supporting Materials ###
 
 ## Material
 
