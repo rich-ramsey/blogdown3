@@ -1,8 +1,5 @@
 ---
 title: "Teaching"
-format:
-  html:
-    collapse: true
 ---
 
 Slides and code from some recent/current teaching.
@@ -13,27 +10,37 @@ Slides and code from some recent/current teaching.
 
 # The Social Brain: Scientific approaches to social cognition
 
-## Syllabus
+## 1. Syllabus
 
-**Code/Title:** 376-1309-00 / The Social Brain: Scientific approaches to social cognition.
+-**Code:** 376-1309-00
 
-### Course content ###
+-**Title:** The Social Brain: Scientific approaches to social cognition.
+
+-**Instructor:** Dr. Richard Ramsey.
+
+-**Contact:** my email.
+
+### 1.1 Course content ###
 
 This course will consider how the human brain understands and organises social behaviour. 
 
-### Learning outcomes ###
+### 1.2 Learning outcomes ###
 
-### Lectures ###
+### 1.3 Lectures ###
 
-### Assessment ###
+### 1.4 Assessment ###
 
-### Feedback ###
+### 1.5 Feedback ###
 
-### Supporting Materials ###
+### 1.6 Supporting Materials ###
 
-## Material
+## 2. Material
+
+### 2.1 week 1 ###
 
 -   [Week 1 - Title](https://rich-ramsey.github.io/teaching_example/2025/course_1/week1/) // [Reading]() 
+
+### 2.2 week 2 ###
 
 -   [Week 2 - Title](https://rich-ramsey.github.io/teaching_example/2025/course_1/week2/) // [Reading]() 
 
