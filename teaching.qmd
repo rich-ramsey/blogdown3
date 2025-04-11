@@ -8,13 +8,13 @@ Slides and code from some recent/current teaching.
 
 # 2025
 
-## The Social Brain: Scientific approaches to social cognition
+# The Social Brain: Scientific approaches to social cognition
 
-### Syllabus
+## Syllabus
 
 Blah blah
 
-### Material
+## Material
 
 -   [Week 1 - Title](https://rich-ramsey.github.io/teaching_example/2025/course_1/week1/) // [Reading]() 
 
