@@ -68,15 +68,42 @@ ul.task-list li input[type="checkbox"] {
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // FIRST: Make TOC expand to level 2 by default, but collapse level 3
-  document.querySelectorAll('#TOC > ul > li > ul').forEach(function(level2Ul) {
-    // Make sure level 2 is visible
-    level2Ul.style.display = 'block';
-    
-    // But collapse level 3
-    level2Ul.querySelectorAll('li > ul').forEach(function(level3Ul) {
+  // Make level 3 TOC items collapsible
+  document.querySelectorAll('#TOC > ul > li > ul > li').forEach(function(level2Li) {
+    // Check if this level 2 item has level 3 children
+    const level3Ul = level2Li.querySelector('ul');
+    if (level3Ul) {
+      // Initially hide level 3
       level3Ul.style.display = 'none';
-    });
+      
+      // Add clickable indicator and style to level 2 items with children
+      const level2Link = level2Li.querySelector('a');
+      level2Link.style.cursor = 'pointer';
+      level2Link.style.position = 'relative';
+      
+      // Add expand/collapse icon
+      const toggleIcon = document.createElement('span');
+      toggleIcon.textContent = ' + ';
+      toggleIcon.style.position = 'absolute';
+      toggleIcon.style.right = '-15px';
+      level2Link.appendChild(toggleIcon);
+      
+      // Add click handler to toggle level 3
+      level2Link.addEventListener('click', function(event) {
+        if (event.target === toggleIcon || event.target === level2Link) {
+          event.preventDefault(); // Prevent navigation if clicking the toggle
+          
+          // Toggle visibility
+          if (level3Ul.style.display === 'none') {
+            level3Ul.style.display = 'block';
+            toggleIcon.textContent = ' - ';
+          } else {
+            level3Ul.style.display = 'none';
+            toggleIcon.textContent = ' + ';
+          }
+        }
+      });
+    }
   });
   
   // Get current path
