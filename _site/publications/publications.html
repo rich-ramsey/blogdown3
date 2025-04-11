@@ -66,9 +66,74 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // FIRST: Make TOC expand to level 2 by default, but collapse level 3
+  document.querySelectorAll('#TOC > ul > li > ul').forEach(function(level2Ul) {
+    // Make sure level 2 is visible
+    level2Ul.style.display = 'block';
+    
+    // But collapse level 3
+    level2Ul.querySelectorAll('li > ul').forEach(function(level3Ul) {
+      level3Ul.style.display = 'none';
+    });
+  });
+  
+  // Get current path
+  const currentPath = window.location.pathname;
+  
+  // Only apply to specific pages/sections
+  if (currentPath.includes('/teaching/') || currentPath.includes('/resources/') || currentPath.includes('/tutorials/')) {
+    // Find all h2 and h3 headings in the MAIN CONTENT ONLY (specifically exclude TOC)
+    document.querySelectorAll('main h2, main h3').forEach(function(header) {
+      // Skip any headers that might be in the TOC area
+      if (header.closest('#TOC')) return;
+      
+      // Add class for styling
+      header.classList.add('section-header', 'collapsed');
+      
+      // Initially hide content
+      let content = header.nextElementSibling;
+      let sectionContent = [];
+      
+      // For h2, stop at h1 or h2. For h3, stop at h1, h2, or h3.
+      const headerLevel = header.tagName.toLowerCase();
+      while (content && !content.matches(headerLevel === 'h2' ? 'h1, h2' : 'h1, h2, h3')) {
+        sectionContent.push(content);
+        content = content.nextElementSibling;
+      }
+      
+      // Hide all content initially
+      sectionContent.forEach(el => el.style.display = 'none');
+      
+      // Add click handler
+      header.addEventListener('click', function() {
+        this.classList.toggle('collapsed');
+        
+        // Find all content again (in case DOM changed)
+        let nextEl = this.nextElementSibling;
+        let sectionEls = [];
+        
+        // Match the appropriate stop level based on current header
+        const stopSelectors = this.tagName.toLowerCase() === 'h2' ? 'h1, h2' : 'h1, h2, h3';
+        while (nextEl && !nextEl.matches(stopSelectors)) {
+          sectionEls.push(nextEl);
+          nextEl = nextEl.nextElementSibling;
+        }
+        
+        // Toggle visibility
+        sectionEls.forEach(el => {
+          el.style.display = this.classList.contains('collapsed') ? 'none' : '';
+        });
+      });
+    });
+  }
+});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../custom.scss">
 </head>
 
 <body class="nav-fixed">
@@ -120,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html" rel="" target="">
+    <a class="nav-link" href="../teaching/teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>

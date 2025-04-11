@@ -4,7 +4,7 @@ title: "Resources"
 
 Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.
 
-### Things to read
+## Things to read
 
 This selection of journal papers and books provides a brief overview to Open Science and meta-science in general. Together, they motivate why the resources below have become an essential component to my lab's research.
 
@@ -20,7 +20,7 @@ This selection of journal papers and books provides a brief overview to Open Sci
     -   The Seven Deadly Sins of Psychology: [2017](https://www.jstor.org/stable/j.ctvc779w5)
     -   Science Fictions: [2021](https://www.sciencefictions.org/)
 
-### Data analysis
+## Data analysis
 
 My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis. The general workflow follows Richard McElreath's outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:
 
@@ -44,17 +44,17 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   And why we need to do much more work before we think about running "tests" of hypotheses - [Scheel and co.](https://journals.sagepub.com/doi/10.1177/1745691620966795)
 
-### Reproducible research
+## Reproducible research
 
 -   Version control in R. Renv: [link](https://rstudio.github.io/renv/articles/renv.html) and intro [video](https://www.youtube.com/watch?v=yjlEbIDevOs)
 
 -   Version control using GitHub. Matti Vuorre and James P. Curley's excellent [tutorial](https://journals.sagepub.com/doi/full/10.1177/2515245918754826)
 
-### Open Science Framework
+## Open Science Framework
 
 -   A platform to support open science - [OSF](https://osf.io/) and intro [video](https://www.youtube.com/watch?v=X07mBq2tnMg&t=11s)
 
-### Pre-registration
+## Pre-registration
 
 -   [aspredicted](https://aspredicted.org/)
 
@@ -62,7 +62,7 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   [registered reports](https://www.cos.io/initiatives/registered-reports)
 
-### Validity
+## Validity
 
 -   A nice overview on four types of validity by [Simine Vazire and co.](https://journals.sagepub.com/doi/abs/10.1177/09637214211067779?journalCode=cdpa)
 
@@ -70,7 +70,7 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
 
-### Making a Quarto website
+## Making a Quarto website
 
 I followed a whole bunch of posts to start a quarto website. Here are some that I found very helpful indeed.
 

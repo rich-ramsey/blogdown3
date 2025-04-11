@@ -63,9 +63,101 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Make level 3 TOC items collapsible
+  document.querySelectorAll('#TOC > ul > li > ul > li').forEach(function(level2Li) {
+    // Check if this level 2 item has level 3 children
+    const level3Ul = level2Li.querySelector('ul');
+    if (level3Ul) {
+      // Initially hide level 3
+      level3Ul.style.display = 'none';
+      
+      // Add clickable indicator and style to level 2 items with children
+      const level2Link = level2Li.querySelector('a');
+      level2Link.style.cursor = 'pointer';
+      level2Link.style.position = 'relative';
+      
+      // Add expand/collapse icon
+      const toggleIcon = document.createElement('span');
+      toggleIcon.textContent = ' + ';
+      toggleIcon.style.position = 'absolute';
+      toggleIcon.style.right = '-15px';
+      level2Link.appendChild(toggleIcon);
+      
+      // Add click handler to toggle level 3
+      level2Link.addEventListener('click', function(event) {
+        if (event.target === toggleIcon || event.target === level2Link) {
+          event.preventDefault(); // Prevent navigation if clicking the toggle
+          
+          // Toggle visibility
+          if (level3Ul.style.display === 'none') {
+            level3Ul.style.display = 'block';
+            toggleIcon.textContent = ' - ';
+          } else {
+            level3Ul.style.display = 'none';
+            toggleIcon.textContent = ' + ';
+          }
+        }
+      });
+    }
+  });
+  
+  // Get current path
+  const currentPath = window.location.pathname;
+  
+  // Only apply to specific pages/sections
+  if (currentPath.includes('/teaching/') || currentPath.includes('/resources/') || currentPath.includes('/tutorials/')) {
+    // Find all h2 and h3 headings in the MAIN CONTENT ONLY (specifically exclude TOC)
+    document.querySelectorAll('main h2, main h3').forEach(function(header) {
+      // Skip any headers that might be in the TOC area
+      if (header.closest('#TOC')) return;
+      
+      // Add class for styling
+      header.classList.add('section-header', 'collapsed');
+      
+      // Initially hide content
+      let content = header.nextElementSibling;
+      let sectionContent = [];
+      
+      // For h2, stop at h1 or h2. For h3, stop at h1, h2, or h3.
+      const headerLevel = header.tagName.toLowerCase();
+      while (content && !content.matches(headerLevel === 'h2' ? 'h1, h2' : 'h1, h2, h3')) {
+        sectionContent.push(content);
+        content = content.nextElementSibling;
+      }
+      
+      // Hide all content initially
+      sectionContent.forEach(el => el.style.display = 'none');
+      
+      // Add click handler
+      header.addEventListener('click', function() {
+        this.classList.toggle('collapsed');
+        
+        // Find all content again (in case DOM changed)
+        let nextEl = this.nextElementSibling;
+        let sectionEls = [];
+        
+        // Match the appropriate stop level based on current header
+        const stopSelectors = this.tagName.toLowerCase() === 'h2' ? 'h1, h2' : 'h1, h2, h3';
+        while (nextEl && !nextEl.matches(stopSelectors)) {
+          sectionEls.push(nextEl);
+          nextEl = nextEl.nextElementSibling;
+        }
+        
+        // Toggle visibility
+        sectionEls.forEach(el => {
+          el.style.display = this.classList.contains('collapsed') ? 'none' : '';
+        });
+      });
+    });
+  }
+});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../custom.scss">
 </head>
 
 <body class="nav-fixed">
@@ -117,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html" rel="" target="">
+    <a class="nav-link" href="../teaching/teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -201,8 +293,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.</p>
-<section id="things-to-read" class="level3">
-<h3 class="anchored" data-anchor-id="things-to-read">Things to read</h3>
+<section id="things-to-read" class="level2">
+<h2 class="anchored" data-anchor-id="things-to-read">Things to read</h2>
 <p>This selection of journal papers and books provides a brief overview to Open Science and meta-science in general. Together, they motivate why the resources below have become an essential component to my lab’s research.</p>
 <ul>
 <li>Journal articles
@@ -222,8 +314,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="data-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="data-analysis">Data analysis</h3>
+<section id="data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis">Data analysis</h2>
 <p>My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis. The general workflow follows Richard McElreath’s outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:</p>
 <ul>
 <li><p><a href="https://xcelab.net/rm/statistical-rethinking/">Statistical Rethinking</a> by Richard McElreath</p></li>
@@ -240,37 +332,37 @@ ul.task-list li input[type="checkbox"] {
 <li><p>And why we need to do much more work before we think about running “tests” of hypotheses - <a href="https://journals.sagepub.com/doi/10.1177/1745691620966795">Scheel and co.</a></p></li>
 </ul>
 </section>
-<section id="reproducible-research" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-research">Reproducible research</h3>
+<section id="reproducible-research" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-research">Reproducible research</h2>
 <ul>
 <li><p>Version control in R. Renv: <a href="https://rstudio.github.io/renv/articles/renv.html">link</a> and intro <a href="https://www.youtube.com/watch?v=yjlEbIDevOs">video</a></p></li>
 <li><p>Version control using GitHub. Matti Vuorre and James P. Curley’s excellent <a href="https://journals.sagepub.com/doi/full/10.1177/2515245918754826">tutorial</a></p></li>
 </ul>
 </section>
-<section id="open-science-framework" class="level3">
-<h3 class="anchored" data-anchor-id="open-science-framework">Open Science Framework</h3>
+<section id="open-science-framework" class="level2">
+<h2 class="anchored" data-anchor-id="open-science-framework">Open Science Framework</h2>
 <ul>
 <li>A platform to support open science - <a href="https://osf.io/">OSF</a> and intro <a href="https://www.youtube.com/watch?v=X07mBq2tnMg&amp;t=11s">video</a></li>
 </ul>
 </section>
-<section id="pre-registration" class="level3">
-<h3 class="anchored" data-anchor-id="pre-registration">Pre-registration</h3>
+<section id="pre-registration" class="level2">
+<h2 class="anchored" data-anchor-id="pre-registration">Pre-registration</h2>
 <ul>
 <li><p><a href="https://aspredicted.org/">aspredicted</a></p></li>
 <li><p><a href="https://help.osf.io/article/330-welcome-to-registrations">OSF registrations</a></p></li>
 <li><p><a href="https://www.cos.io/initiatives/registered-reports">registered reports</a></p></li>
 </ul>
 </section>
-<section id="validity" class="level3">
-<h3 class="anchored" data-anchor-id="validity">Validity</h3>
+<section id="validity" class="level2">
+<h2 class="anchored" data-anchor-id="validity">Validity</h2>
 <ul>
 <li><p>A nice overview on four types of validity by <a href="https://journals.sagepub.com/doi/abs/10.1177/09637214211067779?journalCode=cdpa">Simine Vazire and co.</a></p></li>
 <li><p>Why validity matters in experimental work in psychology and the importance of manipulation checks. <a href="https://doi.org/10.1177/1745691620950684">One</a> and <a href="https://doi.org/10.1177/1745691620970602">Two</a></p></li>
 <li><p>A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. <a href="https://doi.org/10.1177/10731911221124342">here</a> and <a href="https://www.sciencedirect.com/science/article/pii/S014976342300057X">here</a></p></li>
 </ul>
 </section>
-<section id="making-a-quarto-website" class="level3">
-<h3 class="anchored" data-anchor-id="making-a-quarto-website">Making a Quarto website</h3>
+<section id="making-a-quarto-website" class="level2">
+<h2 class="anchored" data-anchor-id="making-a-quarto-website">Making a Quarto website</h2>
 <p>I followed a whole bunch of posts to start a quarto website. Here are some that I found very helpful indeed.</p>
 <ul>
 <li><p><a href="https://ddimmery.com/posts/quarto-website/">Drew Dimmery</a>, especially for organising publications.</p></li>

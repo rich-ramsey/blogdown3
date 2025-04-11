@@ -1,0 +1,19 @@
+// Style for collapsible headers
+.section-header {
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+
+.section-header::after {
+  content: "▼";
+  font-size: 0.8em;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section-header.collapsed::after {
+  content: "►";
+}
