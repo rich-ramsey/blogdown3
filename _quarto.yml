@@ -21,6 +21,7 @@ website:
       - posts.qmd
       - ./tutorials/tutorials.qmd
       - ./resources/resources.qmd
+      - teaching.qmd
     right: 
       # - icon: twitter
       #   href: https://twitter.com/RichRamseyPhD

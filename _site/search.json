@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Slides and code from some recent/current teaching.\n[[this is not real content yet, just placeholders to setup the page]]"
+  },
+  {
+    "objectID": "teaching.html#the-social-brain-scientific-approaches-to-social-cognition",
+    "href": "teaching.html#the-social-brain-scientific-approaches-to-social-cognition",
+    "title": "Teaching",
+    "section": "The Social Brain: Scientific approaches to social cognition",
+    "text": "The Social Brain: Scientific approaches to social cognition\n\nSyllabus\nBlah blah\n\n\nMaterial\n\nWeek 1 - Title // Reading\nWeek 2 - Title // Reading"
+  },
+  {
     "objectID": "posts/2023-07-14_data_analysis_workflow/index.html",
     "href": "posts/2023-07-14_data_analysis_workflow/index.html",
     "title": "A general data analysis workflow using Bayesian multi-level regression",

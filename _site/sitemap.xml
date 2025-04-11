@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://rich-ramsey.com/teaching.html</loc>
+    <lastmod>2025-04-11T14:06:18.820Z</lastmod>
+  </url>
+  <url>
     <loc>https://rich-ramsey.com/posts/2023-07-14_data_analysis_workflow/index.html</loc>
-    <lastmod>2025-04-09T20:46:23.235Z</lastmod>
+    <lastmod>2025-04-11T14:06:21.448Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/posts/2023-05-10_chasing_rainbows_intro/index.html</loc>
-    <lastmod>2025-04-09T20:46:24.181Z</lastmod>
+    <lastmod>2025-04-11T14:06:22.297Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/posts/2023-05-16_meta_science/index.html</loc>
-    <lastmod>2025-04-09T20:46:25.228Z</lastmod>
+    <lastmod>2025-04-11T14:06:23.134Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/talks.html</loc>
-    <lastmod>2025-04-09T20:50:45.614Z</lastmod>
+    <lastmod>2025-04-11T14:06:23.595Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/publications/publications.html</loc>
-    <lastmod>2025-04-09T20:46:30.719Z</lastmod>
+    <lastmod>2025-04-11T14:06:28.321Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/resources/resources.html</loc>
-    <lastmod>2025-04-09T20:46:31.178Z</lastmod>
+    <lastmod>2025-04-11T14:06:28.777Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/index.html</loc>
-    <lastmod>2025-04-09T20:46:31.589Z</lastmod>
+    <lastmod>2025-04-11T14:06:29.164Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/about.html</loc>
-    <lastmod>2025-04-09T20:46:32.051Z</lastmod>
+    <lastmod>2025-04-11T14:06:29.624Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/people/people.html</loc>
-    <lastmod>2025-04-09T20:46:32.461Z</lastmod>
+    <lastmod>2025-04-11T14:06:30.026Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/posts.html</loc>
-    <lastmod>2025-04-09T20:46:33.272Z</lastmod>
+    <lastmod>2025-04-11T14:06:30.862Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/tutorials/tutorials.html</loc>
-    <lastmod>2025-04-09T20:46:33.672Z</lastmod>
+    <lastmod>2025-04-11T14:06:31.271Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/soba_lab/soba-lab.html</loc>
-    <lastmod>2025-04-09T20:46:34.050Z</lastmod>
+    <lastmod>2025-04-11T14:06:31.670Z</lastmod>
   </url>
 </urlset>

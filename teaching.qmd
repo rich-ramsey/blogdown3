@@ -1,0 +1,25 @@
+---
+title: "Teaching"
+---
+
+Slides and code from some recent/current teaching.
+
+\[\[this is not real content yet, just placeholders to setup the page\]\]
+
+# 2025
+
+## The Social Brain: Scientific approaches to social cognition
+
+### Syllabus
+
+Blah blah
+
+### Material
+
+-   [Week 1 - Title](https://rich-ramsey.github.io/teaching_example/2025/course_1/week1/) // [Reading]() 
+
+-   [Week 2 - Title](https://rich-ramsey.github.io/teaching_example/2025/course_1/week2/) // [Reading]() 
+
+# Code
+
+For the source code, go here: [code](https://github.com/rich-ramsey/teaching_example)

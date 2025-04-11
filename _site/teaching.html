@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rich Ramsey - Posts</title>
+<title>Rich Ramsey - Teaching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="././img/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,52 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -152,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
@@ -164,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link active" href="./teaching.html" rel="" target="" aria-current="page">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -209,197 +162,73 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Posts</h1>
-            <p class="subtitle lead">a blog about chasing rainbows</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data analysis">Data analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="David Bowie">David Bowie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Metascience">Metascience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Preregistration">Preregistration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Reproducibility">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(3)</span></div></div></div>
-<!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2025</a>
+  <ul class="collapse">
+  <li><a href="#the-social-brain-scientific-approaches-to-social-cognition" id="toc-the-social-brain-scientific-approaches-to-social-cognition" class="nav-link" data-scroll-target="#the-social-brain-scientific-approaches-to-social-cognition">The Social Brain: Scientific approaches to social cognition</a>
+  <ul class="collapse">
+  <li><a href="#syllabus" id="toc-syllabus" class="nav-link" data-scroll-target="#syllabus">Syllabus</a></li>
+  <li><a href="#material" id="toc-material" class="nav-link" data-scroll-target="#material">Material</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
+  </ul>
+</nav>
     </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Teaching</h1>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data analysis,Statistics" data-listing-date-sort="1689717600000" data-listing-file-modified-sort="1689780379485" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/2023-07-14_data_analysis_workflow/index.html"> <img src="./posts/2023-07-14_data_analysis_workflow/img/statistical-rethinking.jpeg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-07-14_data_analysis_workflow/index.html">
-<h3 class="no-anchor listing-title">
-A general data analysis workflow using Bayesian multi-level regression
-</h3>
-<div class="listing-subtitle">
-<p>A brief outline of our approach to data analysis in recent years</p>
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data analysis'); return false;">
-Data analysis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
-Statistics
-</div>
-</div>
-<a href="./posts/2023-07-14_data_analysis_workflow/index.html">
-<div class="listing-description">
-Pre-register predictions and specific analyses in advance
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-07-14_data_analysis_workflow/index.html">
-<div class="listing-date">
-Jul 19, 2023
-</div>
-<div class="listing-author">
-Richard Ramsey
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Reproducibility,Metascience,Statistics,Preregistration" data-listing-date-sort="1684188000000" data-listing-file-modified-sort="1689323264924" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/2023-05-16_meta_science/index.html"> <img src="./posts/2023-05-16_meta_science/img/badges_stacked.original.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-05-16_meta_science/index.html">
-<h3 class="no-anchor listing-title">
-Open science for psychology and cognitive neuroscience
-</h3>
-<div class="listing-subtitle">
-<p>A short summary of our lab’s efforts and ambitions to embrace recent deveopments in methods and meta-science</p>
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Reproducibility'); return false;">
-Reproducibility
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Metascience'); return false;">
-Metascience
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
-Statistics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Preregistration'); return false;">
-Preregistration
-</div>
-</div>
-<a href="./posts/2023-05-16_meta_science/index.html">
-<div class="listing-description">
-A…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-16_meta_science/index.html">
-<div class="listing-date">
-May 16, 2023
-</div>
-<div class="listing-author">
-Richard Ramsey, Emily S. Cross
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Reproducibility,Metascience,Statistics,David Bowie" data-listing-date-sort="1683669600000" data-listing-file-modified-sort="1704796241151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/2023-05-10_chasing_rainbows_intro/index.html"> <img src="./posts/2023-05-10_chasing_rainbows_intro/img/david-bowie-rainbow.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-05-10_chasing_rainbows_intro/index.html">
-<h3 class="no-anchor listing-title">
-A blog about (not) chasing rainbows
-</h3>
-<div class="listing-subtitle">
-<p>I have started writing a reluctant blog about chasing rainbows</p>
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Reproducibility'); return false;">
-Reproducibility
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Metascience'); return false;">
-Metascience
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
-Statistics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('David Bowie'); return false;">
-David Bowie
-</div>
-</div>
-<a href="./posts/2023-05-10_chasing_rainbows_intro/index.html">
-<div class="listing-description">
-Two reasons.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-05-10_chasing_rainbows_intro/index.html">
-<div class="listing-date">
-May 10, 2023
-</div>
-<div class="listing-author">
-Richard Ramsey
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Slides and code from some recent/current teaching.</p>
+<p>[[this is not real content yet, just placeholders to setup the page]]</p>
+<section id="section" class="level1">
+<h1>2025</h1>
+<section id="the-social-brain-scientific-approaches-to-social-cognition" class="level2">
+<h2 class="anchored" data-anchor-id="the-social-brain-scientific-approaches-to-social-cognition">The Social Brain: Scientific approaches to social cognition</h2>
+<section id="syllabus" class="level3">
+<h3 class="anchored" data-anchor-id="syllabus">Syllabus</h3>
+<p>Blah blah</p>
+</section>
+<section id="material" class="level3">
+<h3 class="anchored" data-anchor-id="material">Material</h3>
+<ul>
+<li><p><a href="https://rich-ramsey.github.io/teaching_example/2025/course_1/week1/">Week 1 - Title</a> // <a href="">Reading</a></p></li>
+<li><p><a href="https://rich-ramsey.github.io/teaching_example/2025/course_1/week2/">Week 2 - Title</a> // <a href="">Reading</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="code" class="level1">
+<h1>Code</h1>
+<p>For the source code, go here: <a href="https://github.com/rich-ramsey/teaching_example">code</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
