@@ -257,5 +257,33 @@
     "title": "Teaching",
     "section": "The Social Brain: Scientific approaches to social cognition",
     "text": "The Social Brain: Scientific approaches to social cognition"
+  },
+  {
+    "objectID": "resources/resources.html#reproducible-manuscripts-in-r-using-papaja",
+    "href": "resources/resources.html#reproducible-manuscripts-in-r-using-papaja",
+    "title": "Resources",
+    "section": "Reproducible manuscripts in R using papaja()",
+    "text": "Reproducible manuscripts in R using papaja()\nWrite your manuscripts in a computationally reproducible manner using R and the papaja() package.\n\nSee the papaja() manual for details.\nAnd a helpful talk on the topic by James Bartlett."
+  },
+  {
+    "objectID": "resources/resources.html#dissemination-using-quarto-and-github-pages",
+    "href": "resources/resources.html#dissemination-using-quarto-and-github-pages",
+    "title": "Resources",
+    "section": "Dissemination using Quarto and Github Pages",
+    "text": "Dissemination using Quarto and Github Pages\nThis book by James Bartlett is absolute solid gold.\nIt walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages."
+  },
+  {
+    "objectID": "resources/resources.html#reproducible-manuscripts",
+    "href": "resources/resources.html#reproducible-manuscripts",
+    "title": "Resources",
+    "section": "Reproducible manuscripts",
+    "text": "Reproducible manuscripts\nWrite your manuscripts in a computationally reproducible manner using R and the papaja() package.\n\nSee the papaja() manual for details.\nAnd a helpful talk on the topic by James Bartlett."
+  },
+  {
+    "objectID": "resources/resources.html#dissemination",
+    "href": "resources/resources.html#dissemination",
+    "title": "Resources",
+    "section": "Dissemination",
+    "text": "Dissemination\nThis book by James Bartlett is absolute solid gold.\nIt walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages."
   }
 ]

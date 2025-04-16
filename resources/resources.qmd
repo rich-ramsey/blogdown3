@@ -50,7 +50,7 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   Version control using GitHub. Matti Vuorre and James P. Curley's excellent [tutorial](https://journals.sagepub.com/doi/full/10.1177/2515245918754826)
 
-## Reproducible manuscripts in R using papaja()
+## Reproducible manuscripts
 
 Write your manuscripts in a computationally reproducible manner using R and the [papaja() package](https://github.com/crsh/papaja).
 
@@ -78,7 +78,7 @@ Write your manuscripts in a computationally reproducible manner using R and the 
 
 -   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
 
-## Dissemination using Quarto and Github Pages
+## Dissemination 
 
 This [book](https://bartlettje.github.io/dissemination_quarto/) by [James Bartlett](https://bartlettje.github.io/aboutme/) is absolute solid gold. 
 
