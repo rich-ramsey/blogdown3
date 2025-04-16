@@ -50,6 +50,14 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 -   Version control using GitHub. Matti Vuorre and James P. Curley's excellent [tutorial](https://journals.sagepub.com/doi/full/10.1177/2515245918754826)
 
+## Reproducible manuscripts in R using papaja()
+
+Write your manuscripts in a computationally reproducible manner using R and the [papaja() package](https://github.com/crsh/papaja).
+
+- See the [papaja() manual](https://frederikaust.com/papaja_man/) for details.
+
+- And a helpful [talk](https://bartlettje.github.io/papaja_demo/papaja_slides.html#/title-slide) on the topic by James Bartlett.
+
 ## Open Science Framework
 
 -   A platform to support open science - [OSF](https://osf.io/) and intro [video](https://www.youtube.com/watch?v=X07mBq2tnMg&t=11s)
@@ -69,6 +77,12 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 -   Why validity matters in experimental work in psychology and the importance of manipulation checks. [One](https://doi.org/10.1177/1745691620950684) and [Two](https://doi.org/10.1177/1745691620970602)
 
 -   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
+
+## Dissemination using Quarto and Github Pages
+
+This [book](https://bartlettje.github.io/dissemination_quarto/) by [James Bartlett](https://bartlettje.github.io/aboutme/) is absolute solid gold. 
+
+It walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages.
 
 ## Making a Quarto website
 
