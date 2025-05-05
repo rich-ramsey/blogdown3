@@ -1,0 +1,204 @@
+---
+# This header block is not included when this file is used as a child document
+# but is necessary for standalone rendering during testing
+title: "Publications"
+echo: false
+engine: knitr
+section-divs: false
+keep-md: true
+---
+
+```{r setup, include=FALSE}
+# Load necessary tidyverse packages
+library(tidyverse)   # Core tidyverse for data manipulation
+library(yaml)        # For reading YAML data
+library(knitr)       # For R markdown integration
+library(htmltools)   # For HTML generation
+library(glue)        # For string interpolation
+
+# Helper function: Creates a readable list from a vector of items
+# Examples: 
+# - readable_list(c("A", "B")) -> "A and B"
+# - readable_list(c("A", "B", "C")) -> "A, B, and C"
+readable_list <- function(items) {
+  if (length(items) < 3) {
+    str_c(items, collapse = " and ")
+  } else {
+    last_item <- items[length(items)]
+    first_items <- items[-length(items)]
+    str_c(str_c(first_items, collapse = ", "), ", and ", last_item)
+  }
+}
+
+# Helper function: Creates a formatted button with an icon
+# Parameters:
+# - url: The link destination
+# - str: The button text
+# - icon: The Bootstrap icon class
+button <- function(url, str, icon) {
+  icon_base <- str_sub(icon, 1, 2)
+  
+  # Return the button HTML as a string
+  glue::glue(
+    '<a class="btn btn-outline-dark btn-sm" href="{url}" target="_blank" rel="noopener noreferrer">
+      <i class="{icon_base} {icon}" role="img" aria-label="{str}"></i>
+      {str}
+    </a>'
+  )
+}
+
+# Read publications data from YAML file
+yaml_data <- read_yaml("papers.yaml")
+
+# STEP 1: Convert YAML data to tibble for tidyverse workflow
+# Using tibbles and tidyverse functions allows us to process the data
+# in a more functional and declarative way
+papers_data <- tibble(
+  id = names(yaml_data),
+  data = map(yaml_data, identity)
+) %>%
+  # STEP 2: Extract all relevant fields from each paper's data
+  # The %||% operator provides a default value when the left side is NULL
+  mutate(
+    title = map_chr(data, ~ .x$title),
+    year = map_chr(data, ~ as.character(.x$year)),
+    authors = map(data, ~ .x$authors %||% list("me")),
+    # Replace "me" with proper name in author lists
+    formatted_authors = map(authors, ~ map_chr(.x, function(author) {
+      if (author == "me") "<strong>Richard Ramsey</strong>" else author
+    })),
+    # Create readable author string
+    author_str = map_chr(formatted_authors, readable_list),
+    # Extract publication details
+    venue = map_chr(data, ~ .x$venue %||% ""),
+    in_press = map_lgl(data, ~ !is.null(.x$in_press)),
+    # Extract URL fields
+    preprint = map_chr(data, ~ .x$preprint %||% ""),
+    pdf = map_chr(data, ~ .x$pdf %||% ""),
+    published_url = map_chr(data, ~ .x$published_url %||% ""),
+    osf = map_chr(data, ~ .x$osf %||% ""),
+    github = map_chr(data, ~ .x$github %||% ""),
+    neurovault = map_chr(data, ~ .x$neurovault %||% ""),
+    conversation = map_chr(data, ~ .x$conversation %||% ""),
+    # Determine if it's a working paper or preprint
+    working_paper = map2_lgl(published_url, in_press, ~ .x == "" && !.y)
+  )
+
+# STEP 3: Create citation strings for each publication
+papers_data <- papers_data %>%
+  mutate(
+    # Format citations differently for in-press vs. published papers
+    citation = case_when(
+      in_press ~ str_c(author_str, '. (in press) "', title, '."'),
+      TRUE ~ str_c(author_str, '. (', year, ') "', title, '."')
+    ),
+    # Add venue if available
+    citation = if_else(
+      venue != "",
+      str_c(citation, " <em>", venue, "</em>"),
+      citation
+    )
+  )
+
+# STEP 4: Create button HTML for each paper
+# The pmap function applies a function to multiple parallel vectors/lists
+papers_data <- papers_data %>%
+  mutate(
+    buttons = pmap(list(
+      preprint = preprint,
+      pdf = pdf,
+      published_url = published_url,
+      osf = osf,
+      github = github,
+      neurovault = neurovault,
+      conversation = conversation
+    ), function(preprint, pdf, published_url, osf, github, neurovault, conversation) {
+      buttons <- c()
+      
+      # Add buttons only for fields that exist
+      if (preprint != "") buttons <- c(buttons, button(preprint, "Preprint", "bi-file-earmark-pdf"))
+      if (pdf != "") buttons <- c(buttons, button(pdf, "pdf", "bi-file-earmark-pdf"))
+      if (published_url != "") buttons <- c(buttons, button(published_url, "doi", "bi-share"))
+      if (osf != "") buttons <- c(buttons, button(osf, "osf", "ai-osf"))
+      if (github != "") buttons <- c(buttons, button(github, "Github", "bi-github"))
+      if (neurovault != "") buttons <- c(buttons, button(neurovault, "NeuroVault", "bi-safe"))
+      if (conversation != "") buttons <- c(buttons, button(conversation, "Conversation", "ai-conversation"))
+      
+      paste(buttons, collapse = " ")
+    })
+  )
+
+# STEP 5: Create HTML list items for each paper
+papers_data <- papers_data %>%
+  mutate(
+    html_item = str_c(
+      "<li class='list-group-item'>",  # Bootstrap class for list items with dividers
+      citation,
+      "<br>",
+      buttons,
+      "</li>"
+    )
+  )
+
+# STEP 6: Group papers by publication type and year
+# Create two separate lists of papers organized by year
+preprints_by_year <- papers_data %>%
+  filter(working_paper) %>%
+  group_by(year) %>%
+  summarize(items = list(html_item), .groups = "drop") %>%
+  deframe()  # Convert to named list
+
+published_by_year <- papers_data %>%
+  filter(!working_paper) %>%
+  group_by(year) %>%
+  summarize(items = list(html_item), .groups = "drop") %>%
+  deframe()  # Convert to named list
+```
+
+## Preprints
+
+```{r not-published-year, results='asis', echo=FALSE}
+# Display preprints/working papers sorted by year in reverse chronological order
+if (length(preprints_by_year) > 0) {
+  names(preprints_by_year) %>%
+    sort(decreasing = TRUE) %>%
+    walk(function(year) {
+      # Create year heading with anchor
+      cat(str_c("### ", year, "{#not-published-", year, "}\n\n"))
+      
+      # Create Bootstrap list group with all papers from that year
+      cat(str_c(
+        "<ul class='list-group list-group-flush'>", 
+        str_c(preprints_by_year[[year]], collapse = "\n"), 
+        "</ul>\n\n"
+      ))
+    })
+} else {
+  cat("No preprints available.\n\n")
+}
+```
+
+------------------------------------------------------------------------
+
+## Published
+
+```{r published-year, results='asis', echo=FALSE}
+# Display published papers sorted by year in reverse chronological order
+if (length(published_by_year) > 0) {
+  names(published_by_year) %>%
+    sort(decreasing = TRUE) %>%
+    walk(function(year) {
+      # Create year heading with anchor
+      cat(str_c("### ", year, "{#published-", year, "}\n\n"))
+      
+      # Create Bootstrap list group with all papers from that year
+      cat(str_c(
+        "<ul class='list-group list-group-flush'>", 
+        str_c(published_by_year[[year]], collapse = "\n"), 
+        "</ul>\n\n"
+      ))
+    })
+} else {
+  cat("No published papers available.\n\n")
+}
+```
