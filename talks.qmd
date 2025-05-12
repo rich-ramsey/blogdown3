@@ -1,5 +1,6 @@
 ---
 title: "Talks"
+sidebar: false
 ---
 
 Slides and code from some recent talks.

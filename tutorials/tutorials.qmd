@@ -1,5 +1,6 @@
 ---
 title: "Tutorials"
+sidebar: false
 ---
 
 Some of the below projects are tutorials in the sense that they include step-by-step instructions, whereas others just represent coding projects with comments.
@@ -36,9 +37,9 @@ And this one does the same for "small-N" designs, where trial counts per partici
 
 <https://github.com/rich-ramsey/small_n_sims>
 
-## Analysing pupilometry data 
+## Analysing pupilometry data
 
-### preprocessing pupil data 
+### preprocessing pupil data
 
 This project aims to setup and test a preprocessing pipeline in R for pupil size timeseries data, which uses the pupillometry package.
 

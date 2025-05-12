@@ -1,5 +1,6 @@
 ---
 title: "About"
+sidebar: about-sidebar
 ---
 
 Recently, I've become increasingly concerned about the state of research in psychology and human neuroscience. To address some of the issues concerning research quality, my lab has been wholeheartedly embracing recent advances in methods development and meta-science approaches. See my blog post [here](https://rich-ramsey.com/posts/2023-05-10_meta_science/) for more details and these [papers](https://rich-ramsey.com/resources/resources.html#things-to-read) for background context.
@@ -8,12 +9,12 @@ Recently, I've become increasingly concerned about the state of research in psyc
 
 ## Academic positions
 
-- Senior Scientist, ETH Zürich, Switzerland (current)
-- Associate Professor, Macquarie University, Australia
-- Lecturer → Senior Lecturer → Reader, Bangor University, UK
-- Postdoc, Catholic University of Louvain, Belgium
-- Postdoc, University of Nottingham, UK
+-   Senior Scientist, ETH Zürich, Switzerland (current)
+-   Associate Professor, Macquarie University, Australia
+-   Lecturer → Senior Lecturer → Reader, Bangor University, UK
+-   Postdoc, Catholic University of Louvain, Belgium
+-   Postdoc, University of Nottingham, UK
 
 ## Education
 
-- BSc and PhD, University of Birmingham, UK
+-   BSc and PhD, University of Birmingham, UK

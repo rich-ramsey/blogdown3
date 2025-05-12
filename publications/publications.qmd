@@ -1,7 +1,9 @@
 ---
 title: "Publications"
+sidebar: false
 ---
 
+```{=html}
 <!-- 
 This is the main publications page that uses Quarto's child document functionality to include either the R or Python implementation.
 
@@ -16,9 +18,12 @@ To switch between implementations:
 
 Both implementations read from the same papers.yaml data file.
 -->
+```
 
 <!-- Including the R implementation currently -->
+
 {{< include publications_r.qmd >}}
 
 <!-- To use Python implementation instead, comment out the line above and uncomment the line below -->
+
 <!-- {{< include publications_python.qmd >}} -->

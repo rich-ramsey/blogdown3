@@ -54,6 +54,11 @@ website:
       - icon: envelope
         href: mailto:richard.ramsey@hest.ethz.ch
         aria-label: envelope
+  sidebar:
+    - id: "about-sidebar"  # Default sidebar for most pages
+      style: "floating"
+      logo: ./img/favicon.png
+      search: true
         
   page-footer:
     left: |
@@ -173,5 +178,15 @@ format:
         });
         </script>
         
-editor: visual
+editor_options: 
+  type: source
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+    references:
+      location: block
+    canonical: true
+  chunk: 
+    tidy: true
+    wrap: 80
 

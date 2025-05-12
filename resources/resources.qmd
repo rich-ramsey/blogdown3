@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+sidebar: false
 ---
 
 Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.
@@ -54,9 +55,9 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 
 Write your manuscripts in a computationally reproducible manner using R and the [papaja() package](https://github.com/crsh/papaja).
 
-- See the [papaja() manual](https://frederikaust.com/papaja_man/) for details.
+-   See the [papaja() manual](https://frederikaust.com/papaja_man/) for details.
 
-- And a helpful [talk](https://bartlettje.github.io/papaja_demo/papaja_slides.html#/title-slide) on the topic by James Bartlett.
+-   And a helpful [talk](https://bartlettje.github.io/papaja_demo/papaja_slides.html#/title-slide) on the topic by James Bartlett.
 
 ## Open Science Framework
 
@@ -78,9 +79,9 @@ Write your manuscripts in a computationally reproducible manner using R and the 
 
 -   A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. [here](https://doi.org/10.1177/10731911221124342) and [here](https://www.sciencedirect.com/science/article/pii/S014976342300057X)
 
-## Dissemination 
+## Dissemination
 
-This [book](https://bartlettje.github.io/dissemination_quarto/) by [James Bartlett](https://bartlettje.github.io/aboutme/) is absolute solid gold. 
+This [book](https://bartlettje.github.io/dissemination_quarto/) by [James Bartlett](https://bartlettje.github.io/aboutme/) is absolute solid gold.
 
 It walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages.
 

@@ -1,5 +1,6 @@
 ---
 title: "People"
+sidebar: false
 ---
 
 # \@ ETH, Zürich

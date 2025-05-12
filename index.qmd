@@ -8,21 +8,8 @@ about:
   template: solana
   image-shape: rectangle
   image-width: 25em
-  #links:
-    # - icon: twitter
-    #   # text: Twitter
-    #   href: https://twitter.com/RichRamseyPhD
-    # - text: "{{< ai google-scholar >}}"
-    #   href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
-    # - text: "{{< ai osf >}}"
-    #   href: https://osf.io/s67e2/
-    # - icon: github
-    #   #text: GitHub
-    #   href: https://github.com/rich-ramsey
-    # - icon: envelope
-    #   #text: email
-    #   href: mailto:richard.ramsey@hest.ethz.ch
 page-layout: full
+sidebar: false
 ---
 
 I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory ([SBS Lab](https://sbs.ethz.ch/)) and the Neural Control of Movement Laboratory ([NCM Lab](https://ncm.hest.ethz.ch/)).

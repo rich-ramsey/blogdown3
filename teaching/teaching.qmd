@@ -1,7 +1,6 @@
 ---
 title: "Teaching"
-editor_options: 
-  chunk_output_type: console
+sidebar: false
 ---
 
 Slides and code from some recent/current teaching.
