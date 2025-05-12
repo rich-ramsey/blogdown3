@@ -264,13 +264,16 @@ document.addEventListener('DOMContentLoaded', function() {
   <ul>
   <li><a href="#things-to-read" id="toc-things-to-read" class="nav-link active" data-scroll-target="#things-to-read">Things to read</a></li>
   <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data analysis</a></li>
-  <li><a href="#reproducible-research" id="toc-reproducible-research" class="nav-link" data-scroll-target="#reproducible-research">Reproducible research</a></li>
+  <li><a href="#reproducible-research-and-dissemination" id="toc-reproducible-research-and-dissemination" class="nav-link" data-scroll-target="#reproducible-research-and-dissemination">Reproducible research and dissemination</a>
+  <ul class="collapse">
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">version control</a></li>
   <li><a href="#reproducible-manuscripts" id="toc-reproducible-manuscripts" class="nav-link" data-scroll-target="#reproducible-manuscripts">Reproducible manuscripts</a></li>
+  <li><a href="#dissemination-via-quarto" id="toc-dissemination-via-quarto" class="nav-link" data-scroll-target="#dissemination-via-quarto">Dissemination via Quarto</a></li>
+  <li><a href="#examples-of-quarto-websites" id="toc-examples-of-quarto-websites" class="nav-link" data-scroll-target="#examples-of-quarto-websites">Examples of Quarto websites</a></li>
+  </ul></li>
   <li><a href="#open-science-framework" id="toc-open-science-framework" class="nav-link" data-scroll-target="#open-science-framework">Open Science Framework</a></li>
   <li><a href="#pre-registration" id="toc-pre-registration" class="nav-link" data-scroll-target="#pre-registration">Pre-registration</a></li>
   <li><a href="#validity" id="toc-validity" class="nav-link" data-scroll-target="#validity">Validity</a></li>
-  <li><a href="#dissemination" id="toc-dissemination" class="nav-link" data-scroll-target="#dissemination">Dissemination</a></li>
-  <li><a href="#making-a-quarto-website" id="toc-making-a-quarto-website" class="nav-link" data-scroll-target="#making-a-quarto-website">Making a Quarto website</a></li>
   </ul>
 </nav>
     </div>
@@ -294,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </header>
 
-<p>Here is a list of useful resources that my lab has used in the last 5 years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.</p>
+<p>Here are some useful resources that my lab has used in recent years. These mainly focus on ways that we can try to improve the quality and transparency of scientific workflows.</p>
 <section id="things-to-read" class="level2">
 <h2 class="anchored" data-anchor-id="things-to-read">Things to read</h2>
 <p>This selection of journal papers and books provides a brief overview to Open Science and meta-science in general. Together, they motivate why the resources below have become an essential component to my lab’s research.</p>
@@ -334,20 +337,40 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>And why we need to do much more work before we think about running “tests” of hypotheses - <a href="https://journals.sagepub.com/doi/10.1177/1745691620966795">Scheel and co.</a></p></li>
 </ul>
 </section>
-<section id="reproducible-research" class="level2">
-<h2 class="anchored" data-anchor-id="reproducible-research">Reproducible research</h2>
+<section id="reproducible-research-and-dissemination" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-research-and-dissemination">Reproducible research and dissemination</h2>
+<section id="version-control" class="level3">
+<h3 class="anchored" data-anchor-id="version-control">version control</h3>
 <ul>
 <li><p>Version control in R. Renv: <a href="https://rstudio.github.io/renv/articles/renv.html">link</a> and intro <a href="https://www.youtube.com/watch?v=yjlEbIDevOs">video</a></p></li>
 <li><p>Version control using GitHub. Matti Vuorre and James P. Curley’s excellent <a href="https://journals.sagepub.com/doi/full/10.1177/2515245918754826">tutorial</a></p></li>
 </ul>
 </section>
-<section id="reproducible-manuscripts" class="level2">
-<h2 class="anchored" data-anchor-id="reproducible-manuscripts">Reproducible manuscripts</h2>
+<section id="reproducible-manuscripts" class="level3">
+<h3 class="anchored" data-anchor-id="reproducible-manuscripts">Reproducible manuscripts</h3>
 <p>Write your manuscripts in a computationally reproducible manner using R and the <a href="https://github.com/crsh/papaja">papaja() package</a>.</p>
 <ul>
 <li><p>See the <a href="https://frederikaust.com/papaja_man/">papaja() manual</a> for details.</p></li>
-<li><p>And a helpful <a href="https://bartlettje.github.io/papaja_demo/papaja_slides.html#/title-slide">talk</a> on the topic by James Bartlett.</p></li>
+<li><p>And a helpful <a href="https://bartlettje.github.io/papaja_demo/papaja_slides.html#/title-slide">talk</a> on papaja() by James Bartlett.</p></li>
 </ul>
+</section>
+<section id="dissemination-via-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="dissemination-via-quarto">Dissemination via Quarto</h3>
+<ul>
+<li>This <a href="https://bartlettje.github.io/dissemination_quarto/">book</a> by <a href="https://bartlettje.github.io/aboutme/">James Bartlett</a> is absolute solid gold. It walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages.</li>
+</ul>
+</section>
+<section id="examples-of-quarto-websites" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-quarto-websites">Examples of Quarto websites</h3>
+<p>I followed a whole bunch of posts to start a quarto website. Here are some that I found very helpful indeed.</p>
+<ul>
+<li><p><a href="https://ddimmery.com/posts/quarto-website/">Drew Dimmery</a>, especially for organising publications.</p></li>
+<li><p><a href="https://www.andreashandel.com/posts/2022-10-01-hugo-to-quarto-migration/">Andreas Handel</a></p></li>
+<li><p><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Danielle Navarro</a></p></li>
+<li><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html">Albert Rapp</a></p></li>
+<li><p><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt</a></p></li>
+</ul>
+</section>
 </section>
 <section id="open-science-framework" class="level2">
 <h2 class="anchored" data-anchor-id="open-science-framework">Open Science Framework</h2>
@@ -369,22 +392,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>A nice overview on four types of validity by <a href="https://journals.sagepub.com/doi/abs/10.1177/09637214211067779?journalCode=cdpa">Simine Vazire and co.</a></p></li>
 <li><p>Why validity matters in experimental work in psychology and the importance of manipulation checks. <a href="https://doi.org/10.1177/1745691620950684">One</a> and <a href="https://doi.org/10.1177/1745691620970602">Two</a></p></li>
 <li><p>A fabulous empirical demonstration on the lack of relevant validity in a very well-cited social perception task - by Wendy Higgins and co. <a href="https://doi.org/10.1177/10731911221124342">here</a> and <a href="https://www.sciencedirect.com/science/article/pii/S014976342300057X">here</a></p></li>
-</ul>
-</section>
-<section id="dissemination" class="level2">
-<h2 class="anchored" data-anchor-id="dissemination">Dissemination</h2>
-<p>This <a href="https://bartlettje.github.io/dissemination_quarto/">book</a> by <a href="https://bartlettje.github.io/aboutme/">James Bartlett</a> is absolute solid gold.</p>
-<p>It walks through some really nice examples of how you can create reproducible talks, websites, books and blogs all using Quarto and Github pages.</p>
-</section>
-<section id="making-a-quarto-website" class="level2">
-<h2 class="anchored" data-anchor-id="making-a-quarto-website">Making a Quarto website</h2>
-<p>I followed a whole bunch of posts to start a quarto website. Here are some that I found very helpful indeed.</p>
-<ul>
-<li><p><a href="https://ddimmery.com/posts/quarto-website/">Drew Dimmery</a>, especially for organising publications.</p></li>
-<li><p><a href="https://www.andreashandel.com/posts/2022-10-01-hugo-to-quarto-migration/">Andreas Handel</a></p></li>
-<li><p><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Danielle Navarro</a></p></li>
-<li><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html">Albert Rapp</a></p></li>
-<li><p><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt</a></p></li>
 </ul>
 
 

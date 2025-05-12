@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rich Ramsey - Rich Ramsey, PhD</title>
+<title>Rich Ramsey - Tutorials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -200,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials.html" rel="" target="">
+    <a class="nav-link active" href="./tutorials.html" rel="" target="" aria-current="page">
  <span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item">
@@ -253,34 +254,95 @@ document.addEventListener('DOMContentLoaded', function() {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Rich Ramsey, PhD</h1>
-<p class="subtitle lead">Cognitive Neuroscience Researcher and Academic</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory (<a href="https://sbs.ethz.ch/">SBS Lab</a>) and the Neural Control of Movement Laboratory (<a href="https://ncm.hest.ethz.ch/">NCM Lab</a>).</p>
-<p><sub><a href="https://www.southernalpsphotography.com/" style="color: gray">Photo&nbsp;credit:&nbsp;Danilo&nbsp;Hegg</a></sub></p>
-
-
-</main></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#a-reproducible-scientific-workflow-in-r-and-r-studio" id="toc-a-reproducible-scientific-workflow-in-r-and-r-studio" class="nav-link active" data-scroll-target="#a-reproducible-scientific-workflow-in-r-and-r-studio">A reproducible scientific workflow in R and R Studio</a></li>
+  <li><a href="#a-bayesian-workflow" id="toc-a-bayesian-workflow" class="nav-link" data-scroll-target="#a-bayesian-workflow">A Bayesian workflow</a></li>
+  <li><a href="#a-psychopy-tutorial" id="toc-a-psychopy-tutorial" class="nav-link" data-scroll-target="#a-psychopy-tutorial">A PsychoPy Tutorial</a></li>
+  <li><a href="#data-simulation-to-determine-sample-sizes" id="toc-data-simulation-to-determine-sample-sizes" class="nav-link" data-scroll-target="#data-simulation-to-determine-sample-sizes">Data simulation to determine sample sizes</a></li>
+  <li><a href="#analysing-pupilometry-data" id="toc-analysing-pupilometry-data" class="nav-link" data-scroll-target="#analysing-pupilometry-data">Analysing pupilometry data</a>
+  <ul class="collapse">
+  <li><a href="#preprocessing-pupil-data" id="toc-preprocessing-pupil-data" class="nav-link" data-scroll-target="#preprocessing-pupil-data">preprocessing pupil data</a></li>
+  <li><a href="#modelling-pupil-data-with-hgams" id="toc-modelling-pupil-data-with-hgams" class="nav-link" data-scroll-target="#modelling-pupil-data-with-hgams">modelling pupil data with hgams</a></li>
+  </ul></li>
+  <li><a href="#analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis" id="toc-analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis" class="nav-link" data-scroll-target="#analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis">Analysing time-to-event psychological data (e.g., RTs) using event history analysis</a></li>
+  </ul>
+</nav>
     </div>
-    <img src="./img/nz.jpeg" class="about-image
-  rectangle " style="width: 25em;" title="Somewhere in New Zealand, 2012">
-  </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tutorials</h1>
 </div>
- <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Some of the below projects are tutorials in the sense that they include step-by-step instructions, whereas others just represent coding projects with comments.</p>
+<p>The topics covered are all connected to open science, meta-science and reproducibility and available via my <a href="https://github.com/rich-ramsey">GitHub</a> account.</p>
+<p>They are free to download and use in the hope that they can be somewhat useful to others.</p>
+<section id="a-reproducible-scientific-workflow-in-r-and-r-studio" class="level2">
+<h2 class="anchored" data-anchor-id="a-reproducible-scientific-workflow-in-r-and-r-studio">A reproducible scientific workflow in R and R Studio</h2>
+<p>This project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript.</p>
+<p><a href="https://github.com/rich-ramsey/reproducible_workflow" class="uri">https://github.com/rich-ramsey/reproducible_workflow</a></p>
+</section>
+<section id="a-bayesian-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="a-bayesian-workflow">A Bayesian workflow</h2>
+<p>This project takes aspects of the Bayesian workflow paper by Gelman and colleagues and applies them to an example scenario in experimental psychology.</p>
+<p><a href="https://github.com/rich-ramsey/Bayesian_workflow" class="uri">https://github.com/rich-ramsey/Bayesian_workflow</a></p>
+</section>
+<section id="a-psychopy-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="a-psychopy-tutorial">A PsychoPy Tutorial</h2>
+<p>This tutorial is intended as a one-stop guide to understanding and using PsychoPy/Pavlovia. Andrew Wildman was the primary author.</p>
+<p><a href="https://github.com/rich-ramsey/psychopy_tutorial" class="uri">https://github.com/rich-ramsey/psychopy_tutorial</a></p>
+</section>
+<section id="data-simulation-to-determine-sample-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="data-simulation-to-determine-sample-sizes">Data simulation to determine sample sizes</h2>
+<p>This project simulates multi-level data for a range of factorial designs.</p>
+<p><a href="https://github.com/rich-ramsey/sim_demo" class="uri">https://github.com/rich-ramsey/sim_demo</a></p>
+<p>And this one does the same for “small-N” designs, where trial counts per participant are particularly important.</p>
+<p><a href="https://github.com/rich-ramsey/small_n_sims" class="uri">https://github.com/rich-ramsey/small_n_sims</a></p>
+</section>
+<section id="analysing-pupilometry-data" class="level2">
+<h2 class="anchored" data-anchor-id="analysing-pupilometry-data">Analysing pupilometry data</h2>
+<section id="preprocessing-pupil-data" class="level3">
+<h3 class="anchored" data-anchor-id="preprocessing-pupil-data">preprocessing pupil data</h3>
+<p>This project aims to setup and test a preprocessing pipeline in R for pupil size timeseries data, which uses the pupillometry package.</p>
+<p><a href="https://github.com/rich-ramsey/pupil_preprocessing" class="uri">https://github.com/rich-ramsey/pupil_preprocessing</a></p>
+</section>
+<section id="modelling-pupil-data-with-hgams" class="level3">
+<h3 class="anchored" data-anchor-id="modelling-pupil-data-with-hgams">modelling pupil data with hgams</h3>
+<p>This project tries to provide an example of how you might model pupilometry data using hierarchical generalised additive models (hgams).</p>
+<p><a href="https://github.com/rich-ramsey/pupil_example" class="uri">https://github.com/rich-ramsey/pupil_example</a></p>
+</section>
+</section>
+<section id="analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysing-time-to-event-psychological-data-e.g.-rts-using-event-history-analysis">Analysing time-to-event psychological data (e.g., RTs) using event history analysis</h2>
+<p>This project provides a tutorial on how to perform Bayesian and Frequentist Event History Analyses for time-to-event psychological data, such as the speed and accuracy of responses.</p>
+<p><a href="https://github.com/sven-panis/Tutorial_Event_History_Analysis" class="uri">https://github.com/sven-panis/Tutorial_Event_History_Analysis</a></p>
+<p>pre-print: <a href="https://osf.io/preprints/psyarxiv/57bh6" class="uri">https://osf.io/preprints/psyarxiv/57bh6</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -301,6 +363,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

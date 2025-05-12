@@ -11,6 +11,7 @@ author:
     affiliation: ETH Zürich
     affiliation-url: https://ethz.ch/en.html
     orcid: 0000-0002-0329-2112
+sidebar: false
 ---
 
 ### Why am I writing a blog?

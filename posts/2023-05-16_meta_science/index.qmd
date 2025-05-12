@@ -14,6 +14,7 @@ author:
   - name: Emily S. Cross
     url: https://www.soba-lab.com/people
     orcid: 0000-0002-1671-5698
+sidebar: false
 ---
 
 ### A bit of historical context

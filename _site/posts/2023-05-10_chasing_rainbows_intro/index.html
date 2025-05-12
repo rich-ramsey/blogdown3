@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const currentPath = window.location.pathname;
   
   // Only apply to specific pages/sections
-  if (currentPath.includes('/teaching/') || currentPath.includes('/resources/') || currentPath.includes('/tutorials/')) {
+  if (currentPath.includes('resources') || currentPath.includes('tutorials')) {
     // Find all h2 and h3 headings in the MAIN CONTENT ONLY (specifically exclude TOC)
     document.querySelectorAll('main h2, main h3').forEach(function(header) {
       // Skip any headers that might be in the TOC area
@@ -187,11 +187,11 @@ document.addEventListener('DOMContentLoaded', function() {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/publications.html" rel="" target="">
+    <a class="nav-link" href="../../publications/index.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people/people.html" rel="" target="">
+    <a class="nav-link" href="../../people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
@@ -203,15 +203,15 @@ document.addEventListener('DOMContentLoaded', function() {
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../tutorials/tutorials.html" rel="" target="">
+    <a class="nav-link" href="../../tutorials.html" rel="" target="">
  <span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources/resources.html" rel="" target="">
+    <a class="nav-link" href="../../resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching/teaching.html" rel="" target="">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <section id="why-is-the-blog-called-chasing-rainbows" class="level3">
 <h3 class="anchored" data-anchor-id="why-is-the-blog-called-chasing-rainbows">Why is the blog called Chasing Rainbows?</h3>
 <p>For a long time, I just didn’t trust a lot of what I was hearing at conferences or reading in journal articles. I’m naturally skeptical (and maybe even a little cynical, at times). But I had no proof to substantiate my distrust. And I’m an evidence-based scientist after all, so I remained quietly concerned at the back of the conference room.</p>
-<p>Then came the emprirical evidence in <a href="https://www.science.org/doi/10.1126/science.aac4716">2015</a>. Reproducibility in leading psychology journals was between 25% and 50%. Not so good. Similar issues have emerged in a range of other fields, including human neuroscience (e.g., <a href="https://www.nature.com/articles/nrn3475">Button et al., 2013</a>; <a href="https://www.nature.com/articles/s41586-022-04492-9">Marek et al., 2022</a>).</p>
+<p>Then came the empirical evidence in <a href="https://www.science.org/doi/10.1126/science.aac4716">2015</a>. Reproducibility in leading psychology journals was between 25% and 50%. Not so good. Similar issues have emerged in a range of other fields, including human neuroscience (e.g., <a href="https://www.nature.com/articles/nrn3475">Button et al., 2013</a>; <a href="https://www.nature.com/articles/s41586-022-04492-9">Marek et al., 2022</a>).</p>
 <p>This evidence supported my instinct that a large proportion of psychological science and human neuroscience research had been unwittingly chasing rainbows, pissing in the wind or engaging in Cargo Cult Science.</p>
 <p>I particularly like the idea of Cargo Cult Science from Richard Feynman in <a href="./img/Feynman_74_CargoCult.pdf" target="_blank">1974</a>. Michael Hanlon <a href="https://www.cambridge.org/core/journals/european-review/article/cargo-cult-science/38CA581FFAB42704E5F667AA4A2D6D79">(2013)</a> summarises Feynman’s observation nicely:</p>
 <blockquote class="blockquote">

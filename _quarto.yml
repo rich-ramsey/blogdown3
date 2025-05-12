@@ -15,13 +15,13 @@ website:
       # - href: index.qmd
       #   text: Home
       - about.qmd
-      - ./publications/publications.qmd
-      - ./people/people.qmd
+      - ./publications/index.qmd
+      - people.qmd
       - talks.qmd
       - posts.qmd
-      - ./tutorials/tutorials.qmd
-      - ./resources/resources.qmd
-      - ./teaching/teaching.qmd
+      - tutorials.qmd
+      - resources.qmd
+      - teaching.qmd
     right: 
       # - icon: twitter
       #   href: https://twitter.com/RichRamseyPhD
@@ -130,7 +130,7 @@ format:
           const currentPath = window.location.pathname;
           
           // Only apply to specific pages/sections
-          if (currentPath.includes('/teaching/') || currentPath.includes('/resources/') || currentPath.includes('/tutorials/')) {
+          if (currentPath.includes('resources') || currentPath.includes('tutorials')) {
             // Find all h2 and h3 headings in the MAIN CONTENT ONLY (specifically exclude TOC)
             document.querySelectorAll('main h2, main h3').forEach(function(header) {
               // Skip any headers that might be in the TOC area
