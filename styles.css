@@ -1,1 +1,5 @@
 /* css styles */
+/* control text width on the landing page */
+.quarto-about-solana .about-contents {
+  max-width: 700px; /* Adjust this value to control text width */
+}
