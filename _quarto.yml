@@ -59,7 +59,7 @@ website:
       style: "floating"
       logo: ./img/favicon.png
       search: true
-        
+      
   page-footer:
     left: |
       {{< fa regular copyright >}} Richard Ramsey, 2023<br>
