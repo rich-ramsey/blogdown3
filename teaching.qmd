@@ -5,7 +5,7 @@ sidebar: false
 
 Slides and code from some recent/current teaching.
 
-\[\[this is not real content yet, just placeholders to setup the page\]\]
+Note - this page is a work in progress.
 
 # 2025
 
