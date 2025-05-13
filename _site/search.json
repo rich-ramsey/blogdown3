@@ -46,7 +46,7 @@
     "href": "talks.html#slides",
     "title": "Talks",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\n\nTitle\nMeeting\nDate\n\n\n\n\nTalk 1\n??\n??\n\n\nTalk 2\n??\n??"
+    "text": "Slides\n\n\n\n\n\nTitle\nMeeting\nDate\n\n\n\n\nTalk 1\n??\n??\n\n\nTalk 2\n??\n??"
   },
   {
     "objectID": "talks.html#code",
@@ -165,7 +165,7 @@
     "href": "index.html",
     "title": "Rich Ramsey, PhD",
     "section": "",
-    "text": "I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory (SBS Lab) and the Neural Control of Movement Laboratory (NCM Lab).\nPhoto credit: Danilo Hegg"
+    "text": "I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory (SBS Lab) and the Neural Control of Movement Laboratory (NCM Lab)."
   },
   {
     "objectID": "about.html",
@@ -481,5 +481,26 @@
     "title": "Teaching",
     "section": "ETH Zürich (376-1309-0)",
     "text": "ETH Zürich (376-1309-0)\nView Course Website"
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Slides and code from some recent talks."
+  },
+  {
+    "objectID": "talks/index.html#slides",
+    "href": "talks/index.html#slides",
+    "title": "Talks",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\nDate\nTitle\nVenue\nLocation\n\n\n\n\nMay 29, 2025\nData analysis and statistics\nSBS Lab Retreat 2025\nWeggis, Switzerland"
+  },
+  {
+    "objectID": "talks/index.html#code",
+    "href": "talks/index.html#code",
+    "title": "Talks",
+    "section": "Code",
+    "text": "Code\nFor the source code, go here: code"
   }
 ]

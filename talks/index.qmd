@@ -1,0 +1,48 @@
+---
+title: "Talks"
+sidebar: false
+---
+
+Slides and code from some recent talks.
+
+## Slides
+
+```{r}
+#| label: talks-table
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(yaml)
+
+# Base URL for all talks
+base_url <- "https://rich-ramsey.github.io/talks/"
+
+# Read the YAML file
+talks_data <- read_yaml("talks_data.yml") %>%
+  bind_rows() %>%
+  mutate(
+    date = as.Date(date),
+    date_formatted = format(date, "%B %d, %Y"),
+    # Construct full URL from base URL and folder
+    full_url = paste0(base_url, folder, "/")
+  ) %>%
+  arrange(desc(date))
+
+# Display as a table with kableExtra styling
+talks_data %>% 
+  select(date_formatted, title, venue, location) %>%
+  kbl(
+    col.names = c("Date", "Title", "Venue", "Location"),
+    escape = FALSE
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  column_spec(2, link = talks_data$full_url, new_tab = TRUE)
+```
+
+## Code
+
+For the source code, go here: [code](https://github.com/rich-ramsey/talks)

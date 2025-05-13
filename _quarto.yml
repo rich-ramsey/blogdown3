@@ -17,7 +17,7 @@ website:
       - about.qmd
       - ./publications/index.qmd
       - people.qmd
-      - talks.qmd
+      - ./talks/index.qmd
       - posts.qmd
       - tutorials.qmd
       - resources.qmd
