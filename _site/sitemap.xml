@@ -1,59 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rich-ramsey.com/teaching.html</loc>
-    <lastmod>2025-05-20T10:26:14.838Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/posts/2023-07-14_data_analysis_workflow/index.html</loc>
-    <lastmod>2025-05-20T10:24:15.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/posts/2023-05-10_chasing_rainbows_intro/index.html</loc>
-    <lastmod>2025-05-20T10:24:16.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/posts/2023-05-16_meta_science/index.html</loc>
-    <lastmod>2025-05-20T10:24:17.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/publications/publications_r.html</loc>
-    <lastmod>2025-05-20T10:24:22.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/publications/index.html</loc>
-    <lastmod>2025-05-20T10:25:07.097Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/publications/publications_python.html</loc>
-    <lastmod>2025-05-20T10:24:31.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/talks/index.html</loc>
-    <lastmod>2025-05-20T10:25:12.139Z</lastmod>
+    <loc>https://rich-ramsey.com/about.html</loc>
+    <lastmod>2025-06-03T07:21:46.806Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/index.html</loc>
-    <lastmod>2025-05-20T10:24:54.843Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/about.html</loc>
-    <lastmod>2025-05-20T10:25:02.309Z</lastmod>
+    <lastmod>2025-06-03T07:22:20.897Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/people.html</loc>
-    <lastmod>2025-05-20T10:25:09.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rich-ramsey.com/tutorials.html</loc>
-    <lastmod>2025-05-20T10:26:11.695Z</lastmod>
+    <lastmod>2025-06-03T07:21:48.186Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/posts.html</loc>
-    <lastmod>2025-05-20T10:26:09.546Z</lastmod>
+    <lastmod>2025-06-03T07:21:49.245Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/posts/2023-05-10_chasing_rainbows_intro/index.html</loc>
+    <lastmod>2025-06-03T07:21:50.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/posts/2023-05-16_meta_science/index.html</loc>
+    <lastmod>2025-06-03T07:21:51.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/posts/2023-07-14_data_analysis_workflow/index.html</loc>
+    <lastmod>2025-06-03T07:21:53.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/publications/index.html</loc>
+    <lastmod>2025-06-03T07:22:29.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/publications/publications_r.html</loc>
+    <lastmod>2025-06-03T07:22:04.287Z</lastmod>
   </url>
   <url>
     <loc>https://rich-ramsey.com/resources.html</loc>
-    <lastmod>2025-05-20T10:26:13.380Z</lastmod>
+    <lastmod>2025-06-03T07:22:04.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/talks/index.html</loc>
+    <lastmod>2025-06-03T07:22:08.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/teaching.html</loc>
+    <lastmod>2025-06-03T07:22:08.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rich-ramsey.com/tutorials.html</loc>
+    <lastmod>2025-06-03T07:22:09.561Z</lastmod>
   </url>
 </urlset>

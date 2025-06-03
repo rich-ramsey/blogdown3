@@ -1,5 +1,8 @@
 project:
   type: website
+  render: 
+    - "*.qmd"
+    - "!publications_python.qmd"  ## Exclude the python script for generating pubs as it is redundant with the r version
 
 website:
   title: "Rich Ramsey"
