@@ -13,6 +13,12 @@ They are free to download and use in the hope that they can be somewhat useful t
 
 This project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript.
 
+The latest version using Quarto and the quarto-preprint extension:
+
+<https://github.com/rich-ramsey/reproducible_workflow_quarto>
+
+An older version using R markdown and the papaja() package:
+
 <https://github.com/rich-ramsey/reproducible_workflow>
 
 ## A Bayesian workflow

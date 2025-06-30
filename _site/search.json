@@ -221,7 +221,7 @@
     "href": "tutorials.html#a-reproducible-scientific-workflow-in-r-and-r-studio",
     "title": "Tutorials",
     "section": "A reproducible scientific workflow in R and R Studio",
-    "text": "A reproducible scientific workflow in R and R Studio\nThis project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript.\nhttps://github.com/rich-ramsey/reproducible_workflow"
+    "text": "A reproducible scientific workflow in R and R Studio\nThis project tries to outline a reproducible scientific workflow using R and R Studio that starts with raw data and ends with the finished manuscript.\nThe latest version using Quarto and the quarto-preprint extension:\nhttps://github.com/rich-ramsey/reproducible_workflow_quarto\nAn older version using R markdown and the papaja() package:\nhttps://github.com/rich-ramsey/reproducible_workflow"
   },
   {
     "objectID": "tutorials.html#a-bayesian-workflow",
