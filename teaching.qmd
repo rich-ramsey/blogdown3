@@ -3,9 +3,7 @@ title: "Teaching"
 sidebar: false
 ---
 
-Slides and code from some recent/current teaching.
-
-Note - this page is a work in progress.
+Slides and code from recent/current teaching.
 
 # 2025
 
@@ -20,7 +18,7 @@ Note - this page is a work in progress.
 ::: {.g-col-6 .d-flex .flex-column .justify-content-center}
 ## ETH Zürich (376-1309-0)
 
-[View Course Website](https://yourusername.github.io/tsb/){.btn .btn-primary .mt-3}
+[View Course Website](https://rich-ramsey.github.io/tsb/){.btn .btn-primary .mt-3}
 :::
 
 :::
