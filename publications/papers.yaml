@@ -1390,11 +1390,11 @@ zhuang2024:
     year: 2025
     in_press: 
     venue: Scientific Reports
-    preprint: https://osf.io/preprints/osf/tbwg2
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Zhuang_25_SciRep_human_ai.pdf
     supps: 
-    published_url: 
-    doi: 
+    published_url: https://www.nature.com/articles/s41598-025-94631-9
+    doi: 10.1038/s41598-025-94631-9
     osf: https://osf.io/46pme/
     github: https://github.com/rich-ramsey/ai_minimal_group
     neurovault:

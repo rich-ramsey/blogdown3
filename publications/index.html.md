@@ -106,9 +106,12 @@ keep-md: true
   <i class="ai ai-conversation" role="img" aria-label="Conversation"></i>
   Conversation
 </a></li>
-<li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (in press) "Comparing Discriminatory Behavior Against AI and Humans." <em>Scientific Reports</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/osf/tbwg2" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
-  Preprint
+<li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (2025) "Comparing Discriminatory Behavior Against AI and Humans." <em>Scientific Reports</em><br><a class="btn btn-outline-dark btn-sm" href="./pdfs/Zhuang_25_SciRep_human_ai.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-file-earmark-pdf" role="img" aria-label="pdf"></i>
+  pdf
+</a> <a class="btn btn-outline-dark btn-sm" href="https://www.nature.com/articles/s41598-025-94631-9" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-share" role="img" aria-label="doi"></i>
+  doi
 </a> <a class="btn btn-outline-dark btn-sm" href="https://osf.io/46pme/" target="_blank" rel="noopener noreferrer">
   <i class="ai ai-osf" role="img" aria-label="osf"></i>
   osf
