@@ -22,6 +22,11 @@ This selection of journal papers and books provides a brief overview to Open Sci
     -   The Seven Deadly Sins of Psychology: [2017](https://www.jstor.org/stable/j.ctvc779w5)
     -   Science Fictions: [2021](https://www.sciencefictions.org/)
 
+## Research design
+
+- Experiments
+    - [experimentology.io](https://experimentology.io/)
+
 ## Data analysis
 
 My lab has been inspired to adopt a Bayesian estimation approach to statistical analysis. The general workflow follows Richard McElreath's outstanding textbook and the translation into brms and Tidyverse by Solomon Kurz:
@@ -37,6 +42,8 @@ Here are a bunch of other links to stats stuff that I've found really valuable t
 -   [Kruschke & Liddell](https://link.springer.com/article/10.3758/s13423-016-1221-4). A good primer on the differences between frequentist and Bayesian analyses, as well as hypothesis testing and estimation approaches.
 
 -   [Bodo Winter's book](https://bodowinter.com/books.html) is a great introduction to estimation approaches. It provides great R code for beginners and uses frequentist language, which should be more familiar to most. It is a great place to start and provides a natural platform to thinking about the same estimation approaches in a Bayesian context.
+
+-   [Model to Meaning by Vincent Arel-Bundock](https://marginaleffects.com/)
 
 -   [brms](https://paul-buerkner.github.io/brms/) is a fabulous tool in R for running Bayesian analyses in STAN
 
