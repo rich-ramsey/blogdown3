@@ -191,15 +191,15 @@ bara2024:
     neurovault: 
     
 bara2024a:
-    title: "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art"
+    title: "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Visual Art"
     authors:
         - Ionela Bara
         - Kohinoor M. Darda
         - me
         - Emily S. Cross
-    year: 2024
-    in_press: 
-    venue: 
+    year: 2025
+    in_press: yes
+    venue: iScience
     preprint: https://osf.io/preprints/psyarxiv/w7a9s
     pdf: 
     supps: 

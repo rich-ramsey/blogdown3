@@ -24,11 +24,7 @@ keep-md: true
 
 ### 2024{#not-published-2024}
 
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2024) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
-  Preprint
-</a></li>
-<li class='list-group-item'>Sven Panis and <strong>Richard Ramsey</strong>. (2024) "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/57bh6" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Sven Panis and <strong>Richard Ramsey</strong>. (2024) "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/57bh6" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
   Preprint
 </a> <a class="btn btn-outline-dark btn-sm" href="https://github.com/sven-panis/Tutorial_Event_History_Analysis" target="_blank" rel="noopener noreferrer">
@@ -68,6 +64,10 @@ keep-md: true
 </a> <a class="btn btn-outline-dark btn-sm" href="https://osf.io/d4zme/" target="_blank" rel="noopener noreferrer">
   <i class="ai ai-osf" role="img" aria-label="osf"></i>
   osf
+</a></li>
+<li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Visual Art." <em>iScience</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
+  Preprint
 </a></li>
 <li class='list-group-item'>Eliane Deschrijver and <strong>Richard Ramsey</strong>. (2025) "Unequal resource division occurs in the absence of group division and identity." <em>Proceedings of the National Academy of Sciences</em><br><a class="btn btn-outline-dark btn-sm" href="./pdfs/DeschrijverRamsey_25_pnas.pdf" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="pdf"></i>
