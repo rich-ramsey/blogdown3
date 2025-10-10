@@ -64,3 +64,11 @@ This project provides a tutorial on how to perform Bayesian and Frequentist Even
 <https://github.com/sven-panis/Tutorial_Event_History_Analysis>
 
 pre-print: <https://osf.io/preprints/psyarxiv/57bh6>
+
+## Using ETH's High Performance Computing cluster (Euler) to fit Bayesian regression models
+
+This project summarises our lab's current workflow using the ETH Zurich high performance computing cluster - Euler - to fit Bayesian regression models. 
+
+Sven Panis wrote this tutorial.
+
+<https://github.com/rich-ramsey/euler_lab_manual>
