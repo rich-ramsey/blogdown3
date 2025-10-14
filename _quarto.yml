@@ -26,10 +26,6 @@ website:
       - resources.qmd
       - teaching.qmd
     right: 
-      # - icon: twitter
-      #   href: https://twitter.com/RichRamseyPhD
-      #   aria-label: twitter
-      #   target: _blank
       - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/richramseyphd.bsky.social
         aria-label: bluesky
