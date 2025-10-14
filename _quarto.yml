@@ -30,9 +30,9 @@ website:
       #   href: https://twitter.com/RichRamseyPhD
       #   aria-label: twitter
       #   target: _blank
-      - icon: twitter
+      - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/richramseyphd.bsky.social
-        aria-label: twitter
+        aria-label: bluesky
         target: _blank
       - icon: mastodon
         href: https://mastodon.social/@richramsey
