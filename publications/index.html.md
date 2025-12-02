@@ -36,16 +36,6 @@ keep-md: true
 
 ## Preprints
 
-### 2025{#not-published-2025}
-
-<ul class='list-group list-group-flush'><li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2025) "Art Knowledge Training Shapes Understanding, Inspires Creativity, and Stimulates Thinking."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/sxqgc_v2" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
-  Preprint
-</a> <a class="btn btn-outline-dark btn-sm" href="https://osf.io/7vez9/" target="_blank" rel="noopener noreferrer">
-  <i class="ai ai-osf" role="img" aria-label="osf"></i>
-  osf
-</a></li></ul>
-
 ### 2024{#not-published-2024}
 
 <ul class='list-group list-group-flush'><li class='list-group-item'>Sven Panis and <strong>Richard Ramsey</strong>. (2024) "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/57bh6" target="_blank" rel="noopener noreferrer">
@@ -92,6 +82,13 @@ keep-md: true
 <li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Visual Art." <em>iScience</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
   Preprint
+</a></li>
+<li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "Art Knowledge Training Shapes Understanding, Inspires Creativity, and Stimulates Thinking." <em>Royal Society Open Science</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/sxqgc_v2" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
+  Preprint
+</a> <a class="btn btn-outline-dark btn-sm" href="https://osf.io/7vez9/" target="_blank" rel="noopener noreferrer">
+  <i class="ai ai-osf" role="img" aria-label="osf"></i>
+  osf
 </a></li>
 <li class='list-group-item'>Eliane Deschrijver and <strong>Richard Ramsey</strong>. (2025) "Unequal resource division occurs in the absence of group division and identity." <em>Proceedings of the National Academy of Sciences</em><br><a class="btn btn-outline-dark btn-sm" href="./pdfs/DeschrijverRamsey_25_pnas.pdf" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="pdf"></i>

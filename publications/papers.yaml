@@ -215,8 +215,8 @@ bara2025:
         - me
         - Emily S. Cross
     year: 2025
-    in_press: 
-    venue: 
+    in_press: yes
+    venue: Royal Society Open Science
     preprint: https://osf.io/preprints/psyarxiv/sxqgc_v2
     pdf: 
     supps: 
