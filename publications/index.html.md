@@ -38,14 +38,7 @@ keep-md: true
 
 ### 2024{#not-published-2024}
 
-<ul class='list-group list-group-flush'><li class='list-group-item'>Sven Panis and <strong>Richard Ramsey</strong>. (2024) "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows."<br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/57bh6" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
-  Preprint
-</a> <a class="btn btn-outline-dark btn-sm" href="https://github.com/sven-panis/Tutorial_Event_History_Analysis" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-github" role="img" aria-label="Github"></i>
-  Github
-</a></li>
-<li class='list-group-item'>Sam Parker, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2024) "Evidence accumulation modelling offers new insights into the cognitive mechanisms that underlie linguistic and action-based training."<br><a class="btn btn-outline-dark btn-sm" href="https://doi.org/10.31234/osf.io/tqn6g" target="_blank" rel="noopener noreferrer">
+<ul class='list-group list-group-flush'><li class='list-group-item'>Sam Parker, Emily S. Cross, and <strong>Richard Ramsey</strong>. (2024) "Evidence accumulation modelling offers new insights into the cognitive mechanisms that underlie linguistic and action-based training."<br><a class="btn btn-outline-dark btn-sm" href="https://doi.org/10.31234/osf.io/tqn6g" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
   Preprint
 </a> <a class="btn btn-outline-dark btn-sm" href="https://github.com/rich-ramsey/knot_dmc" target="_blank" rel="noopener noreferrer">
@@ -102,6 +95,13 @@ keep-md: true
 </a> <a class="btn btn-outline-dark btn-sm" href="https://theconversation.com/heads-vs-tails-a-simple-coin-flip-can-be-enough-to-change-how-we-treat-others-249611" target="_blank" rel="noopener noreferrer">
   <i class="ai ai-conversation" role="img" aria-label="Conversation"></i>
   Conversation
+</a></li>
+<li class='list-group-item'>Sven Panis and <strong>Richard Ramsey</strong>. (in press) "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows." <em>Advances in Methods and Practices in Psychological Science</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/57bh6_v3" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
+  Preprint
+</a> <a class="btn btn-outline-dark btn-sm" href="https://github.com/sven-panis/Tutorial_Event_History_Analysis" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-github" role="img" aria-label="Github"></i>
+  Github
 </a></li>
 <li class='list-group-item'>Mike Zhuang, Eliane Deschrijver, <strong>Richard Ramsey</strong>, and Ofir Turel. (2025) "Comparing Discriminatory Behavior Against AI and Humans." <em>Scientific Reports</em><br><a class="btn btn-outline-dark btn-sm" href="./pdfs/Zhuang_25_SciRep_human_ai.pdf" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="pdf"></i>

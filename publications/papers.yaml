@@ -832,15 +832,15 @@ newey2021:
     github: 
     neurovault:
 
-panis2024:
+panis2025:
     title: "Event History Analysis for psychological time-to-event data: A tutorial in R with examples in Bayesian and frequentist workflows"
     authors:
         - Sven Panis
         - me
-    year: 2024
-    in_press: 
-    venue: 
-    preprint: https://osf.io/preprints/psyarxiv/57bh6
+    year: 2025
+    in_press: yes
+    venue: Advances in Methods and Practices in Psychological Science
+    preprint: https://osf.io/preprints/psyarxiv/57bh6_v3
     pdf: 
     supps: 
     published_url: 
