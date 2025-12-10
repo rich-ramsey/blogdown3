@@ -72,9 +72,12 @@ keep-md: true
   <i class="ai ai-osf" role="img" aria-label="osf"></i>
   osf
 </a></li>
-<li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Visual Art." <em>iScience</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/w7a9s" target="_blank" rel="noopener noreferrer">
-  <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>
-  Preprint
+<li class='list-group-item'>Ionela Bara, Kohinoor M. Darda, <strong>Richard Ramsey</strong>, and Emily S. Cross. (2025) "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Visual Art." <em>iScience</em><br><a class="btn btn-outline-dark btn-sm" href="./pdfs/Bara_25_iscience_aesthetics.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-file-earmark-pdf" role="img" aria-label="pdf"></i>
+  pdf
+</a> <a class="btn btn-outline-dark btn-sm" href="https://www.cell.com/iscience/fulltext/S2589-0042(25)02087-5" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-share" role="img" aria-label="doi"></i>
+  doi
 </a></li>
 <li class='list-group-item'>Ionela Bara, <strong>Richard Ramsey</strong>, and Emily S. Cross. (in press) "Art Knowledge Training Shapes Understanding, Inspires Creativity, and Stimulates Thinking." <em>Royal Society Open Science</em><br><a class="btn btn-outline-dark btn-sm" href="https://osf.io/preprints/psyarxiv/sxqgc_v2" target="_blank" rel="noopener noreferrer">
   <i class="bi bi-file-earmark-pdf" role="img" aria-label="Preprint"></i>

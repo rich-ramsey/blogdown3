@@ -198,13 +198,13 @@ bara2024a:
         - me
         - Emily S. Cross
     year: 2025
-    in_press: yes
+    in_press: 
     venue: iScience
-    preprint: https://osf.io/preprints/psyarxiv/w7a9s
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Bara_25_iscience_aesthetics.pdf
     supps: 
-    published_url: 
-    doi:
+    published_url: https://www.cell.com/iscience/fulltext/S2589-0042(25)02087-5
+    doi: 
     github: 
     neurovault: 
     
