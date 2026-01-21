@@ -214,14 +214,14 @@ bara2025:
         - Ionela Bara
         - me
         - Emily S. Cross
-    year: 2025
-    in_press: yes
+    year: 2026
+    in_press: 
     venue: Royal Society Open Science
-    preprint: https://osf.io/preprints/psyarxiv/sxqgc_v2
-    pdf: 
+    preprint: 
+    pdf: ./pdfs/Bara_26_RSOS_aesthetics.pdf
     supps: 
-    published_url: 
-    doi:
+    published_url: https://royalsocietypublishing.org/rsos/article/13/1/250805/479313/Art-knowledge-training-shapes-understanding
+    doi: https://doi.org/10.1098/rsos.250805
     osf: https://osf.io/7vez9/
     github: 
     neurovault: 
@@ -837,7 +837,7 @@ panis2025:
     authors:
         - Sven Panis
         - me
-    year: 2025
+    year: 2026
     in_press: yes
     venue: Advances in Methods and Practices in Psychological Science
     preprint: https://osf.io/preprints/psyarxiv/57bh6_v3
