@@ -5,7 +5,6 @@ title: "Publications"
 echo: false
 engine: knitr
 section-divs: false
-keep-md: true
 ---
 
 ```{r setup, include=FALSE}
@@ -174,7 +173,7 @@ if (length(preprints_by_year) > 0) {
       ))
     })
 } else {
-  cat("No preprints available.\n\n")
+  cat("None at the moment.\n\n")
 }
 ```
 

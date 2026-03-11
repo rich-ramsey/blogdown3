@@ -889,9 +889,9 @@ parker2024:
         - Sam Parker
         - Emily S. Cross
         - me
-    year: 2024
-    in_press:
-    venue:
+    year: 2026
+    in_press: yes
+    venue: "Collabra: Psychology"
     preprint: https://doi.org/10.31234/osf.io/tqn6g
     pdf:
     supps:
