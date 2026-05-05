@@ -911,12 +911,12 @@ parker2024:
         - Emily S. Cross
         - me
     year: 2026
-    in_press: yes
+    in_press: 
     venue: "Collabra: Psychology"
-    preprint: https://doi.org/10.31234/osf.io/tqn6g
-    pdf:
+    preprint:
+    pdf: ./pdfs/Parker_etal_26_collabra.pdf
     supps:
-    published_url:
+    published_url: https://doi.org/10.1525/collabra.160157
     doi:
     osf:
     github: https://github.com/rich-ramsey/knot_dmc
