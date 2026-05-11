@@ -7,3 +7,4 @@
 #/site_libs/
 #/publications/pdfs/
 #/_site/
+**/*.quarto_ipynb

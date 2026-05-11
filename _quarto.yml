@@ -30,10 +30,10 @@ website:
         href: https://bsky.app/profile/richramseyphd.bsky.social
         aria-label: bluesky
         target: _blank
-      - icon: mastodon
-        href: https://mastodon.social/@richramsey
-        aria-label: mastodon
-        target: _blank
+      # - icon: mastodon
+      #   href: https://mastodon.social/@richramsey
+      #   aria-label: mastodon
+      #   target: _blank
       - text: "{{< ai google-scholar color=white >}}"
         href: https://scholar.google.com/citations?user=otXno0YAAAAJ&hl=en
         aria-label: google-scholar
