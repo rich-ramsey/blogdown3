@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 sidebar: false
+freeze: false
 ---
 
 ```{=html}

@@ -73,7 +73,9 @@ website:
       
 format:
   html:
-    theme: litera
+    theme:
+      dark: solar
+      light: cosmo
     css: 
       - styles.css
       - custom.scss

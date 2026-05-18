@@ -12,7 +12,7 @@ Slides and code from recent/current teaching.
 ::: {.grid}
 
 ::: {.g-col-6 .d-flex .justify-content-center .align-items-center}
-![](img/tsb_hex.png){width="200px"}
+![](img/tsb_hex_white_crop.png){width="200px"}
 :::
 
 ::: {.g-col-6 .d-flex .flex-column .justify-content-center}
