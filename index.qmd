@@ -1,6 +1,6 @@
 ---
 title: "Rich Ramsey, PhD"
-subtitle: "Cognitive Neuroscience Researcher and Academic"
+subtitle: "Cognitive Neuroscience Researcher"
 image: ./img/cbs_hex.png
 image-title: Cognitive Brain Sciences Hex Sticker
 logo: ./img/favicon.jpeg
@@ -13,5 +13,3 @@ sidebar: false
 ---
 
 I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory ([SBS Lab](https://sbs.ethz.ch/)) and the Neural Control of Movement Laboratory ([NCM Lab](https://ncm.hest.ethz.ch/)).
-
-<!-- ~[Photo credit: Danilo Hegg](https://www.southernalpsphotography.com/){style="color: gray"}~ -->
