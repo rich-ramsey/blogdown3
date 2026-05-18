@@ -18,7 +18,9 @@ Slides and code from recent/current teaching.
 ::: {.g-col-6 .d-flex .flex-column .justify-content-center}
 ## ETH Zürich (376-1309-0)
 
+::: {.d-grid .gap-2 .d-md-block}
 [View Course Website](https://rich-ramsey.github.io/tsb/){.btn .btn-primary .mt-3}
+:::
 :::
 
 :::
