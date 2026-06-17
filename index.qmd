@@ -12,4 +12,6 @@ page-layout: full
 sidebar: false
 ---
 
-I am a Senior Scientist at ETH Zürich. My research interests span a range of topics in social and cognitive neuroscience, and my lab embraces recent developments in methods and meta-science. I am also a member of the Social Brain Sciences Laboratory ([SBS Lab](https://sbs.ethz.ch/)) and the Neural Control of Movement Laboratory ([NCM Lab](https://ncm.hest.ethz.ch/)).
+I am a Senior Scientist at ETH Zürich. 
+My research interests span a range of topics in social and cognitive neuroscience, and my group embraces recent developments in methods and meta-science. 
+I am also a member of the Learning and Instruction Laboratory ([LI Lab](https://li.ethz.ch/)), and the Neural Control of Movement Laboratory ([NCM Lab](https://ncm.hest.ethz.ch/)).
