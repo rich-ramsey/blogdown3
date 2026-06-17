@@ -8,3 +8,4 @@
 #/publications/pdfs/
 #/_site/
 **/*.quarto_ipynb
+renv/library/

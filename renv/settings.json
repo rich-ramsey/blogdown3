@@ -1,7 +1,8 @@
 {
-  "bioconductor.version": [],
+  "bioconductor.version": null,
   "external.libraries": [],
   "ignored.packages": [],
+  "lockfile.sanitize": true,
   "package.dependency.fields": [
     "Imports",
     "Depends",
@@ -9,11 +10,12 @@
   ],
   "ppm.enabled": null,
   "ppm.ignored.urls": [],
-  "r.version": [],
-  "snapshot.type": "all",
+  "r.version": null,
+  "snapshot.dev": false,
+  "snapshot.type": "implicit",
   "use.cache": true,
   "vcs.ignore.cellar": true,
   "vcs.ignore.library": true,
-  "vcs.ignore.local": "FALSE",
+  "vcs.ignore.local": true,
   "vcs.manage.ignores": true
 }
