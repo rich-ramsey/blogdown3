@@ -859,12 +859,12 @@ panis2025:
         - Sven Panis
         - me
     year: 2026
-    in_press: yes
+    in_press: 
     venue: Advances in Methods and Practices in Psychological Science
-    preprint: https://osf.io/preprints/psyarxiv/57bh6_v3
-    pdf: 
+    preprint:
+    pdf: ./pdfs/PanisRamsey_26_AMPPS.pdf
     supps: 
-    published_url: 
+    published_url: https://journals.sagepub.com/doi/10.1177/25152459261416470
     doi: 
     osf: 
     github: https://github.com/sven-panis/Tutorial_Event_History_Analysis
