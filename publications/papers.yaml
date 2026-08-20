@@ -609,7 +609,24 @@ deschrijver2024:
     github:
     neurovault:
     conversation: https://theconversation.com/heads-vs-tails-a-simple-coin-flip-can-be-enough-to-change-how-we-treat-others-249611
-    
+
+fournier2026:
+    title: "How does familiarity impact the computational processes that support face recognition?"
+    authors:
+        - Raphael Fournier
+        - Paul E. Downing
+        - me
+    year: 2026
+    in_press: 
+    venue: 
+    preprint: https://osf.io/preprints/psyarxiv/854t9_v1
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: https://github.com/cbs-lab/face-familiarity-eam
+    github: 
+
 greven02:
     title: "Person perception involves functional integration between the extrastriate body area and temporal pole"
     authors:
@@ -750,8 +767,8 @@ Imhof2026:
         - me
         - Nicole Wenderoth
     year: 2026
-    in_press: 
-    venue: 
+    in_press: yes
+    venue: Scientific Reports
     preprint: https://doi.org/10.64898/2026.03.24.713707
     pdf: 
     supps: 
