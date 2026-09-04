@@ -5,7 +5,7 @@ sidebar: false
 
 Slides and code from recent/current teaching.
 
-# 2025
+# 2026
 
 ## The Social Brain: Critical Perspectives on Science, Society and Neurodiversity
 
@@ -28,4 +28,4 @@ Slides and code from recent/current teaching.
 
 # Code
 
-For the source code, go here: [code](https://github.com/rich-ramsey/teaching_example)
+For the source code, go here: [code](https://github.com/rich-ramsey/tsb)
