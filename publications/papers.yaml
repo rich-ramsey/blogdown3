@@ -624,8 +624,25 @@ fournier2026:
     supps: 
     published_url: 
     doi: 
-    osf: https://github.com/cbs-lab/face-familiarity-eam
-    github: 
+    osf: 
+    github: https://github.com/cbs-lab/face-familiarity-eam
+
+fournier2026b:
+    title: "Individual differences in the computational processes that support face recognition"
+    authors:
+        - Raphael Fournier
+        - Paul E. Downing
+        - me
+    year: 2026
+    in_press: 
+    venue: 
+    preprint: https://osf.io/preprints/psyarxiv/q9gcu_v1
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: 
+    github: https://github.com/cbs-lab/face-familiarity-eam-iid
 
 greven02:
     title: "Person perception involves functional integration between the extrastriate body area and temporal pole"
