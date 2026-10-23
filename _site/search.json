@@ -7,6 +7,13 @@
     "text": "Some of the below projects are tutorials in the sense that they include step-by-step instructions, whereas others just represent coding projects with comments.\nThe topics covered are all connected to open science, meta-science and reproducibility and available via my GitHub account.\nThey are free to download and use in the hope that they can be somewhat useful to others."
   },
   {
+    "objectID": "tutorials.html#a-workflow-for-experiment-planning-and-data-analysis-in-education-research",
+    "href": "tutorials.html#a-workflow-for-experiment-planning-and-data-analysis-in-education-research",
+    "title": "Tutorials",
+    "section": "A Workflow for Experiment Planning and Data Analysis in Education Research",
+    "text": "A Workflow for Experiment Planning and Data Analysis in Education Research\nThis book documents a data analysis workflow that might be useful for people in the Learning and Instruction Lab at ETH Zürich. It might also be useful for researchers in education research more generally, as well as anyone else who analyses behavioural data from human participants.\nThe book follows the natural sequence of a study from planning to inference, split into two parts.\nPart 1: Before data collection: how to use pilot data or simulations to justify a sample size (Planning), and what and how to preregister (Preregistration).\nPart 2: After data collection: how to process and visualise data (Data processing), fit a multilevel Bayesian regression model (Modelling), and generate and communicate inferences (Inference).\nYou can read the book here: https://rich-ramsey.github.io/li-lab-workflow/"
+  },
+  {
     "objectID": "tutorials.html#a-reproducible-scientific-workflow-in-r-and-r-studio",
     "href": "tutorials.html#a-reproducible-scientific-workflow-in-r-and-r-studio",
     "title": "Tutorials",
