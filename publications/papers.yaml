@@ -794,7 +794,28 @@ Imhof2026:
     osf: https://osf.io/zmpuq
     github: 
     neurovault:
-    
+
+Imhof2026b:
+    title: "Pupil size reflects effort but not motor fatigability during a sustained motor task"
+    authors:
+        - Jenny Imhof
+        - Caroline Heimhofer
+        - Marc Bächinger
+        - Sarah Meissner
+        - me
+        - Nicole Wenderoth
+    year: 2026
+    in_press: 
+    venue: 
+    preprint: https://doi.org/10.64898/2026.11.08.765154
+    pdf: 
+    supps: 
+    published_url: 
+    doi: 
+    osf: 
+    github: 
+    neurovault:
+
 klapper2014:
     title: "The Control of Automatic Imitation Based on Bottom–Up and Top–Down Cues to Animacy: Insights from Brain and Behavior"
     authors:
