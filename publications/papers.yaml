@@ -787,10 +787,10 @@ Imhof2026:
     in_press:
     venue: Scientific Reports
     preprint: 
-    pdf: 
+    pdf: ./pdfs/Imhof_2026_scientific_reports.pdf
     supps: 
-    published_url: 
-    doi: https://doi.org/10.1038/s41598-026-68071-y
+    published_url: https://doi.org/10.1038/s41598-026-68071-y
+    doi: 
     osf: https://osf.io/zmpuq
     github: 
     neurovault:
